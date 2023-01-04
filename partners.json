@@ -1,0 +1,43 @@
+[{
+  "is_idle": true,
+  "name": "A. Ayoob",
+  "phone": "90-123-4567",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      42.356479,
+      -71.068316
+    ]
+  },
+  "account_number": "123456789",
+  "sortcode": "11-21-12",
+  "gender": "Female"
+},{
+  "is_idle": true,
+  "name": "Aiysah",
+  "phone": "990-123-4567",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      42.356479,
+      -71.068316
+    ]
+  },
+  "account_number": "123456789",
+  "sortcode": "11-21-12",
+  "gender": "Female"
+},{
+  "is_idle": false,
+  "name": "Ninda",
+  "phone": "990-123-4567",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      42.356479,
+      -71.065716
+    ]
+  },
+  "account_number": "123456789",
+  "sortcode": "11-21-12",
+  "gender": "Female"
+}]
