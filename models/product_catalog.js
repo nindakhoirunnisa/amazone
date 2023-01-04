@@ -17,7 +17,8 @@ const rating = new Schema({
   past_order_id: {
     type: mongoose.Schema.Types.ObjectId,
     ref: 'Past_Order'
-  }
+  },
+  _id: false
 });
 
 const stockProduct = new Schema({
@@ -28,7 +29,8 @@ const stockProduct = new Schema({
   stock: {
     type: Number,
     required: true
-  }
+  },
+  _id: false
 }
 )
 
@@ -72,7 +74,8 @@ const productSchema = new Schema({
   },
   stocks:{
     type: [stockProduct],
-    required: true
+    required: true,
+    default: undefined
   }
 },
 {

@@ -32,6 +32,7 @@ const productDescriptionSchema = new Schema({
   },
   expiry_date: {
     type: Date,
+
   },
   origin_country: {
     type: String
@@ -48,5 +49,6 @@ const productDescriptionSchema = new Schema({
 const Product_Description = mongoose.model('Product_Description', productDescriptionSchema);
 
 //need to add index!
+//add condition for expiry_date and origin_country
 
 module.exports = Product_Description;
