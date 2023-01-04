@@ -29,8 +29,7 @@ const stockProduct = new Schema({
     type: Number,
     required: true
   }
-}
-)
+})
 
 const productSchema = new Schema({
   is_fresh: {
@@ -71,8 +70,7 @@ const productSchema = new Schema({
     default: undefined
   },
   stocks:{
-    type: [stockProduct],
-    required: true
+    type: [stockProduct]
   }
 },
 {
