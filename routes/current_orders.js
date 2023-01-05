@@ -4,14 +4,14 @@ const Current_Order = require('../models/current_order');
 
 module.exports = router;
 
-router.get('/', (req, res, next) => {
-  Current_Order
-    .aggregate([
-      { $limit: 20 }
-    ])
-    .then(current_order => res.send(current_order))
-    .catch(err => next(err));
-});
+// router.get('/', (req, res, next) => {
+//   Current_Order
+//     .aggregate([
+//       { $limit: 20 }
+//     ])
+//     .then(current_order => res.send(current_order))
+//     .catch(err => next(err));
+// });
 
 router.post('/', (req, res, next) => {
   Current_Order

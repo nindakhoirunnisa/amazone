@@ -48,7 +48,6 @@ router.put('/:id', async (req, res) => {
 
 async function getNearestStore(longitude,latitude)
 {
-  console.log(longitude, latitude);
   const result = await Store.aggregate(
     [
       {
@@ -67,8 +66,6 @@ async function getNearestStore(longitude,latitude)
       { $limit: 1 }
     ]
   );
-  //const result=  Store.aggregate(pipeline).exec();
-  //console.log(result);
   return result[0]._id
 };
 async function getProductsFromStore(storeID)
@@ -86,11 +83,5 @@ async function getProductsFromStore(storeID)
       }
   ]
   );
-  //const result=  Store.aggregate(pipeline).exec();
-  //console.log(result);
   return result
 };
-
-
-//const a = getNearestStore(53.468209243234014, -2.235655825042917)
-//console.log(a)

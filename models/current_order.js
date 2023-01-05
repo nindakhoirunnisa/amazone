@@ -168,6 +168,8 @@ const currentOrderSchema = new Schema({
   }
 })
 
+partnerSchema.index({ store_id: 1 });
+
 const Current_Order = mongoose.model('Current_Order', currentOrderSchema);
 
 module.exports = Current_Order;
