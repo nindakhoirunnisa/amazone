@@ -28,7 +28,8 @@ const stockProduct = new Schema({
   },
   stock: {
     type: Number,
-    required: true
+    required: true,
+    min: 0
   },
   _id: false
 }

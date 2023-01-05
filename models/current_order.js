@@ -32,8 +32,16 @@ const partnerSchema = new Schema({
   _id: false
 });
 
-const deliveryHistorySchema = new Schema({
-  
+const historySchema = new Schema({
+  name: {
+    type: String,
+    default: 'Created'
+  },
+  created_at: {
+    type: Date,
+    default: Date.now
+  },
+  _id: false
 });
 
 const deliverySchema = new Schema({
@@ -49,10 +57,49 @@ const deliverySchema = new Schema({
     type: Date,
     default: Date.now
   },
+  order_delivery_status_histories: {
+    type: [historySchema],
+    default: undefined
+  },
+  _id: false
+});
 
+const itemSchema = new Schema({
+  product_id: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'Product',
+    required: true
+  },
+  name: {
+    type: String,
+    required: true
+  },
+  unit_price: {
+    type: Number,
+    required: true
+  },
+  quantity: {
+    type: Number,
+    min: 1,
+    max: 100 //change to stock
+  },
+  store_id: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'Store',
+    require: true
+  },
+  is_fresh: {
+    type: Boolean,
+    default: false
+  },
+  _id: false
 })
 
-const currentOrderSchema = new Schema({
+const shippingSchema = new Schema({
+  name:{
+    type: String,
+    required: true
+  },
   unit_no: {
     type: String,
     required: true
@@ -69,13 +116,58 @@ const currentOrderSchema = new Schema({
     type: String,
     required: true
   },
-  postcode: {
-    type: String,
-    required: true
+  _id: false
+});
+
+const currentOrderSchema = new Schema({
+  customer_id: {
+    type: mongoose.Schema.Types.ObjectId,
+    required: true,
+    ref: 'Customer'
   },
-  location: geojsonSchema
+  store_id: {
+    type: mongoose.Schema.Types.ObjectId,
+    required: true,
+    ref: 'Store'
+  },
+  store: storeSchema,
+  partner_id: {
+    type: mongoose.Schema.Types.ObjectId,
+    required: true,
+    ref: 'Partner'
+  },
+  partners: partnerSchema,
+  deliveries: deliverySchema,
+  shipping_address: shippingSchema,
+  items: {
+    type: [itemSchema],
+    required: true,
+    default: undefined
+  },
+  total_item_price: {
+    type: Number
+  },
+  total_amount: {
+    type: Number
+  },
+  order_status: {
+    type: String,
+    default: 'Created'
+  },
+  is_paid: {
+    type: Boolean,
+    default: false
+  },
+  created_at: {
+    type: Date,
+    default: Date.now
+  },
+  order_status_histories: {
+    type: [historySchema],
+    default: undefined
+  }
 })
 
-const Store = mongoose.model('Store', storeSchema);
+const Current_Order = mongoose.model('Current_Order', currentOrderSchema);
 
-module.exports = Store;
+module.exports = Current_Order;

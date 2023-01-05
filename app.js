@@ -6,6 +6,7 @@ const customerAddressesRouter = require('./routes/customer_addresses');
 const productCatalogsRouter = require('./routes/product_catalogs');
 const productDescRouter = require('./routes/product_descriptions');
 const storesRouter = require('./routes/stores');
+const currentOrdersRouter = require('./routes/current_orders')
 
 const app = express();
 
@@ -32,6 +33,7 @@ app.use('/api/customer_addresses', customerAddressesRouter);
 app.use('/api/products', productCatalogsRouter);
 app.use('/api/products/description', productDescRouter);
 app.use('/api/stores', storesRouter);
+app.use('/api/order/current_orders', currentOrdersRouter);
 
 app.use((req, res, next) => {
   const err = new Error(`Route could not be found: ${req.url}`);
