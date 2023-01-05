@@ -1,16 +1,18 @@
 const express = require('express');
+const mongoose = require('mongoose');
 const router = express.Router();
 const Product_Catalog = require('../models/product_catalog');
+const Store = require('../models/store')
 
 module.exports = router; 
 
 router.get('/', (req, res, next) => {
-  Product_Catalog
-    .aggregate([
-      { $limit: 20 }
-    ])
-    .then(prdct => res.send(prdct))
-    .catch(err => next(err));
+  
+  getNearestStore(parseFloat(req.query.lng), parseFloat(req.query.lat)).then(storeDetails =>
+    {
+      getProductsFromStore(storeDetails).then(productList => res.send(productList));
+    }) ;
+  
 });
 
 router.post('/', (req, res, next) => {
@@ -43,3 +45,52 @@ router.put('/:id', async (req, res) => {
       res.status(500).json({ msg: 'Server Error' });
   }
 });
+
+async function getNearestStore(longitude,latitude)
+{
+  console.log(longitude, latitude);
+  const result = await Store.aggregate(
+    [
+      {
+        $geoNear: {
+          near: {
+            type: 'Point',
+            coordinates: [
+              parseFloat(longitude),  // longitude first
+              parseFloat(latitude)   // latitude second
+            ]
+          },
+          distanceField: 'dist.calculated',
+          spherical: true
+        }
+      },
+      { $limit: 1 }
+    ]
+  );
+  //const result=  Store.aggregate(pipeline).exec();
+  //console.log(result);
+  return result[0]._id
+};
+async function getProductsFromStore(storeID)
+{
+  const result = await Product_Catalog.aggregate(
+    [
+      {
+          $unwind: {
+              path: '$stocks'
+          }
+      }, {
+          $match: {
+              'stocks.store_id': new mongoose.Types.ObjectId(storeID)
+          }
+      }
+  ]
+  );
+  //const result=  Store.aggregate(pipeline).exec();
+  //console.log(result);
+  return result
+};
+
+
+//const a = getNearestStore(53.468209243234014, -2.235655825042917)
+//console.log(a)

@@ -30,7 +30,7 @@ app.use(express.json());
 app.use('/api/partners', partnersRouter);
 app.use('/api/customers', customersRouter);
 app.use('/api/customer_addresses', customerAddressesRouter);
-app.use('/api/product', productCatalogsRouter);
+//app.use('/api/product', productCatalogsRouter);
 app.use('/api/product/fresh', productCatalogsRouter);
 app.use('/api/product/description', productDescRouter);
 app.use('/api/stores', storesRouter);
