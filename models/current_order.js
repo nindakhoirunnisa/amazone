@@ -86,7 +86,7 @@ const itemSchema = new Schema({
   store_id: {
     type: mongoose.Schema.Types.ObjectId,
     ref: 'Store',
-    require: true
+    required: true
   },
   is_fresh: {
     type: Boolean,
@@ -129,12 +129,14 @@ const currentOrderSchema = new Schema({
     type: mongoose.Schema.Types.ObjectId,
     required: true,
     ref: 'Store'
+   // autopopulate: true
   },
   store: storeSchema,
   partner_id: {
     type: mongoose.Schema.Types.ObjectId,
     required: true,
     ref: 'Partner'
+    //populate: { select: ['name', 'location']}
   },
   partners: partnerSchema,
   deliveries: deliverySchema,
@@ -168,7 +170,7 @@ const currentOrderSchema = new Schema({
   }
 })
 
-partnerSchema.index({ store_id: 1 });
+//partnerSchema.index({ store_id: 1 });
 
 const Current_Order = mongoose.model('Current_Order', currentOrderSchema);
 

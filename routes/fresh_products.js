@@ -68,6 +68,7 @@ async function getNearestStore(longitude,latitude)
   );
   return result[0]._id
 };
+
 async function getProductsFromStore(storeID)
 {
   const result = await Product_Catalog.aggregate(
