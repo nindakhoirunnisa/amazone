@@ -12,7 +12,7 @@ const Product = require('../models/product_catalog');
 module.exports = router;
 
 router.get('/', (req, res, next) => {
-  Current_Order.findOne().populate('partners', {'is_idle': 0, 'account_number': 0, "sortcode": 0, "gender": 0})
+  Current_Order.find().populate('partners', {'is_idle': 0, 'account_number': 0, "sortcode": 0, "gender": 0})
     .then(current_order => res.send(current_order))
     .catch(err => next(err));
 });
@@ -26,9 +26,9 @@ router.get('/', (req, res, next) => {
 
 router.post('/', async (req, res) => {
   try {
-    const partner = await Partner.findOne({
-      _id: req.body.partners
-    });
+    // const partner = await Partner.findOne({
+    //   _id: req.body.partners
+    // });
     const storeData = await Store.findOne({
       _id: req.body.store_id
     });
@@ -67,7 +67,7 @@ router.post('/', async (req, res) => {
       customer_id: req.body.customer_id,
       store_id: storeData.id,
       store: storeDetail,
-      partners: partner.id,
+      // partners: partner.id,
       // partner_id: partner.id,
       //partners: partnerDetail,
       items: req.body.items,
@@ -81,7 +81,7 @@ router.post('/', async (req, res) => {
     newOrder.is_fresh = await isFresh(newOrder.items[0].product_id)
     newOrder.total_amount = (newOrder.total_item_price + newOrder.delivery_fee).toFixed(2)
 
-    //await newOrder.save()
+    await newOrder.save()
     res.json(newOrder);
   } catch (error) {
     console.error(error.message);

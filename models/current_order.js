@@ -106,7 +106,7 @@ const itemSchema = new Schema({
   total: {
     type: Number,
     default: function() {
-      return this.quantity * this.unit_price
+      return (this.quantity * this.unit_price).toFixed(2)
     }
   },
   _id: false
@@ -154,7 +154,6 @@ const currentOrderSchema = new Schema({
   },
   partners: {
     type: mongoose.Schema.Types.ObjectId,
-    required: true,
     ref: 'Partner'
     //populate: { select: ['name', 'location']}
   },
@@ -187,7 +186,7 @@ const currentOrderSchema = new Schema({
   },
   order_status: {
     type: String,
-    default: 'Created'
+    default: 'on-cart'
   },
   is_paid: {
     type: Boolean,
