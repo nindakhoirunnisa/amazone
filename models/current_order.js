@@ -61,10 +61,6 @@ const historySchema = new Schema({
 });
 
 const deliverySchema = new Schema({
-  fee: {
-    type: Number,
-    required: true
-  },
   started_at: {
     type: Date,
     default: Date.now
@@ -107,6 +103,12 @@ const itemSchema = new Schema({
       return value <= stock}, message: "Qty > stock"
     }
   },
+  total: {
+    type: Number,
+    default: function() {
+      return this.quantity * this.unit_price
+    }
+  },
   _id: false
 });
 
@@ -147,12 +149,9 @@ const currentOrderSchema = new Schema({
    // autopopulate: true
   },
   store: storeSchema,
-  // partner_id: {
-  //   type: mongoose.Schema.Types.ObjectId,
-  //   required: true,
-  //   ref: 'Partner'
-  //   //populate: { select: ['name', 'location']}
-  // },
+  is_fresh: {
+    type: Boolean
+  },
   partners: {
     type: mongoose.Schema.Types.ObjectId,
     required: true,
@@ -168,10 +167,23 @@ const currentOrderSchema = new Schema({
     default: undefined
   },
   total_item_price: {
-    type: Number
+    type: Number,
+    required: true
+  },
+  delivery_fee: {
+    type: Number,
+    default: function() {
+      if (this.is_fresh = true) {
+        return 5.34;
+      } else {
+        return 3.34
+      }
+    },
+    required: true
   },
   total_amount: {
-    type: Number
+    type: Number,
+    required: true
   },
   order_status: {
     type: String,

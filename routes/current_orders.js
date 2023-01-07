@@ -38,12 +38,11 @@ router.post('/', async (req, res) => {
     const customerData = await Customer.findOne({
       _id: req.body.customer_id
     });
-
-    // const itemsData = {}
-    // product_ids.forEach((product_id, index) => {
-    //   itemsData[index] = product_id
-    // })
-    // console.log(itemsData)
+    var product_ids = req.body.items.map(function(item){return mongoose.Types.ObjectId(item.product_id)});
+    const productNames = await Product.find({
+      '_id': { $in: product_ids }
+    });
+    var product_names = productNames.map(function(item){return item.name});
 
     let storeDetail = {
       name: storeData.name,
@@ -72,13 +71,35 @@ router.post('/', async (req, res) => {
       // partner_id: partner.id,
       //partners: partnerDetail,
       items: req.body.items,
-      shipping_address: shipping
+      shipping_address: shipping,
     });
 
-    await newOrder.save()
+    for (index = 0; index < newOrder.items.length; index++) {
+      newOrder.items[index]["name"] = product_names[index];
+    };
+    newOrder.total_item_price = (newOrder.items.reduce((accum,item) => accum + item.total, 0)).toFixed(2)
+    newOrder.is_fresh = await isFresh(newOrder.items[0].product_id)
+    newOrder.total_amount = (newOrder.total_item_price + newOrder.delivery_fee).toFixed(2)
+
+    //await newOrder.save()
     res.json(newOrder);
   } catch (error) {
     console.error(error.message);
-    res.status(500).send('Server Error')
+    res.status(500).send(error.message)
   }
 });
+
+async function isFresh(p_id)
+{
+  const result = await Product.aggregate(
+    [
+      {
+          $match: {
+              _id: p_id,
+          }
+      }
+  ]
+  );
+  //console.log(result[0].is_fresh)
+  return result[0].is_fresh
+};
