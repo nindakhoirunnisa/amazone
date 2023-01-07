@@ -1,16 +1,18 @@
 const express = require('express');
 const { Schema } = require('mongoose');
+const mongoose = require('mongoose');
 const router = express.Router();
 const Current_Order = require('../models/current_order');
 const Partner = require('../models/partner');
 const Store = require('../models/store');
 const Customer_Address = require('../models/customer_address');
 const Customer = require('../models/customer');
+const Product = require('../models/product_catalog');
 
 module.exports = router;
 
 router.get('/', (req, res, next) => {
-  Current_Order.findOne().populate('partner_id')
+  Current_Order.findOne().populate('partners', {'is_idle': 0, 'account_number': 0, "sortcode": 0, "gender": 0})
     .then(current_order => res.send(current_order))
     .catch(err => next(err));
 });
@@ -25,7 +27,7 @@ router.get('/', (req, res, next) => {
 router.post('/', async (req, res) => {
   try {
     const partner = await Partner.findOne({
-      _id: req.body.partner_id
+      _id: req.body.partners
     });
     const storeData = await Store.findOne({
       _id: req.body.store_id
@@ -36,16 +38,22 @@ router.post('/', async (req, res) => {
     const customerData = await Customer.findOne({
       _id: req.body.customer_id
     });
-    
+
+    // const itemsData = {}
+    // product_ids.forEach((product_id, index) => {
+    //   itemsData[index] = product_id
+    // })
+    // console.log(itemsData)
+
     let storeDetail = {
       name: storeData.name,
       location: storeData.address.location
     };
 
-    let partnerDetail = {
-      name: partner.name,
-      location: partner.location
-    };
+    // let partnerDetail = {
+    //   name: partner.name,
+    //   location: partner.location
+    // };
 
     let shipping = {
       name: customerData.name,
@@ -60,12 +68,14 @@ router.post('/', async (req, res) => {
       customer_id: req.body.customer_id,
       store_id: storeData.id,
       store: storeDetail,
-      partner_id: partner.id,
-      partners: partnerDetail,
+      partners: partner.id,
+      // partner_id: partner.id,
+      //partners: partnerDetail,
       items: req.body.items,
       shipping_address: shipping
     });
-    //await newOrder.save()
+
+    await newOrder.save()
     res.json(newOrder);
   } catch (error) {
     console.error(error.message);

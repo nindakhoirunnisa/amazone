@@ -1,6 +1,31 @@
 const { Number, now } = require('mongoose');
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
+const Product = require('../models/product_catalog');
+
+async function getStock(p_id, s_id)
+{
+  const result = await Product.aggregate(
+    [
+      {
+          $match: {
+              _id: p_id,
+          }
+      },
+      {
+          $unwind: {
+            path: '$stocks'
+        }
+      },
+      {
+        $match: {
+          "stocks.store_id": s_id
+        }
+      }
+  ]
+  );
+  return result[0].stocks.stock
+};
 
 const geojsonSchema = new Schema({
   type: {
@@ -15,15 +40,6 @@ const geojsonSchema = new Schema({
 });
 
 const storeSchema = new Schema({
-  name: {
-    type: String,
-    required: true
-  },
-  location: geojsonSchema,
-  _id: false
-});
-
-const partnerSchema = new Schema({
   name: {
     type: String,
     required: true
@@ -70,9 +86,13 @@ const itemSchema = new Schema({
     ref: 'Product',
     required: true
   },
-  name: {
-    type: String,
+  store_id: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'Store',
     required: true
+  },
+  name: {
+    type: String
   },
   unit_price: {
     type: Number,
@@ -81,19 +101,14 @@ const itemSchema = new Schema({
   quantity: {
     type: Number,
     min: 1,
-    max: 100 //change to stock
-  },
-  store_id: {
-    type: mongoose.Schema.Types.ObjectId,
-    ref: 'Store',
-    required: true
-  },
-  is_fresh: {
-    type: Boolean,
-    default: false
+    validate : {
+      validator: async function stockValidator(value) {
+        let stock = await getStock(this.product_id, this.store_id)
+      return value <= stock}, message: "Qty > stock"
+    }
   },
   _id: false
-})
+});
 
 const shippingSchema = new Schema({
   name:{
@@ -132,13 +147,19 @@ const currentOrderSchema = new Schema({
    // autopopulate: true
   },
   store: storeSchema,
-  partner_id: {
+  // partner_id: {
+  //   type: mongoose.Schema.Types.ObjectId,
+  //   required: true,
+  //   ref: 'Partner'
+  //   //populate: { select: ['name', 'location']}
+  // },
+  partners: {
     type: mongoose.Schema.Types.ObjectId,
     required: true,
     ref: 'Partner'
     //populate: { select: ['name', 'location']}
   },
-  partners: partnerSchema,
+  // partners: partnerSchema,
   deliveries: deliverySchema,
   shipping_address: shippingSchema,
   items: {
@@ -167,7 +188,9 @@ const currentOrderSchema = new Schema({
   order_status_histories: {
     type: [historySchema],
     default: undefined
-  }
+  },
+},{
+  versionKey: false
 })
 
 //partnerSchema.index({ store_id: 1 });
