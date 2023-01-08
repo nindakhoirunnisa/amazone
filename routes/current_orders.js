@@ -13,13 +13,13 @@ module.exports = router;
 
 router.get('/', (req, res, next) => {
   // try {
-  //   Current_Order.find().populate('partners', {'is_idle': 0, 'account_number': 0, "sortcode": 0, "gender": 0})
-  //   .then(current_order => res.send(current_order))
-  //   .catch(err => next(err));
-  // } catch {
-    Current_Order.find()
+    Current_Order.find().populate('partners', {'is_idle': 0, 'account_number': 0, "sortcode": 0, "gender": 0})
     .then(current_order => res.send(current_order))
     .catch(err => next(err));
+  // } catch {
+    // Current_Order.find()
+    // .then(current_order => res.send(current_order))
+    // .catch(err => next(err));
   // }
   
 });
@@ -114,7 +114,7 @@ async function isFresh(p_id)
   return result[0].is_fresh
 };
 
-router.put('/:id', async (req, res) => {
+router.put('/cart/:id', async (req, res) => {
   const item = req.body;
   const item_array = [req.body];
   var product_ids = item_array.map(function(itm){return mongoose.Types.ObjectId(itm.product_id)});
@@ -172,3 +172,98 @@ router.put('/:id', async (req, res) => {
       res.status(500).json({ msg: 'Server Error' });
   }
 });
+
+router.put('/checkout/:id', async (req,res) => {
+  try {
+    let picklist = await Current_Order.findById(req.params.id);
+    if (!picklist){
+      return res.status(404).json({ json: 'Cart not found' });
+    }
+
+    Current_Order.findOneAndUpdate({
+      _id: req.params.id
+    },{
+      $set: {
+        order_status: "payment-confirmed",
+        is_paid: true
+      }
+    },
+    {
+      new: true
+    }
+  ).then(pl3 => res.json(pl3))
+  } catch (err) {
+      console.error(err.message);
+      res.status(500).json({ msg: 'Server Error' });
+  }
+});
+
+router.put('/seller/confirm-order/:id', async (req,res) => {
+  try {
+    let picklist = await Current_Order.findById(req.params.id);
+    if (!picklist){
+      return res.status(404).json({ json: 'Order not found' });
+    }
+    let s_long = picklist.store.location.coordinates[0]
+    let s_lat = picklist.store.location.coordinates[1]
+    console.log(s_long, s_lat)
+
+    getNearestPartner(s_long, s_lat).then(p_id => {
+      Current_Order.findOneAndUpdate({
+        _id: req.params.id
+      }, {
+        $set: {
+          order_status: 'order-confirmed',
+          partners: p_id
+        }
+      }, {
+        new: true
+      }).then(pl3 => res.json(pl3))
+    })
+  } catch (err) {
+      console.error(err.message);
+      res.status(500).json({ msg: 'Server Error' });
+  }
+});
+
+// getNearestStore(parseFloat(req.query.lng), parseFloat(req.query.lat)).then(storeDetails =>
+//   {
+//     getProductsFromStore(storeDetails).then(productList => res.send(productList));
+//   }) ;
+
+
+async function getNearestPartner(long, lat)
+{
+  const result = await Partner.aggregate(
+    [
+    {
+      $geoNear: {
+        near: {
+          type: 'Point',
+          coordinates: [
+            parseFloat(long),  // longitude first
+            parseFloat(lat)   // latitude second
+          ]
+        },
+        distanceField: 'dist.calculated',
+        maxDistance: 1000,
+        query: {
+          is_idle: true
+        },
+        spherical: true
+      }
+    },
+    {
+      '$addFields': {
+        'ETA': {
+          '$divide': [
+            '$dist.calculated', 250
+          ]
+        }
+      }
+    },
+    { $limit: 1 }
+  ])
+  console.log(result[0]._id)
+  return result[0]._id
+};
