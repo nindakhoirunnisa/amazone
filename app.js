@@ -8,6 +8,8 @@ const productDescRouter = require('./routes/product_descriptions');
 const storesRouter = require('./routes/stores');
 const currentOrdersRouter = require('./routes/current_orders')
 
+mongoose.set('runValidators', true);
+
 const app = express();
 
 const db = 'mongodb+srv://nindakhrnns:Mongodb0510@amazone.7o8cfqw.mongodb.net/?retryWrites=true&w=majority'

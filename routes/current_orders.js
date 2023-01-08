@@ -31,6 +31,7 @@ router.get('/', (req, res, next) => {
 //     .catch(err => next(err));
 // });
 
+// ADD TO CART
 router.post('/', async (req, res) => {
   try {
     // const partner = await Partner.findOne({
@@ -114,6 +115,7 @@ async function isFresh(p_id)
   return result[0].is_fresh
 };
 
+// UPDATE QUANTITY/PRODUCT
 router.put('/cart/:id', async (req, res) => {
   const item = req.body;
   const item_array = [req.body];
@@ -173,31 +175,115 @@ router.put('/cart/:id', async (req, res) => {
   }
 });
 
+// CHECKOUT --> is_paid: true
 router.put('/checkout/:id', async (req,res) => {
   try {
-    let picklist = await Current_Order.findById(req.params.id);
+    let picklist = await Current_Order.aggregate([{
+      $match: {
+        _id: mongoose.Types.ObjectId(req.params.id)
+      }
+    }]);
+
     if (!picklist){
       return res.status(404).json({ json: 'Cart not found' });
     }
 
-    Current_Order.findOneAndUpdate({
-      _id: req.params.id
-    },{
-      $set: {
-        order_status: "payment-confirmed",
-        is_paid: true
+    var product_ids = picklist[0].items.map(function(itm){return mongoose.Types.ObjectId(itm.product_id)});
+    var store_ids = picklist[0].items.map(function(itm){return mongoose.Types.ObjectId(itm.store_id)});    
+    var product_qtys = picklist[0].items.map(function(itm){return itm.quantity});
+    stockValidator(product_qtys, product_ids, store_ids).then(result => {
+      if(!result){
+        res.json({message: "stock < quantity"})
+      } else {
+        Current_Order.findOneAndUpdate({
+          _id: req.params.id
+        },{
+          $set: {
+            order_status: "payment-confirmed",
+            is_paid: true
+          }
+        },
+        {
+          new: true
+        }
+      )
+
+      for (i = 0; i < product_ids.length; i++){
+        var results = []
+        Product.findOneAndUpdate({
+          _id: product_ids[i], "stocks.store_id": store_ids[i]
+        }, {
+          $inc: {
+            "stocks.$.stock": -product_qtys[i]
+          }
+        },{
+          new: true
+        }).then(rslt => results.push(rslt))
       }
-    },
-    {
-      new: true
-    }
-  ).then(pl3 => res.json(pl3))
+      res.json({message: "Payment confirmed"})
+
+      // Product.find({
+      //   '_id': { $in: product_ids } 
+      // }).then(reslt => console.log(reslt))
+      // ).then(pl3 => res.json(pl3));
+      }
+    })
+    // var results = []
+    // for (i = 0; i < product_ids.length; i++) {
+    //   stockValidator(product_qtys[i], product_ids[i], store_ids[i]).then(result => {
+    //     results.push(result)
+    //   })
+    // };
+    async function getStock(p_id, s_id) {
+      const result = await Product.aggregate([
+        {
+          $match: {
+            _id: p_id,
+          }
+        },
+        {
+          $unwind: {
+            path: '$stocks'
+          }
+        },
+        {
+          $match: {
+            "stocks.store_id": s_id
+          } 
+        }
+      ]);
+      return result[0].stocks.stock
+    };
+
+    // for (i = 0; i < product_ids.length; i++) {
+
+    async function stockValidator(value, pid, sid) {
+      var stocks = []
+      var status = []
+      for(i = 0; i < value.length; i++) {
+        stocks.push(await getStock(pid[i], sid[i]))
+        status.push(value[i] <= stocks[i])
+      }
+      let checker = arr => arr.every(v => v == true)
+      return checker(status)
+    };
+
+  // var product_ids = item_array.map(function(itm){return mongoose.Types.ObjectId(itm.product_id)});
+  // const productNames = await Product.find({
+  //   '_id': { $in: product_ids }
+  // });
+  // const productPrices = await Product.find({
+  //   '_id': { $in: product_ids }
+  // });
+  // var product_prices = productPrices.map(function(item){return item.selling_price});
+
   } catch (err) {
       console.error(err.message);
       res.status(500).json({ msg: 'Server Error' });
   }
 });
 
+// CONFIRM ORDER, ASSIGN PARTNER
 router.put('/seller/confirm-order/:id', async (req,res) => {
   try {
     let picklist = await Current_Order.findById(req.params.id);
@@ -206,7 +292,7 @@ router.put('/seller/confirm-order/:id', async (req,res) => {
     }
     let s_long = picklist.store.location.coordinates[0]
     let s_lat = picklist.store.location.coordinates[1]
-    
+
     getNearestPartner(s_long, s_lat).then(p_id => {
       Current_Order.findOneAndUpdate({
         _id: req.params.id
