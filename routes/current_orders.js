@@ -206,7 +206,7 @@ router.put('/checkout/:id', async (req,res) => {
         {
           new: true
         }
-      )
+      ).then(rslt => console.log("Updated:", rslt));
 
       for (i = 0; i < product_ids.length; i++){
         var results = []
@@ -221,19 +221,8 @@ router.put('/checkout/:id', async (req,res) => {
         }).then(rslt => results.push(rslt))
       }
       res.json({message: "Payment confirmed"})
-
-      // Product.find({
-      //   '_id': { $in: product_ids } 
-      // }).then(reslt => console.log(reslt))
-      // ).then(pl3 => res.json(pl3));
       }
     })
-    // var results = []
-    // for (i = 0; i < product_ids.length; i++) {
-    //   stockValidator(product_qtys[i], product_ids[i], store_ids[i]).then(result => {
-    //     results.push(result)
-    //   })
-    // };
     async function getStock(p_id, s_id) {
       const result = await Product.aggregate([
         {
