@@ -126,8 +126,6 @@ router.put('/:id', async (req, res) => {
     item_array[index]["name"] = product_names[index]
     item_array[index]['unit_price'] = product_prices[index];
   };
-  console.log("Items:", item_array)
-  console.log(item)
   try {
       let picklist = await Current_Order.findById(req.params.id);
 
