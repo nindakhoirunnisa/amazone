@@ -191,6 +191,11 @@ router.put('/checkout/:id', async (req,res) => {
     var product_ids = picklist[0].items.map(function(itm){return mongoose.Types.ObjectId(itm.product_id)});
     var store_ids = picklist[0].items.map(function(itm){return mongoose.Types.ObjectId(itm.store_id)});    
     var product_qtys = picklist[0].items.map(function(itm){return itm.quantity});
+
+    let history = {
+      name: "payment-confirmed",
+      created_at: Date.now()
+    }
     stockValidator(product_qtys, product_ids, store_ids).then(result => {
       if(!result){
         res.json({message: "stock < quantity"})
@@ -200,13 +205,14 @@ router.put('/checkout/:id', async (req,res) => {
         },{
           $set: {
             order_status: "payment-confirmed",
-            is_paid: true
+            is_paid: true,
+            order_status_histories: [history]
           }
         },
         {
           new: true
         }
-      ).then(rslt => console.log("Updated:", rslt));
+      ).then(rslt => console.log("Updated"));
 
       for (i = 0; i < product_ids.length; i++){
         var results = []
@@ -244,8 +250,6 @@ router.put('/checkout/:id', async (req,res) => {
       return result[0].stocks.stock
     };
 
-    // for (i = 0; i < product_ids.length; i++) {
-
     async function stockValidator(value, pid, sid) {
       var stocks = []
       var status = []
@@ -256,16 +260,6 @@ router.put('/checkout/:id', async (req,res) => {
       let checker = arr => arr.every(v => v == true)
       return checker(status)
     };
-
-  // var product_ids = item_array.map(function(itm){return mongoose.Types.ObjectId(itm.product_id)});
-  // const productNames = await Product.find({
-  //   '_id': { $in: product_ids }
-  // });
-  // const productPrices = await Product.find({
-  //   '_id': { $in: product_ids }
-  // });
-  // var product_prices = productPrices.map(function(item){return item.selling_price});
-
   } catch (err) {
       console.error(err.message);
       res.status(500).json({ msg: 'Server Error' });
@@ -281,7 +275,14 @@ router.put('/seller/confirm-order/:id', async (req,res) => {
     }
     let s_long = picklist.store.location.coordinates[0]
     let s_lat = picklist.store.location.coordinates[1]
-
+    let orderHistory = {
+      name: "order-confirmed",
+      created_at: Date.now()
+    };
+    let deliveryHistory = {
+      name: "created",
+      created_at: Date.now()
+    }
     getNearestPartner(s_long, s_lat).then(p_id => {
       Current_Order.findOneAndUpdate({
         _id: req.params.id
@@ -289,6 +290,10 @@ router.put('/seller/confirm-order/:id', async (req,res) => {
         $set: {
           order_status: 'order-confirmed',
           partners: p_id
+        },
+        $push: {
+          order_status_histories: orderHistory,
+          'deliveries.order_delivery_status_histories': deliveryHistory
         }
       }, {
         new: true
@@ -299,12 +304,6 @@ router.put('/seller/confirm-order/:id', async (req,res) => {
       res.status(500).json({ msg: 'Server Error' });
   }
 });
-
-// getNearestStore(parseFloat(req.query.lng), parseFloat(req.query.lat)).then(storeDetails =>
-//   {
-//     getProductsFromStore(storeDetails).then(productList => res.send(productList));
-//   }) ;
-
 
 async function getNearestPartner(long, lat)
 {
@@ -340,3 +339,38 @@ async function getNearestPartner(long, lat)
   ])
   return result[0]._id
 };
+
+// PICKCED UP
+router.put('/partner/pick-up-order/:id', async (req,res) => {
+  try {
+    let picklist = await Current_Order.findById(req.params.id);
+    if (!picklist){
+      return res.status(404).json({ json: 'Order not found' });
+    }
+    let orderHistory = {
+      name: "on-delivery",
+      created_at: Date.now()
+    };
+    let deliveryHistory = {
+      name: "picked-up",
+      created_at: Date.now()
+    }
+    
+    Current_Order.findOneAndUpdate({
+      _id: req.params.id
+    }, {
+      $set: {
+        order_status: 'on-delivery',
+      },
+      $push: {
+        order_status_histories: orderHistory,
+        'deliveries.order_delivery_status_histories': deliveryHistory
+      }
+    }, {
+      new: true
+    }).then(pl3 => res.json(pl3))
+  } catch (err) {
+      console.error(err.message);
+      res.status(500).json({ msg: 'Server Error' });
+  }
+});
