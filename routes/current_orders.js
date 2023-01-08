@@ -49,11 +49,6 @@ router.post('/', async (req, res) => {
       location: storeData.address.location
     };
 
-    // let partnerDetail = {
-    //   name: partner.name,
-    //   location: partner.location
-    // };
-
     let shipping = {
       name: customerData.name,
       unit_no: addressData.unit_no,
@@ -100,6 +95,5 @@ async function isFresh(p_id)
       }
   ]
   );
-  //console.log(result[0].is_fresh)
   return result[0].is_fresh
 };

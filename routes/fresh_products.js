@@ -31,15 +31,36 @@ router.put('/:id', async (req, res) => {
       if (!picklist)
           return res.status(404).json({ json: 'Product not found' });
 
-      picklist = await Product_Catalog.findOneAndUpdate(
+      let picklist2 = await Product_Catalog.findOne(
+          { _id: req.params.id, "stocks.store_id": req.body.store_id},
+          // {
+          //     $push: { stocks: item },
+          // },
+          // { new: true }
+      );
+      if(!picklist2){
+        pl2 = await Product_Catalog.findOneAndUpdate(
           { _id: req.params.id},
           {
               $push: { stocks: item },
           },
           { new: true }
       );
-
-      res.json(picklist);
+      res.json(pl2);
+      } else {
+        Product_Catalog.findOneAndUpdate({
+          _id: req.params.id, "stocks.store_id": req.body.store_id
+        },{
+          $inc: {
+            "stocks.$.stock": item.stock
+          }
+        },
+        {
+          new: true
+        }
+      ).then(pl3 => res.send(pl3))
+      // res.json(pl3)
+      }
   } catch (err) {
       console.error(err.message);
       res.status(500).json({ msg: 'Server Error' });
