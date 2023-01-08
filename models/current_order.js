@@ -133,6 +133,11 @@ const shippingSchema = new Schema({
     type: String,
     required: true
   },
+  postcode: {
+    type: String,
+    required: true
+  },
+  location: geojsonSchema,
   _id: false
 });
 

@@ -45,6 +45,9 @@ router.post('/', async (req, res) => {
     const customerData = await Customer.findOne({
       _id: req.body.customer_id
     });
+    const custLocation = await Customer_Address.findOne({
+      customer_id: req.body.customer_id
+    });
     var product_ids = req.body.items.map(function(item){return mongoose.Types.ObjectId(item.product_id)});
     const productNames = await Product.find({
       '_id': { $in: product_ids }
@@ -66,7 +69,8 @@ router.post('/', async (req, res) => {
       street: addressData.street,
       city: addressData.street,
       country: addressData.country,
-      postcode: addressData.postcode
+      postcode: addressData.postcode,
+      location: custLocation.location
     };
 
     const newOrder = new Current_Order({
