@@ -206,8 +206,7 @@ router.put('/seller/confirm-order/:id', async (req,res) => {
     }
     let s_long = picklist.store.location.coordinates[0]
     let s_lat = picklist.store.location.coordinates[1]
-    console.log(s_long, s_lat)
-
+    
     getNearestPartner(s_long, s_lat).then(p_id => {
       Current_Order.findOneAndUpdate({
         _id: req.params.id
@@ -264,6 +263,5 @@ async function getNearestPartner(long, lat)
     },
     { $limit: 1 }
   ])
-  console.log(result[0]._id)
   return result[0]._id
 };
