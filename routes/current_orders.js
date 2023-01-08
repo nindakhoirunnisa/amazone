@@ -12,9 +12,16 @@ const Product = require('../models/product_catalog');
 module.exports = router;
 
 router.get('/', (req, res, next) => {
-  Current_Order.find().populate('partners', {'is_idle': 0, 'account_number': 0, "sortcode": 0, "gender": 0})
+  // try {
+  //   Current_Order.find().populate('partners', {'is_idle': 0, 'account_number': 0, "sortcode": 0, "gender": 0})
+  //   .then(current_order => res.send(current_order))
+  //   .catch(err => next(err));
+  // } catch {
+    Current_Order.find()
     .then(current_order => res.send(current_order))
     .catch(err => next(err));
+  // }
+  
 });
 
 // router.post('/', (req, res, next) => {
@@ -43,6 +50,10 @@ router.post('/', async (req, res) => {
       '_id': { $in: product_ids }
     });
     var product_names = productNames.map(function(item){return item.name});
+    const productPrices = await Product.find({
+      '_id': { $in: product_ids }
+    });
+    var product_prices = productPrices.map(function(item){return item.selling_price});
 
     let storeDetail = {
       name: storeData.name,
@@ -70,7 +81,8 @@ router.post('/', async (req, res) => {
     });
 
     for (index = 0; index < newOrder.items.length; index++) {
-      newOrder.items[index]["name"] = product_names[index];
+      newOrder.items[index]["name"] = product_names[index]
+      newOrder.items[index]['unit_price'] = product_prices[index];
     };
     newOrder.total_item_price = (newOrder.items.reduce((accum,item) => accum + item.total, 0)).toFixed(2)
     newOrder.is_fresh = await isFresh(newOrder.items[0].product_id)
@@ -97,3 +109,64 @@ async function isFresh(p_id)
   );
   return result[0].is_fresh
 };
+
+router.put('/:id', async (req, res) => {
+  const item = req.body;
+  const item_array = [req.body];
+  var product_ids = item_array.map(function(itm){return mongoose.Types.ObjectId(itm.product_id)});
+  const productNames = await Product.find({
+    '_id': { $in: product_ids }
+  });
+  var product_names = productNames.map(function(item){return item.name});
+  const productPrices = await Product.find({
+    '_id': { $in: product_ids }
+  });
+  var product_prices = productPrices.map(function(item){return item.selling_price});
+  for (index = 0; index < item_array.length; index++) {
+    item_array[index]["name"] = product_names[index]
+    item_array[index]['unit_price'] = product_prices[index];
+  };
+  console.log("Items:", item_array)
+  console.log(item)
+  try {
+      let picklist = await Current_Order.findById(req.params.id);
+
+      if (!picklist)
+          return res.status(404).json({ json: 'Cart not found' });
+
+      let picklist2 = await Current_Order.findOne(
+          { _id: req.params.id, "items.product_id": req.body.product_id},
+      );
+      if(!picklist2){
+        pl2 = await Current_Order.findOneAndUpdate(
+          { _id: req.params.id},
+          {
+              $push: { items: item },
+              $inc: { total_item_price: (item.quantity * item.unit_price).toFixed(2), 
+                total_amount: (item.quantity * item.unit_price).toFixed(2) }
+          },
+          { new: true }
+      );
+      res.json(pl2);
+      } else {
+        Current_Order.findOneAndUpdate({
+          _id: req.params.id, "items.product_id": req.body.product_id
+        },{
+          $inc: {
+            "items.$.quantity": item.quantity,
+            "items.$.total": (item.quantity * item.unit_price).toFixed(2),
+            total_item_price: (item.quantity * item.unit_price).toFixed(2), 
+            total_amount: (item.quantity * item.unit_price).toFixed(2)
+          }
+        },
+        {
+          new: true
+        }
+      ).then(pl3 => res.send(pl3))
+      // res.json(pl3)
+      }
+  } catch (err) {
+      console.error(err.message);
+      res.status(500).json({ msg: 'Server Error' });
+  }
+});

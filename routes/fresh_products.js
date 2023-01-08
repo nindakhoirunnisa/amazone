@@ -33,10 +33,6 @@ router.put('/:id', async (req, res) => {
 
       let picklist2 = await Product_Catalog.findOne(
           { _id: req.params.id, "stocks.store_id": req.body.store_id},
-          // {
-          //     $push: { stocks: item },
-          // },
-          // { new: true }
       );
       if(!picklist2){
         pl2 = await Product_Catalog.findOneAndUpdate(
