@@ -491,16 +491,7 @@ router.put('/partner/order-delivered/:id', async (req,res) => {
     if (!picklist){
       return res.status(404).json({ json: 'Order not found' });
     }
-    console.log(picklist.partners)
-    // Current_Order.findOneAndDelete({
-    //   _id: req.params.id
-    // }, function (err, docs) {
-    //   if(err){
-    //     res.send(err)
-    //   } else {
-    //     res.send(docs)
-    //   }
-    // }).then(pl3 => console.log(pl3));
+
     Partner.findOneAndUpdate({
       _id: picklist.partners
     },
@@ -511,13 +502,12 @@ router.put('/partner/order-delivered/:id', async (req,res) => {
     },
     {
       new: true
-    }).then(console.log('done'));
+    }).then(console.log("done updating partner's idle status"));
     
     let x = new Date(getDate(picklist.created_at))
     let y = new Date(getNextDate(picklist.created_at))
     let z = new Date(getTwentyThree(new Date(getDate(picklist.created_at))))
-    console.log(x, y, z)
-    let result = await Current_Order.aggregate([{
+    let result = Current_Order.aggregate([{
       $match: {
         _id: mongoose.Types.ObjectId(req.params.id)
       }
@@ -538,7 +528,9 @@ router.put('/partner/order-delivered/:id', async (req,res) => {
         'partners.sortcode': 0,
         'partners.gender': 0,
         'items.total': 0,
-        'items.store_id': 0
+        'items.store_id': 0,
+        deliveries: 0,
+        'store.location': 0,
       }
     }])
 
@@ -557,7 +549,17 @@ router.put('/partner/order-delivered/:id', async (req,res) => {
     {
       upsert: true
     }
-    ).then(console.log('done'))
+    ).then(console.log("Done updating past order"));
+
+    Current_Order.findOneAndDelete({
+      _id: req.params.id
+    }, function (err, docs) {
+      if(err){
+        res.send(err)
+      } else {
+        res.send(docs)
+      }
+    }).then(pl3 => console.log('deleted from current order'));
   } catch (err) {
       console.error(err.message);
       res.status(500).json({ msg: 'Server Error' });
