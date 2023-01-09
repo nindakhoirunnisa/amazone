@@ -443,34 +443,55 @@ router.put('/track-order/:id', async (req,res) => {
 });
 
 // ORDER DELIVERED
+// router.put('/partner/order-delivered/:id', async (req,res) => {
+//   try {
+//     let picklist = await Current_Order.findById(req.params.id);
+//     if (!picklist){
+//       return res.status(404).json({ json: 'Order not found' });
+//     }
+//     let orderHistory = {
+//       name: "order-delivered",
+//       created_at: Date.now()
+//     };
+//     let deliveryHistory = {
+//       name: "order-delivered",
+//       created_at: Date.now()
+//     }
+    
+//     Current_Order.findOneAndUpdate({
+//       _id: req.params.id
+//     }, {
+//       $set: {
+//         order_status: 'order-delivered',
+//       },
+//       $push: {
+//         order_status_histories: orderHistory,
+//         'deliveries.order_delivery_status_histories': deliveryHistory
+//       }
+//     }, {
+//       new: true
+//     }).then(pl3 => res.json(pl3))
+//   } catch (err) {
+//       console.error(err.message);
+//       res.status(500).json({ msg: 'Server Error' });
+//   }
+// });
 router.put('/partner/order-delivered/:id', async (req,res) => {
   try {
     let picklist = await Current_Order.findById(req.params.id);
     if (!picklist){
       return res.status(404).json({ json: 'Order not found' });
     }
-    let orderHistory = {
-      name: "order-delivered",
-      created_at: Date.now()
-    };
-    let deliveryHistory = {
-      name: "order-delivered",
-      created_at: Date.now()
-    }
-    
-    Current_Order.findOneAndUpdate({
+
+    Current_Order.findOneAndDelete({
       _id: req.params.id
-    }, {
-      $set: {
-        order_status: 'order-delivered',
-      },
-      $push: {
-        order_status_histories: orderHistory,
-        'deliveries.order_delivery_status_histories': deliveryHistory
+    }, function (err, docs) {
+      if(err){
+        res.send(err)
+      } else {
+        res.send(docs)
       }
-    }, {
-      new: true
-    }).then(pl3 => res.json(pl3))
+    }).then(pl3 => console.log(pl3))
   } catch (err) {
       console.error(err.message);
       res.status(500).json({ msg: 'Server Error' });
