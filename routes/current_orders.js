@@ -8,6 +8,7 @@ const Store = require('../models/store');
 const Customer_Address = require('../models/customer_address');
 const Customer = require('../models/customer');
 const Product = require('../models/product_catalog');
+const Past_Order = require('../models/past_order');
 
 module.exports = router;
 
@@ -298,6 +299,14 @@ router.put('/seller/confirm-order/:id', async (req,res) => {
       }, {
         new: true
       }).then(pl3 => res.json(pl3))
+
+      Partner.findOneAndUpdate({
+        _id: p_id
+      }, {
+        $set: {
+          is_idle: false
+        }
+      }).then(rslt => console.log("updated"))
     })
   } catch (err) {
       console.error(err.message);
@@ -319,7 +328,7 @@ async function getNearestPartner(long, lat)
           ]
         },
         distanceField: 'dist.calculated',
-        maxDistance: 1000,
+        maxDistance: 2000,
         query: {
           is_idle: true
         },
@@ -482,21 +491,90 @@ router.put('/partner/order-delivered/:id', async (req,res) => {
     if (!picklist){
       return res.status(404).json({ json: 'Order not found' });
     }
-
-    Current_Order.findOneAndDelete({
-      _id: req.params.id
-    }, function (err, docs) {
-      if(err){
-        res.send(err)
-      } else {
-        res.send(docs)
+    console.log(picklist.partners)
+    // Current_Order.findOneAndDelete({
+    //   _id: req.params.id
+    // }, function (err, docs) {
+    //   if(err){
+    //     res.send(err)
+    //   } else {
+    //     res.send(docs)
+    //   }
+    // }).then(pl3 => console.log(pl3));
+    Partner.findOneAndUpdate({
+      _id: picklist.partners
+    },
+    {
+      $set: {
+        is_idle: true
       }
-    }).then(pl3 => console.log(pl3))
+    },
+    {
+      new: true
+    }).then(console.log('done'));
+    
+    let x = new Date(getDate(picklist.created_at))
+    let y = new Date(getNextDate(picklist.created_at))
+    let z = new Date(getTwentyThree(new Date(getDate(picklist.created_at))))
+    console.log(x, y, z)
+    let result = await Current_Order.aggregate([{
+      $match: {
+        _id: mongoose.Types.ObjectId(req.params.id)
+      }
+    },{
+      $lookup: {
+        from: 'partners',
+        localField: 'partners',
+        foreignField: '_id',
+        as: 'partners'
+      }
+    }, {
+      $unwind: {
+        path: '$partners'
+      }
+    },{
+      $project: {
+        'partners.account_number': 0,
+        'partners.sortcode': 0,
+        'partners.gender': 0,
+        'items.total': 0,
+        'items.store_id': 0
+      }
+    }])
+
+    Past_Order.updateOne({$and: [
+      {"start_date" : {$gte: x}}, 
+      {"start_date": {$lt: y}}]
+    }, {
+      $set: {
+        start_date: x,
+        end_date: z
+      },
+      $push: {
+        orders: result[0]
+      }
+    },
+    {
+      upsert: true
+    }
+    ).then(console.log('done'))
   } catch (err) {
       console.error(err.message);
       res.status(500).json({ msg: 'Server Error' });
   }
 });
+
+function getDate(dateTime){
+	return `${dateTime.getFullYear()}-${dateTime.getMonth() + 1}-${dateTime.getDate()}`
+}
+
+function getNextDate(dateTime){
+	return `${dateTime.getFullYear() }-${dateTime.getMonth() + 1}-${dateTime.getDate() + 1}`
+}
+
+function getTwentyThree(dateTime){
+  return dateTime.setUTCHours(23,59,59,999)
+}
 
 //ORDER DETAIL
 router.get('/:id', async (req,res) => {

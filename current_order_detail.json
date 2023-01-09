@@ -1,0 +1,96 @@
+{
+    "_id": "63bbfbe5415434183402633e",
+    "order_status": "on-delivery",
+    "is_paid": true,
+    "customer_id": "63b4b35c77b1125090a8506b",
+    "store_id": "63b5622ee964774064a73794",
+    "store": {
+        "name": "Co-op",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                53.468209243234014,
+                -2.235655825042917
+            ]
+        }
+    },
+    "items": [
+        {
+            "product_id": "63b562a5e964774064a73797",
+            "quantity": 1,
+            "unit_price": 1.1,
+            "name": "original croissant"
+        },
+        {
+            "product_id": "63b6e62c3e224163540fd986",
+            "quantity": 1,
+            "name": "choco croissant",
+            "unit_price": 1.1
+        }
+    ],
+    "shipping_address": {
+        "name": "Ninda",
+        "unit_no": "49",
+        "street": "Bilsborrow",
+        "city": "Bilsborrow",
+        "country": "Un. King",
+        "postcode": "M14 7TH",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                42.359479,
+                -71.065716
+            ]
+        }
+    },
+    "is_fresh": true,
+    "delivery_fee": 5.34,
+    "created_at": "2023-01-09T11:35:01.333Z",
+    "total_item_price": 2.2,
+    "total_amount": 7.540000000000001,
+    "order_status_histories": [
+        {
+            "name": "payment-confirmed",
+            "created_at": "2023-01-09T11:35:13.387Z"
+        },
+        {
+            "name": "order-confirmed",
+            "created_at": "2023-01-09T11:35:18.192Z"
+        },
+        {
+            "name": "on-delivery",
+            "created_at": "2023-01-09T11:36:14.276Z"
+        }
+    ],
+    "deliveries": {
+        "order_delivery_status_histories": [
+            {
+                "name": "created",
+                "created_at": "2023-01-09T11:35:18.192Z"
+            },
+            {
+                "name": "picked-up",
+                "created_at": "2023-01-09T11:36:14.276Z"
+            },
+            {
+                "name": "on-delivery",
+                "created_at": "2023-01-09T11:36:28.056Z"
+            }
+        ],
+        "ETA": 30817.042667691774,
+        "distance": 7704260.666922944
+    },
+    "partners": {
+        "_id": "63b4b36bf8c855edc79b5482",
+        "is_idle": false,
+        "name": "Ninda",
+        "phone": "990-123-4567",
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                53.46547896983472,
+                -2.2293690238069614
+            ]
+        }
+    }
+}
