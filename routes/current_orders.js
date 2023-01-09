@@ -483,7 +483,26 @@ router.get('/:id', async (req,res) => {
     $match: {
       _id: mongoose.Types.ObjectId(req.params.id)
     }
-  }]);
+  },{
+    $lookup: {
+      from: 'partners',
+      localField: 'partners',
+      foreignField: '_id',
+      as: 'partners'
+    }
+  }, {
+    $unwind: {
+      path: '$partners'
+    }
+  },{
+    $project: {
+      'partners.account_number': 0,
+      'partners.sortcode': 0,
+      'partners.gender': 0,
+      'items.total': 0,
+      'items.store_id': 0
+    }
+  }])
   res.send(result[0])
 });
 
