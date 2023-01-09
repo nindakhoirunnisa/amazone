@@ -492,6 +492,83 @@ router.put('/partner/order-delivered/:id', async (req,res) => {
       return res.status(404).json({ json: 'Order not found' });
     }
 
+    let orderHistory = {
+            name: "order-delivered",
+            created_at: Date.now()
+          };
+    let deliveryHistory = {
+            name: "order-delivered",
+            created_at: Date.now()
+          }
+          
+    Current_Order.findOneAndUpdate({
+      _id: req.params.id
+    }, {
+      $set: {
+        order_status: 'order-delivered',
+      },
+      $push: {
+      order_status_histories: orderHistory,
+      'deliveries.order_delivery_status_histories': deliveryHistory
+      }
+    }, {
+      new: true
+    }).then(result => {
+      Current_Order.aggregate([{
+        $match: {
+          _id: mongoose.Types.ObjectId(req.params.id)
+        }
+      },{
+        $lookup: {
+          from: 'partners',
+          localField: 'partners',
+          foreignField: '_id',
+          as: 'partners'
+        }
+      }, {
+        $unwind: {
+          path: '$partners'
+        }
+      },{
+        $project: {
+          'partners.account_number': 0,
+          'partners.sortcode': 0,
+          'partners.gender': 0,
+          'items.total': 0,
+          'items.store_id': 0,
+          deliveries: 0,
+          'store.location': 0,
+        }
+      }]).then(result => {
+        Past_Order.updateOne({$and: [
+          {"start_date" : {$gte: x}}, 
+          {"start_date": {$lt: y}}]
+        }, {
+          $set: {
+            start_date: x,
+            end_date: z
+          },
+          $push: {
+            orders: result[0]
+          }
+        },
+        {
+          upsert: true
+        }
+        ).then(console.log("Done updating past order"));
+    
+        Current_Order.findOneAndDelete({
+          _id: req.params.id
+        }, function (err, docs) {
+          if(err){
+            res.send(err)
+          } else {
+            res.send(docs)
+          }
+        }).then(pl3 => console.log('deleted from current order'));
+      })
+    });
+
     Partner.findOneAndUpdate({
       _id: picklist.partners
     },
@@ -507,59 +584,6 @@ router.put('/partner/order-delivered/:id', async (req,res) => {
     let x = new Date(getDate(picklist.created_at))
     let y = new Date(getNextDate(picklist.created_at))
     let z = new Date(getTwentyThree(new Date(getDate(picklist.created_at))))
-    let result = Current_Order.aggregate([{
-      $match: {
-        _id: mongoose.Types.ObjectId(req.params.id)
-      }
-    },{
-      $lookup: {
-        from: 'partners',
-        localField: 'partners',
-        foreignField: '_id',
-        as: 'partners'
-      }
-    }, {
-      $unwind: {
-        path: '$partners'
-      }
-    },{
-      $project: {
-        'partners.account_number': 0,
-        'partners.sortcode': 0,
-        'partners.gender': 0,
-        'items.total': 0,
-        'items.store_id': 0,
-        deliveries: 0,
-        'store.location': 0,
-      }
-    }])
-
-    Past_Order.updateOne({$and: [
-      {"start_date" : {$gte: x}}, 
-      {"start_date": {$lt: y}}]
-    }, {
-      $set: {
-        start_date: x,
-        end_date: z
-      },
-      $push: {
-        orders: result[0]
-      }
-    },
-    {
-      upsert: true
-    }
-    ).then(console.log("Done updating past order"));
-
-    Current_Order.findOneAndDelete({
-      _id: req.params.id
-    }, function (err, docs) {
-      if(err){
-        res.send(err)
-      } else {
-        res.send(docs)
-      }
-    }).then(pl3 => console.log('deleted from current order'));
   } catch (err) {
       console.error(err.message);
       res.status(500).json({ msg: 'Server Error' });
