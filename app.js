@@ -6,7 +6,8 @@ const customerAddressesRouter = require('./routes/customer_addresses');
 const productCatalogsRouter = require('./routes/fresh_products');
 const productDescRouter = require('./routes/product_descriptions');
 const storesRouter = require('./routes/stores');
-const currentOrdersRouter = require('./routes/current_orders')
+const currentOrdersRouter = require('./routes/current_orders');
+const partnerRatingsRouter = require('./routes/partner_ratings');
 
 mongoose.set('runValidators', true);
 
@@ -37,6 +38,7 @@ app.use('/api/product/fresh', productCatalogsRouter);
 app.use('/api/product/description', productDescRouter);
 app.use('/api/stores', storesRouter);
 app.use('/api/order/current_orders', currentOrdersRouter);
+app.use('/api/partners/rating', partnerRatingsRouter);
 
 app.use((req, res, next) => {
   const err = new Error(`Route could not be found: ${req.url}`);

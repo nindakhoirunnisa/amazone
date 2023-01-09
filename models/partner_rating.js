@@ -5,45 +5,31 @@ const Schema = mongoose.Schema;
 const partnerRatingSchema = new Schema({
   partner_id: {
     type: mongoose.Schema.Types.ObjectId,
-    ref: 'Partner'
+    ref: 'Partner',
+    unique: true
   },
   //need to change this
   order_id: {
     type: mongoose.Schema.Types.ObjectId,
-    ref: 'Pas'
+    ref: 'Past_Order.orders',
+    unique: true
   },
-  unit_no: {
-    type: String,
-    minlength: 1,
-    maxlength: 3,
+  rating: {
+    type: Number,
+    min: 1,
+    max: 5,
     required: true
   },
-  street: {
-    type: String,
-    minlength: 5,
+  date: {
+    type: Date,
+    default: Date.now,
     required: true
-  },
-  city: {
-    type: String,
-    minlength: 3,
-    required: true
-  },
-  country: {
-    type: String,
-    minlength: 3,
-    required: true
-  },
-  postcode: {
-    type: String,
-    minlength: 6,
-    required: true
-  },
-  location: geojsonSchema
+  }
 },
 {
   versionKey: false
 });
 
-const Customer_Address = mongoose.model('Customer_Address', customerAddressSchema);
+const Partner_Rating = mongoose.model('Partner_Rating', partnerRatingSchema);
 
-module.exports = Customer_Address;
+module.exports = Partner_Rating;
