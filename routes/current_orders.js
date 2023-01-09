@@ -374,3 +374,110 @@ router.put('/partner/pick-up-order/:id', async (req,res) => {
       res.status(500).json({ msg: 'Server Error' });
   }
 });
+
+// ON-DELIVERY
+router.put('/partner/on-delivery/:id', async (req,res) => {
+  try {
+    let picklist = await Current_Order.findById(req.params.id).populate('partners', {'is_idle': 0, 'account_number': 0, "sortcode": 0, "gender": 0});
+    if (!picklist){
+      return res.status(404).json({ json: 'Order not found' });
+    }
+    let deliveryHistory = {
+      name: "on-delivery",
+      created_at: Date.now()
+    }
+
+    var long = picklist.shipping_address.location.coordinates[0]
+    var lat = picklist.shipping_address.location.coordinates[1]
+    var pid = picklist.partners._id
+
+    getETA(long, lat, pid).then(partnerData => {
+      Current_Order.findOneAndUpdate({
+        _id: req.params.id
+      }, {
+        $push: {
+          'deliveries.order_delivery_status_histories': deliveryHistory
+        }
+        // $set: {
+        //   'deliveries.distance': partnerData.distance,
+        //   'deliveries.ETA': partnerData.ETA
+        // }
+      }, {
+        new: true
+      }).then(pl3 => res.json(pl3))
+    })
+  } catch (err) {
+      console.error(err.message);
+      res.status(500).json({ msg: 'Server Error' });
+  }
+});
+
+// TRACK-ORDER
+router.put('/track-order/:id', async (req,res) => {
+  try {
+    let picklist = await Current_Order.findById(req.params.id).populate('partners', {'is_idle': 0, 'account_number': 0, "sortcode": 0, "gender": 0});
+    if (!picklist){
+      return res.status(404).json({ json: 'Order not found' });
+    }
+
+    var long = picklist.shipping_address.location.coordinates[0]
+    var lat = picklist.shipping_address.location.coordinates[1]
+    var pid = picklist.partners._id
+
+    getETA(long, lat, pid).then(partnerData => {
+      Current_Order.findOneAndUpdate({
+        _id: req.params.id
+      }, {
+        $set: {
+          'deliveries.distance': partnerData.distance,
+          'deliveries.ETA': partnerData.ETA
+        }
+      }, {
+        new: true
+      }).then(pl3 => res.json(pl3))
+    })
+  } catch (err) {
+      console.error(err.message);
+      res.status(500).json({ msg: 'Server Error' });
+  }
+});
+
+async function getETA(long, lat, partner)
+{
+  const result = await Partner.aggregate(
+    [
+    {
+      $geoNear: {
+        near: {
+          type: 'Point',
+          coordinates: [
+            parseFloat(long),  // longitude first
+            parseFloat(lat)   // latitude second
+          ]
+        },
+        distanceField: 'dist.calculated',
+        spherical: true,
+        query: {
+          _id: partner
+        }
+      }
+    },
+
+    {
+      $project: {
+        _id: 0,
+        'distance': '$dist.calculated'
+      }
+    },
+    {
+      '$addFields': {
+        'ETA': {
+          '$divide': [
+            '$distance', 250
+          ]
+        }
+      }
+    }
+  ])
+  return result[0]
+};

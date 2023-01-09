@@ -61,14 +61,20 @@ const historySchema = new Schema({
 });
 
 const deliverySchema = new Schema({
-  started_at: {
-    type: Date,
-    default: Date.now
+  distance: {
+    type: Number
   },
-  ended_at: {
-    type: Date,
-    default: Date.now
+  ETA: {
+    type: Number
   },
+  // started_at: {
+  //   type: Date,
+  //   default: Date.now
+  // },
+  // ended_at: {
+  //   type: Date,
+  //   default: Date.now
+  // },
   order_delivery_status_histories: {
     type: [historySchema],
     default: undefined
