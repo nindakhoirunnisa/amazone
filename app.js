@@ -9,6 +9,7 @@ const storesRouter = require('./routes/stores');
 const currentOrdersRouter = require('./routes/current_orders');
 const partnerRatingsRouter = require('./routes/partner_ratings');
 const inventoryRouter = require('./routes/daily_inventories');
+const recommendationRouter = require('./routes/product_recommendations');
 const cron = require('node-cron')
 
 mongoose.set('runValidators', true);
@@ -42,6 +43,7 @@ app.use('/api/stores', storesRouter);
 app.use('/api/order/current_orders', currentOrdersRouter);
 app.use('/api/partners/rating', partnerRatingsRouter);
 app.use('/api/daily-inventories', inventoryRouter)
+app.use('/api/product-recommendations', recommendationRouter)
 
 app.use((req, res, next) => {
   const err = new Error(`Route could not be found: ${req.url}`);
