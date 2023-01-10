@@ -6,13 +6,11 @@ const partnerRatingSchema = new Schema({
   partner_id: {
     type: mongoose.Schema.Types.ObjectId,
     ref: 'Partner',
-    unique: true
   },
   //need to change this
   order_id: {
     type: mongoose.Schema.Types.ObjectId,
     ref: 'Past_Order.orders',
-    unique: true
   },
   rating: {
     type: Number,
@@ -30,6 +28,9 @@ const partnerRatingSchema = new Schema({
   versionKey: false
 });
 
+partnerRatingSchema.index({order_id: 1, partner_id: 1}, {name: 'partner_order', unique: true});
+
 const Partner_Rating = mongoose.model('Partner_Rating', partnerRatingSchema);
+
 
 module.exports = Partner_Rating;

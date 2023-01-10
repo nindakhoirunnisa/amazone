@@ -643,7 +643,6 @@ async function getETA(long, lat, partner)
 
 router.put('/product-rating/:id', async (req, res) => {
   var data = req.body
-
   data.forEach(async function (item){
     Past_Order.updateMany({'orders._id': req.params.id}, {
       $set: {'orders.$[o].items.$[p].rating': item.rating},
@@ -673,22 +672,7 @@ router.put('/product-rating/:id', async (req, res) => {
       $set: {
         average_rating: (picklist.total_ratings/picklist.number_of_ratings).toFixed(2)
       }
-    }).then()
-    res.json({ack: true})
+    }).then();
   })
-
-  // Product.findOneAndUpdate({
-  //   _id: req.params.id
-  // }, {
-  //   $inc: {
-  //     number_of_ratings: 1,
-  //     total_ratings: 
-  //   }
-  //   // $set: {
-  //   //   'deliveries.distance': partnerData.distance,
-  //   //   'deliveries.ETA': partnerData.ETA
-  //   // }
-  // }, {
-  //   new: true
-  // }).then(pl3 => res.json(pl3))
-});
+  res.status(200).json({ message: 'ok' })
+})
