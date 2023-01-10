@@ -97,8 +97,7 @@ const itemSchema = new Schema({
     type: String
   },
   unit_price: {
-    type: Number,
-    required: true
+    type: Number
   },
   quantity: {
     type: Number,
@@ -110,10 +109,7 @@ const itemSchema = new Schema({
     }
   },
   total: {
-    type: Number,
-    default: function() {
-      return (this.quantity * this.unit_price).toFixed(2)
-    }
+    type: Number
   },
   _id: false
 });

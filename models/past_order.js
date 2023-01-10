@@ -84,6 +84,9 @@ const itemSchema = new Schema({
   quantity: {
     type: Number
   },
+  rating: {
+    type: Number
+  },
   _id: false
 });
 

@@ -9,6 +9,7 @@ const Customer_Address = require('../models/customer_address');
 const Customer = require('../models/customer');
 const Product = require('../models/product_catalog');
 const Past_Order = require('../models/past_order');
+const { ObjectId } = require('mongodb');
 
 module.exports = router;
 
@@ -59,6 +60,7 @@ router.post('/', async (req, res) => {
       '_id': { $in: product_ids }
     });
     var product_prices = productPrices.map(function(item){return item.selling_price});
+    var product_qtys = req.body.items.map(function(item){return item.quantity});
 
     let storeDetail = {
       name: storeData.name,
@@ -89,6 +91,7 @@ router.post('/', async (req, res) => {
     for (index = 0; index < newOrder.items.length; index++) {
       newOrder.items[index]["name"] = product_names[index]
       newOrder.items[index]['unit_price'] = product_prices[index];
+      newOrder.items[index]['total'] = product_prices[index] * product_qtys[index]
     };
     newOrder.total_item_price = (newOrder.items.reduce((accum,item) => accum + item.total, 0)).toFixed(2)
     newOrder.is_fresh = await isFresh(newOrder.items[0].product_id)
@@ -452,39 +455,6 @@ router.put('/track-order/:id', async (req,res) => {
 });
 
 // ORDER DELIVERED
-// router.put('/partner/order-delivered/:id', async (req,res) => {
-//   try {
-//     let picklist = await Current_Order.findById(req.params.id);
-//     if (!picklist){
-//       return res.status(404).json({ json: 'Order not found' });
-//     }
-//     let orderHistory = {
-//       name: "order-delivered",
-//       created_at: Date.now()
-//     };
-//     let deliveryHistory = {
-//       name: "order-delivered",
-//       created_at: Date.now()
-//     }
-    
-//     Current_Order.findOneAndUpdate({
-//       _id: req.params.id
-//     }, {
-//       $set: {
-//         order_status: 'order-delivered',
-//       },
-//       $push: {
-//         order_status_histories: orderHistory,
-//         'deliveries.order_delivery_status_histories': deliveryHistory
-//       }
-//     }, {
-//       new: true
-//     }).then(pl3 => res.json(pl3))
-//   } catch (err) {
-//       console.error(err.message);
-//       res.status(500).json({ msg: 'Server Error' });
-//   }
-// });
 router.put('/partner/order-delivered/:id', async (req,res) => {
   try {
     let picklist = await Current_Order.findById(req.params.id);
@@ -670,3 +640,55 @@ async function getETA(long, lat, partner)
   ])
   return result[0]
 };
+
+router.put('/product-rating/:id', async (req, res) => {
+  var data = req.body
+
+  data.forEach(async function (item){
+    Past_Order.updateMany({'orders._id': req.params.id}, {
+      $set: {'orders.$[o].items.$[p].rating': item.rating},
+    }, {
+      new: true,
+      arrayFilters: [{'o._id': {'$eq': req.params.id}}, 
+      {'p.product_id': {'$eq': item.product_id}}]
+    }).then();
+
+    Product.findOneAndUpdate({
+      _id: item.product_id
+    },
+    {
+      $inc: {
+        number_of_ratings: 1,
+        total_ratings: item.rating
+      }
+    }, {
+      new: true,
+    }).then();
+
+    let picklist = await Product.findOne({_id: item.product_id});
+    Product.findOneAndUpdate({
+      _id: item.product_id
+    },
+    {
+      $set: {
+        average_rating: (picklist.total_ratings/picklist.number_of_ratings).toFixed(2)
+      }
+    }).then()
+    res.json({ack: true})
+  })
+
+  // Product.findOneAndUpdate({
+  //   _id: req.params.id
+  // }, {
+  //   $inc: {
+  //     number_of_ratings: 1,
+  //     total_ratings: 
+  //   }
+  //   // $set: {
+  //   //   'deliveries.distance': partnerData.distance,
+  //   //   'deliveries.ETA': partnerData.ETA
+  //   // }
+  // }, {
+  //   new: true
+  // }).then(pl3 => res.json(pl3))
+});

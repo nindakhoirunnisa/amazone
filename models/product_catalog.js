@@ -2,24 +2,24 @@ const { Number, now } = require('mongoose');
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
-const rating = new Schema({
-  rate: {
-    type: Number
-  },
-  date: {
-    type: Date,
-    default: Date.now
-  },
-  customer_id: {
-    type: mongoose.Schema.Types.ObjectId,
-    ref: 'Customer'
-  },
-  past_order_id: {
-    type: mongoose.Schema.Types.ObjectId,
-    ref: 'Past_Order'
-  },
-  _id: false
-});
+// const rating = new Schema({
+//   rate: {
+//     type: Number
+//   },
+//   date: {
+//     type: Date,
+//     default: Date.now
+//   },
+//   customer_id: {
+//     type: mongoose.Schema.Types.ObjectId,
+//     ref: 'Customer'
+//   },
+//   past_order_id: {
+//     type: mongoose.Schema.Types.ObjectId,
+//     ref: 'Past_Order'
+//   },
+//   _id: false
+// });
 
 const stockProduct = new Schema({
   store_id: {
@@ -67,12 +67,15 @@ const productSchema = new Schema({
     type: Number
   },
   average_rating: {
-    type: Number
+    type: Number,
+    default: function() {
+      return this.total_ratings/this.number_of_ratings
+    }
   },
-  ratings: {
-    type: [rating],
-    default: undefined
-  },
+  // ratings: {
+  //   type: [rating],
+  //   default: undefined
+  // },
   stocks:{
     type: [stockProduct],
     required: true,
