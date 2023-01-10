@@ -55,7 +55,7 @@ app.use((err, req, res, next) => {
     .send({ error: err.message || 'Something went wrong...' });
 });
 
-cron.schedule("0 57 16 * * *", function () {
+cron.schedule("0 59 23 * * *", function () {
   fetch("http://localhost:3000/api/daily-inventories", {
     method: 'POST', 
     headers: {
