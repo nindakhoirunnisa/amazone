@@ -662,17 +662,20 @@ router.put('/product-rating/:id', async (req, res) => {
       }
     }, {
       new: true,
-    }).then();
+    }).then(result => {
+      Product.findOne({_id: item.product_id})
+      .then()
+    });
 
-    let picklist = await Product.findOne({_id: item.product_id});
-    Product.findOneAndUpdate({
-      _id: item.product_id
-    },
-    {
-      $set: {
-        average_rating: (picklist.total_ratings/picklist.number_of_ratings).toFixed(2)
-      }
-    }).then();
+    // let picklist = await Product.findOne({_id: item.product_id});
+    // Product.findOneAndUpdate({
+    //   _id: item.product_id
+    // },
+    // {
+    //   $set: {
+    //     average_rating: (picklist.total_ratings/picklist.number_of_ratings).toFixed(2)
+    //   }
+    // }).then();
   })
   res.status(200).json({ message: 'ok' })
 })

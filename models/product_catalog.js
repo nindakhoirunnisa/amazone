@@ -62,15 +62,17 @@ const productSchema = new Schema({
   },
   total_ratings: {
     type: Number
+    // default: 0
   },
   number_of_ratings: {
     type: Number
+    // default: 0
   },
   average_rating: {
-    type: Number,
-    default: function() {
-      return this.total_ratings/this.number_of_ratings
-    }
+    type: Number
+    // default: function() {
+    //   return this.total_ratings/this.number_of_ratings
+    // }
   },
   // ratings: {
   //   type: [rating],
