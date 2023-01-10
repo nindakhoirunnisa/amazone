@@ -9,6 +9,7 @@ const Customer_Address = require('../models/customer_address');
 const Customer = require('../models/customer');
 const Product = require('../models/product_catalog');
 const Past_Order = require('../models/past_order');
+const Product_Recommendation = require('../models/product_recommendation');
 const { ObjectId } = require('mongodb');
 
 module.exports = router;
@@ -525,7 +526,123 @@ router.put('/partner/order-delivered/:id', async (req,res) => {
         {
           upsert: true
         }
-        ).then(console.log("Done updating past order"));
+        ).then(res1 => {
+          let customer_id = picklist.customer_id
+          Past_Order.aggregate([
+            {
+              '$match': {
+                'orders.customer_id': mongoose.Types.ObjectId(customer_id)
+              }
+            }, {
+              '$unwind': {
+                'path': '$orders'
+              }
+            }, {
+              '$unwind': {
+                'path': '$orders.items'
+              }
+            }, {
+              '$project': {
+                'ordered_product': '$orders.items.product_id'
+              }
+            }, {
+              '$group': {
+                '_id': 0, 
+                'ordered': {
+                  '$addToSet': '$ordered_product'
+                }
+              }
+            }, {
+              '$project': {
+                '_id': 0
+              }
+            }, {
+              '$lookup': {
+                'from': 'product_catalogs', 
+                'let': {
+                  'ordered': '$ordered'
+                }, 
+                'pipeline': [
+                  {
+                    '$match': {
+                      '$expr': {
+                        '$not': {
+                          '$in': [
+                            '$_id', '$$ordered'
+                          ]
+                        }
+                      }
+                    }
+                  }
+                ], 
+                'as': 'recommend'
+              }
+            }, {
+              '$project': {
+                'ordered': 0
+              }
+            }, {
+              '$unwind': {
+                'path': '$recommend'
+              }
+            }, {
+              '$sort': {
+                'recommend.cost_price': -1
+              }
+            }, {
+              '$unwind': {
+                'path': '$recommend.stocks'
+              }
+            }, {
+              '$project': {
+                '_id': '$recommend._id', 
+                'category': '$recommend.category', 
+                'name': '$recommend.name', 
+                'selling_price': '$recommend.selling_price', 
+                'store_id': '$recommend.stocks.store_id', 
+                'stock': '$recommend.stocks.stock', 
+                'rating': '$recomment.average_rating'
+              }
+            }, {
+              '$lookup': {
+                'from': 'stores', 
+                'localField': 'store_id', 
+                'foreignField': '_id', 
+                'as': 'result'
+              }
+            }, {
+              '$unwind': {
+                'path': '$result'
+              }
+            }, {
+              '$project': {
+                '_id': 1, 
+                'category': 1, 
+                'name': 1, 
+                'selling_price': 1, 
+                'stock': 1, 
+                'store_name': '$result.name', 
+                'rating': 1
+              }
+            }, {
+              '$limit': 10
+            }
+          ]).then(res2 => {
+            let cust_id = picklist.customer_id
+            let input = res2;
+            Product_Recommendation.updateOne({
+              customer_id: customer_id
+            }, {
+              $set: {
+                customer_id: cust_id,
+                recommendations: input
+              }
+            }, {
+              upsert: true
+            })
+            .then(res3 => console.log('recc updated'))
+          })
+        });
     
         Current_Order.findOneAndDelete({
           _id: req.params.id
@@ -554,6 +671,7 @@ router.put('/partner/order-delivered/:id', async (req,res) => {
     let x = new Date(getDate(picklist.created_at))
     let y = new Date(getNextDate(picklist.created_at))
     let z = new Date(getTwentyThree(new Date(getDate(picklist.created_at))))
+    // let customer_id = picklist.customer_id
   } catch (err) {
       console.error(err.message);
       res.status(500).json({ msg: 'Server Error' });
@@ -641,6 +759,7 @@ async function getETA(long, lat, partner)
   return result[0]
 };
 
+// PRODUCT RATING
 router.put('/product-rating/:id', async (req, res) => {
   var data = req.body
   data.forEach(async function (item){
