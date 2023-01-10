@@ -12,6 +12,8 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "mongoose": "^5.9.21"
+    "mongoose": "^5.9.21",
+    "node-cron": "^3.0.2",
+    "xmlhttprequest": "^1.8.0"
   }
 }

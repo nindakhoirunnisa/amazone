@@ -9,6 +9,8 @@ const storesRouter = require('./routes/stores');
 const currentOrdersRouter = require('./routes/current_orders');
 const partnerRatingsRouter = require('./routes/partner_ratings');
 const inventoryRouter = require('./routes/daily_inventories');
+const cron = require('node-cron')
+const XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
 
 mongoose.set('runValidators', true);
 
@@ -53,6 +55,35 @@ app.use((err, req, res, next) => {
     .status(err.status || 500)
     .send({ error: err.message || 'Something went wrong...' });
 });
+
+let xhr = new XMLHttpRequest();
+
+cron.schedule("0 57 16 * * *", function () {
+//   xhr.open("POST", "localhost:3000/api/daily-inventories", true);
+//   // xhr.setRequestHeader('Content-Length', 0);
+//   xhr.setRequestHeader( 'Accept', '*/*');
+//   // xhr.setRequestHeader('Accept-Encoding', 'gzip, deflate, br');
+//   // xhr.setRequestHeader('Connection', 'keep-alive')
+
+//   xhr.onreadystatechange = function() {//Call a function when the state changes.
+//     if(xhr.readyState == 4 && xhr.status == 200) {
+//         alert(xhr.responseText);
+//     }
+// }
+//   xhr.send()
+  fetch("http://localhost:3000/api/daily-inventories", {
+    method: 'POST', 
+    headers: {
+      'Accept': '*/*'
+    },
+    referrerPolicy: 'no-referrer'
+  }).then(response => response.json())
+  .then(json => console.log(json))
+//   $.post("https://localhost:3000/api/daily-inventories", (data, status) => {
+//   console.log(data);
+//   console.log(status)
+// });
+})
 
 const port = process.env.PORT || 3000;
 app.listen(port, () => console.log(`Server running on port ${port}...`));
