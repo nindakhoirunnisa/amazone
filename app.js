@@ -25,7 +25,7 @@ mongoose
     useFindAndModify: false,
     useUnifiedTopology: true
   })
-  .then(() => console.log(`Connected to ${db}...`))
+  .then(() => console.log(`Connected to the Amazone database`))
   .catch((err) => {
     console.error(`Error connecting to ${db}...`);
     process.exit(0);
@@ -37,7 +37,7 @@ app.use('/api/partners', partnersRouter);
 app.use('/api/customers', customersRouter);
 app.use('/api/customer_addresses', customerAddressesRouter);
 //app.use('/api/product', productCatalogsRouter);
-app.use('/api/product/fresh', productCatalogsRouter);
+app.use('/api/products', productCatalogsRouter);
 app.use('/api/product/description', productDescRouter);
 app.use('/api/stores', storesRouter);
 app.use('/api/order/current_orders', currentOrdersRouter);

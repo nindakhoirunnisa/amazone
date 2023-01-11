@@ -19,8 +19,15 @@ const recommendation = new Schema({
   stock: {
     type: Number
   },
+  rating: {
+    type: Number
+  },
   store_name: {
     type: String
+  },
+  store_id: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'Store'
   },
   _id: false
 });
