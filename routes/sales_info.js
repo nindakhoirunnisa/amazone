@@ -3,9 +3,6 @@ const { Schema } = require('mongoose');
 const mongoose = require('mongoose');
 const router = express.Router();
 const PastOrders = require('../models/past_order')
-//const StoreRevenue = require('../models/store_revenue')
-//const ProductCategoryRevenue = require('../models/product_category_revenue')
-//const COGSGPM = require('../models/COGS_GPM')
 
 const { ObjectId } = require('mongodb');
 
