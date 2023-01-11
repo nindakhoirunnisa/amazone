@@ -5,6 +5,12 @@ const Schema = mongoose.Schema;
 const customerSchema = new Schema({
   first_name: {
     type: String,
+    minlength: 5,
+    maxlength: 50,
+    required: true
+  },
+  last_name: {
+    type: String,
     minlength: 2,
     maxlength: 50,
     required: true
