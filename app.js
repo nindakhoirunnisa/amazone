@@ -9,6 +9,7 @@ const storesRouter = require('./routes/stores');
 const currentOrdersRouter = require('./routes/current_orders');
 const partnerRatingsRouter = require('./routes/partner_ratings');
 const inventoryRouter = require('./routes/daily_inventories');
+const recommendationRouter = require('./routes/product_recommendations');
 const cron = require('node-cron')
 
 mongoose.set('runValidators', true);
@@ -24,7 +25,7 @@ mongoose
     useFindAndModify: false,
     useUnifiedTopology: true
   })
-  .then(() => console.log(`Connected to ${db}...`))
+  .then(() => console.log(`Connected to the Amazone database`))
   .catch((err) => {
     console.error(`Error connecting to ${db}...`);
     process.exit(0);
@@ -36,12 +37,13 @@ app.use('/api/partners', partnersRouter);
 app.use('/api/customers', customersRouter);
 app.use('/api/customer_addresses', customerAddressesRouter);
 //app.use('/api/product', productCatalogsRouter);
-app.use('/api/product/fresh', productCatalogsRouter);
+app.use('/api/products', productCatalogsRouter);
 app.use('/api/product/description', productDescRouter);
 app.use('/api/stores', storesRouter);
 app.use('/api/order/current_orders', currentOrdersRouter);
 app.use('/api/partners/rating', partnerRatingsRouter);
 app.use('/api/daily-inventories', inventoryRouter)
+app.use('/api/product-recommendations', recommendationRouter)
 
 app.use((req, res, next) => {
   const err = new Error(`Route could not be found: ${req.url}`);

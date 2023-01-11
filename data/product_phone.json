@@ -1,0 +1,177 @@
+[{
+  "category": "Mobile Phones",
+  "name": "IPhone 14 Pro 256Gb",
+  "cost_price": 450,
+  "selling_price": 1209,
+  "stocks": [
+    {
+      "store_id": "63be13ae218d0176787ca58d",
+      "stock": 500
+    },
+    {
+      "store_id": "63be13c2218d0176787ca58f",
+      "stock": 319
+    }
+  ],
+  "is_fresh": false
+},{
+  "category": "Mobile Phones",
+  "name": "IPhone 14 Pro 128Gb",
+  "cost_price": 425,
+  "selling_price": 1099,
+  "stocks": [
+    {
+      "store_id": "63be13ae218d0176787ca58d",
+      "stock": 299
+    },
+    {
+      "store_id": "63be13c2218d0176787ca58f",
+      "stock": 153
+    },
+    {
+      "store_id": "63be13e9218d0176787ca591",
+      "stock": 187
+    }
+  ],
+  "is_fresh": false
+},{
+  "category": "Mobile Phones",
+  "name": "IPhone 14 Pro Max 128Gb",
+  "cost_price": 430,
+  "selling_price": 1199,
+  "stocks": [
+    {
+      "store_id": "63be13ae218d0176787ca58d",
+      "stock": 196
+    },
+    {
+      "store_id": "63be13c2218d0176787ca58f",
+      "stock": 214
+    },
+    {
+      "store_id": "63be13e9218d0176787ca591",
+      "stock": 162
+    }
+  ],
+  "is_fresh": false
+},{
+  "category": "Mobile Phones",
+  "name": "Samsung Galaxy Z Flip4 256Gb",
+  "cost_price": 360,
+  "selling_price": 1059,
+  "stocks": [
+    {
+      "store_id": "63be13ae218d0176787ca58d",
+      "stock": 237
+    },
+    {
+      "store_id": "63be13c2218d0176787ca58f",
+      "stock": 254
+    },
+    {
+      "store_id": "63be13e9218d0176787ca591",
+      "stock": 270
+    }
+  ],
+  "is_fresh": false
+},{
+  "category": "Mobile Phones",
+  "name": "Samsung Galaxy Z Fold4 Ultra 256Gb",
+  "cost_price": 530,
+  "selling_price": 1649,
+  "stocks": [
+    {
+      "store_id": "63be13c2218d0176787ca58f",
+      "stock": 156
+    },
+    {
+      "store_id": "63be13e9218d0176787ca591",
+      "stock": 72
+    }
+  ],
+  "is_fresh": false
+},{
+  "category": "Mobile Phones",
+  "name": "Samsung Galaxy S22 Ultra 5G 256Gb",
+  "cost_price": 459,
+  "selling_price": 1249,
+  "stocks": [
+    {
+      "store_id": "63be13ae218d0176787ca58d",
+      "stock": 286
+    },
+    {
+      "store_id": "63be13e9218d0176787ca591",
+      "stock": 277
+    }
+  ],
+  "is_fresh": false
+},{
+  "category": "Mobile Phones",
+  "name": "Samsung Galaxy A13 64Gb",
+  "cost_price": 80,
+  "selling_price": 179,
+  "stocks": [
+    {
+      "store_id": "63be13ae218d0176787ca58d",
+      "stock": 134
+    },
+    {
+      "store_id": "63be13c2218d0176787ca58f",
+      "stock": 157
+    }
+  ],
+  "is_fresh": false
+},{
+  "category": "Mobile Phones",
+  "name": "IPhone 13 128Gb",
+  "cost_price": 450,
+  "selling_price": 749,
+  "stocks": [
+    {
+      "store_id": "63be13c2218d0176787ca58f",
+      "stock": 81
+    },
+    {
+      "store_id": "63be13e9218d0176787ca591",
+      "stock": 32
+    }
+  ],
+  "is_fresh": false
+},{
+  "category": "Mobile Phones",
+  "name": "IPhone 13 Mini 128Gb",
+  "cost_price": 360,
+  "selling_price": 699,
+  "stocks": [
+    {
+      "store_id": "63be13ae218d0176787ca58d",
+      "stock": 65
+    },
+    {
+      "store_id": "63be13c2218d0176787ca58f",
+      "stock": 74
+    }
+  ],
+  "is_fresh": false
+},{
+  "category": "Mobile Phones",
+  "name": "OPPO A54 64Gb",
+  "cost_price": 35,
+  "selling_price": 89,
+  "stocks": [
+    {
+      "store_id": "63be13ae218d0176787ca58d",
+      "stock": 14
+    },
+    {
+      "store_id": "63be13c2218d0176787ca58f",
+      "stock": 25
+    },
+    {
+      "store_id": "63be13e9218d0176787ca591",
+      "stock": 35
+    }
+  ],
+  "is_fresh": false
+}]

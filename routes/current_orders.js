@@ -587,7 +587,7 @@ router.put('/partner/order-delivered/:id', async (req,res) => {
               }
             }, {
               '$sort': {
-                'recommend.cost_price': -1
+                'recommend.average_rating': -1
               }
             }, {
               '$unwind': {
@@ -601,7 +601,7 @@ router.put('/partner/order-delivered/:id', async (req,res) => {
                 'selling_price': '$recommend.selling_price', 
                 'store_id': '$recommend.stocks.store_id', 
                 'stock': '$recommend.stocks.stock', 
-                'rating': '$recomment.average_rating'
+                'rating': '$recommend.average_rating'
               }
             }, {
               '$lookup': {
@@ -621,6 +621,7 @@ router.put('/partner/order-delivered/:id', async (req,res) => {
                 'name': 1, 
                 'selling_price': 1, 
                 'stock': 1, 
+                'store_id': 1,
                 'store_name': '$result.name', 
                 'rating': 1
               }
@@ -782,19 +783,19 @@ router.put('/product-rating/:id', async (req, res) => {
     }, {
       new: true,
     }).then(result => {
+      console.log("result: ", result)
       Product.findOne({_id: item.product_id})
-      .then()
+      .then(result1 => {
+        console.log(result1);
+        Product.findOneAndUpdate({
+          _id: item.product_id
+        }, {
+          $set: {
+            average_rating: (result1.total_ratings/result1.number_of_ratings).toFixed(2)
+          }
+        }).then()
+      })
     });
-
-    // let picklist = await Product.findOne({_id: item.product_id});
-    // Product.findOneAndUpdate({
-    //   _id: item.product_id
-    // },
-    // {
-    //   $set: {
-    //     average_rating: (picklist.total_ratings/picklist.number_of_ratings).toFixed(2)
-    //   }
-    // }).then();
   })
   res.status(200).json({ message: 'ok' })
 })

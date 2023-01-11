@@ -1,0 +1,177 @@
+[{
+  "category": "Home Appliances",
+  "name": "Microwave",
+  "cost_price": 30,
+  "selling_price": 55,
+  "stocks": [
+    {
+      "store_id": "63be13ae218d0176787ca58d",
+      "stock": 78
+    },
+    {
+      "store_id": "63be13c2218d0176787ca58f",
+      "stock": 90
+    },
+    {
+      "store_id": "63be13e9218d0176787ca591",
+      "stock": 135
+    }
+  ],
+  "is_fresh": false
+},{
+  "category": "Home Appliances",
+  "name": "Electric Kettle",
+  "cost_price": 4,
+  "selling_price": 13,
+  "stocks": [
+    {
+      "store_id": "63be13ae218d0176787ca58d",
+      "stock": 178
+    },
+    {
+      "store_id": "63be13c2218d0176787ca58f",
+      "stock": 110
+    }
+  ],
+  "is_fresh": false
+},{
+  "category": "Home Appliances",
+  "name": "Steam Iron",
+  "cost_price": 6,
+  "selling_price": 24,
+  "stocks": [
+    {
+      "store_id": "63be13ae218d0176787ca58d",
+      "stock": 234
+    },
+    {
+      "store_id": "63be13e9218d0176787ca591",
+      "stock": 137
+    }
+  ],
+  "is_fresh": false
+},{
+  "category": "Home Appliances",
+  "name": "Rice Cooker",
+  "cost_price": 7,
+  "selling_price": 29,
+  "stocks": [
+    {
+      "store_id": "63be13c2218d0176787ca58f",
+      "stock": 45
+    },
+    {
+      "store_id": "63be13e9218d0176787ca591",
+      "stock": 56
+    }
+  ],
+  "is_fresh": false
+},{
+  "category": "Home Appliances",
+  "name": "Hand Blender",
+  "cost_price": 5,
+  "selling_price": 28,
+  "stocks": [
+    {
+      "store_id": "63be13ae218d0176787ca58d",
+      "stock": 78
+    },
+    {
+      "store_id": "63be13c2218d0176787ca58f",
+      "stock": 110
+    },
+    {
+      "store_id": "63be13e9218d0176787ca591",
+      "stock": 5
+    }
+  ],
+  "is_fresh": false
+},{
+  "category": "Home Appliances",
+  "name": "Air Fryer",
+  "cost_price": 12,
+  "selling_price": 40,
+  "stocks": [
+    {
+      "store_id": "63be13c2218d0176787ca58f",
+      "stock": 110
+    },
+    {
+      "store_id": "63be13e9218d0176787ca591",
+      "stock": 25
+    }
+  ],
+  "is_fresh": false
+},{
+  "category": "Home Appliances",
+  "name": "Coffee Machine",
+  "cost_price": 17,
+  "selling_price": 40,
+  "stocks": [
+    {
+      "store_id": "63be13ae218d0176787ca58d",
+      "stock": 47
+    },
+    {
+      "store_id": "63be13e9218d0176787ca591",
+      "stock": 156
+    }
+  ],
+  "is_fresh": false
+},{
+  "category": "Home Appliances",
+  "name": "Stand Mixer",
+  "cost_price": 15,
+  "selling_price": 60,
+  "stocks": [
+    {
+      "store_id": "63be13ae218d0176787ca58d",
+      "stock": 98
+    },
+    {
+      "store_id": "63be13c2218d0176787ca58f",
+      "stock": 45
+    }
+  ],
+  "is_fresh": false
+},{
+  "category": "Home Appliances",
+  "name": "Spray Mop",
+  "cost_price": 6,
+  "selling_price": 12.5,
+  "stocks": [
+    {
+      "store_id": "63be13ae218d0176787ca58d",
+      "stock": 178
+    },
+    {
+      "store_id": "63be13c2218d0176787ca58f",
+      "stock": 142
+    },
+    {
+      "store_id": "63be13e9218d0176787ca591",
+      "stock": 156
+    }
+  ],
+  "is_fresh": false
+},{
+  "category": "Home Appliances",
+  "name": "Mini Electric Chopper",
+  "cost_price": 5,
+  "selling_price": 17,
+  "stocks": [
+    {
+      "store_id": "63be13ae218d0176787ca58d",
+      "stock": 278
+    },
+    {
+      "store_id": "63be13c2218d0176787ca58f",
+      "stock": 210
+    },
+    {
+      "store_id": "63be13e9218d0176787ca591",
+      "stock": 256
+    }
+  ],
+  "is_fresh": false
+}]

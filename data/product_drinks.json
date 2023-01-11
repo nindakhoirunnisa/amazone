@@ -1,0 +1,189 @@
+[{
+  "category": "Drinks",
+  "name": "Coca Cola",
+  "cost_price": 0.55,
+  "selling_price": 1.5,
+  "stocks": [
+    {
+      "store_id": "63be127a218d0176787ca57b",
+      "stock": 22
+    },
+    {
+      "store_id": "63be12a7218d0176787ca57d",
+      "stock": 22
+    },
+    {
+      "store_id": "63be12e8218d0176787ca581",
+      "stock": 17
+    },
+    {
+      "store_id": "63be1307218d0176787ca583",
+      "stock": 18
+    },
+    {
+      "store_id": "63be1335218d0176787ca585",
+      "stock": 22
+    },
+    {
+      "store_id": "63be1357218d0176787ca587",
+      "stock": 25
+    },
+    {
+      "store_id": "63be137b218d0176787ca589",
+      "stock": 20
+    }
+  ],
+  "is_fresh": true
+},{
+  "category": "Drinks",
+  "name": "Pepsi",
+  "cost_price": 0.55,
+  "selling_price": 1.5,
+  "stocks": [
+    {
+      "store_id": "63be127a218d0176787ca57b",
+      "stock": 17
+    },
+    {
+      "store_id": "63be12c6218d0176787ca57f",
+      "stock": 28
+    },
+    {
+      "store_id": "63be12e8218d0176787ca581",
+      "stock": 18
+    },
+    {
+      "store_id": "63be1307218d0176787ca583",
+      "stock": 34
+    },
+    {
+      "store_id": "63be1335218d0176787ca585",
+      "stock": 28
+    },
+    {
+      "store_id": "63be1357218d0176787ca587",
+      "stock": 34
+    },
+    {
+      "store_id": "63be137b218d0176787ca589",
+      "stock": 19
+    }
+  ],
+  "is_fresh": true
+},{
+  "category": "Drinks",
+  "name": "Fanta",
+  "cost_price": 0.55,
+  "selling_price": 1.23,
+  "stocks": [
+    {
+      "store_id": "63be12a7218d0176787ca57d",
+      "stock": 23
+    },
+    {
+      "store_id": "63be12c6218d0176787ca57f",
+      "stock": 28
+    },
+    {
+      "store_id": "63be12e8218d0176787ca581",
+      "stock": 30
+    },
+    {
+      "store_id": "63be1307218d0176787ca583",
+      "stock": 18
+    },
+    {
+      "store_id": "63be1335218d0176787ca585",
+      "stock": 15
+    },
+    {
+      "store_id": "63be1357218d0176787ca587",
+      "stock": 19
+    },
+    {
+      "store_id": "63be137b218d0176787ca589",
+      "stock": 20
+    }
+  ],
+  "is_fresh": true
+},{
+  "category": "Drinks",
+  "name": "Orange Juice",
+  "cost_price": 0.25,
+  "selling_price": 1.3,
+  "stocks": [
+    {
+      "store_id": "63be127a218d0176787ca57b",
+      "stock": 15
+    },
+    {
+      "store_id": "63be12a7218d0176787ca57d",
+      "stock": 23
+    },
+    {
+      "store_id": "63be12c6218d0176787ca57f",
+      "stock": 25
+    },
+    {
+      "store_id": "63be12e8218d0176787ca581",
+      "stock": 30
+    },
+    {
+      "store_id": "63be1307218d0176787ca583",
+      "stock": 33
+    },
+    {
+      "store_id": "63be1335218d0176787ca585",
+      "stock": 22
+    },
+    {
+      "store_id": "63be1357218d0176787ca587",
+      "stock": 18
+    },
+    {
+      "store_id": "63be137b218d0176787ca589",
+      "stock": 18
+    }
+  ],
+  "is_fresh": true
+},{
+  "category": "Drinks",
+  "name": "Mango Juice",
+  "cost_price": 0.43,
+  "selling_price": 1.2,
+  "stocks": [
+    {
+      "store_id": "63be127a218d0176787ca57b",
+      "stock": 23
+    },
+    {
+      "store_id": "63be12a7218d0176787ca57d",
+      "stock": 22
+    },
+    {
+      "store_id": "63be12c6218d0176787ca57f",
+      "stock": 45
+    },
+    {
+      "store_id": "63be12e8218d0176787ca581",
+      "stock": 16
+    },
+    {
+      "store_id": "63be1307218d0176787ca583",
+      "stock": 36
+    },
+    {
+      "store_id": "63be1335218d0176787ca585",
+      "stock": 8
+    },
+    {
+      "store_id": "63be1357218d0176787ca587",
+      "stock": 10
+    },
+    {
+      "store_id": "63be137b218d0176787ca589",
+      "stock": 17
+    }
+  ],
+  "is_fresh": true
+}]

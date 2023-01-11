@@ -43,6 +43,10 @@ const storeSchema = new Schema({
     type: String,
     required: true
   },
+  is_warehouse: {
+    type: Boolean,
+    require: true
+  },
   address: storeAddress
 },
 {
