@@ -22,6 +22,9 @@ const partnerSchema = new Schema({
     maxlength: 50,
     required: true
   },
+  age: {
+    type: Number
+  },
   phone: {
     type: String,
     minlength: 5,
