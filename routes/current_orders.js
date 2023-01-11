@@ -172,8 +172,8 @@ router.put('/cart/:id', async (req, res) => {
       // res.json(pl3)
       }
   } catch (err) {
-      console.error(err.message);
-      res.status(500).json({ msg: 'Server Error' });
+      console.error(err);
+      res.status(500).json({ msg: 'Error occured while adding product' });
   }
 });
 
