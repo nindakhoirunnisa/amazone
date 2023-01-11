@@ -1,0 +1,177 @@
+[{
+  "category": "CD",
+  "name": "Midnights",
+  "cost_price": 2.5,
+  "selling_price": 10,
+  "stocks": [
+    {
+      "store_id": "63be13ae218d0176787ca58d",
+      "stock": 15
+    },
+    {
+      "store_id": "63be13c2218d0176787ca58f",
+      "stock": 30
+    },
+    {
+      "store_id": "63be13e9218d0176787ca591",
+      "stock": 27
+    }
+  ],
+  "is_fresh": false
+},{
+  "category": "CD",
+  "name": "Evermore",
+  "cost_price": 2.5,
+  "selling_price": 11.99,
+  "stocks": [
+    {
+      "store_id": "63be13ae218d0176787ca58d",
+      "stock": 78
+    },
+    {
+      "store_id": "63be13c2218d0176787ca58f",
+      "stock": 110
+    },
+    {
+      "store_id": "63be13e9218d0176787ca591",
+      "stock": 56
+    }
+  ],
+  "is_fresh": false
+},{
+  "category": "CD",
+  "name": "Speak Now",
+  "cost_price": 1.5,
+  "selling_price": 7.5,
+  "stocks": [
+    {
+      "store_id": "63be13ae218d0176787ca58d",
+      "stock": 12
+    },
+    {
+      "store_id": "63be13c2218d0176787ca58f",
+      "stock": 29
+    }
+  ],
+  "is_fresh": false
+},{
+  "category": "CD",
+  "name": "Red: Taylor's Version",
+  "cost_price": 2.6,
+  "selling_price": 12.94,
+  "stocks": [
+    {
+      "store_id": "63be13ae218d0176787ca58d",
+      "stock": 54
+    },
+    {
+      "store_id": "63be13c2218d0176787ca58f",
+      "stock": 30
+    }
+  ],
+  "is_fresh": false
+},{
+  "category": "CD",
+  "name": "folklore",
+  "cost_price": 3.5,
+  "selling_price": 13.55,
+  "stocks": [
+    {
+      "store_id": "63be13c2218d0176787ca58f",
+      "stock": 87
+    },
+    {
+      "store_id": "63be13e9218d0176787ca591",
+      "stock": 39
+    }
+  ],
+  "is_fresh": false
+},{
+  "category": "CD",
+  "name": "Fearless (Taylor's Version)",
+  "cost_price": 2,
+  "selling_price": 11.7,
+  "stocks": [
+    {
+      "store_id": "63be13ae218d0176787ca58d",
+      "stock": 21
+    },
+    {
+      "store_id": "63be13c2218d0176787ca58f",
+      "stock": 36
+    },
+    {
+      "store_id": "63be13e9218d0176787ca591",
+      "stock": 55
+    }
+  ],
+  "is_fresh": false
+},{
+  "category": "CD",
+  "name": "reputation",
+  "cost_price": 2.8,
+  "selling_price": 11.89,
+  "stocks": [
+    {
+      "store_id": "63be13ae218d0176787ca58d",
+      "stock": 72
+    },
+    {
+      "store_id": "63be13c2218d0176787ca58f",
+      "stock": 89
+    },
+    {
+      "store_id": "63be13e9218d0176787ca591",
+      "stock": 23
+    }
+  ],
+  "is_fresh": false
+},{
+  "category": "CD",
+  "name": "Taylor Swift",
+  "cost_price": 1.5,
+  "selling_price": 8.99,
+  "stocks": [
+    {
+      "store_id": "63be13c2218d0176787ca58f",
+      "stock": 28
+    },
+    {
+      "store_id": "63be13e9218d0176787ca591",
+      "stock": 74
+    }
+  ],
+  "is_fresh": false
+},{
+  "category": "CD",
+  "name": "Lover",
+  "cost_price": 2.5,
+  "selling_price": 11.69,
+  "stocks": [
+    {
+      "store_id": "63be13ae218d0176787ca58d",
+      "stock": 56
+    },
+    {
+      "store_id": "63be13c2218d0176787ca58f",
+      "stock": 76
+    }
+  ],
+  "is_fresh": false
+},{
+  "category": "CD",
+  "name": "Positions",
+  "cost_price": 2.5,
+  "selling_price": 11,
+  "stocks": [
+    {
+      "store_id": "63be13ae218d0176787ca58d",
+      "stock": 87
+    },
+    {
+      "store_id": "63be13e9218d0176787ca591",
+      "stock": 70
+    }
+  ],
+  "is_fresh": false
+}]

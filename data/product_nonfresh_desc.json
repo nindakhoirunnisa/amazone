@@ -1,0 +1,1080 @@
+[
+  {
+  "_id": "63bedaa03121db4da02d5002", 
+  "product_description": "Midnights is the tenth studio album by American singer-songwriter Taylor Swift.",
+  "product_dimensions": {
+    "length": 12,
+    "height": 12
+  },
+  "product_weight": 0.095,
+  "additional_info": [
+    {
+      "attribute": "artist_name",
+      "info": "Taylor Swift"
+    },
+    {
+      "attribute": "number_of_tracks",
+      "info": "20"
+    },
+    {
+      "attribute": "total_playing_time",
+      "info": "4140"
+    },
+    {
+      "attribute": "publisher",
+      "info": "Republic Records"
+    }
+  ]
+},{
+  "_id": "63bedaa83121db4da02d5003", 
+  "product_description": "Evermore is the ninth studio album by American singer-songwriter Taylor Swift.",
+  "product_dimensions": {
+    "length": 12,
+    "height": 12
+  },
+  "product_weight": 0.095,
+  "additional_info": [
+    {
+      "attribute": "artist_name",
+      "info": "Taylor Swift"
+    },
+    {
+      "attribute": "number_of_tracks",
+      "info": "17"
+    },
+    {
+      "attribute": "total_playing_time",
+      "info": "4140"
+    },
+    {
+      "attribute": "publisher",
+      "info": "Republic Records"
+    }
+  ]
+},{
+  "_id": "63bedcf1905ece42d0d08652", 
+  "product_description": "Speak Now is the third studio album by American singer-songwriter Taylor Swift.",
+  "product_dimensions": {
+    "length": 12,
+    "height": 12
+  },
+  "product_weight": 0.095,
+  "additional_info": [
+    {
+      "attribute": "artist_name",
+      "info": "Taylor Swift"
+    },
+    {
+      "attribute": "number_of_tracks",
+      "info": "14"
+    },
+    {
+      "attribute": "total_playing_time",
+      "info": "4020"
+    },
+    {
+      "attribute": "publisher",
+      "info": "Big Machine Records"
+    }
+  ]
+},{
+  "_id": "63bedabb3121db4da02d5004", 
+  "product_description": "Red (Taylor's Version) is the second re-recorded album by American singer-songwriter Taylor Swift.",
+  "product_dimensions": {
+    "length": 12,
+    "height": 12
+  },
+  "product_weight": 0.095,
+  "additional_info": [
+    {
+      "attribute": "artist_name",
+      "info": "Taylor Swift"
+    },
+    {
+      "attribute": "number_of_tracks",
+      "info": "30"
+    },
+    {
+      "attribute": "total_playing_time",
+      "info": "7800"
+    },
+    {
+      "attribute": "publisher",
+      "info": "Republic Records"
+    }
+  ]
+},{
+  "_id": "63bedac33121db4da02d5005", 
+  "product_description": "Folklore is the eighth studio album by American singer-songwriter Taylor Swift.",
+  "product_dimensions": {
+    "length": 12,
+    "height": 12
+  },
+  "product_weight": 0.095,
+  "additional_info": [
+    {
+      "attribute": "artist_name",
+      "info": "Taylor Swift"
+    },
+    {
+      "attribute": "number_of_tracks",
+      "info": "17"
+    },
+    {
+      "attribute": "total_playing_time",
+      "info": "4020"
+    },
+    {
+      "attribute": "publisher",
+      "info": "Republic Records"
+    }
+  ]
+},{
+  "_id": "63bedacc3121db4da02d5006", 
+  "product_description": "Fearless (Taylor's Version) is the first re-recorded album by American singer-songwriter Taylor Swift.",
+  "product_dimensions": {
+    "length": 12,
+    "height": 12
+  },
+  "product_weight": 0.095,
+  "additional_info": [
+    {
+      "attribute": "artist_name",
+      "info": "Taylor Swift"
+    },
+    {
+      "attribute": "number_of_tracks",
+      "info": "26"
+    },
+    {
+      "attribute": "total_playing_time",
+      "info": "6360"
+    },
+    {
+      "attribute": "publisher",
+      "info": "Republic Records"
+    }
+  ]
+},{
+  "_id": "63bedad33121db4da02d5007", 
+  "product_description": "Reputation is the sixth studio album by American singer-songwriter Taylor Swift.",
+  "product_dimensions": {
+    "length": 12,
+    "height": 12
+  },
+  "product_weight": 0.095,
+  "additional_info": [
+    {
+      "attribute": "artist_name",
+      "info": "Taylor Swift"
+    },
+    {
+      "attribute": "number_of_tracks",
+      "info": "15"
+    },
+    {
+      "attribute": "total_playing_time",
+      "info": "3345"
+    },
+    {
+      "attribute": "publisher",
+      "info": "Big Machine Records"
+    }
+  ]
+},{
+  "_id": "63bedae23121db4da02d5009", 
+  "product_description": "Lover is the seventh studio album by American singer-songwriter Taylor Swift.",
+  "product_dimensions": {
+    "length": 12,
+    "height": 12
+  },
+  "product_weight": 0.095,
+  "additional_info": [
+    {
+      "attribute": "artist_name",
+      "info": "Taylor Swift"
+    },
+    {
+      "attribute": "number_of_tracks",
+      "info": "18"
+    },
+    {
+      "attribute": "total_playing_time",
+      "info": "3660"
+    },
+    {
+      "attribute": "publisher",
+      "info": "Republic Records"
+    }
+  ]
+},{
+  "_id": "63bedb66f053fd4084a32f0c", 
+  "product_description": "Positions is the sixth studio album by American singer Ariana Grande.",
+  "product_dimensions": {
+    "length": 12,
+    "height": 12
+  },
+  "product_weight": 0.095,
+  "additional_info": [
+    {
+      "attribute": "artist_name",
+      "info": "Ariana Grande"
+    },
+    {
+      "attribute": "number_of_tracks",
+      "info": "19"
+    },
+    {
+      "attribute": "total_playing_time",
+      "info": "3108"
+    },
+    {
+      "attribute": "publisher",
+      "info": "Republic Records"
+    }
+  ]
+},{
+  "_id": "63bedadb3121db4da02d5008", 
+  "product_description": "Taylor Swift is the debut studio album by American singer-songwriter Taylor Swift.",
+  "product_dimensions": {
+    "length": 12,
+    "height": 12
+  },
+  "product_weight": 0.095,
+  "additional_info": [
+    {
+      "attribute": "artist_name",
+      "info": "Taylor Swift"
+    },
+    {
+      "attribute": "number_of_tracks",
+      "info": "15"
+    },
+    {
+      "attribute": "total_playing_time",
+      "info": "3209"
+    },
+    {
+      "attribute": "publisher",
+      "info": "Big Machine Records"
+    }
+  ]
+}
+
+
+
+
+
+
+,
+{
+  "_id": "63bed8c13121db4da02d4fec", 
+  "product_description": "It addresses some of the most common relationship problems couples experience. It highlights the key differences between men and women in how they think, act, and communicate.",
+  "product_dimension": {
+    "length": "19.8cm",
+    "width": "12.8cm",
+    "height": "2.1cm"
+  },
+  "product_weight": 0.085,
+  "additional_info": [
+    {
+      "attribute": "author_name",
+      "info": "John Gray"
+    },
+    {
+      "attribute": "publisher",
+      "info": "HarperCollins"
+    },
+    {
+      "attribute": "year_of_publication",
+      "info": "1992"
+    },
+    {
+      "attribute": "ISBN",
+      "info": "978-0060574215"
+    }
+  ]
+},{
+  "_id": "63bed9043121db4da02d4ff8", 
+  "product_description": "A horror novel and a sequel to The Shining. It picks up in the distant aftermath of the traumatic events that take place at the Overlook Hotel. Danny Torrance, the son of the prequel’s chaotic and insane protagonist, Jack, struggles with lasting memories of the hotel, while Wendy, his mother, heals from the wounds she sustained helping them escape",
+  "product_dimension": {
+    "length": "19.8cm",
+    "width": "12.8cm",
+    "height": "2.1cm"
+  },
+  "product_weight": 0.085,
+  "additional_info": [
+    {
+      "attribute": "author_name",
+      "info": "Stephen King"
+    },
+    {
+      "attribute": "publisher",
+      "info": "Scribner"
+    },
+    {
+      "attribute": "year_of_publication",
+      "info": "2013"
+    },
+    {
+      "attribute": "ISBN",
+      "info": "978-1-4767-2765-3"
+    }
+  ]
+},{
+  "_id": "63bed90b3121db4da02d4ff9", 
+  "product_description": "The book puts forward a principle-centered approach to both personal and interpersonal effectiveness. Rather than focusing on altering the outward manifestations of your behavior and attitudes, it aims to adapt your inner core, character, and motives.",
+  "product_dimension": {
+    "length": "19.8cm",
+    "width": "12.8cm",
+    "height": "2.1cm"
+  },
+  "product_weight": 0.085,
+  "additional_info": [
+    {
+      "attribute": "author_name",
+      "info": "Stephen Covey"
+    },
+    {
+      "attribute": "publisher",
+      "info": "Simon & Schuster"
+    },
+    {
+      "attribute": "year_of_publication",
+      "info": "1989"
+    },
+    {
+      "attribute": "ISBN",
+      "info": "9780671663988"
+    }
+  ]
+},{
+  "_id": "63bed9173121db4da02d4ffa", 
+  "product_description": "The book puts forward a principle-centered approach to both personal and interpersonal effectiveness. Rather than focusing on altering the outward manifestations of your behavior and attitudes, it aims to adapt your inner core, character, and motives.",
+  "product_dimension": {
+    "length": "19.8cm",
+    "width": "12.8cm",
+    "height": "2.1cm"
+  },
+  "product_weight": 0.085,
+  "additional_info": [
+    {
+      "attribute": "author_name",
+      "info": "Steven Levitt"
+    },
+    {
+      "attribute": "publisher",
+      "info": "William Morror"
+    },
+    {
+      "attribute": "year_of_publication",
+      "info": "2005"
+    },
+    {
+      "attribute": "ISBN",
+      "info": "9780060731328"
+    }
+  ]
+},{
+  "_id": "63bed9203121db4da02d4ffb", 
+  "product_description": "Economics is all about understanding the choices we make to solve this problem. With bright, infographics pictures, this informative book describes why markets are so important, how businesses work out what to sell, and how governments choose how to run a country.",
+  "product_dimension": {
+    "length": "24.8cm",
+    "width": "18.5cm",
+    "height": "2.5cm"
+  },
+  "product_weight": 0.085,
+  "additional_info": [
+    {
+      "attribute": "author_name",
+      "info": "Lara Bryan"
+    },
+    {
+      "attribute": "publisher",
+      "info": "USBorne Publishing Ltd"
+    },
+    {
+      "attribute": "year_of_publication",
+      "info": "2005"
+    },
+    {
+      "attribute": "ISBN",
+      "info": "9781474950688"
+    }
+  ]
+},{
+  "_id": "63bed92a3121db4da02d4ffc", 
+  "product_description": "The book concerns a girl called Sophie, her mother, and an anthropomorphised tiger who invites himself to their afternoon tea and consumes all the food and drink they have.",
+  "product_dimension": {
+    "length": "27.6cm",
+    "width": "22.1cm",
+    "height": "0.4cm"
+  },
+  "product_weight": 0.085,
+  "additional_info": [
+    {
+      "attribute": "author_name",
+      "info": "Judith Kerr"
+    },
+    {
+      "attribute": "publisher",
+      "info": "HarperCollins Publishers"
+    },
+    {
+      "attribute": "year_of_publication",
+      "info": "2013"
+    },
+    {
+      "attribute": "ISBN",
+      "info": "9780008605551"
+    }
+  ]
+},{
+  "_id": "63bed9333121db4da02d4ffd", 
+  "product_description": "The book tells the stories of the young Kafka Tamura, a bookish 15-year-old boy who runs away from his Oedipal curse, and Satoru Nakata, an old, disabled man with the uncanny ability to talk to cats.",
+  "product_dimension": {
+    "length": "19.8cm",
+    "width": "12.9cm",
+    "height": "3cm"
+  },
+  "product_weight": 0.085,
+  "additional_info": [
+    {
+      "attribute": "author_name",
+      "info": "Haruki Murakami"
+    },
+    {
+      "attribute": "publisher",
+      "info": "Shinchosha"
+    },
+    {
+      "attribute": "year_of_publication",
+      "info": "2002"
+    },
+    {
+      "attribute": "ISBN",
+      "info": "1-84343-110-6"
+    }
+  ]
+},{
+  "_id": "63bed93c3121db4da02d4ffe", 
+  "product_description": "Atomic Habits will teach you how to make small changes that will transform your habits and deliver amazing results.",
+  "product_dimension": {
+    "length": "19.8cm",
+    "width": "12.9cm",
+    "height": "2.1cm"
+  },
+  "product_weight": 0.085,
+  "additional_info": [
+    {
+      "attribute": "author_name",
+      "info": "James Clear"
+    },
+    {
+      "attribute": "publisher",
+      "info": "Penguin Random House"
+    },
+    {
+      "attribute": "year_of_publication",
+      "info": "2018"
+    },
+    {
+      "attribute": "ISBN",
+      "info": "9780735211292"
+    }
+  ]
+},{
+  "_id": "63bed9443121db4da02d4fff", 
+  "product_description": "Harry Potter book series collections",
+  "product_dimension": {
+    "length": "25.5cm",
+    "width": "20.3cm",
+    "height": "13.1cm"
+  },
+  "product_weight": 0.085,
+  "additional_info": [
+    {
+      "attribute": "author_name",
+      "info": "J. K. Rowling"
+    },
+    {
+      "attribute": "publisher",
+      "info": "Bloomsbury"
+    },
+    {
+      "attribute": "year_of_publication",
+      "info": "2001"
+    },
+    {
+      "attribute": "ISBN",
+      "info": "8601300428673"
+    }
+  ]
+},{
+  "_id": "63bed94d3121db4da02d5000", 
+  "product_description": "It offers a simple, yet ground-breaking method for assessing the personalities of people we communicate with - in and out of the office - based on four personality types (Red, Blue, Green and Yellow), and provides insights into how we can adjust the way(s) we speak and share information.",
+  "product_dimension": {
+    "length": "19.8cm",
+    "width": "12.6cm",
+    "height": "1.8cm"
+  },
+  "product_weight": 0.085,
+  "additional_info": [
+    {
+      "attribute": "author_name",
+      "info": "Thomas Erikson"
+    },
+    {
+      "attribute": "publisher",
+      "info": "Ebury Publishing"
+    },
+    {
+      "attribute": "year_of_publication",
+      "info": "2014"
+    },
+    {
+      "attribute": "ISBN",
+      "info": "9781785042188"
+    }
+  ]
+},{
+  "_id": "63bed9573121db4da02d5001", 
+  "product_description": "From the early days of Amazon to its journey to becoming a massive business empire, Jeff Bezos: Biography of a Billionaire Business Titan delves into Jeff Bezos’ life, achievements, and legacy. Including his family, upbringing, and the daily things that keep him motivated, you’ll discover the secrets of this incredible entrepreneur’s life – and the empire he founded.",
+  "product_dimension": {
+    "length": "22.9m",
+    "width": "15.2cm",
+    "height": "1.5cm"
+  },
+  "product_weight": 0.085,
+  "additional_info": [
+    {
+      "attribute": "author_name",
+      "info": "Elliot Reynolds"
+    },
+    {
+      "attribute": "publisher",
+      "info": "Independently Published"
+    },
+    {
+      "attribute": "year_of_publication",
+      "info": "2019"
+    },
+    {
+      "attribute": "ISBN",
+      "info": "978-1076170194"
+    }
+  ]
+},
+
+
+
+
+{
+  "_id": "63bedc4c905ece42d0d08648", 
+  "product_description": "The iPhone 14 Pro comes with a 6.1-inch ProMotion OLED display with 1-120Hz adaptive refresh rates, Dolby Vision, and a Face ID Dynamic Island that allows Apple to utilize an always-on display feature, which dims the lock screen similarly to an Apple Watch.",
+  "product_dimension": {
+    "height": "14.8cm",
+    "width": "7.2cm",
+    "depth": "0.8cm"
+  },
+  "product_weight": 0.98,
+  "additional_info": [
+    {
+      "attribute": "brand",
+      "info": "Apple"
+    },
+    {
+      "attribute": "model",
+      "info": "Iphone 14 Pro"
+    },
+    {
+      "attribute": "colour",
+      "info": "deep purple"
+    },
+    {
+      "attribute": "features",
+      "info": "256GB, OLED Display, 48MP camera"
+    }
+  ]
+},{
+  "_id": "63bedc54905ece42d0d08649", 
+  "product_description": "The iPhone 14 Pro comes with a 6.1-inch ProMotion OLED display with 1-120Hz adaptive refresh rates, Dolby Vision, and a Face ID Dynamic Island that allows Apple to utilize an always-on display feature, which dims the lock screen similarly to an Apple Watch.",
+  "product_dimension": {
+    "height": "14.8cm",
+    "width": "7.2cm",
+    "depth": "0.8cm"
+  },
+  "product_weight": 0.98,
+  "additional_info": [
+    {
+      "attribute": "brand",
+      "info": "Apple"
+    },
+    {
+      "attribute": "model",
+      "info": "Iphone 14 Pro"
+    },
+    {
+      "attribute": "colour",
+      "info": "space black"
+    },
+    {
+      "attribute": "features",
+      "info": "128GB, OLED Display, 48MP camera"
+    }
+  ]
+},{
+  "_id": "63bedc5e905ece42d0d0864a", 
+  "product_description": "The iPhone 14 Pro Max comes with a bigger display, Dolby Vision, and a Face ID Dynamic Island that allows Apple to utilize an always-on display feature, which dims the lock screen similarly to an Apple Watch.",
+  "product_dimension": {
+    "height": "16.1cm",
+    "width": "7.8cm",
+    "depth": "0.8cm"
+  },
+  "product_weight": 0.98,
+  "additional_info": [
+    {
+      "attribute": "brand",
+      "info": "Apple"
+    },
+    {
+      "attribute": "model",
+      "info": "Iphone 14 Pro Max"
+    },
+    {
+      "attribute": "colour",
+      "info": "space black"
+    },
+    {
+      "attribute": "features",
+      "info": "128GB, OLED Display, 48MP camera"
+    }
+  ]
+},{
+  "_id": "63bedc66905ece42d0d0864b", 
+  "product_description": "Galaxy Z Flip with a revamped cover screen, slimmer hinge and new camera features",
+  "product_dimension": {
+    "height": "16.5cm",
+    "width": "7.2cm",
+    "depth": "0.7cm"
+  },
+  "product_weight": 0.98,
+  "additional_info": [
+    {
+      "attribute": "brand",
+      "info": "Samsung"
+    },
+    {
+      "attribute": "model",
+      "info": "Galaxy Z Flip4"
+    },
+    {
+      "attribute": "colour",
+      "info": "bora purple"
+    },
+    {
+      "attribute": "features",
+      "info": "256GB, FHD, 12MP camera"
+    }
+  ]
+},{
+  "_id": "63bedc6e905ece42d0d0864c", 
+  "product_description": "The Galaxy Z Fold4 makes multitasking easier with a new taskbar and new version of Android 12L. Samsung also delivers better cameras, a wider front display and a brighter main screen in a sleeker package.",
+  "product_dimension": {
+    "height": "15.5cm",
+    "width": "13.1cm",
+    "depth": "0.6cm"
+  },
+  "product_weight": 0.98,
+  "additional_info": [
+    {
+      "attribute": "brand",
+      "info": "Samsung"
+    },
+    {
+      "attribute": "model",
+      "info": "Galaxy Z Fold4"
+    },
+    {
+      "attribute": "colour",
+      "info": "grey green"
+    },
+    {
+      "attribute": "features",
+      "info": "256GB, AMOLED Display, 50MP camera"
+    }
+  ]
+},{
+  "_id": "63bedc77905ece42d0d0864d", 
+  "product_description": "It’s super-versatile, ready for important work, hand-written notes, gaming, and casual big-screen web browsing",
+  "product_dimension": {
+    "height": "16.3cm",
+    "width": "7.8cm",
+    "depth": "0.9cm"
+  },
+  "product_weight": 0.98,
+  "additional_info": [
+    {
+      "attribute": "brand",
+      "info": "Samsung"
+    },
+    {
+      "attribute": "model",
+      "info": "Galaxy S22 Ultra"
+    },
+    {
+      "attribute": "colour",
+      "info": "phantom white"
+    },
+    {
+      "attribute": "features",
+      "info": "256GB, AMOLED Display, 40MP camera"
+    }
+  ]
+},{
+  "_id": "63bedc7f905ece42d0d0864e", 
+  "product_description": "An awesome device packed with impressive graphics, powerful batteries, epic screens and amazing cameras with built-in smart features",
+  "product_dimension": {
+    "height": "16.5cm",
+    "width": "7.6cm",
+    "depth": "0.9cm"
+  },
+  "product_weight": 0.98,
+  "additional_info": [
+    {
+      "attribute": "brand",
+      "info": "Samsung"
+    },
+    {
+      "attribute": "model",
+      "info": "Galaxy A13"
+    },
+    {
+      "attribute": "colour",
+      "info": "phantom white"
+    },
+    {
+      "attribute": "features",
+      "info": "64GB, PLS LCD, 50MP camera"
+    }
+  ]
+},{
+  "_id": "63bedc97905ece42d0d0864f", 
+  "product_description": "With a new display, larger battery and better camera hardware and software, the iPhone 13 remains a great flagship phone.",
+  "product_dimension": {
+    "height": "14.7cm",
+    "width": "7.2cm",
+    "depth": "0.8cm"
+  },
+  "product_weight": 0.98,
+  "additional_info": [
+    {
+      "attribute": "brand",
+      "info": "Apple"
+    },
+    {
+      "attribute": "model",
+      "info": "IPhone 13"
+    },
+    {
+      "attribute": "colour",
+      "info": "midnight"
+    },
+    {
+      "attribute": "features",
+      "info": "128GB, XDR Display, 12MP camera"
+    }
+  ]
+},{
+  "_id": "63bedca0905ece42d0d08650", 
+  "product_description": "With a new display, larger battery and better camera hardware and software, the iPhone 13 remains a great flagship phone.",
+  "product_dimension": {
+    "height": "13.2cm",
+    "width": "6.4cm",
+    "depth": "0.8cm"
+  },
+  "product_weight": 0.98,
+  "additional_info": [
+    {
+      "attribute": "brand",
+      "info": "Apple"
+    },
+    {
+      "attribute": "model",
+      "info": "IPhone 13 mini"
+    },
+    {
+      "attribute": "colour",
+      "info": "black"
+    },
+    {
+      "attribute": "features",
+      "info": "128GB, XDR Display, 12MP camera"
+    }
+  ]
+},{
+  "_id": "63bedca8905ece42d0d08651", 
+  "product_description": "OPPO A54 creates customized selfies with natural and charming effects, revealing the most attractive you.",
+  "product_dimension": {
+    "height": "16.3cm",
+    "width": "7.5cm",
+    "depth": "0.8cm"
+  },
+  "product_weight": 0.98,
+  "additional_info": [
+    {
+      "attribute": "brand",
+      "info": "Oppo"
+    },
+    {
+      "attribute": "model",
+      "info": "A54"
+    },
+    {
+      "attribute": "colour",
+      "info": "fluid black"
+    },
+    {
+      "attribute": "features",
+      "info": "64GB, LCD, 48MP camera"
+    }
+  ]
+},
+
+
+
+
+
+
+{
+  "_id": "63bede9b905ece42d0d08653", 
+  "product_description": "Space-saving 34L inverter combination microwave oven with an award-winning sleek stainless steel design.",
+  "product_dimension": {
+    "height": "34.3cm",
+    "width": "56.0cm",
+    "depth": "45.0cm"
+  },
+  "product_weight": 18,
+  "additional_info": [
+    {
+      "attribute": "colour",
+      "info": "steel grey"
+    },
+    {
+      "attribute": "voltage",
+      "info": "240"
+    },
+    {
+      "attribute": "style",
+      "info": "modern"
+    }
+  ]
+},{
+  "_id": "63bedea3905ece42d0d08654", 
+  "product_description": "The Traditional Cream Kettle combines latest technology and statement design.",
+  "product_dimension": {
+    "height": "29.7cm",
+    "width": "23.3cm",
+    "depth": "23.5cm"
+  },
+  "product_weight": 1.25,
+  "additional_info": [
+    {
+      "attribute": "colour",
+      "info": "cream"
+    },
+    {
+      "attribute": "voltage",
+      "info": "240"
+    },
+    {
+      "attribute": "style",
+      "info": "electric"
+    }
+  ]
+},{
+  "_id": "63bedead905ece42d0d08655", 
+  "product_description": "EasySpeed iron makes your ironing easier and more effective with lots of steam to remove tough creases, a ceramic soleplate for easy gliding on all fabrics, and a Calc Clean function for durable performance.",
+  "product_dimension": {
+    "height": "29.0cm",
+    "width": "15.2cm",
+    "depth": "12.9cm"
+  },
+  "product_weight": 0.75,
+  "additional_info": [
+    {
+      "attribute": "colour",
+      "info": "grey"
+    },
+    {
+      "attribute": "voltage",
+      "info": "200"
+    },
+    {
+      "attribute": "style",
+      "info": "modern"
+    }
+  ]
+},{
+  "_id": "63bedeb4905ece42d0d08656", 
+  "product_description": "SQ Professional Blitz Deluxe Rice Cooker & Steamer with Keep Warm Function.",
+  "product_dimension": {
+    "height": "30.8cm",
+    "width": "29.6cm",
+    "depth": "29.6cm"
+  },
+  "product_weight": 3.46,
+  "additional_info": [
+    {
+      "attribute": "colour",
+      "info": "white"
+    },
+    {
+      "attribute": "voltage",
+      "info": "220"
+    },
+    {
+      "attribute": "style",
+      "info": "traditional"
+    }
+  ]
+},{
+  "_id": "63bedebd905ece42d0d08657", 
+  "product_description": "The Bosch CleverMixx Hand Blender features a powerful motor and a turbo setting for when you need a burst of power.",
+  "product_dimension": {
+    "height": "38.0cm",
+    "width": "6.0cm",
+    "depth": "6.0cm"
+  },
+  "product_weight": 0.7,
+  "additional_info": [
+    {
+      "attribute": "colour",
+      "info": "black"
+    },
+    {
+      "attribute": "voltage",
+      "info": "240"
+    },
+    {
+      "attribute": "style",
+      "info": "modern"
+    }
+  ]
+},{
+  "_id": "63bedec4905ece42d0d08658", 
+  "product_description": "The ultra-compact digital air fryer that gives you crispy, fried food without all the oil!",
+  "product_dimension": {
+    "height": "35.6cm",
+    "width": "40.6cm",
+    "depth": "33.0cm"
+  },
+  "product_weight": 0.4,
+  "additional_info": [
+    {
+      "attribute": "colour",
+      "info": "steel grey"
+    },
+    {
+      "attribute": "voltage",
+      "info": "240"
+    },
+    {
+      "attribute": "style",
+      "info": "sleek modern"
+    }
+  ]
+},{
+  "_id": "63bedecc905ece42d0d08659", 
+  "product_description": "Create professional quality coffees with a thick velvety crema, thanks to this small coffee pod machine's high-pressure system",
+  "product_dimension": {
+    "height": "11.9cm",
+    "width": "11.3cm",
+    "depth": "6.9cm"
+  },
+  "product_weight": 2.1,
+  "additional_info": [
+    {
+      "attribute": "colour",
+      "info": "grey"
+    },
+    {
+      "attribute": "voltage",
+      "info": "240"
+    },
+    {
+      "attribute": "style",
+      "info": "modern"
+    }
+  ]
+},{
+  "_id": "63beded3905ece42d0d0865a", 
+  "product_description": "Designed in 1937 by one of the great American style gurus, Egmont Arens, the original Tilt-head Stand Mixer has kept its legendary rounded design and revered status in professional and domestic kitchens.",
+  "product_dimension": {
+    "height": "36.0cm",
+    "width": "24.0cm",
+    "depth": "37.0cm"
+  },
+  "product_weight": 11.5,
+  "additional_info": [
+    {
+      "attribute": "colour",
+      "info": "grey"
+    },
+    {
+      "attribute": "voltage",
+      "info": "240"
+    },
+    {
+      "attribute": "style",
+      "info": "modern"
+    }
+  ]
+},{
+  "_id": "63bededd905ece42d0d0865b", 
+  "product_description": "No battery needed, no noise bothered, just spray and mop",
+  "product_dimension": {
+    "height": "42.6cm",
+    "width": "12.1cm",
+    "depth": "11.7cm"
+  },
+  "product_weight": 0.8,
+  "additional_info": [
+    {
+      "attribute": "colour",
+      "info": "grey"
+    },
+    {
+      "attribute": "voltage",
+      "info": "240"
+    },
+    {
+      "attribute": "style",
+      "info": "modern"
+    }
+  ]
+},{
+  "_id": "63bedee5905ece42d0d0865c", 
+  "product_description": "This food processor has two speeds for control of chopping rate while creating your favourite dish",
+  "product_dimension": {
+    "height": "14.2cm",
+    "width": "20.8cm",
+    "depth": "15.8cm"
+  },
+  "product_weight": 1,
+  "additional_info": [
+    {
+      "attribute": "colour",
+      "info": "grey"
+    },
+    {
+      "attribute": "voltage",
+      "info": "240"
+    },
+    {
+      "attribute": "style",
+      "info": "modern"
+    }
+  ]
+}
+]

@@ -42,8 +42,7 @@ const productSchema = new Schema({
   },
   category: {
     type: String,
-    minlength: 2,
-    maxlength: 20,
+    enum: ['Bakery', 'Drinks', 'Fruits and Vegetables', 'Books', 'CD', 'Mobile Phones', 'Home Appliances'],
     required: true
   },
   name: {

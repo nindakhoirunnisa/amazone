@@ -47,10 +47,25 @@ router.get('/other', (req, res, next) => {
 });
 
 router.post('/fresh', (req, res, next) => {
-  Product_Catalog
+  if(req.body.is_fresh == true){
+    Product_Catalog
     .create(req.body)
     .then(prdct => res.status(201).send(prdct))
     .catch(err => next(err));
+  } else {
+    res.send({message: "product should be fresh"})
+  }
+});
+
+router.post('/other', (req, res, next) => {
+  if(req.body.is_fresh == false){
+    Product_Catalog
+    .create(req.body)
+    .then(prdct => res.status(201).send(prdct))
+    .catch(err => next(err));
+  } else {
+    res.send({message: "product should be non-fresh"})
+  }
 });
 
 

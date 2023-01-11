@@ -3,9 +3,15 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 const customerSchema = new Schema({
-  name: {
+  first_name: {
     type: String,
-    minlength: 5,
+    minlength: 2,
+    maxlength: 50,
+    required: true
+  },
+  last_name: {
+    type: String,
+    minlength: 2,
     maxlength: 50,
     required: true
   },
@@ -14,6 +20,9 @@ const customerSchema = new Schema({
     minlength: 5,
     maxlength: 50,
     required: true
+  },
+  email: {
+    type: String
   },
   age: {
     type: Number

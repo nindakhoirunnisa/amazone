@@ -1,0 +1,201 @@
+[{
+  "category": "Fruits and Vegetables",
+  "name": "Chillies",
+  "cost_price": 0.55,
+  "selling_price": 1.5,
+  "stocks": [
+    {
+      "store_id": "63be127a218d0176787ca57b",
+      "stock": 20
+    },
+    {
+      "store_id": "63be12a7218d0176787ca57d",
+      "stock": 22
+    },
+    {
+      "store_id": "63be12c6218d0176787ca57f",
+      "stock": 32
+    },
+    {
+      "store_id": "63be12e8218d0176787ca581",
+      "stock": 35
+    },
+    {
+      "store_id": "63be1307218d0176787ca583",
+      "stock": 37
+    },
+    {
+      "store_id": "63be1335218d0176787ca585",
+      "stock": 14
+    },
+    {
+      "store_id": "63be1357218d0176787ca587",
+      "stock": 10
+    },
+    {
+      "store_id": "63be137b218d0176787ca589",
+      "stock": 15
+    }
+  ],
+  "is_fresh": true
+},{
+  "category": "Fruits and Vegetables",
+  "name": "Carrots",
+  "cost_price": 0.2,
+  "selling_price": 0.8,
+  "stocks": [
+    {
+      "store_id": "63be127a218d0176787ca57b",
+      "stock": 19
+    },
+    {
+      "store_id": "63be12a7218d0176787ca57d",
+      "stock": 23
+    },
+    {
+      "store_id": "63be12c6218d0176787ca57f",
+      "stock": 24
+    },
+    {
+      "store_id": "63be12e8218d0176787ca581",
+      "stock": 3
+    },
+    {
+      "store_id": "63be1307218d0176787ca583",
+      "stock": 26
+    },
+    {
+      "store_id": "63be1335218d0176787ca585",
+      "stock": 16
+    },
+    {
+      "store_id": "63be1357218d0176787ca587",
+      "stock": 45
+    },
+    {
+      "store_id": "63be137b218d0176787ca589",
+      "stock": 37
+    }
+  ],
+  "is_fresh": true
+},{
+  "category": "Fruits and Vegetables",
+  "name": "Bananas",
+  "cost_price": 0.45,
+  "selling_price": 1.5,
+  "stocks": [
+    {
+      "store_id": "63be127a218d0176787ca57b",
+      "stock": 25
+    },
+    {
+      "store_id": "63be12a7218d0176787ca57d",
+      "stock": 18
+    },
+    {
+      "store_id": "63be12c6218d0176787ca57f",
+      "stock": 35
+    },
+    {
+      "store_id": "63be12e8218d0176787ca581",
+      "stock": 45
+    },
+    {
+      "store_id": "63be1307218d0176787ca583",
+      "stock": 26
+    },
+    {
+      "store_id": "63be1335218d0176787ca585",
+      "stock": 28
+    },
+    {
+      "store_id": "63be1357218d0176787ca587",
+      "stock": 37
+    },
+    {
+      "store_id": "63be137b218d0176787ca589",
+      "stock": 10
+    }
+  ],
+  "is_fresh": true
+},{
+  "category": "Fruits and Vegetables",
+  "name": "Apple",
+  "cost_price": 0.3,
+  "selling_price": 1.23,
+  "stocks": [
+    {
+      "store_id": "63be127a218d0176787ca57b",
+      "stock": 25
+    },
+    {
+      "store_id": "63be12a7218d0176787ca57d",
+      "stock": 34
+    },
+    {
+      "store_id": "63be12c6218d0176787ca57f",
+      "stock": 28
+    },
+    {
+      "store_id": "63be12e8218d0176787ca581",
+      "stock": 16
+    },
+    {
+      "store_id": "63be1307218d0176787ca583",
+      "stock": 30
+    },
+    {
+      "store_id": "63be1335218d0176787ca585",
+      "stock": 25
+    },
+    {
+      "store_id": "63be1357218d0176787ca587",
+      "stock": 17
+    },
+    {
+      "store_id": "63be137b218d0176787ca589",
+      "stock": 15
+    }
+  ],
+  "is_fresh": true
+},{
+  "category": "Fruits and Vegetables",
+  "name": "Spinach",
+  "cost_price": 0.4,
+  "selling_price": 0.75,
+  "stocks": [
+    {
+      "store_id": "63be127a218d0176787ca57b",
+      "stock": 8
+    },
+    {
+      "store_id": "63be12a7218d0176787ca57d",
+      "stock": 15
+    },
+    {
+      "store_id": "63be12c6218d0176787ca57f",
+      "stock": 40
+    },
+    {
+      "store_id": "63be12e8218d0176787ca581",
+      "stock": 25
+    },
+    {
+      "store_id": "63be1307218d0176787ca583",
+      "stock": 34
+    },
+    {
+      "store_id": "63be1335218d0176787ca585",
+      "stock": 35
+    },
+    {
+      "store_id": "63be1357218d0176787ca587",
+      "stock": 28
+    },
+    {
+      "store_id": "63be137b218d0176787ca589",
+      "stock": 29
+    }
+  ],
+  "is_fresh": true
+}]
