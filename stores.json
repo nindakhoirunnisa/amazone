@@ -1,0 +1,210 @@
+[{
+  "_id": {
+    "$oid": "63b6cf2207c4f5f705125326"
+  },
+  "name": "Morrison",
+  "address": {
+    "unit_no": "58",
+    "street": "Graham Street",
+    "city": "Manchester",
+    "country": "United Kingdom",
+    "postcode": "M14 4HG",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.46647,
+        -2.227744
+      ]
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63b6cf2207c4f5f705125327"
+  },
+  "name": "Morrison",
+  "address": {
+    "unit_no": "4",
+    "street": "Oxford Street",
+    "city": "Manchester",
+    "country": "United Kingdom",
+    "postcode": "M13 9PL",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.471428,
+        -2.226993
+      ]
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63b6cf2207c4f5f705125328"
+  },
+  "name": "Morrison",
+  "address": {
+    "unit_no": "29",
+    "street": "Princess Road",
+    "city": "Manchester",
+    "country": "United Kingdom",
+    "postcode": "M15 6HJ",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.468032,
+        -2.245077
+      ]
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63b6cf2207c4f5f705125329"
+  },
+  "name": "Morrison",
+  "address": {
+    "unit_no": "47",
+    "street": "Lloyd Street North",
+    "city": "Manchester",
+    "country": "United Kingdom",
+    "postcode": "M15 6SE",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.462801,
+        -2.235695
+      ]
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63b6cf2207c4f5f70512532a"
+  },
+  "name": "Morrison",
+  "address": {
+    "unit_no": "56",
+    "street": "Wilmslow Road",
+    "city": "Manchester",
+    "country": "United Kingdom",
+    "postcode": "M14 5LR",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.453124,
+        -2.223312
+      ]
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63b6cf2207c4f5f70512532b"
+  },
+  "name": "Morrison",
+  "address": {
+    "unit_no": "20",
+    "street": "Lower Park Road",
+    "city": "Manchester",
+    "country": "United Kingdom",
+    "postcode": "M14 5QY",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.4542304,
+        -2.2213128
+      ]
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63b6cf2207c4f5f70512532c"
+  },
+  "name": "Morrison",
+  "address": {
+    "unit_no": "78",
+    "street": "Dickenson Road",
+    "city": "Manchester",
+    "country": "United Kingdom",
+    "postcode": "M14 5AZ",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.452373,
+        -2.2178364
+      ]
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63b6cf2207c4f5f70512532d"
+  },
+  "name": "Morrison",
+  "address": {
+    "unit_no": "37",
+    "street": "Langley Road",
+    "city": "Manchester",
+    "country": "United Kingdom",
+    "postcode": "M14 6JH",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.445235,
+        -2.21965
+      ]
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63b6d45807c4f5f705125332"
+  },
+  "name": "Amazon Warehouse",
+  "address": {
+    "unit_no": "103",
+    "street": "Brunswick Street",
+    "city": "Manchester",
+    "country": "United Kingdom",
+    "postcode": "M13 9SR",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.4667426,
+        -2.2292143
+      ]
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63b6d45807c4f5f705125333"
+  },
+  "name": "Amazon Warehouse",
+  "address": {
+    "unit_no": "55",
+    "street": "Monton Street",
+    "city": "Manchester",
+    "country": "United Kingdom",
+    "postcode": "M14 4LT",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.4578956,
+        -2.2364577
+      ]
+    }
+  }
+},{
+  "_id": {
+    "$oid": "63b6d45807c4f5f705125334"
+  },
+  "name": "Amazon Warehouse",
+  "address": {
+    "unit_no": "36",
+    "street": "Yew Tree Road",
+    "city": "Manchester",
+    "country": "United Kingdom",
+    "postcode": "M14 7PW",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.4509225,
+        -2.2319497
+      ]
+    }
+  }
+}]

@@ -6,16 +6,47 @@ const Store = require('../models/store')
 
 module.exports = router; 
 
-router.get('/', (req, res, next) => {
-  
-  getNearestStore(parseFloat(req.query.lng), parseFloat(req.query.lat)).then(storeDetails =>
-    {
-      getProductsFromStore(storeDetails).then(productList => res.send(productList));
-    }) ;
-  
+router.get('/fresh', (req, res, next) => {
+  try {
+    getNearestStore(parseFloat(req.query.lng), parseFloat(req.query.lat), false).then(storeDetails => {
+      if (req.query.name == undefined) {
+        if (req.query.category == undefined) {
+          getProductsFromStore(storeDetails, true).then(productList => res.send(productList))
+        } else {
+          searchProductCategory(storeDetails, true, req.query.category).then(productList => res.send(productList));
+        }
+      } else {
+        searchProductName(storeDetails, true, req.query.name).then(productList => res.send(productList));
+      }
+    })
+  }
+  catch (err) {
+    console.error(err.message);
+    res.status(500).json({ msg: 'Error while fetching fresh products' });
+  }
 });
 
-router.post('/', (req, res, next) => {
+router.get('/other', (req, res, next) => {
+  try {
+    getNearestStore(parseFloat(req.query.lng), parseFloat(req.query.lat), false).then(storeDetails => {
+      if (req.query.name == undefined) {
+        if (req.query.category == undefined) {
+          getProductsFromStore(storeDetails, false).then(productList => res.send(productList))
+        } else {
+          searchProductCategory(storeDetails, false, req.query.category).then(productList => res.send(productList));
+        }
+      } else {
+        searchProductName(storeDetails, false, req.query.name).then(productList => res.send(productList));
+      }
+    })
+  }
+  catch (err) {
+    console.error(err.message);
+    res.status(500).json({ msg: 'Error while fetching fresh products' });
+  }
+});
+
+router.post('/fresh', (req, res, next) => {
   Product_Catalog
     .create(req.body)
     .then(prdct => res.status(201).send(prdct))
@@ -23,7 +54,7 @@ router.post('/', (req, res, next) => {
 });
 
 
-router.put('/:id', async (req, res) => {
+router.put('/fresh/:id', async (req, res) => {
   const item = req.body;
   try {
       let picklist = await Product_Catalog.findById(req.params.id);
@@ -63,7 +94,7 @@ router.put('/:id', async (req, res) => {
   }
 });
 
-async function getNearestStore(longitude,latitude)
+async function getNearestStore(longitude,latitude, isWarehouse)
 {
   const result = await Store.aggregate(
     [
@@ -77,7 +108,10 @@ async function getNearestStore(longitude,latitude)
             ]
           },
           distanceField: 'dist.calculated',
-          spherical: true
+          spherical: true,
+          query: {
+            is_warehouse: isWarehouse
+          }
         }
       },
       { $limit: 1 }
@@ -86,7 +120,7 @@ async function getNearestStore(longitude,latitude)
   return result[0]._id
 };
 
-async function getProductsFromStore(storeID)
+async function getProductsFromStore(storeID, isFresh)
 {
   const result = await Product_Catalog.aggregate(
     [
@@ -96,10 +130,51 @@ async function getProductsFromStore(storeID)
           }
       }, {
           $match: {
-              'stocks.store_id': new mongoose.Types.ObjectId(storeID)
+              'stocks.store_id': new mongoose.Types.ObjectId(storeID),
+              'is_fresh': isFresh,
           }
       }
   ]
   );
   return result
 };
+
+async function searchProductCategory(storeID, isFresh, productCategory) {
+  const result = await Product_Catalog.aggregate(
+    [
+      {
+        $unwind: {
+          path: '$stocks'
+        }
+      }, {
+        $match: {
+          'stocks.store_id': new mongoose.Types.ObjectId(storeID),
+          'is_fresh': isFresh,
+          'category': { $regex: productCategory }
+
+        }
+      }
+    ]
+  );
+  return result
+}
+
+async function searchProductName(storeID, isFresh, productName) {
+  const result = await Product_Catalog.aggregate(
+    [
+      {
+        $unwind: {
+          path: '$stocks'
+        }
+      }, {
+        $match: {
+          'stocks.store_id': new mongoose.Types.ObjectId(storeID),
+          'is_fresh': isFresh,
+          'name': { $regex: productName }
+
+        }
+      }
+    ]
+  );
+  return result
+}
