@@ -163,13 +163,15 @@ const currentOrderSchema = new Schema({
     validate: {
       validator: async function stockValidator() {
         let lowstock = true;
-        for (let i = 0; i < this.items.length; i++) {
-          let product = this.items[i]
-          await getStock(product.product_id, this.store_id).then(stock => {
-            if (product.quantity > stock) {
-              lowstock = false
-            }
-          });
+        if (this.items != undefined) { // this check is necessary when we adding a new product to an existing cart
+          for (let i = 0; i < this.items.length; i++) {
+            let product = this.items[i]
+            await getStock(product.product_id, this.store_id).then(stock => {
+              if (product.quantity > stock) {
+                lowstock = false
+              }
+            });
+          }
         }
         return lowstock;
       }, message: "Product stock low. Please decrease the quantity."
