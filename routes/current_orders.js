@@ -31,7 +31,7 @@ router.get('/', (req, res, next) => {
 });
 
 
-// Creatign an order
+// Creating an order
 router.post('/', async (req, res) => {
   try {
     // const partner = await Partner.findOne({
@@ -215,6 +215,52 @@ router.put('/cart/:id', async (req, res) => {
   } catch (err) {
       console.error(err.message);
       res.status(500).json({ msg: 'Error occured while adding product' });
+  }
+});
+
+// Removing a product from the cart
+router.delete('/cart/:id/:product', async (req, res) => {
+  try {
+    let remove_item = await Current_Order.findById(req.params.id);
+    if (!remove_item) {
+      return res.status(404).json({ json: 'Cart not found' });
+    }
+    // Getting the price to be deducted
+    const price = await Current_Order.aggregate([
+      {
+        '$match': {
+          '_id': new ObjectId(req.params.id)
+        }
+      }, {
+        '$unwind': {
+          'path': '$items'
+        }
+      }, {
+        '$match': {
+          'items.product_id': new ObjectId(req.params.product)
+        }
+      }, {
+        '$project': {
+          '_id': 0, 
+          'total': '$items.total'
+        }
+      }
+    ]
+    );
+    pl2 = await Current_Order.findOneAndUpdate(
+      { _id: req.params.id },
+      {
+        $inc: {
+          total_item_price: (total * -1).toFixed(2),
+          total_amount: (total * -1).toFixed(2)
+        },
+        $pulls: { items: { product_id: req.params.product } }
+      },
+    );
+    res.json(pl2);
+  } catch (err) {
+    console.error(err);
+    res.status(500).json({ msg: 'Error occured while adding product' });
   }
 });
 
