@@ -15,26 +15,23 @@ const { ObjectId } = require('mongodb');
 module.exports = router;
 
 router.get('/', (req, res, next) => {
-  // try {
-  Current_Order.find().populate('partners', { 'is_idle': 0, 'account_number': 0, "sortcode": 0, "gender": 0 })
-    .then(current_order => res.send(current_order))
-    .catch(err => next(err));
-  // } catch {
-  // Current_Order.find()
-  // .then(current_order => res.send(current_order))
-  // .catch(err => next(err));
-  // }
-
+  try {
+    if (req.query.customer_id == undefined) {
+      Current_Order.find().populate('partners', { 'is_idle': 0, 'account_number': 0, "sortcode": 0, "gender": 0 })
+        .then(current_order => res.send(current_order))
+    }
+    else {
+      Current_Order.find({ customer_id: req.query.customer_id })
+        .then(current_order => res.send(current_order))
+    }
+  } catch (err) {
+    console.error(err);
+    res.status(500).json({ msg: 'Error occured while getting current orders' });
+  }
 });
 
-// router.post('/', (req, res, next) => {
-//   Current_Order
-//     .create(req.body)
-//     .then(current_order => res.status(201).send(current_order))
-//     .catch(err => next(err));
-// });
 
-// ADD TO CART
+// Creatign an order
 router.post('/', async (req, res) => {
   try {
     // const partner = await Partner.findOne({
@@ -113,7 +110,7 @@ async function isFresh(p_id) {
   return result[0].is_fresh
 };
 
-// UPDATE QUANTITY/PRODUCT
+// Adding new product/updating quantity of existing product in an existing order
 router.put('/cart/:id', async (req, res) => {
   const item = req.body;
   const item_array = [req.body];

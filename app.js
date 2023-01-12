@@ -7,6 +7,7 @@ const productCatalogsRouter = require('./routes/product_catalog');
 const productDescRouter = require('./routes/product_descriptions');
 const storesRouter = require('./routes/stores');
 const currentOrdersRouter = require('./routes/current_orders');
+const pastOrdersRouter = require('./routes/past_order');
 const partnerRatingsRouter = require('./routes/partner_ratings');
 const inventoryRouter = require('./routes/daily_inventories');
 const recommendationRouter = require('./routes/product_recommendations');
@@ -36,11 +37,11 @@ app.use(express.json());
 app.use('/api/partners', partnersRouter);
 app.use('/api/customers', customersRouter);
 app.use('/api/customer_addresses', customerAddressesRouter);
-//app.use('/api/product', productCatalogsRouter);
 app.use('/api/products', productCatalogsRouter);
 app.use('/api/product/description', productDescRouter);
 app.use('/api/stores', storesRouter);
 app.use('/api/order/current_orders', currentOrdersRouter);
+app.use('/api/order/past_orders', pastOrdersRouter);
 app.use('/api/partners/rating', partnerRatingsRouter);
 app.use('/api/daily-inventories', inventoryRouter)
 app.use('/api/product-recommendations', recommendationRouter)
