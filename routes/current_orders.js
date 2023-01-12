@@ -62,6 +62,8 @@ router.post('/', async (req, res) => {
       location: storeData.address.location
     };
 
+    let is_fresh_v = await isFresh(product_ids[0])
+
     let shipping = {
       name: customerData.first_name + " " + customerData.last_name,
       unit_no: addressData.unit_no,
@@ -72,25 +74,69 @@ router.post('/', async (req, res) => {
       location: addressData.location
     };
 
-    const newOrder = new Current_Order({
-      customer_id: req.body.customer_id,
-      store_id: storeData.id,
-      store: storeDetail,
-      items: req.body.items,
-      shipping_address: shipping,
-    });
+    if (is_fresh_v == true) {
+      const newOrder = new Current_Order({
+        customer_id: req.body.customer_id,
+        store_id: storeData.id,
+        store: storeDetail,
+        items: req.body.items,
+        shipping_address: shipping,
+        delivery_fee: 5.34
+      });
+  
+      for (index = 0; index < newOrder.items.length; index++) {
+        newOrder.items[index]["name"] = product_names[index]
+        newOrder.items[index]['unit_price'] = product_prices[index];
+        newOrder.items[index]['total'] = product_prices[index] * product_qtys[index]
+      };
+      newOrder.total_item_price = (newOrder.items.reduce((accum, item) => accum + item.total, 0)).toFixed(2)
+      newOrder.is_fresh = await isFresh(newOrder.items[0].product_id)
+      newOrder.total_amount = (newOrder.total_item_price + newOrder.delivery_fee).toFixed(2)
+  
+      await newOrder.save()
+      res.json(newOrder);
+    } else {
+      const newOrder = new Current_Order({
+        customer_id: req.body.customer_id,
+        store_id: storeData.id,
+        store: storeDetail,
+        items: req.body.items,
+        shipping_address: shipping,
+        delivery_fee: 3.34
+      });
+  
+      for (index = 0; index < newOrder.items.length; index++) {
+        newOrder.items[index]["name"] = product_names[index]
+        newOrder.items[index]['unit_price'] = product_prices[index];
+        newOrder.items[index]['total'] = product_prices[index] * product_qtys[index]
+      };
+      newOrder.total_item_price = (newOrder.items.reduce((accum, item) => accum + item.total, 0)).toFixed(2)
+      newOrder.is_fresh = await isFresh(newOrder.items[0].product_id)
+      newOrder.total_amount = (newOrder.total_item_price + newOrder.delivery_fee).toFixed(2)
+  
+      await newOrder.save()
+      res.json(newOrder);
+    }
 
-    for (index = 0; index < newOrder.items.length; index++) {
-      newOrder.items[index]["name"] = product_names[index]
-      newOrder.items[index]['unit_price'] = product_prices[index];
-      newOrder.items[index]['total'] = product_prices[index] * product_qtys[index]
-    };
-    newOrder.total_item_price = (newOrder.items.reduce((accum, item) => accum + item.total, 0)).toFixed(2)
-    newOrder.is_fresh = await isFresh(newOrder.items[0].product_id)
-    newOrder.total_amount = (newOrder.total_item_price + newOrder.delivery_fee).toFixed(2)
+    // const newOrder = new Current_Order({
+    //   customer_id: req.body.customer_id,
+    //   store_id: storeData.id,
+    //   store: storeDetail,
+    //   items: req.body.items,
+    //   shipping_address: shipping,
+    // });
 
-    await newOrder.save()
-    res.json(newOrder);
+    // for (index = 0; index < newOrder.items.length; index++) {
+    //   newOrder.items[index]["name"] = product_names[index]
+    //   newOrder.items[index]['unit_price'] = product_prices[index];
+    //   newOrder.items[index]['total'] = product_prices[index] * product_qtys[index]
+    // };
+    // newOrder.total_item_price = (newOrder.items.reduce((accum, item) => accum + item.total, 0)).toFixed(2)
+    // newOrder.is_fresh = await isFresh(newOrder.items[0].product_id)
+    // newOrder.total_amount = (newOrder.total_item_price + newOrder.delivery_fee).toFixed(2)
+
+    // await newOrder.save()
+    // res.json(newOrder);
   } catch (error) {
     console.error(error.message);
     res.status(500).send(error.message)
