@@ -41,6 +41,11 @@ const recommendationSchema = new Schema({
   recommendations: {
     type: [recommendation],
     required: true
+  },
+  updated_at: {
+    type: Date,
+    default: Date.now,
+    required: true
   }
 }, {
   versionKey: false
