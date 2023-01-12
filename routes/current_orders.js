@@ -226,7 +226,7 @@ router.delete('/cart/:id/:product', async (req, res) => {
       return res.status(404).json({ json: 'Cart not found' });
     }
     // Getting the price to be deducted
-    const price = await Current_Order.aggregate([
+    Current_Order.aggregate([
       {
         '$match': {
           '_id': new ObjectId(req.params.id)
@@ -241,28 +241,32 @@ router.delete('/cart/:id/:product', async (req, res) => {
         }
       }, {
         '$project': {
-          '_id': 0, 
+          '_id': 0,
           'total': '$items.total'
         }
       }
     ]
-    );
-    pl2 = await Current_Order.findOneAndUpdate(
-      { _id: req.params.id },
-      {
-        $inc: {
-          total_item_price: (total * -1).toFixed(2),
-          total_amount: (total * -1).toFixed(2)
+    ).then(async total => {
+      price = total[0].total
+      await Current_Order.findOneAndUpdate(
+        { _id: req.params.id },
+        {
+          $pull: { items: { product_id: req.params.product } },
+          $inc: {
+            total_item_price: (price * -1).toFixed(2),
+            total_amount: (price * -1).toFixed(2)
+          },
         },
-        $pulls: { items: { product_id: req.params.product } }
-      },
-    );
-    res.json(pl2);
+      )
+      await Current_Order.deleteOne({ _id: req.params.id, total_item_price: 0 })
+      res.status(200).json({ msg: 'Product/Order successfully deleted' });
+    });
   } catch (err) {
     console.error(err);
     res.status(500).json({ msg: 'Error occured while adding product' });
   }
 });
+
 
 // CHECKOUT --> is_paid: true
 router.put('/checkout/:id', async (req, res) => {
