@@ -7,7 +7,7 @@ module.exports = router;
 router.get('/', (req, res, next) => {
   Customer
     .aggregate([
-      { $limit: 10 }
+      { $limit: 100 }
     ])
     .then(cstmr => res.send(cstmr))
     .catch(err => next(err));
