@@ -680,12 +680,12 @@ router.put('/partner/order-delivered/:id', async (req, res) => {
 
                 Past_Order.aggregate([
                   {
-                    '$match': {
-                      'orders.customer_id': mongoose.Types.ObjectId(picklist.customer_id)
-                    }
-                  }, {
                     '$unwind': {
                       'path': '$orders'
+                    }
+                  }, {
+                    '$match': {
+                      'orders.customer_id': mongoose.Types.ObjectId(picklist.customer_id)
                     }
                   }, {
                     '$unwind': {
@@ -757,7 +757,7 @@ router.put('/partner/order-delivered/:id', async (req, res) => {
                     }
                   }, {
                     '$sort': {
-                      'average_rating': -1
+                      'rating': -1
                     }
                   }, {
                     '$lookup': {
@@ -772,7 +772,6 @@ router.put('/partner/order-delivered/:id', async (req, res) => {
                     }
                   }, {
                     '$project': {
-                      '_id': 0, 
                       'product_id': '$_id', 
                       'category': 1, 
                       'name': 1, 
@@ -820,141 +819,6 @@ router.put('/partner/order-delivered/:id', async (req, res) => {
                 })
               })
             })
-            // Past_Order.aggregate([
-            //   {
-            //     '$match': {
-            //       'orders.customer_id': mongoose.Types.ObjectId(customer_id)
-            //     }
-            //   }, {
-            //     '$unwind': {
-            //       'path': '$orders'
-            //     }
-            //   }, {
-            //     '$unwind': {
-            //       'path': '$orders.items'
-            //     }
-            //   }, {
-            //     '$project': {
-            //       'ordered_product': '$orders.items.product_id'
-            //     }
-            //   }, {
-            //     '$group': {
-            //       '_id': 0,
-            //       'ordered': {
-            //         '$addToSet': '$ordered_product'
-            //       }
-            //     }
-            //   }, {
-            //     '$project': {
-            //       '_id': 0
-            //     }
-            //   }, {
-            //     '$lookup': {
-            //       'from': 'product_catalogs',
-            //       'let': {
-            //         'ordered': '$ordered'
-            //       },
-            //       'pipeline': [
-            //         {
-            //           '$match': {
-            //             '$expr': {
-            //               '$not': {
-            //                 '$in': [
-            //                   '$_id', '$$ordered'
-            //                 ]
-            //               }
-            //             }
-            //           }
-            //         }
-            //       ],
-            //       'as': 'recommend'
-            //     }
-            //   }, {
-            //     '$project': {
-            //       'ordered': 0
-            //     }
-            //   }, {
-            //     '$unwind': {
-            //       'path': '$recommend'
-            //     }
-            //   }, {
-            //     '$sort': {
-            //       'recommend.average_rating': -1
-            //     }
-            //   }, {
-            //     '$unwind': {
-            //       'path': '$recommend.stocks'
-            //     }
-            //   }, {
-            //     '$project': {
-            //       '_id': '$recommend._id',
-            //       'category': '$recommend.category',
-            //       'name': '$recommend.name',
-            //       'selling_price': '$recommend.selling_price',
-            //       'store_id': '$recommend.stocks.store_id',
-            //       'stock': '$recommend.stocks.stock',
-            //       'rating': '$recommend.average_rating'
-            //     }
-            //   }, {
-            //     '$lookup': {
-            //       'from': 'stores',
-            //       'localField': 'store_id',
-            //       'foreignField': '_id',
-            //       'as': 'result'
-            //     }
-            //   }, {
-            //     '$unwind': {
-            //       'path': '$result'
-            //     }
-            //   }, {
-            //     '$project': {
-            //       '_id': 1,
-            //       'category': 1,
-            //       'name': 1,
-            //       'selling_price': 1,
-            //       'stock': 1,
-            //       'store_id': 1,
-            //       'store_name': '$result.name',
-            //       'rating': 1
-            //     }
-            //   }, {
-            //     '$limit': 10
-            //   }
-            // ]).then(res2 => {
-            //   let cust_id = picklist.customer_id
-            //   let input = res2;
-            //   Product_Recommendation.updateOne({
-            //     customer_id: customer_id
-            //   }, {
-            //     $set: {
-            //       customer_id: cust_id,
-            //       recommendations: input
-            //     }
-            //   }, {
-            //     upsert: true
-            //   }).then(res3 => {
-            //     console.log('recc updated')
-            //     Current_Order.findOneAndDelete({
-            //       _id: req.params.id
-            //     }, function (err, docs) {
-            //       if (err) {
-            //         res.send(err)
-            //       } else {
-            //         Partner.findOneAndUpdate({
-            //           _id: picklist.partners
-            //         },
-            //           {
-            //             $set: {
-            //               is_idle: true
-            //             }
-            //           },
-            //           {
-            //             new: true
-            //           }).then(res.send({ "acknowledge": true }));
-            //       }
-            //     })
-            //   })
-            // })
           });
         });
       } else {
@@ -998,12 +862,12 @@ router.put('/partner/order-delivered/:id', async (req, res) => {
 
                 Past_Order.aggregate([
                   {
-                    '$match': {
-                      'orders.customer_id': new ObjectId('63bebd9d1cd0505188545225')
-                    }
-                  }, {
                     '$unwind': {
                       'path': '$orders'
+                    }
+                  }, {
+                    '$match': {
+                      'orders.customer_id': mongoose.Types.ObjectId(picklist.customer_id)
                     }
                   }, {
                     '$unwind': {
@@ -1070,14 +934,12 @@ router.put('/partner/order-delivered/:id', async (req, res) => {
                   }, {
                     '$match': {
                       'store_id': {
-                        '$in': [
-                          new ObjectId('63be13ae218d0176787ca58d')
-                        ]
+                        '$in': nearest
                       }
                     }
                   }, {
                     '$sort': {
-                      'average_rating': -1
+                      'rating': -1
                     }
                   }, {
                     '$lookup': {
@@ -1092,7 +954,6 @@ router.put('/partner/order-delivered/:id', async (req, res) => {
                     }
                   }, {
                     '$project': {
-                      '_id': 0, 
                       'product_id': '$_id', 
                       'category': 1, 
                       'name': 1, 
@@ -1106,7 +967,6 @@ router.put('/partner/order-delivered/:id', async (req, res) => {
                     '$limit': 10
                   }
                 ]).then(result2 => {
-                  console.log(result2)
                   let cust_id = picklist.customer_id
                   let input = result2
                   Product_Recommendation.updateOne({
@@ -1133,131 +993,6 @@ router.put('/partner/order-delivered/:id', async (req, res) => {
                 })
               })
             })
-            // Past_Order.aggregate([
-            //   {
-            //     '$match': {
-            //       'orders.customer_id': mongoose.Types.ObjectId(customer_id)
-            //     }
-            //   }, {
-            //     '$unwind': {
-            //       'path': '$orders'
-            //     }
-            //   }, {
-            //     '$unwind': {
-            //       'path': '$orders.items'
-            //     }
-            //   }, {
-            //     '$project': {
-            //       'ordered_product': '$orders.items.product_id'
-            //     }
-            //   }, {
-            //     '$group': {
-            //       '_id': 0,
-            //       'ordered': {
-            //         '$addToSet': '$ordered_product'
-            //       }
-            //     }
-            //   }, {
-            //     '$project': {
-            //       '_id': 0
-            //     }
-            //   }, {
-            //     '$lookup': {
-            //       'from': 'product_catalogs',
-            //       'let': {
-            //         'ordered': '$ordered'
-            //       },
-            //       'pipeline': [
-            //         {
-            //           '$match': {
-            //             '$expr': {
-            //               '$not': {
-            //                 '$in': [
-            //                   '$_id', '$$ordered'
-            //                 ]
-            //               }
-            //             }
-            //           }
-            //         }
-            //       ],
-            //       'as': 'recommend'
-            //     }
-            //   }, {
-            //     '$project': {
-            //       'ordered': 0
-            //     }
-            //   }, {
-            //     '$unwind': {
-            //       'path': '$recommend'
-            //     }
-            //   }, {
-            //     '$sort': {
-            //       'recommend.average_rating': -1
-            //     }
-            //   }, {
-            //     '$unwind': {
-            //       'path': '$recommend.stocks'
-            //     }
-            //   }, {
-            //     '$project': {
-            //       '_id': '$recommend._id',
-            //       'category': '$recommend.category',
-            //       'name': '$recommend.name',
-            //       'selling_price': '$recommend.selling_price',
-            //       'store_id': '$recommend.stocks.store_id',
-            //       'stock': '$recommend.stocks.stock',
-            //       'rating': '$recommend.average_rating'
-            //     }
-            //   }, {
-            //     '$lookup': {
-            //       'from': 'stores',
-            //       'localField': 'store_id',
-            //       'foreignField': '_id',
-            //       'as': 'result'
-            //     }
-            //   }, {
-            //     '$unwind': {
-            //       'path': '$result'
-            //     }
-            //   }, {
-            //     '$project': {
-            //       '_id': 1,
-            //       'category': 1,
-            //       'name': 1,
-            //       'selling_price': 1,
-            //       'stock': 1,
-            //       'store_id': 1,
-            //       'store_name': '$result.name',
-            //       'rating': 1
-            //     }
-            //   }, {
-            //     '$limit': 10
-            //   }
-            // ]).then(res2 => {
-            //   let cust_id = picklist.customer_id
-            //   let input = res2;
-            //   Product_Recommendation.updateOne({
-            //     customer_id: customer_id
-            //   }, {
-            //     $set: {
-            //       customer_id: cust_id,
-            //       recommendations: input
-            //     }
-            //   }, {
-            //     upsert: true
-            //   })
-            //     .then(res3 => {
-            //       Current_Order.findOneAndDelete({
-            //         _id: req.params.id
-            //       }, function (err, docs) {
-            //         if (err) {
-            //           res.send(err)
-            //         } else {
-            //           res.send(docs)
-            //         }
-            //       })
-            //     })
-            // })
           });
         })
       }
@@ -1431,15 +1166,17 @@ router.get('/partner/order/:id', async (req, res) => {
       .then(nearestWarehouse => {
         nearest.push(nearestStore)
         nearest.push(nearestWarehouse)
+        console.log(nearest)
+        console.log(picklist.customer_id)
 
         Past_Order.aggregate([
           {
-            '$match': {
-              'orders.customer_id': mongoose.Types.ObjectId(picklist.customer_id)
-            }
-          }, {
             '$unwind': {
               'path': '$orders'
+            }
+          }, {
+            '$match': {
+              'orders.customer_id': mongoose.Types.ObjectId(picklist.customer_id)
             }
           }, {
             '$unwind': {
@@ -1511,7 +1248,7 @@ router.get('/partner/order/:id', async (req, res) => {
             }
           }, {
             '$sort': {
-              'average_rating': -1
+              'rating': -1
             }
           }, {
             '$lookup': {
@@ -1526,8 +1263,7 @@ router.get('/partner/order/:id', async (req, res) => {
             }
           }, {
             '$project': {
-              '_id': 0, 
-              'produdtc_id': '$_id', 
+              'product_id': '$_id', 
               'category': 1, 
               'name': 1, 
               'selling_price': 1, 
@@ -1549,126 +1285,126 @@ router.get('/partner/order/:id', async (req, res) => {
   }
 });
 
-router.get('/partner/order-two/:id', async (req, res) => {
-  try {
-    let picklist = await Current_Order.findById(req.params.id);
-    if (!picklist) {
-      return res.status(404).json({ json: 'Order not found' });
-    }
-    var nearest = []
-    getNearestStore(parseFloat(picklist.shipping_address.location.coordinates[0]), parseFloat(picklist.shipping_address.location.coordinates[1]), true)
-    .then(nearestStore => {
-      getNearestStore(parseFloat(picklist.shipping_address.location.coordinates[0]), parseFloat(picklist.shipping_address.location.coordinates[1]), false)
-      .then(nearestWarehouse => {
-        nearest.push(nearestStore)
-        nearest.push(nearestWarehouse)
+// router.get('/partner/order-two/:id', async (req, res) => {
+//   try {
+//     let picklist = await Current_Order.findById(req.params.id);
+//     if (!picklist) {
+//       return res.status(404).json({ json: 'Order not found' });
+//     }
+//     var nearest = []
+//     getNearestStore(parseFloat(picklist.shipping_address.location.coordinates[0]), parseFloat(picklist.shipping_address.location.coordinates[1]), true)
+//     .then(nearestStore => {
+//       getNearestStore(parseFloat(picklist.shipping_address.location.coordinates[0]), parseFloat(picklist.shipping_address.location.coordinates[1]), false)
+//       .then(nearestWarehouse => {
+//         nearest.push(nearestStore)
+//         nearest.push(nearestWarehouse)
 
-        Past_Order.aggregate([
-          {
-            '$match': {
-              'orders.customer_id': mongoose.Types.ObjectId(picklist.customer_id)
-            }
-          }, {
-            '$unwind': {
-              'path': '$orders'
-            }
-          }, {
-            '$unwind': {
-              'path': '$orders.items'
-            }
-          }, {
-            '$project': {
-              'ordered_product': '$orders.items.product_id'
-            }
-          }, {
-            '$group': {
-              '_id': 0,
-              'ordered': {
-                '$addToSet': '$ordered_product'
-              }
-            }
-          }, {
-            '$project': {
-              '_id': 0
-            }
-          }, {
-            '$lookup': {
-              'from': 'product_catalogs',
-              'let': {
-                'ordered': '$ordered'
-              },
-              'pipeline': [
-                {
-                  '$match': {
-                    '$expr': {
-                      '$not': {
-                        '$in': [
-                          '$_id', '$$ordered'
-                        ]
-                      }
-                    }
-                  }
-                }
-              ],
-              'as': 'recommend'
-            }
-          }, {
-            '$project': {
-              'ordered': 0
-            }
-          }, {
-            '$unwind': {
-              'path': '$recommend'
-            }
-          }, {
-            '$sort': {
-              'recommend.average_rating': -1
-            }
-          }, {
-            '$unwind': {
-              'path': '$recommend.stocks'
-            }
-          }, {
-            '$project': {
-              '_id': '$recommend._id',
-              'category': '$recommend.category',
-              'name': '$recommend.name',
-              'selling_price': '$recommend.selling_price',
-              'store_id': '$recommend.stocks.store_id',
-              'stock': '$recommend.stocks.stock',
-              'rating': '$recommend.average_rating'
-            }
-          }, {
-            '$lookup': {
-              'from': 'stores',
-              'localField': 'store_id',
-              'foreignField': '_id',
-              'as': 'result'
-            }
-          }, {
-            '$unwind': {
-              'path': '$result'
-            }
-          }, {
-            '$project': {
-              '_id': 1,
-              'category': 1,
-              'name': 1,
-              'selling_price': 1,
-              'stock': 1,
-              'store_id': 1,
-              'store_name': '$result.name',
-              'rating': 1
-            }
-          }, {
-            '$limit': 10
-          }
-        ]).then(result => {
-          res.send(result)
-        })
-      })
-    })
-  } catch {
-    res.send("DONE")
-  }
-});
+//         Past_Order.aggregate([
+//           {
+//             '$match': {
+//               'orders.customer_id': mongoose.Types.ObjectId(picklist.customer_id)
+//             }
+//           }, {
+//             '$unwind': {
+//               'path': '$orders'
+//             }
+//           }, {
+//             '$unwind': {
+//               'path': '$orders.items'
+//             }
+//           }, {
+//             '$project': {
+//               'ordered_product': '$orders.items.product_id'
+//             }
+//           }, {
+//             '$group': {
+//               '_id': 0,
+//               'ordered': {
+//                 '$addToSet': '$ordered_product'
+//               }
+//             }
+//           }, {
+//             '$project': {
+//               '_id': 0
+//             }
+//           }, {
+//             '$lookup': {
+//               'from': 'product_catalogs',
+//               'let': {
+//                 'ordered': '$ordered'
+//               },
+//               'pipeline': [
+//                 {
+//                   '$match': {
+//                     '$expr': {
+//                       '$not': {
+//                         '$in': [
+//                           '$_id', '$$ordered'
+//                         ]
+//                       }
+//                     }
+//                   }
+//                 }
+//               ],
+//               'as': 'recommend'
+//             }
+//           }, {
+//             '$project': {
+//               'ordered': 0
+//             }
+//           }, {
+//             '$unwind': {
+//               'path': '$recommend'
+//             }
+//           }, {
+//             '$sort': {
+//               'recommend.average_rating': -1
+//             }
+//           }, {
+//             '$unwind': {
+//               'path': '$recommend.stocks'
+//             }
+//           }, {
+//             '$project': {
+//               '_id': '$recommend._id',
+//               'category': '$recommend.category',
+//               'name': '$recommend.name',
+//               'selling_price': '$recommend.selling_price',
+//               'store_id': '$recommend.stocks.store_id',
+//               'stock': '$recommend.stocks.stock',
+//               'rating': '$recommend.average_rating'
+//             }
+//           }, {
+//             '$lookup': {
+//               'from': 'stores',
+//               'localField': 'store_id',
+//               'foreignField': '_id',
+//               'as': 'result'
+//             }
+//           }, {
+//             '$unwind': {
+//               'path': '$result'
+//             }
+//           }, {
+//             '$project': {
+//               '_id': 1,
+//               'category': 1,
+//               'name': 1,
+//               'selling_price': 1,
+//               'stock': 1,
+//               'store_id': 1,
+//               'store_name': '$result.name',
+//               'rating': 1
+//             }
+//           }, {
+//             '$limit': 10
+//           }
+//         ]).then(result => {
+//           res.send(result)
+//         })
+//       })
+//     })
+//   } catch {
+//     res.send("DONE")
+//   }
+// });
