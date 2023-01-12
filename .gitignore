@@ -3,6 +3,9 @@
 # Edit at https://www.toptal.com/developers/gitignore?templates=node,visualstudiocode,windows
 
 ### Node ###
+
+node_modules
+
 # Logs
 logs
 *.log

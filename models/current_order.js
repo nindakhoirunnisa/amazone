@@ -3,26 +3,25 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 const Product = require('../models/product_catalog');
 
-async function getStock(p_id, s_id)
-{
+async function getStock(p_id, s_id) {
   const result = await Product.aggregate(
     [
       {
-          $match: {
-              _id: p_id,
-          }
+        $match: {
+          _id: p_id,
+        }
       },
       {
-          $unwind: {
-            path: '$stocks'
+        $unwind: {
+          path: '$stocks'
         }
       },
       {
         $match: {
-          "stocks.store_id": s_id
+          "stocks.store_id": s_id,
         }
       }
-  ]
+    ]
   );
   return result[0].stocks.stock
 };
@@ -88,11 +87,6 @@ const itemSchema = new Schema({
     ref: 'Product',
     required: true
   },
-  store_id: {
-    type: mongoose.Schema.Types.ObjectId,
-    ref: 'Store',
-    required: true
-  },
   name: {
     type: String
   },
@@ -102,11 +96,6 @@ const itemSchema = new Schema({
   quantity: {
     type: Number,
     min: 1,
-    validate : {
-      validator: async function stockValidator(value) {
-        let stock = await getStock(this.product_id, this.store_id)
-      return value <= stock}, message: "Qty > stock"
-    }
   },
   total: {
     type: Number
@@ -115,7 +104,7 @@ const itemSchema = new Schema({
 });
 
 const shippingSchema = new Schema({
-  name:{
+  name: {
     type: String,
     required: true
   },
@@ -153,7 +142,7 @@ const currentOrderSchema = new Schema({
     type: mongoose.Schema.Types.ObjectId,
     required: true,
     ref: 'Store'
-   // autopopulate: true
+    // autopopulate: true
   },
   store: storeSchema,
   is_fresh: {
@@ -170,7 +159,23 @@ const currentOrderSchema = new Schema({
   items: {
     type: [itemSchema],
     required: true,
-    default: undefined
+    default: undefined,
+    validate: {
+      validator: async function stockValidator() {
+        let lowstock = true;
+        if (this.items != undefined) { // this check is necessary when we adding a new product to an existing cart
+          for (let i = 0; i < this.items.length; i++) {
+            let product = this.items[i]
+            await getStock(product.product_id, this.store_id).then(stock => {
+              if (product.quantity > stock) {
+                lowstock = false
+              }
+            });
+          }
+        }
+        return lowstock;
+      }, message: "Product stock low. Please decrease the quantity."
+    }
   },
   total_item_price: {
     type: Number,
@@ -178,7 +183,7 @@ const currentOrderSchema = new Schema({
   },
   delivery_fee: {
     type: Number,
-    default: function() {
+    default: function () {
       if (this.is_fresh = true) {
         return 5.34;
       } else {
@@ -207,7 +212,7 @@ const currentOrderSchema = new Schema({
     type: [historySchema],
     default: undefined
   },
-},{
+}, {
   versionKey: false
 })
 

@@ -1,0 +1,145 @@
+[{
+  "_id": "63bee1be905ece42d0d0865e", 
+  "product_description": "Flaky and tasty pastry with crispy outer layers with taste of almond and butter.",
+  "product_dimensions": {
+    "length": 21,
+    "breadth": 8,
+    "height": 0.3
+  },
+  "product_weight": 0.1,
+  "expiry_date": "2023-01-13",
+  "origin_country": "United Kingdom"
+},{
+  "_id": "63bee1a1905ece42d0d0865d", 
+  "product_description": "Made of the same layered doughs as croissant with chocolate fillings.",
+  "product_dimensions": {
+    "length": 9,
+    "breadth": 6,
+    "height": 6
+  },
+  "product_weight": 0.25,
+  "expiry_date": "2023-01-13",
+  "origin_country": "United Kingdom"
+},{
+  "_id": "63bee1a1905ece42d0d0865d", 
+  "product_description": "Small bread or cake like baked food.",
+  "product_dimensions": {
+    "length": 9,
+    "breadth": 6,
+    "height": 9
+  },
+  "product_weight": 0.3,
+  "expiry_date": "2023-01-13",
+  "origin_country": "United Kingdom"
+},{
+  "_id": "63bee1a1905ece42d0d0865d", 
+  "product_description": "Naturally leavened bread.",
+  "product_dimensions": {
+    "length": 15,
+    "breadth": 8,
+    "height": 10
+  },
+  "product_weight": 0.7,
+  "expiry_date": "2023-01-13",
+  "origin_country": "United Kingdom"
+},{
+  "_id": "63bee1a1905ece42d0d0865d", 
+  "product_description": "Carbonated soft drink by Pepsi company.",
+  "product_dimensions": {
+    "diameter": 6.35,
+    "height": 20.3
+  },
+  "product_quantity": 1,
+  "expiry_date": "2024-01-13",
+  "origin_country": "United Kingdom"
+},{
+  "_id": "63bee1a1905ece42d0d0865d", 
+  "product_description": "Fruit-flavoured carbonated soft drink.",
+  "product_dimensions": {
+    "diameter": 6.35,
+    "height": 20.3
+  },
+  "product_quantity": 1,
+  "expiry_date": "2024-01-13",
+  "origin_country": "United Kingdom"
+},{
+  "_id": "63bee1a1905ece42d0d0865d", 
+  "product_description": "Liquid extract of the orange tree fruit",
+  "product_dimensions": {
+    "diameter": 6.35,
+    "height": 20.3
+  },
+  "product_quantity": 1,
+  "expiry_date": "2023-11-13",
+  "origin_country": "United Kingdom"
+},{
+  "_id": "63bee1a1905ece42d0d0865d", 
+  "product_description": "Liquid extract of the mango tree fruit",
+  "product_dimensions": {
+    "diameter": 6.35,
+    "height": 20.3
+  },
+  "product_quantity": 1,
+  "expiry_date": "2023-11-13",
+  "origin_country": "United Kingdom"
+},{
+  "_id": "63bee1a1905ece42d0d0865d", 
+  "product_description": "Carbonated soft drink by the Coca-Cola company.",
+  "product_dimensions": {
+    "diameter": 6.35,
+    "height": 20.3
+  },
+  "product_quantity": 1,
+  "expiry_date": "2024-01-13",
+  "origin_country": "United Kingdom"
+},{
+  "_id": "63bee1a1905ece42d0d0865d", 
+  "product_description": "A small hot-tasting pod of a variety of capsicum.",
+  "product_dimensions": {
+    "length": 15,
+    "height": 15
+  },
+  "product_weight": 1,
+  "expiry_date": "2023-01-30",
+  "origin_country": "United Kingdom"
+},{
+  "_id": "63bee1a1905ece42d0d0865d", 
+  "product_description": "Bright orange root vegetables in a pack.",
+  "product_dimensions": {
+    "length": 15,
+    "height": 15
+  },
+  "product_weight": 0.5,
+  "expiry_date": "2023-01-30",
+  "origin_country": "United Kingdom"
+},{
+  "_id": "63bee1a1905ece42d0d0865d", 
+  "product_description": "Red apples in pack of 6",
+  "product_dimensions": {
+    "length": 15,
+    "height": 15
+  },
+  "product_weight": 0.64,
+  "expiry_date": "2023-01-30",
+  "origin_country": "United Kingdom"
+},{
+  "_id": "63bee1a1905ece42d0d0865d", 
+  "product_description": "Fresh spinach and ready-to-eat",
+  "product_dimensions": {
+    "length": 15,
+    "height": 15
+  },
+  "product_weight": 0.22,
+  "expiry_date": "2023-01-30",
+  "origin_country": "United Kingdom"
+},{
+  "_id": "63bee1a1905ece42d0d0865d", 
+  "product_description": "Ripe banana in pack of 5",
+  "product_dimensions": {
+    "length": 15,
+    "height": 15
+  },
+  "product_weight": 0.85,
+  "expiry_date": "2023-01-20",
+  "origin_country": "United Kingdom"
+}]

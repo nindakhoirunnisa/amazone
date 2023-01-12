@@ -1,0 +1,85 @@
+[{
+  "name": "Steven",
+  "age": 29,
+  "gender": "Male",
+  "phone": "07345987210",
+  "account_number": "65471232",
+  "sortcode": "23-12-02",
+  "location": {
+    "coordinates": [
+      53.464723,
+      -2.224495
+    ]
+  },
+  "is_idle": 1
+},{
+  "name": "Ahmed",
+  "age": 30,
+  "gender": "Male",
+  "phone": "07345097645",
+  "account_number": "34255617",
+  "sortcode": "20-09-10",
+  "location": {
+    "coordinates": [
+      53.466599,
+      -2.243254
+    ]
+  },
+  "is_idle": 1
+},{
+  "name": "Jennifer",
+  "age": 26,
+  "gender": "Female",
+  "phone": "07209230845",
+  "account_number": "30913674",
+  "sortcode": "04-69-23",
+  "location": {
+    "coordinates": [
+      53.468507,
+      -2.241875
+    ]
+  },
+  "is_idle": 1
+},{
+  "name": "Paul",
+  "age": 25,
+  "gender": "Male",
+  "phone": "07533270982",
+  "account_number": "54202013",
+  "sortcode": "43-26-29",
+  "location": {
+    "coordinates": [
+      53.46928,
+      -2.217989
+    ]
+  },
+  "is_idle": 1
+},{
+  "name": "Gianna",
+  "age": 22,
+  "gender": "Female",
+  "phone": "07562081487",
+  "account_number": "31872006",
+  "sortcode": "25-00-06",
+  "location": {
+    "coordinates": [
+      53.466621,
+      -2.219495
+    ]
+  },
+  "is_idle": 1
+},{
+  "name": "Abdullah",
+  "age": 34,
+  "gender": "Female",
+  "phone": "07347820775",
+  "account_number": "54698870",
+  "sortcode": "02-17-19",
+  "location": {
+    "coordinates": [
+      53.446864,
+      -2.215552
+    ]
+  },
+  "is_idle": 1
+}]
