@@ -1170,6 +1170,22 @@ async function getNearestStore(longitude, latitude, isWarehouse) {
   return result[0]._id
 };
 
+router.get('/current-order-list/:id', async (req, res, next) => {
+  const size = parseInt(req.query.size)
+  let page = parseInt(req.query.page) >= 1 ? parseInt(req.query.page) : 1;
+
+  page = page - 1
+
+  Current_Order.find({customer_id: req.params.id})
+  .sort({created_at: "asc"})
+  .limit(size)
+  .skip(size*page)
+  .exec()
+  .then(current_order => {
+    res.json({current_order, page: page+1, size: size})
+  })
+})
+
 // router.get('/partner/order/:id', async (req, res) => {
 //   try {
 //     let picklist = await Current_Order.findById(req.params.id);
