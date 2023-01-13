@@ -10,32 +10,34 @@ module.exports = router;
 
 router.get('/', async (req, res, next) => {
   let GPMandCOGS = await getGPMandCOGS(req.body.startDate, req.body.endDate);
-  //res.status(200).send()
+  res.status(200).send(GPMandCOGS);
 });
 
 router.get('/store', async (req, res, next) => {
   let StoreRevenue = await getStoreRevenue(req.body.startDate, req.body.endDate);
+  res.status(200).send(StoreRevenue);
 });
 
 router.get('/product', async (req, res, next) => {
   let ProductCategoryRevenue = await getProductCategory(req.body.startDate, req.body.endDate);
+  res.status(200).send(ProductCategoryRevenue);
 });
 
 async function getGPMandCOGS(startDate, endDate) {
   const result = await PastOrders.aggregate(
     [
       {
-        '$match': {
-          'end_date': {
-            '$gte': startDate
-          },
-          'end_date': {
-            '$lte': endDate
-          }
-        }
-      }, {
         '$unwind': {
           'path': '$orders'
+        }
+      }, {
+        '$match': {
+          'orders.created_at': {
+            '$gte': new Date(startDate)
+          },
+          'orders.created_at': {
+            '$lte': new Date(endDate)
+          }
         }
       }, {
         '$unwind': {
@@ -43,9 +45,9 @@ async function getGPMandCOGS(startDate, endDate) {
         }
       }, {
         '$lookup': {
-          'from': 'product_catalogs',
-          'localField': 'orders.items.product_id',
-          'foreignField': '_id',
+          'from': 'product_catalogs', 
+          'localField': 'orders.items.product_id', 
+          'foreignField': '_id', 
           'as': 'product_details'
         }
       }, {
@@ -54,39 +56,39 @@ async function getGPMandCOGS(startDate, endDate) {
         }
       }, {
         '$addFields': {
-          'cost_price': '$product_details.cost_price',
-          'unit_price': '$orders.items.unit_price',
-          'store_id': '$orders.store_id',
+          'cost_price': '$product_details.cost_price', 
+          'unit_price': '$orders.items.unit_price', 
+          'store_id': '$orders.store_id', 
           'item_name': '$orders.items.name'
         }
       }, {
         '$lookup': {
-          'from': 'stores',
-          'localField': 'orders.store_id',
-          'foreignField': '_id',
+          'from': 'stores', 
+          'localField': 'orders.store_id', 
+          'foreignField': '_id', 
           'as': 'storeDetails'
         }
       }, {
         '$project': {
-          'cost_price': 1,
-          'unit_price': 1,
-          'item_name': 1,
+          'cost_price': 1, 
+          'unit_price': 1, 
+          'item_name': 1, 
           'store_id': 1
         }
       }, {
         '$group': {
-          '_id': null,
+          '_id': null, 
           'COGS': {
             '$sum': '$cost_price'
-          },
+          }, 
           'revenue': {
             '$sum': '$unit_price'
           }
         }
       }, {
         '$project': {
-          'COGS': 1,
-          'revenue': 1,
+          'COGS': 1, 
+          'revenue': 1, 
           'GPM': {
             '$subtract': [
               '$revenue', '$COGS'
@@ -102,23 +104,20 @@ async function getStoreRevenue(startDate, endDate) {
   const result = await PastOrders.aggregate(
     [
       {
-        '$match': {
-          'end_date': {
-            '$gte': startDate
-          },
-          'end_date': {
-            '$lte': endDate
-          }
-        }
-      }, {
         '$unwind': {
           'path': '$orders'
         }
-      }, {
+      },{
         '$match': {
-          'start_date': '2023-01-08T00:00:00.000+00:00'
+          'orders.created_at': {
+            '$gte': new Date(startDate)
+          },
+          'orders.created_at': {
+            '$lte': new Date(endDate)
+          }
         }
-      }, {
+      },  
+       {
         '$group': {
           '_id': '$orders.store_id',
           'store_revenue': {
@@ -152,19 +151,20 @@ async function getProductCategory(startDate, endDate) {
   const result = await PastOrders.aggregate(
     [
       {
-        '$match': {
-          'end_date': {
-            '$gte': startDate
-          },
-          'end_date': {
-            '$lte': endDate
-          },
-        }
-      }, {
         '$unwind': {
           'path': '$orders'
         }
       }, {
+        '$match': {
+          'orders.created_at': {
+            '$gte': new Date(startDate)
+          },
+          'orders.created_at': {
+            '$lte': new Date(endDate)
+          }
+        }
+      },
+      {
         '$unwind': {
           'path': '$orders.items'
         }
