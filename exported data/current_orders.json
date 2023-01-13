@@ -1,0 +1,5773 @@
+[{
+  "_id": {
+    "$oid": "63bfeb3942985631b9c9463a"
+  },
+  "order_status": "payment-confirmed",
+  "is_paid": true,
+  "customer_id": {
+    "$oid": "63bec0571cd0505188545235"
+  },
+  "store_id": {
+    "$oid": "63be13ae218d0176787ca58d"
+  },
+  "store": {
+    "name": "Amazon Warehouse 1",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.4667426,
+        -2.2292143
+      ]
+    }
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "63bed9043121db4da02d4ff8"
+      },
+      "quantity": 4,
+      "name": "Doctor Sleep",
+      "unit_price": 4.99,
+      "total": 19.96
+    }
+  ],
+  "shipping_address": {
+    "name": "Jerome Polin",
+    "unit_no": "24",
+    "street": "Thoresway Road",
+    "city": "Thoresway Road",
+    "country": "United Kingdom",
+    "postcode": "M13 0XN",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.4524185,
+        -2.2075892
+      ]
+    }
+  },
+  "delivery_fee": 3.34,
+  "created_at": {
+    "$date": {
+      "$numberLong": "1673521977332"
+    }
+  },
+  "total_item_price": 19.96,
+  "is_fresh": false,
+  "total_amount": 23.299999999999997,
+  "order_status_histories": [
+    {
+      "name": "payment-confirmed",
+      "created_at": {
+        "$date": {
+          "$numberLong": "1673550239598"
+        }
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63c04f2f90aea1449644ec29"
+  },
+  "order_status": "on-cart",
+  "is_paid": false,
+  "customer_id": {
+    "$oid": "63bebdda1cd050518854522c"
+  },
+  "store_id": {
+    "$oid": "63be1307218d0176787ca583"
+  },
+  "store": {
+    "name": "Morrison 5",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.453124,
+        -2.223312
+      ]
+    }
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "63bee1a1905ece42d0d0865d"
+      },
+      "quantity": 1,
+      "name": "Butter Croissant",
+      "unit_price": 0.95,
+      "total": 0.95
+    },
+    {
+      "product_id": {
+        "$oid": "63bee417905ece42d0d08662"
+      },
+      "quantity": 2,
+      "name": "Coca Cola",
+      "unit_price": 1.5,
+      "total": 3
+    }
+  ],
+  "shipping_address": {
+    "name": "Kim Jisoo",
+    "unit_no": "46",
+    "street": "Arnside Street",
+    "city": "Arnside Street",
+    "country": "United Kingdom",
+    "postcode": "M14 7PF",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.4516747,
+        -2.2316256
+      ]
+    }
+  },
+  "delivery_fee": 5.34,
+  "created_at": {
+    "$date": {
+      "$numberLong": "1673547567277"
+    }
+  },
+  "total_item_price": 3.95,
+  "is_fresh": true,
+  "total_amount": 9.29
+},{
+  "_id": {
+    "$oid": "63c04f4190aea1449644ec35"
+  },
+  "order_status": "payment-confirmed",
+  "is_paid": true,
+  "customer_id": {
+    "$oid": "63bebdda1cd050518854522c"
+  },
+  "store_id": {
+    "$oid": "63be1307218d0176787ca583"
+  },
+  "store": {
+    "name": "Morrison 5",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.453124,
+        -2.223312
+      ]
+    }
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "63bee1a1905ece42d0d0865d"
+      },
+      "quantity": 1,
+      "name": "Butter Croissant",
+      "unit_price": 0.95,
+      "total": 0.95
+    },
+    {
+      "product_id": {
+        "$oid": "63bee417905ece42d0d08662"
+      },
+      "quantity": 2,
+      "name": "Coca Cola",
+      "unit_price": 1.5,
+      "total": 3
+    }
+  ],
+  "shipping_address": {
+    "name": "Kim Jisoo",
+    "unit_no": "46",
+    "street": "Arnside Street",
+    "city": "Arnside Street",
+    "country": "United Kingdom",
+    "postcode": "M14 7PF",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.4516747,
+        -2.2316256
+      ]
+    }
+  },
+  "delivery_fee": 5.34,
+  "created_at": {
+    "$date": {
+      "$numberLong": "1673547585456"
+    }
+  },
+  "total_item_price": 3.95,
+  "is_fresh": true,
+  "total_amount": 9.29,
+  "order_status_histories": [
+    {
+      "name": "payment-confirmed",
+      "created_at": {
+        "$date": {
+          "$numberLong": "1673550714480"
+        }
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63c05a7530a1de5331ed7ac7"
+  },
+  "order_status": "on-cart",
+  "is_paid": false,
+  "customer_id": {
+    "$oid": "63bebdda1cd050518854522c"
+  },
+  "store_id": {
+    "$oid": "63be1307218d0176787ca583"
+  },
+  "store": {
+    "name": "Morrison 5",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.453124,
+        -2.223312
+      ]
+    }
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "63bee1a1905ece42d0d0865d"
+      },
+      "quantity": 1,
+      "name": "Butter Croissant",
+      "unit_price": 0.95,
+      "total": 0.95
+    },
+    {
+      "product_id": {
+        "$oid": "63bee417905ece42d0d08662"
+      },
+      "quantity": 2,
+      "name": "Coca Cola",
+      "unit_price": 1.5,
+      "total": 3
+    }
+  ],
+  "shipping_address": {
+    "name": "Kim Jisoo",
+    "unit_no": "46",
+    "street": "Arnside Street",
+    "city": "Arnside Street",
+    "country": "United Kingdom",
+    "postcode": "M14 7PF",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.4516747,
+        -2.2316256
+      ]
+    }
+  },
+  "delivery_fee": 5.34,
+  "created_at": {
+    "$date": {
+      "$numberLong": "1673550453654"
+    }
+  },
+  "total_item_price": 3.95,
+  "is_fresh": true,
+  "total_amount": 9.29
+},{
+  "_id": {
+    "$oid": "63c05b7730a1de5331ed7ae7"
+  },
+  "order_status": "on-cart",
+  "is_paid": false,
+  "customer_id": {
+    "$oid": "63bebdda1cd050518854522c"
+  },
+  "store_id": {
+    "$oid": "63be1307218d0176787ca583"
+  },
+  "store": {
+    "name": "Morrison 5",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.453124,
+        -2.223312
+      ]
+    }
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "63bee1a1905ece42d0d0865d"
+      },
+      "quantity": 1,
+      "name": "Butter Croissant",
+      "unit_price": 0.95,
+      "total": 0.95
+    },
+    {
+      "product_id": {
+        "$oid": "63bee417905ece42d0d08662"
+      },
+      "quantity": 2,
+      "name": "Coca Cola",
+      "unit_price": 1.5,
+      "total": 3
+    }
+  ],
+  "shipping_address": {
+    "name": "Kim Jisoo",
+    "unit_no": "46",
+    "street": "Arnside Street",
+    "city": "Arnside Street",
+    "country": "United Kingdom",
+    "postcode": "M14 7PF",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.4516747,
+        -2.2316256
+      ]
+    }
+  },
+  "delivery_fee": 5.34,
+  "created_at": {
+    "$date": {
+      "$numberLong": "1673550711273"
+    }
+  },
+  "total_item_price": 3.95,
+  "is_fresh": true,
+  "total_amount": 9.29
+},{
+  "_id": {
+    "$oid": "63c0730302a38e456fb9f29f"
+  },
+  "order_status": "on-cart",
+  "is_paid": false,
+  "customer_id": {
+    "$oid": "63bebdaa1cd0505188545226"
+  },
+  "store_id": {
+    "$oid": "63be13ae218d0176787ca58d"
+  },
+  "store": {
+    "name": "Amazon Warehouse 1",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.4667426,
+        -2.2292143
+      ]
+    }
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "63bed9203121db4da02d4ffb"
+      },
+      "quantity": 5,
+      "name": "USBorne Economics for Beginners",
+      "unit_price": 9.19,
+      "total": 45.95
+    },
+    {
+      "product_id": {
+        "$oid": "63bed9333121db4da02d4ffd"
+      },
+      "quantity": 2,
+      "name": "Kafka on the Shore",
+      "unit_price": 9.19,
+      "total": 9.19
+    }
+  ],
+  "shipping_address": {
+    "name": "Kim Seokjin",
+    "unit_no": "5",
+    "street": "Copeman Cl",
+    "city": "Copeman Cl",
+    "country": "United Kingdom",
+    "postcode": "M13 9SN",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.4665216,
+        -2.2286502
+      ]
+    }
+  },
+  "delivery_fee": 3.34,
+  "created_at": {
+    "$date": {
+      "$numberLong": "1673556739787"
+    }
+  },
+  "total_item_price": 64.33,
+  "is_fresh": false,
+  "total_amount": 67.66999999999999
+},{
+  "_id": {
+    "$oid": "63c079b230a1de5331ed7be6"
+  },
+  "order_status": "on-delivery",
+  "is_paid": true,
+  "customer_id": {
+    "$oid": "63bec0b01cd0505188545237"
+  },
+  "store_id": {
+    "$oid": "63be12e8218d0176787ca581"
+  },
+  "store": {
+    "name": "Morrison 4",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.462801,
+        -2.235695
+      ]
+    }
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "63bee227905ece42d0d08660"
+      },
+      "quantity": 3,
+      "name": "Chocolate Muffin",
+      "unit_price": 1.5,
+      "total": 4.5
+    },
+    {
+      "product_id": {
+        "$oid": "63bee23b905ece42d0d08661"
+      },
+      "quantity": 2,
+      "name": "Sourdough",
+      "unit_price": 2,
+      "total": 4
+    }
+  ],
+  "shipping_address": {
+    "name": "Yusuke Sakazaki",
+    "unit_no": "202",
+    "street": "Horton Road",
+    "city": "Horton Road",
+    "country": "United Kingdom",
+    "postcode": "M14 7QF",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.4485784,
+        -2.2385618
+      ]
+    }
+  },
+  "delivery_fee": 5.34,
+  "created_at": {
+    "$date": {
+      "$numberLong": "1673558450210"
+    }
+  },
+  "total_item_price": 8.5,
+  "is_fresh": true,
+  "total_amount": 13.84,
+  "order_status_histories": [
+    {
+      "name": "payment-confirmed",
+      "created_at": {
+        "$date": {
+          "$numberLong": "1673559019411"
+        }
+      }
+    },
+    {
+      "name": "order-confirmed",
+      "created_at": {
+        "$date": {
+          "$numberLong": "1673559019489"
+        }
+      }
+    },
+    {
+      "name": "on-delivery",
+      "created_at": {
+        "$date": {
+          "$numberLong": "1673559019633"
+        }
+      }
+    }
+  ],
+  "deliveries": {
+    "order_delivery_status_histories": [
+      {
+        "name": "created",
+        "created_at": {
+          "$date": {
+            "$numberLong": "1673558556597"
+          }
+        }
+      },
+      {
+        "name": "picked-up",
+        "created_at": {
+          "$date": {
+            "$numberLong": "1673558557026"
+          }
+        }
+      },
+      {
+        "name": "created",
+        "created_at": {
+          "$date": {
+            "$numberLong": "1673559019489"
+          }
+        }
+      },
+      {
+        "name": "picked-up",
+        "created_at": {
+          "$date": {
+            "$numberLong": "1673559019633"
+          }
+        }
+      }
+    ],
+    "ETA": 8.285739314529058,
+    "distance": 2071.4348286322647
+  },
+  "partners": {
+    "$oid": "63bf1fcb692f744bc4617f2f"
+  }
+},{
+  "_id": {
+    "$oid": "63c07bcb30a1de5331ed7c21"
+  },
+  "order_status": "on-cart",
+  "is_paid": false,
+  "customer_id": {
+    "$oid": "63bec0b01cd0505188545237"
+  },
+  "store_id": {
+    "$oid": "63be12e8218d0176787ca581"
+  },
+  "store": {
+    "name": "Morrison 4",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.462801,
+        -2.235695
+      ]
+    }
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "63bee227905ece42d0d08660"
+      },
+      "quantity": 3,
+      "name": "Chocolate Muffin",
+      "unit_price": 1.5,
+      "total": 4.5
+    },
+    {
+      "product_id": {
+        "$oid": "63bee23b905ece42d0d08661"
+      },
+      "quantity": 2,
+      "name": "Sourdough",
+      "unit_price": 2,
+      "total": 4
+    }
+  ],
+  "shipping_address": {
+    "name": "Yusuke Sakazaki",
+    "unit_no": "202",
+    "street": "Horton Road",
+    "city": "Horton Road",
+    "country": "United Kingdom",
+    "postcode": "M14 7QF",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.4485784,
+        -2.2385618
+      ]
+    }
+  },
+  "delivery_fee": 5.34,
+  "created_at": {
+    "$date": {
+      "$numberLong": "1673558987362"
+    }
+  },
+  "total_item_price": 8.5,
+  "is_fresh": true,
+  "total_amount": 13.84
+},{
+  "_id": {
+    "$oid": "63c07c0030a1de5331ed7c48"
+  },
+  "order_status": "payment-confirmed",
+  "is_paid": true,
+  "customer_id": {
+    "$oid": "63bec0b01cd0505188545237"
+  },
+  "store_id": {
+    "$oid": "63be12e8218d0176787ca581"
+  },
+  "store": {
+    "name": "Morrison 4",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.462801,
+        -2.235695
+      ]
+    }
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "63bee227905ece42d0d08660"
+      },
+      "quantity": 3,
+      "name": "Chocolate Muffin",
+      "unit_price": 1.5,
+      "total": 4.5
+    },
+    {
+      "product_id": {
+        "$oid": "63bee23b905ece42d0d08661"
+      },
+      "quantity": 2,
+      "name": "Sourdough",
+      "unit_price": 2,
+      "total": 4
+    }
+  ],
+  "shipping_address": {
+    "name": "Yusuke Sakazaki",
+    "unit_no": "202",
+    "street": "Horton Road",
+    "city": "Horton Road",
+    "country": "United Kingdom",
+    "postcode": "M14 7QF",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.4485784,
+        -2.2385618
+      ]
+    }
+  },
+  "delivery_fee": 5.34,
+  "created_at": {
+    "$date": {
+      "$numberLong": "1673559040846"
+    }
+  },
+  "total_item_price": 8.5,
+  "is_fresh": true,
+  "total_amount": 13.84,
+  "order_status_histories": [
+    {
+      "name": "payment-confirmed",
+      "created_at": {
+        "$date": {
+          "$numberLong": "1673566016660"
+        }
+      }
+    }
+  ],
+  "deliveries": {
+    "order_delivery_status_histories": [
+      {
+        "name": "created",
+        "created_at": {
+          "$date": {
+            "$numberLong": "1673559078198"
+          }
+        }
+      },
+      {
+        "name": "picked-up",
+        "created_at": {
+          "$date": {
+            "$numberLong": "1673559078354"
+          }
+        }
+      }
+    ],
+    "ETA": 9.530638603893546,
+    "distance": 2382.6596509733868
+  },
+  "partners": {
+    "$oid": "63bf1f8b692f744bc4617f2e"
+  }
+},{
+  "_id": {
+    "$oid": "63c07d7330a1de5331ed7c82"
+  },
+  "order_status": "on-delivery",
+  "is_paid": true,
+  "customer_id": {
+    "$oid": "63bebdda1cd050518854522c"
+  },
+  "store_id": {
+    "$oid": "63be1307218d0176787ca583"
+  },
+  "store": {
+    "name": "Morrison 5",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.453124,
+        -2.223312
+      ]
+    }
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "63bee1a1905ece42d0d0865d"
+      },
+      "quantity": 1,
+      "name": "Butter Croissant",
+      "unit_price": 0.95,
+      "total": 0.95
+    },
+    {
+      "product_id": {
+        "$oid": "63bee417905ece42d0d08662"
+      },
+      "quantity": 2,
+      "name": "Coca Cola",
+      "unit_price": 1.5,
+      "total": 3
+    }
+  ],
+  "shipping_address": {
+    "name": "Kim Jisoo",
+    "unit_no": "46",
+    "street": "Arnside Street",
+    "city": "Arnside Street",
+    "country": "United Kingdom",
+    "postcode": "M14 7PF",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.4516747,
+        -2.2316256
+      ]
+    }
+  },
+  "delivery_fee": 5.34,
+  "created_at": {
+    "$date": {
+      "$numberLong": "1673559411408"
+    }
+  },
+  "total_item_price": 3.95,
+  "is_fresh": true,
+  "total_amount": 9.29,
+  "order_status_histories": [
+    {
+      "name": "payment-confirmed",
+      "created_at": {
+        "$date": {
+          "$numberLong": "1673566012408"
+        }
+      }
+    },
+    {
+      "name": "order-confirmed",
+      "created_at": {
+        "$date": {
+          "$numberLong": "1673566012664"
+        }
+      }
+    },
+    {
+      "name": "on-delivery",
+      "created_at": {
+        "$date": {
+          "$numberLong": "1673566012839"
+        }
+      }
+    }
+  ],
+  "deliveries": {
+    "order_delivery_status_histories": [
+      {
+        "name": "created",
+        "created_at": {
+          "$date": {
+            "$numberLong": "1673559498537"
+          }
+        }
+      },
+      {
+        "name": "picked-up",
+        "created_at": {
+          "$date": {
+            "$numberLong": "1673559498686"
+          }
+        }
+      },
+      {
+        "name": "created",
+        "created_at": {
+          "$date": {
+            "$numberLong": "1673566012664"
+          }
+        }
+      },
+      {
+        "name": "picked-up",
+        "created_at": {
+          "$date": {
+            "$numberLong": "1673566012839"
+          }
+        }
+      }
+    ],
+    "ETA": 6.82264162836523,
+    "distance": 1705.6604070913074
+  },
+  "partners": {
+    "$oid": "63c08bff292b474520345978"
+  }
+},{
+  "_id": {
+    "$oid": "63c07e075c4b0b4858761638"
+  },
+  "order_status": "payment-confirmed",
+  "is_paid": true,
+  "customer_id": {
+    "$oid": "63bebd9d1cd0505188545225"
+  },
+  "store_id": {
+    "$oid": "63be13ae218d0176787ca58d"
+  },
+  "store": {
+    "name": "Amazon Warehouse 1",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.4667426,
+        -2.2292143
+      ]
+    }
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "63bed8c13121db4da02d4fec"
+      },
+      "quantity": 1,
+      "name": "Men Are from Mars, Women Are from Venus",
+      "unit_price": 3.99,
+      "total": 3.99
+    }
+  ],
+  "shipping_address": {
+    "name": "Kim Namjoon",
+    "unit_no": "46",
+    "street": "Oxford Street",
+    "city": "Oxford Street",
+    "country": "United Kingdom",
+    "postcode": "M13 9WJ",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.4620659,
+        -2.2301489
+      ]
+    }
+  },
+  "delivery_fee": 3.34,
+  "created_at": {
+    "$date": {
+      "$numberLong": "1673559559678"
+    }
+  },
+  "total_item_price": 3.99,
+  "is_fresh": false,
+  "total_amount": 7.33,
+  "order_status_histories": [
+    {
+      "name": "payment-confirmed",
+      "created_at": {
+        "$date": {
+          "$numberLong": "1673559578194"
+        }
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63c07fc2846e4d43b4e06a0b"
+  },
+  "order_status": "on-cart",
+  "is_paid": false,
+  "customer_id": {
+    "$oid": "63bebdaa1cd0505188545226"
+  },
+  "store_id": {
+    "$oid": "63be13ae218d0176787ca58d"
+  },
+  "store": {
+    "name": "Amazon Warehouse 1",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.4667426,
+        -2.2292143
+      ]
+    }
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "63bed90b3121db4da02d4ff9"
+      },
+      "quantity": 1,
+      "name": "The 7 Habits of Highly Effective People",
+      "unit_price": 12,
+      "total": 12
+    }
+  ],
+  "shipping_address": {
+    "name": "Kim Seokjin",
+    "unit_no": "5",
+    "street": "Copeman Cl",
+    "city": "Copeman Cl",
+    "country": "United Kingdom",
+    "postcode": "M13 9SN",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.4665216,
+        -2.2286502
+      ]
+    }
+  },
+  "delivery_fee": 3.34,
+  "created_at": {
+    "$date": {
+      "$numberLong": "1673560002451"
+    }
+  },
+  "total_item_price": 12,
+  "is_fresh": false,
+  "total_amount": 15.34
+},{
+  "_id": {
+    "$oid": "63c081dc846e4d43b4e06a0d"
+  },
+  "order_status": "on-cart",
+  "is_paid": false,
+  "customer_id": {
+    "$oid": "63bebdb11cd0505188545227"
+  },
+  "store_id": {
+    "$oid": "63be13c2218d0176787ca58f"
+  },
+  "store": {
+    "name": "Amazon Warehouse 2",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.4578956,
+        -2.2364577
+      ]
+    }
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "63bed9203121db4da02d4ffb"
+      },
+      "quantity": 1,
+      "name": "USBorne Economics for Beginners",
+      "unit_price": 9.19,
+      "total": 9.19
+    }
+  ],
+  "shipping_address": {
+    "name": "Min Yoongi",
+    "unit_no": "2",
+    "street": "Hawsworth Cl",
+    "city": "Hawsworth Cl",
+    "country": "United Kingdom",
+    "postcode": "M15 6GF",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.4615882,
+        -2.2345075
+      ]
+    }
+  },
+  "delivery_fee": 3.34,
+  "created_at": {
+    "$date": {
+      "$numberLong": "1673560540236"
+    }
+  },
+  "total_item_price": 9.19,
+  "is_fresh": false,
+  "total_amount": 12.53
+},{
+  "_id": {
+    "$oid": "63c08218846e4d43b4e06a0f"
+  },
+  "order_status": "payment-confirmed",
+  "is_paid": true,
+  "customer_id": {
+    "$oid": "63bebdbf1cd0505188545228"
+  },
+  "store_id": {
+    "$oid": "63be13c2218d0176787ca58f"
+  },
+  "store": {
+    "name": "Amazon Warehouse 2",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.4578956,
+        -2.2364577
+      ]
+    }
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "63bed9573121db4da02d5001"
+      },
+      "quantity": 1,
+      "name": "Jeff Bezos: Biography of a Billionaire Business Titan",
+      "unit_price": 9.44,
+      "total": 9.44
+    }
+  ],
+  "shipping_address": {
+    "name": "Jung Hoseok",
+    "unit_no": "12",
+    "street": "Ossory Street",
+    "city": "Ossory Street",
+    "country": "United Kingdom",
+    "postcode": "M14 4BX",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.4557223,
+        -2.2311918
+      ]
+    }
+  },
+  "delivery_fee": 3.34,
+  "created_at": {
+    "$date": {
+      "$numberLong": "1673560600447"
+    }
+  },
+  "total_item_price": 9.44,
+  "is_fresh": false,
+  "total_amount": 12.78,
+  "order_status_histories": [
+    {
+      "name": "payment-confirmed",
+      "created_at": {
+        "$date": {
+          "$numberLong": "1673560612229"
+        }
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63c08268846e4d43b4e06a12"
+  },
+  "order_status": "payment-confirmed",
+  "is_paid": true,
+  "customer_id": {
+    "$oid": "63bebdc61cd0505188545229"
+  },
+  "store_id": {
+    "$oid": "63be13c2218d0176787ca58f"
+  },
+  "store": {
+    "name": "Amazon Warehouse 2",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.4578956,
+        -2.2364577
+      ]
+    }
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "63bed92a3121db4da02d4ffc"
+      },
+      "quantity": 1,
+      "name": "The Tiger Who Came to Tea",
+      "unit_price": 4,
+      "total": 4
+    }
+  ],
+  "shipping_address": {
+    "name": "Park Jimin",
+    "unit_no": "22",
+    "street": "Brunt Street",
+    "city": "Brunt Street",
+    "country": "United Kingdom",
+    "postcode": "M14 4BE",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.4540564,
+        -2.2302825
+      ]
+    }
+  },
+  "delivery_fee": 3.34,
+  "created_at": {
+    "$date": {
+      "$numberLong": "1673560680703"
+    }
+  },
+  "total_item_price": 4,
+  "is_fresh": false,
+  "total_amount": 7.34,
+  "order_status_histories": [
+    {
+      "name": "payment-confirmed",
+      "created_at": {
+        "$date": {
+          "$numberLong": "1673560690208"
+        }
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63c082c0846e4d43b4e06a15"
+  },
+  "order_status": "order-confirmed",
+  "is_paid": true,
+  "customer_id": {
+    "$oid": "63bebdcc1cd050518854522a"
+  },
+  "store_id": {
+    "$oid": "63be13c2218d0176787ca58f"
+  },
+  "store": {
+    "name": "Amazon Warehouse 2",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.4578956,
+        -2.2364577
+      ]
+    }
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "63bedabb3121db4da02d5004"
+      },
+      "quantity": 1,
+      "name": "Red: Taylor's Version",
+      "unit_price": 12.94,
+      "total": 12.94
+    }
+  ],
+  "shipping_address": {
+    "name": "Kim Taehyung",
+    "unit_no": "15",
+    "street": "Ellanby Close",
+    "city": "Ellanby Close",
+    "country": "United Kingdom",
+    "postcode": "M14 5XG",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.4529565,
+        -2.2276707
+      ]
+    }
+  },
+  "delivery_fee": 3.34,
+  "created_at": {
+    "$date": {
+      "$numberLong": "1673560768034"
+    }
+  },
+  "total_item_price": 12.94,
+  "is_fresh": false,
+  "total_amount": 16.28,
+  "order_status_histories": [
+    {
+      "name": "payment-confirmed",
+      "created_at": {
+        "$date": {
+          "$numberLong": "1673560778258"
+        }
+      }
+    },
+    {
+      "name": "order-confirmed",
+      "created_at": {
+        "$date": {
+          "$numberLong": "1673560783121"
+        }
+      }
+    }
+  ],
+  "deliveries": {
+    "order_delivery_status_histories": [
+      {
+        "name": "created",
+        "created_at": {
+          "$date": {
+            "$numberLong": "1673560783121"
+          }
+        }
+      }
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "63c0830e846e4d43b4e06a18"
+  },
+  "order_status": "order-confirmed",
+  "is_paid": true,
+  "customer_id": {
+    "$oid": "63bebdd31cd050518854522b"
+  },
+  "store_id": {
+    "$oid": "63be13c2218d0176787ca58f"
+  },
+  "store": {
+    "name": "Amazon Warehouse 2",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.4578956,
+        -2.2364577
+      ]
+    }
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "63bedae23121db4da02d5009"
+      },
+      "quantity": 1,
+      "name": "Lover",
+      "unit_price": 11.69,
+      "total": 11.69
+    }
+  ],
+  "shipping_address": {
+    "name": "Jeon Jungkook",
+    "unit_no": "18",
+    "street": "Grandale Street",
+    "city": "Grandale Street",
+    "country": "United Kingdom",
+    "postcode": "M14 5WG",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.4536664,
+        -2.2260777
+      ]
+    }
+  },
+  "delivery_fee": 3.34,
+  "created_at": {
+    "$date": {
+      "$numberLong": "1673560846773"
+    }
+  },
+  "total_item_price": 11.69,
+  "is_fresh": false,
+  "total_amount": 15.03,
+  "order_status_histories": [
+    {
+      "name": "payment-confirmed",
+      "created_at": {
+        "$date": {
+          "$numberLong": "1673560856190"
+        }
+      }
+    },
+    {
+      "name": "order-confirmed",
+      "created_at": {
+        "$date": {
+          "$numberLong": "1673560861211"
+        }
+      }
+    }
+  ],
+  "deliveries": {
+    "order_delivery_status_histories": [
+      {
+        "name": "created",
+        "created_at": {
+          "$date": {
+            "$numberLong": "1673560861211"
+          }
+        }
+      }
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "63c08358846e4d43b4e06a1b"
+  },
+  "order_status": "on-delivery",
+  "is_paid": true,
+  "customer_id": {
+    "$oid": "63bebdda1cd050518854522c"
+  },
+  "store_id": {
+    "$oid": "63be13c2218d0176787ca58f"
+  },
+  "store": {
+    "name": "Amazon Warehouse 2",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.4578956,
+        -2.2364577
+      ]
+    }
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "63bedea3905ece42d0d08654"
+      },
+      "quantity": 1,
+      "name": "Electric Kettle",
+      "unit_price": 13,
+      "total": 13
+    }
+  ],
+  "shipping_address": {
+    "name": "Kim Jisoo",
+    "unit_no": "46",
+    "street": "Arnside Street",
+    "city": "Arnside Street",
+    "country": "United Kingdom",
+    "postcode": "M14 7PF",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.4516747,
+        -2.2316256
+      ]
+    }
+  },
+  "delivery_fee": 3.34,
+  "created_at": {
+    "$date": {
+      "$numberLong": "1673560920944"
+    }
+  },
+  "total_item_price": 13,
+  "is_fresh": false,
+  "total_amount": 16.34,
+  "order_status_histories": [
+    {
+      "name": "payment-confirmed",
+      "created_at": {
+        "$date": {
+          "$numberLong": "1673560928809"
+        }
+      }
+    },
+    {
+      "name": "order-confirmed",
+      "created_at": {
+        "$date": {
+          "$numberLong": "1673560936362"
+        }
+      }
+    },
+    {
+      "name": "on-delivery",
+      "created_at": {
+        "$date": {
+          "$numberLong": "1673560940604"
+        }
+      }
+    }
+  ],
+  "deliveries": {
+    "order_delivery_status_histories": [
+      {
+        "name": "created",
+        "created_at": {
+          "$date": {
+            "$numberLong": "1673560936362"
+          }
+        }
+      },
+      {
+        "name": "on-delivery",
+        "created_at": {
+          "$date": {
+            "$numberLong": "1673560940604"
+          }
+        }
+      }
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "63c083b5846e4d43b4e06a1e"
+  },
+  "order_status": "on-delivery",
+  "is_paid": true,
+  "customer_id": {
+    "$oid": "63bebde21cd050518854522d"
+  },
+  "store_id": {
+    "$oid": "63be13ae218d0176787ca58d"
+  },
+  "store": {
+    "name": "Amazon Warehouse 1",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.4667426,
+        -2.2292143
+      ]
+    }
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "63bedca0905ece42d0d08650"
+      },
+      "quantity": 1,
+      "name": "IPhone 13 Mini 128Gb",
+      "unit_price": 699,
+      "total": 699
+    }
+  ],
+  "shipping_address": {
+    "name": "Kim Jennie",
+    "unit_no": "11",
+    "street": "Whithworth Street W",
+    "city": "Whithworth Street W",
+    "country": "United Kingdom",
+    "postcode": "M1 3GW",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.4770358,
+        -2.2352542
+      ]
+    }
+  },
+  "delivery_fee": 3.34,
+  "created_at": {
+    "$date": {
+      "$numberLong": "1673561013982"
+    }
+  },
+  "total_item_price": 699,
+  "is_fresh": false,
+  "total_amount": 702.34,
+  "order_status_histories": [
+    {
+      "name": "payment-confirmed",
+      "created_at": {
+        "$date": {
+          "$numberLong": "1673561026748"
+        }
+      }
+    },
+    {
+      "name": "order-confirmed",
+      "created_at": {
+        "$date": {
+          "$numberLong": "1673561030834"
+        }
+      }
+    },
+    {
+      "name": "on-delivery",
+      "created_at": {
+        "$date": {
+          "$numberLong": "1673561035852"
+        }
+      }
+    }
+  ],
+  "deliveries": {
+    "order_delivery_status_histories": [
+      {
+        "name": "created",
+        "created_at": {
+          "$date": {
+            "$numberLong": "1673561030834"
+          }
+        }
+      },
+      {
+        "name": "on-delivery",
+        "created_at": {
+          "$date": {
+            "$numberLong": "1673561035852"
+          }
+        }
+      }
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "63c08401846e4d43b4e06a21"
+  },
+  "order_status": "on-cart",
+  "is_paid": false,
+  "customer_id": {
+    "$oid": "63bebde91cd050518854522e"
+  },
+  "store_id": {
+    "$oid": "63be13ae218d0176787ca58d"
+  },
+  "store": {
+    "name": "Amazon Warehouse 1",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.4667426,
+        -2.2292143
+      ]
+    }
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "63bedad33121db4da02d5007"
+      },
+      "quantity": 1,
+      "name": "reputation",
+      "unit_price": 11.89,
+      "total": 11.89
+    }
+  ],
+  "shipping_address": {
+    "name": "Park Rose",
+    "unit_no": "1",
+    "street": "River Street",
+    "city": "River Street",
+    "country": "United Kingdom",
+    "postcode": "M1 5BB",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.4731671,
+        -2.2415687
+      ]
+    }
+  },
+  "delivery_fee": 3.34,
+  "created_at": {
+    "$date": {
+      "$numberLong": "1673561089856"
+    }
+  },
+  "total_item_price": 11.89,
+  "is_fresh": false,
+  "total_amount": 15.23
+},{
+  "_id": {
+    "$oid": "63c08448846e4d43b4e06a23"
+  },
+  "order_status": "on-cart",
+  "is_paid": false,
+  "customer_id": {
+    "$oid": "63bebf7e1cd050518854522f"
+  },
+  "store_id": {
+    "$oid": "63be13c2218d0176787ca58f"
+  },
+  "store": {
+    "name": "Amazon Warehouse 2",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.4578956,
+        -2.2364577
+      ]
+    }
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "63bedc6e905ece42d0d0864c"
+      },
+      "quantity": 1,
+      "name": "Samsung Galaxy Z Fold4 Ultra 256Gb",
+      "unit_price": 1649,
+      "total": 1649
+    }
+  ],
+  "shipping_address": {
+    "name": "Alexander Skarsgard",
+    "unit_no": "113",
+    "street": "Chicester Road",
+    "city": "Chicester Road",
+    "country": "United Kingdom",
+    "postcode": "M1 5UP",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.4638811,
+        -2.2493641
+      ]
+    }
+  },
+  "delivery_fee": 3.34,
+  "created_at": {
+    "$date": {
+      "$numberLong": "1673561160024"
+    }
+  },
+  "total_item_price": 1649,
+  "is_fresh": false,
+  "total_amount": 1652.34
+},{
+  "_id": {
+    "$oid": "63c0850e846e4d43b4e06a25"
+  },
+  "order_status": "payment-confirmed",
+  "is_paid": true,
+  "customer_id": {
+    "$oid": "63bebf901cd0505188545230"
+  },
+  "store_id": {
+    "$oid": "63be13c2218d0176787ca58f"
+  },
+  "store": {
+    "name": "Amazon Warehouse 2",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.4578956,
+        -2.2364577
+      ]
+    }
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "63bed8c13121db4da02d4fec"
+      },
+      "quantity": 1,
+      "name": "Men Are from Mars, Women Are from Venus",
+      "unit_price": 3.99,
+      "total": 3.99
+    }
+  ],
+  "shipping_address": {
+    "name": "Benjamin Anderson",
+    "unit_no": "42",
+    "street": "Regent Avenue",
+    "city": "Regent Avenue",
+    "country": "United Kingdom",
+    "postcode": "M14 7JQ",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.4516433,
+        -2.2407729
+      ]
+    }
+  },
+  "delivery_fee": 3.34,
+  "created_at": {
+    "$date": {
+      "$numberLong": "1673561358830"
+    }
+  },
+  "total_item_price": 3.99,
+  "is_fresh": false,
+  "total_amount": 7.33,
+  "order_status_histories": [
+    {
+      "name": "payment-confirmed",
+      "created_at": {
+        "$date": {
+          "$numberLong": "1673561382350"
+        }
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63c0855b846e4d43b4e06a28"
+  },
+  "order_status": "payment-confirmed",
+  "is_paid": true,
+  "customer_id": {
+    "$oid": "63bebf9e1cd0505188545231"
+  },
+  "store_id": {
+    "$oid": "63be13ae218d0176787ca58d"
+  },
+  "store": {
+    "name": "Amazon Warehouse 1",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.4667426,
+        -2.2292143
+      ]
+    }
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "63bed94d3121db4da02d5000"
+      },
+      "quantity": 1,
+      "name": "Surrounded by Idiots",
+      "unit_price": 8.85,
+      "total": 8.85
+    }
+  ],
+  "shipping_address": {
+    "name": "Bill Skarsgard",
+    "unit_no": "5",
+    "street": "Shilford Dr",
+    "city": "Shilford Dr",
+    "country": "United Kingdom",
+    "postcode": "M4 4JG",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.4894447,
+        -2.2279046
+      ]
+    }
+  },
+  "delivery_fee": 3.34,
+  "created_at": {
+    "$date": {
+      "$numberLong": "1673561435821"
+    }
+  },
+  "total_item_price": 8.85,
+  "is_fresh": false,
+  "total_amount": 12.19,
+  "order_status_histories": [
+    {
+      "name": "payment-confirmed",
+      "created_at": {
+        "$date": {
+          "$numberLong": "1673561444103"
+        }
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63c0858c846e4d43b4e06a2b"
+  },
+  "order_status": "order-confirmed",
+  "is_paid": true,
+  "customer_id": {
+    "$oid": "63bebfb01cd0505188545232"
+  },
+  "store_id": {
+    "$oid": "63be13ae218d0176787ca58d"
+  },
+  "store": {
+    "name": "Amazon Warehouse 1",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.4667426,
+        -2.2292143
+      ]
+    }
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "63bedaa83121db4da02d5003"
+      },
+      "quantity": 1,
+      "name": "Evermore",
+      "unit_price": 11.99,
+      "total": 11.99
+    }
+  ],
+  "shipping_address": {
+    "name": "Valerie Browski",
+    "unit_no": "8",
+    "street": "Norbury Close",
+    "city": "Norbury Close",
+    "country": "United Kingdom",
+    "postcode": "M40 8DL",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.4935435,
+        -2.2119262
+      ]
+    }
+  },
+  "delivery_fee": 3.34,
+  "created_at": {
+    "$date": {
+      "$numberLong": "1673561484627"
+    }
+  },
+  "total_item_price": 11.99,
+  "is_fresh": false,
+  "total_amount": 15.33,
+  "order_status_histories": [
+    {
+      "name": "payment-confirmed",
+      "created_at": {
+        "$date": {
+          "$numberLong": "1673561529143"
+        }
+      }
+    },
+    {
+      "name": "order-confirmed",
+      "created_at": {
+        "$date": {
+          "$numberLong": "1673561533847"
+        }
+      }
+    }
+  ],
+  "deliveries": {
+    "order_delivery_status_histories": [
+      {
+        "name": "created",
+        "created_at": {
+          "$date": {
+            "$numberLong": "1673561533847"
+          }
+        }
+      }
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "63c085ff846e4d43b4e06a2e"
+  },
+  "order_status": "order-confirmed",
+  "is_paid": true,
+  "customer_id": {
+    "$oid": "63bebfc61cd0505188545233"
+  },
+  "store_id": {
+    "$oid": "63be13ae218d0176787ca58d"
+  },
+  "store": {
+    "name": "Amazon Warehouse 1",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.4667426,
+        -2.2292143
+      ]
+    }
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "63bed93c3121db4da02d4ffe"
+      },
+      "quantity": 1,
+      "name": "Atomic Habits",
+      "unit_price": 9,
+      "total": 9
+    }
+  ],
+  "shipping_address": {
+    "name": "Yuzuru Hanyu",
+    "unit_no": "10",
+    "street": "Kimbolton Close",
+    "city": "Kimbolton Close",
+    "country": "United Kingdom",
+    "postcode": "M12 5PD",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.4698432,
+        -2.1917428
+      ]
+    }
+  },
+  "delivery_fee": 3.34,
+  "created_at": {
+    "$date": {
+      "$numberLong": "1673561599917"
+    }
+  },
+  "total_item_price": 9,
+  "is_fresh": false,
+  "total_amount": 12.34,
+  "order_status_histories": [
+    {
+      "name": "payment-confirmed",
+      "created_at": {
+        "$date": {
+          "$numberLong": "1673561609169"
+        }
+      }
+    },
+    {
+      "name": "order-confirmed",
+      "created_at": {
+        "$date": {
+          "$numberLong": "1673561615200"
+        }
+      }
+    }
+  ],
+  "deliveries": {
+    "order_delivery_status_histories": [
+      {
+        "name": "created",
+        "created_at": {
+          "$date": {
+            "$numberLong": "1673561615200"
+          }
+        }
+      }
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "63c08643846e4d43b4e06a31"
+  },
+  "order_status": "on-delivery",
+  "is_paid": true,
+  "customer_id": {
+    "$oid": "63bec0381cd0505188545234"
+  },
+  "store_id": {
+    "$oid": "63be13ae218d0176787ca58d"
+  },
+  "store": {
+    "name": "Amazon Warehouse 1",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.4667426,
+        -2.2292143
+      ]
+    }
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "63c05d5b5fe0ba57081af9a6"
+      },
+      "quantity": 1,
+      "name": "Mini Electric Chopper V2",
+      "unit_price": 17,
+      "total": 17
+    }
+  ],
+  "shipping_address": {
+    "name": "Shome Uno",
+    "unit_no": "1",
+    "street": "Milverton Road",
+    "city": "Milverton Road",
+    "country": "United Kingdom",
+    "postcode": "M14 5PL",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.4567713,
+        -2.2169056
+      ]
+    }
+  },
+  "delivery_fee": 3.34,
+  "created_at": {
+    "$date": {
+      "$numberLong": "1673561667793"
+    }
+  },
+  "total_item_price": 17,
+  "is_fresh": false,
+  "total_amount": 20.34,
+  "order_status_histories": [
+    {
+      "name": "payment-confirmed",
+      "created_at": {
+        "$date": {
+          "$numberLong": "1673561674884"
+        }
+      }
+    },
+    {
+      "name": "order-confirmed",
+      "created_at": {
+        "$date": {
+          "$numberLong": "1673561679458"
+        }
+      }
+    },
+    {
+      "name": "on-delivery",
+      "created_at": {
+        "$date": {
+          "$numberLong": "1673561688217"
+        }
+      }
+    }
+  ],
+  "deliveries": {
+    "order_delivery_status_histories": [
+      {
+        "name": "created",
+        "created_at": {
+          "$date": {
+            "$numberLong": "1673561679458"
+          }
+        }
+      },
+      {
+        "name": "on-delivery",
+        "created_at": {
+          "$date": {
+            "$numberLong": "1673561688217"
+          }
+        }
+      }
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "63c086a6846e4d43b4e06a34"
+  },
+  "order_status": "on-delivery",
+  "is_paid": true,
+  "customer_id": {
+    "$oid": "63bec0571cd0505188545235"
+  },
+  "store_id": {
+    "$oid": "63be13ae218d0176787ca58d"
+  },
+  "store": {
+    "name": "Amazon Warehouse 1",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.4667426,
+        -2.2292143
+      ]
+    }
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "63bedca8905ece42d0d08651"
+      },
+      "quantity": 1,
+      "name": "OPPO A54 64Gb",
+      "unit_price": 89,
+      "total": 89
+    }
+  ],
+  "shipping_address": {
+    "name": "Jerome Polin",
+    "unit_no": "24",
+    "street": "Thoresway Road",
+    "city": "Thoresway Road",
+    "country": "United Kingdom",
+    "postcode": "M13 0XN",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.4524185,
+        -2.2075892
+      ]
+    }
+  },
+  "delivery_fee": 3.34,
+  "created_at": {
+    "$date": {
+      "$numberLong": "1673561766385"
+    }
+  },
+  "total_item_price": 89,
+  "is_fresh": false,
+  "total_amount": 92.34,
+  "order_status_histories": [
+    {
+      "name": "payment-confirmed",
+      "created_at": {
+        "$date": {
+          "$numberLong": "1673561779143"
+        }
+      }
+    },
+    {
+      "name": "order-confirmed",
+      "created_at": {
+        "$date": {
+          "$numberLong": "1673561783553"
+        }
+      }
+    },
+    {
+      "name": "on-delivery",
+      "created_at": {
+        "$date": {
+          "$numberLong": "1673561788461"
+        }
+      }
+    }
+  ],
+  "deliveries": {
+    "order_delivery_status_histories": [
+      {
+        "name": "created",
+        "created_at": {
+          "$date": {
+            "$numberLong": "1673561783553"
+          }
+        }
+      },
+      {
+        "name": "on-delivery",
+        "created_at": {
+          "$date": {
+            "$numberLong": "1673561788461"
+          }
+        }
+      }
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "63c08702846e4d43b4e06a37"
+  },
+  "order_status": "on-cart",
+  "is_paid": false,
+  "customer_id": {
+    "$oid": "63bec07c1cd0505188545236"
+  },
+  "store_id": {
+    "$oid": "63be13c2218d0176787ca58f"
+  },
+  "store": {
+    "name": "Amazon Warehouse 2",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.4578956,
+        -2.2364577
+      ]
+    }
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "63bedca0905ece42d0d08650"
+      },
+      "quantity": 1,
+      "name": "IPhone 13 Mini 128Gb",
+      "unit_price": 699,
+      "total": 699
+    }
+  ],
+  "shipping_address": {
+    "name": "Tomohiro Shita",
+    "unit_no": "14",
+    "street": "Plattbrook Close",
+    "city": "Plattbrook Close",
+    "country": "United Kingdom",
+    "postcode": "M14 7AA",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.4444387,
+        -2.2311856
+      ]
+    }
+  },
+  "delivery_fee": 3.34,
+  "created_at": {
+    "$date": {
+      "$numberLong": "1673561858411"
+    }
+  },
+  "total_item_price": 699,
+  "is_fresh": false,
+  "total_amount": 702.34
+},{
+  "_id": {
+    "$oid": "63c0873a846e4d43b4e06a39"
+  },
+  "order_status": "on-cart",
+  "is_paid": false,
+  "customer_id": {
+    "$oid": "63bec0b01cd0505188545237"
+  },
+  "store_id": {
+    "$oid": "63be13c2218d0176787ca58f"
+  },
+  "store": {
+    "name": "Amazon Warehouse 2",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.4578956,
+        -2.2364577
+      ]
+    }
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "63bedebd905ece42d0d08657"
+      },
+      "quantity": 1,
+      "name": "Hand Blender",
+      "unit_price": 28,
+      "total": 28
+    }
+  ],
+  "shipping_address": {
+    "name": "Yusuke Sakazaki",
+    "unit_no": "202",
+    "street": "Horton Road",
+    "city": "Horton Road",
+    "country": "United Kingdom",
+    "postcode": "M14 7QF",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.4485784,
+        -2.2385618
+      ]
+    }
+  },
+  "delivery_fee": 3.34,
+  "created_at": {
+    "$date": {
+      "$numberLong": "1673561914179"
+    }
+  },
+  "total_item_price": 28,
+  "is_fresh": false,
+  "total_amount": 31.34
+},{
+  "_id": {
+    "$oid": "63c0876a846e4d43b4e06a3b"
+  },
+  "order_status": "payment-confirmed",
+  "is_paid": true,
+  "customer_id": {
+    "$oid": "63bec0ce1cd0505188545238"
+  },
+  "store_id": {
+    "$oid": "63be13e9218d0176787ca591"
+  },
+  "store": {
+    "name": "Amazon Warehouse 3",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.42415423496177,
+        -2.2411835103893765
+      ]
+    }
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "63bedaa03121db4da02d5002"
+      },
+      "quantity": 1,
+      "name": "Midnights",
+      "unit_price": 10,
+      "total": 10
+    }
+  ],
+  "shipping_address": {
+    "name": "Ryoma Otsuka",
+    "unit_no": "19",
+    "street": "Worthing Street ",
+    "city": "Worthing Street ",
+    "country": "United Kingdom",
+    "postcode": "M14 7PR",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.42919763012772,
+        -2.244068725829681
+      ]
+    }
+  },
+  "delivery_fee": 3.34,
+  "created_at": {
+    "$date": {
+      "$numberLong": "1673561962100"
+    }
+  },
+  "total_item_price": 10,
+  "is_fresh": false,
+  "total_amount": 13.34,
+  "order_status_histories": [
+    {
+      "name": "payment-confirmed",
+      "created_at": {
+        "$date": {
+          "$numberLong": "1673561972068"
+        }
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63c087af846e4d43b4e06a3e"
+  },
+  "order_status": "on-delivery",
+  "is_paid": true,
+  "customer_id": {
+    "$oid": "63c05e4e5fe0ba57081af9ac"
+  },
+  "store_id": {
+    "$oid": "63be13c2218d0176787ca58f"
+  },
+  "store": {
+    "name": "Amazon Warehouse 2",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.4578956,
+        -2.2364577
+      ]
+    }
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "63bede9b905ece42d0d08653"
+      },
+      "quantity": 1,
+      "name": "Microwave",
+      "unit_price": 55,
+      "total": 55
+    }
+  ],
+  "shipping_address": {
+    "name": "Tomohiro Otsuka",
+    "unit_no": "19",
+    "street": "Worthing Street ",
+    "city": "Worthing Street ",
+    "country": "United Kingdom",
+    "postcode": "M14 7PR",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.450008,
+        -2.23165
+      ]
+    }
+  },
+  "delivery_fee": 3.34,
+  "created_at": {
+    "$date": {
+      "$numberLong": "1673562031435"
+    }
+  },
+  "total_item_price": 55,
+  "is_fresh": false,
+  "total_amount": 58.34,
+  "order_status_histories": [
+    {
+      "name": "payment-confirmed",
+      "created_at": {
+        "$date": {
+          "$numberLong": "1673562039141"
+        }
+      }
+    },
+    {
+      "name": "order-confirmed",
+      "created_at": {
+        "$date": {
+          "$numberLong": "1673562043930"
+        }
+      }
+    },
+    {
+      "name": "on-delivery",
+      "created_at": {
+        "$date": {
+          "$numberLong": "1673562047840"
+        }
+      }
+    }
+  ],
+  "deliveries": {
+    "order_delivery_status_histories": [
+      {
+        "name": "created",
+        "created_at": {
+          "$date": {
+            "$numberLong": "1673562043930"
+          }
+        }
+      },
+      {
+        "name": "on-delivery",
+        "created_at": {
+          "$date": {
+            "$numberLong": "1673562047840"
+          }
+        }
+      }
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "63c0881eb831cf4e3426a50d"
+  },
+  "order_status": "on-cart",
+  "is_paid": false,
+  "customer_id": {
+    "$oid": "63bebd9d1cd0505188545225"
+  },
+  "store_id": {
+    "$oid": "63be127a218d0176787ca57b"
+  },
+  "store": {
+    "name": "Morrison 1",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.46647,
+        -2.227744
+      ]
+    }
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "63bee1a1905ece42d0d0865d"
+      },
+      "quantity": 4,
+      "name": "Butter Croissant",
+      "unit_price": 0.95,
+      "total": 3.8
+    },
+    {
+      "product_id": {
+        "$oid": "63bee1be905ece42d0d0865e"
+      },
+      "quantity": 1,
+      "name": "Almond-Butter Croissant",
+      "unit_price": 0.95,
+      "total": 0.95
+    }
+  ],
+  "shipping_address": {
+    "name": "Kim Namjoon",
+    "unit_no": "46",
+    "street": "Oxford Street",
+    "city": "Oxford Street",
+    "country": "United Kingdom",
+    "postcode": "M13 9WJ",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.4620659,
+        -2.2301489
+      ]
+    }
+  },
+  "delivery_fee": 5.34,
+  "created_at": {
+    "$date": {
+      "$numberLong": "1673562142226"
+    }
+  },
+  "total_item_price": 4.75,
+  "is_fresh": true,
+  "total_amount": 10.09
+},{
+  "_id": {
+    "$oid": "63c08875b831cf4e3426a50f"
+  },
+  "order_status": "payment-confirmed",
+  "is_paid": true,
+  "customer_id": {
+    "$oid": "63bebdaa1cd0505188545226"
+  },
+  "store_id": {
+    "$oid": "63be127a218d0176787ca57b"
+  },
+  "store": {
+    "name": "Morrison 1",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.46647,
+        -2.227744
+      ]
+    }
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "63bee21b905ece42d0d0865f"
+      },
+      "quantity": 4,
+      "name": "Pain au Chocolat",
+      "unit_price": 1,
+      "total": 4
+    },
+    {
+      "product_id": {
+        "$oid": "63bee227905ece42d0d08660"
+      },
+      "quantity": 2,
+      "name": "Chocolate Muffin",
+      "unit_price": 1.5,
+      "total": 3
+    }
+  ],
+  "shipping_address": {
+    "name": "Kim Seokjin",
+    "unit_no": "5",
+    "street": "Copeman Cl",
+    "city": "Copeman Cl",
+    "country": "United Kingdom",
+    "postcode": "M13 9SN",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.4665216,
+        -2.2286502
+      ]
+    }
+  },
+  "delivery_fee": 5.34,
+  "created_at": {
+    "$date": {
+      "$numberLong": "1673562229665"
+    }
+  },
+  "total_item_price": 7,
+  "is_fresh": true,
+  "total_amount": 12.34,
+  "order_status_histories": [
+    {
+      "name": "payment-confirmed",
+      "created_at": {
+        "$date": {
+          "$numberLong": "1673562244235"
+        }
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63c088bcb831cf4e3426a513"
+  },
+  "order_status": "order-confirmed",
+  "is_paid": true,
+  "customer_id": {
+    "$oid": "63bebdb11cd0505188545227"
+  },
+  "store_id": {
+    "$oid": "63be12e8218d0176787ca581"
+  },
+  "store": {
+    "name": "Morrison 4",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.462801,
+        -2.235695
+      ]
+    }
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "63bee417905ece42d0d08662"
+      },
+      "quantity": 3,
+      "name": "Coca Cola",
+      "unit_price": 1.5,
+      "total": 4.5
+    },
+    {
+      "product_id": {
+        "$oid": "63bee424905ece42d0d08663"
+      },
+      "quantity": 1,
+      "name": "Pepsi",
+      "unit_price": 1.5,
+      "total": 1.5
+    }
+  ],
+  "shipping_address": {
+    "name": "Min Yoongi",
+    "unit_no": "2",
+    "street": "Hawsworth Cl",
+    "city": "Hawsworth Cl",
+    "country": "United Kingdom",
+    "postcode": "M15 6GF",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.4615882,
+        -2.2345075
+      ]
+    }
+  },
+  "delivery_fee": 5.34,
+  "created_at": {
+    "$date": {
+      "$numberLong": "1673562300337"
+    }
+  },
+  "total_item_price": 6,
+  "is_fresh": true,
+  "total_amount": 11.34,
+  "order_status_histories": [
+    {
+      "name": "payment-confirmed",
+      "created_at": {
+        "$date": {
+          "$numberLong": "1673562307709"
+        }
+      }
+    },
+    {
+      "name": "order-confirmed",
+      "created_at": {
+        "$date": {
+          "$numberLong": "1673562313070"
+        }
+      }
+    }
+  ],
+  "deliveries": {
+    "order_delivery_status_histories": [
+      {
+        "name": "created",
+        "created_at": {
+          "$date": {
+            "$numberLong": "1673562313070"
+          }
+        }
+      }
+    ]
+  },
+  "partners": {
+    "$oid": "63bf1fef692f744bc4617f33"
+  }
+},{
+  "_id": {
+    "$oid": "63c088f7b831cf4e3426a517"
+  },
+  "order_status": "on-delivery",
+  "is_paid": true,
+  "customer_id": {
+    "$oid": "63bebdbf1cd0505188545228"
+  },
+  "store_id": {
+    "$oid": "63be1307218d0176787ca583"
+  },
+  "store": {
+    "name": "Morrison 5",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.453124,
+        -2.223312
+      ]
+    }
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "63bee42d905ece42d0d08664"
+      },
+      "quantity": 1,
+      "name": "Fanta",
+      "unit_price": 1.23,
+      "total": 1.23
+    },
+    {
+      "product_id": {
+        "$oid": "63bee435905ece42d0d08665"
+      },
+      "quantity": 1,
+      "name": "Orange Juice",
+      "unit_price": 1.3,
+      "total": 1.3
+    }
+  ],
+  "shipping_address": {
+    "name": "Jung Hoseok",
+    "unit_no": "12",
+    "street": "Ossory Street",
+    "city": "Ossory Street",
+    "country": "United Kingdom",
+    "postcode": "M14 4BX",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.4557223,
+        -2.2311918
+      ]
+    }
+  },
+  "delivery_fee": 5.34,
+  "created_at": {
+    "$date": {
+      "$numberLong": "1673562359324"
+    }
+  },
+  "total_item_price": 2.53,
+  "is_fresh": true,
+  "total_amount": 7.87,
+  "order_status_histories": [
+    {
+      "name": "payment-confirmed",
+      "created_at": {
+        "$date": {
+          "$numberLong": "1673562365431"
+        }
+      }
+    },
+    {
+      "name": "order-confirmed",
+      "created_at": {
+        "$date": {
+          "$numberLong": "1673562369812"
+        }
+      }
+    },
+    {
+      "name": "on-delivery",
+      "created_at": {
+        "$date": {
+          "$numberLong": "1673562375244"
+        }
+      }
+    }
+  ],
+  "deliveries": {
+    "order_delivery_status_histories": [
+      {
+        "name": "created",
+        "created_at": {
+          "$date": {
+            "$numberLong": "1673562369812"
+          }
+        }
+      },
+      {
+        "name": "picked-up",
+        "created_at": {
+          "$date": {
+            "$numberLong": "1673562375244"
+          }
+        }
+      }
+    ]
+  },
+  "partners": {
+    "$oid": "63bf1fe5692f744bc4617f32"
+  }
+},{
+  "_id": {
+    "$oid": "63c08933b831cf4e3426a51b"
+  },
+  "order_status": "payment-confirmed",
+  "is_paid": true,
+  "customer_id": {
+    "$oid": "63bebdc61cd0505188545229"
+  },
+  "store_id": {
+    "$oid": "63be1307218d0176787ca583"
+  },
+  "store": {
+    "name": "Morrison 5",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.453124,
+        -2.223312
+      ]
+    }
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "63bee43f905ece42d0d08666"
+      },
+      "quantity": 1,
+      "name": "Mango Juice",
+      "unit_price": 1.2,
+      "total": 1.2
+    },
+    {
+      "product_id": {
+        "$oid": "63bee628905ece42d0d08667"
+      },
+      "quantity": 1,
+      "name": "Chillies",
+      "unit_price": 1.5,
+      "total": 1.5
+    }
+  ],
+  "shipping_address": {
+    "name": "Park Jimin",
+    "unit_no": "22",
+    "street": "Brunt Street",
+    "city": "Brunt Street",
+    "country": "United Kingdom",
+    "postcode": "M14 4BE",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.4540564,
+        -2.2302825
+      ]
+    }
+  },
+  "delivery_fee": 5.34,
+  "created_at": {
+    "$date": {
+      "$numberLong": "1673562419767"
+    }
+  },
+  "total_item_price": 2.7,
+  "is_fresh": true,
+  "total_amount": 8.04,
+  "order_status_histories": [
+    {
+      "name": "payment-confirmed",
+      "created_at": {
+        "$date": {
+          "$numberLong": "1673562426496"
+        }
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63c08a5f2c22e12fa49c4ed3"
+  },
+  "order_status": "payment-confirmed",
+  "is_paid": true,
+  "customer_id": {
+    "$oid": "63bebdcc1cd050518854522a"
+  },
+  "store_id": {
+    "$oid": "63be1307218d0176787ca583"
+  },
+  "store": {
+    "name": "Morrison 5",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.453124,
+        -2.223312
+      ]
+    }
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "63bee66f905ece42d0d0866b"
+      },
+      "quantity": 1,
+      "name": "Apple",
+      "unit_price": 1.23,
+      "total": 1.23
+    },
+    {
+      "product_id": {
+        "$oid": "63bee666905ece42d0d0866a"
+      },
+      "quantity": 1,
+      "name": "Spinach",
+      "unit_price": 0.75,
+      "total": 0.75
+    }
+  ],
+  "shipping_address": {
+    "name": "Kim Taehyung",
+    "unit_no": "15",
+    "street": "Ellanby Close",
+    "city": "Ellanby Close",
+    "country": "United Kingdom",
+    "postcode": "M14 5XG",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.4529565,
+        -2.2276707
+      ]
+    }
+  },
+  "delivery_fee": 5.34,
+  "created_at": {
+    "$date": {
+      "$numberLong": "1673562719763"
+    }
+  },
+  "total_item_price": 1.98,
+  "is_fresh": true,
+  "total_amount": 7.32,
+  "order_status_histories": [
+    {
+      "name": "payment-confirmed",
+      "created_at": {
+        "$date": {
+          "$numberLong": "1673562732848"
+        }
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63c08aa4e96a805dd458ca54"
+  },
+  "order_status": "payment-confirmed",
+  "is_paid": true,
+  "customer_id": {
+    "$oid": "63bebdd31cd050518854522b"
+  },
+  "store_id": {
+    "$oid": "63be1307218d0176787ca583"
+  },
+  "store": {
+    "name": "Morrison 5",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.453124,
+        -2.223312
+      ]
+    }
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "63bee63a905ece42d0d08669"
+      },
+      "quantity": 1,
+      "name": "Carrots",
+      "unit_price": 0.8,
+      "total": 0.8
+    },
+    {
+      "product_id": {
+        "$oid": "63bee632905ece42d0d08668"
+      },
+      "quantity": 1,
+      "name": "Bananas",
+      "unit_price": 1.5,
+      "total": 1.5
+    }
+  ],
+  "shipping_address": {
+    "name": "Jeon Jungkook",
+    "unit_no": "18",
+    "street": "Grandale Street",
+    "city": "Grandale Street",
+    "country": "United Kingdom",
+    "postcode": "M14 5WG",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.4536664,
+        -2.2260777
+      ]
+    }
+  },
+  "delivery_fee": 5.34,
+  "created_at": {
+    "$date": {
+      "$numberLong": "1673562788584"
+    }
+  },
+  "total_item_price": 2.3,
+  "is_fresh": true,
+  "total_amount": 7.64,
+  "order_status_histories": [
+    {
+      "name": "payment-confirmed",
+      "created_at": {
+        "$date": {
+          "$numberLong": "1673562795665"
+        }
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63c08ae2b69c6925c83f5d8f"
+  },
+  "order_status": "on-cart",
+  "is_paid": false,
+  "customer_id": {
+    "$oid": "63bebdd31cd050518854522b"
+  },
+  "store_id": {
+    "$oid": "63be1307218d0176787ca583"
+  },
+  "store": {
+    "name": "Morrison 5",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.453124,
+        -2.223312
+      ]
+    }
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "63bee628905ece42d0d08667"
+      },
+      "quantity": 1,
+      "name": "Mango Juice",
+      "unit_price": 1.2,
+      "total": 1.2
+    },
+    {
+      "product_id": {
+        "$oid": "63bee43f905ece42d0d08666"
+      },
+      "quantity": 1,
+      "name": "Chillies",
+      "unit_price": 1.5,
+      "total": 1.5
+    }
+  ],
+  "shipping_address": {
+    "name": "Jeon Jungkook",
+    "unit_no": "18",
+    "street": "Grandale Street",
+    "city": "Grandale Street",
+    "country": "United Kingdom",
+    "postcode": "M14 5WG",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.4536664,
+        -2.2260777
+      ]
+    }
+  },
+  "delivery_fee": 5.34,
+  "created_at": {
+    "$date": {
+      "$numberLong": "1673562850667"
+    }
+  },
+  "total_item_price": 2.7,
+  "is_fresh": true,
+  "total_amount": 8.04
+},{
+  "_id": {
+    "$oid": "63c08b1cb69c6925c83f5d91"
+  },
+  "order_status": "payment-confirmed",
+  "is_paid": true,
+  "customer_id": {
+    "$oid": "63bebde21cd050518854522d"
+  },
+  "store_id": {
+    "$oid": "63be12a7218d0176787ca57d"
+  },
+  "store": {
+    "name": "Morrison 2",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.471428,
+        -2.226993
+      ]
+    }
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "63bee435905ece42d0d08665"
+      },
+      "quantity": 1,
+      "name": "Fanta",
+      "unit_price": 1.23,
+      "total": 1.23
+    },
+    {
+      "product_id": {
+        "$oid": "63bee42d905ece42d0d08664"
+      },
+      "quantity": 1,
+      "name": "Orange Juice",
+      "unit_price": 1.3,
+      "total": 1.3
+    }
+  ],
+  "shipping_address": {
+    "name": "Kim Jennie",
+    "unit_no": "11",
+    "street": "Whithworth Street W",
+    "city": "Whithworth Street W",
+    "country": "United Kingdom",
+    "postcode": "M1 3GW",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.4770358,
+        -2.2352542
+      ]
+    }
+  },
+  "delivery_fee": 5.34,
+  "created_at": {
+    "$date": {
+      "$numberLong": "1673562908427"
+    }
+  },
+  "total_item_price": 2.53,
+  "is_fresh": true,
+  "total_amount": 7.87,
+  "order_status_histories": [
+    {
+      "name": "payment-confirmed",
+      "created_at": {
+        "$date": {
+          "$numberLong": "1673562915052"
+        }
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63c08b64d7453760b400eb16"
+  },
+  "order_status": "on-delivery",
+  "is_paid": true,
+  "customer_id": {
+    "$oid": "63bebde91cd050518854522e"
+  },
+  "store_id": {
+    "$oid": "63be12c6218d0176787ca57f"
+  },
+  "store": {
+    "name": "Morrison 3",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.468032,
+        -2.245077
+      ]
+    }
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "63bee1a1905ece42d0d0865d"
+      },
+      "quantity": 1,
+      "name": "Butter Croissant",
+      "unit_price": 0.95,
+      "total": 0.95
+    },
+    {
+      "product_id": {
+        "$oid": "63bee1be905ece42d0d0865e"
+      },
+      "quantity": 1,
+      "name": "Almond-Butter Croissant",
+      "unit_price": 0.95,
+      "total": 0.95
+    }
+  ],
+  "shipping_address": {
+    "name": "Park Rose",
+    "unit_no": "1",
+    "street": "River Street",
+    "city": "River Street",
+    "country": "United Kingdom",
+    "postcode": "M1 5BB",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.4731671,
+        -2.2415687
+      ]
+    }
+  },
+  "delivery_fee": 5.34,
+  "created_at": {
+    "$date": {
+      "$numberLong": "1673562980606"
+    }
+  },
+  "total_item_price": 1.9,
+  "is_fresh": true,
+  "total_amount": 7.24,
+  "order_status_histories": [
+    {
+      "name": "payment-confirmed",
+      "created_at": {
+        "$date": {
+          "$numberLong": "1673562987089"
+        }
+      }
+    },
+    {
+      "name": "order-confirmed",
+      "created_at": {
+        "$date": {
+          "$numberLong": "1673563800490"
+        }
+      }
+    },
+    {
+      "name": "on-delivery",
+      "created_at": {
+        "$date": {
+          "$numberLong": "1673563821622"
+        }
+      }
+    }
+  ],
+  "deliveries": {
+    "order_delivery_status_histories": [
+      {
+        "name": "created",
+        "created_at": {
+          "$date": {
+            "$numberLong": "1673563800490"
+          }
+        }
+      },
+      {
+        "name": "picked-up",
+        "created_at": {
+          "$date": {
+            "$numberLong": "1673563821622"
+          }
+        }
+      },
+      {
+        "name": "on-delivery",
+        "created_at": {
+          "$date": {
+            "$numberLong": "1673563828785"
+          }
+        }
+      }
+    ]
+  },
+  "partners": {
+    "$oid": "63c08ca4292b47452034597c"
+  }
+},{
+  "_id": {
+    "$oid": "63c08e0ff0ab5e53abc7c796"
+  },
+  "order_status": "on-cart",
+  "is_paid": false,
+  "customer_id": {
+    "$oid": "63bebdda1cd050518854522c"
+  },
+  "store_id": {
+    "$oid": "63be1307218d0176787ca583"
+  },
+  "store": {
+    "name": "Morrison 5",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.453124,
+        -2.223312
+      ]
+    }
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "63bee1a1905ece42d0d0865d"
+      },
+      "quantity": 1,
+      "name": "Butter Croissant",
+      "unit_price": 0.95,
+      "total": 0.95
+    },
+    {
+      "product_id": {
+        "$oid": "63bee417905ece42d0d08662"
+      },
+      "quantity": 2,
+      "name": "Coca Cola",
+      "unit_price": 1.5,
+      "total": 3
+    }
+  ],
+  "shipping_address": {
+    "name": "Kim Jisoo",
+    "unit_no": "46",
+    "street": "Arnside Street",
+    "city": "Arnside Street",
+    "country": "United Kingdom",
+    "postcode": "M14 7PF",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.4516747,
+        -2.2316256
+      ]
+    }
+  },
+  "delivery_fee": 5.34,
+  "created_at": {
+    "$date": {
+      "$numberLong": "1673563663742"
+    }
+  },
+  "total_item_price": 3.95,
+  "is_fresh": true,
+  "total_amount": 9.29
+},{
+  "_id": {
+    "$oid": "63c08ee2292b47452034598a"
+  },
+  "order_status": "on-delivery",
+  "is_paid": true,
+  "customer_id": {
+    "$oid": "63bebf7e1cd050518854522f"
+  },
+  "store_id": {
+    "$oid": "63be12c6218d0176787ca57f"
+  },
+  "store": {
+    "name": "Morrison 3",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.468032,
+        -2.245077
+      ]
+    }
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "63bee21b905ece42d0d0865f"
+      },
+      "quantity": 1,
+      "name": "Pain au Chocolat",
+      "unit_price": 1,
+      "total": 1
+    },
+    {
+      "product_id": {
+        "$oid": "63bee227905ece42d0d08660"
+      },
+      "quantity": 1,
+      "name": "Chocolate Muffin",
+      "unit_price": 1.5,
+      "total": 1.5
+    }
+  ],
+  "shipping_address": {
+    "name": "Alexander Skarsgard",
+    "unit_no": "113",
+    "street": "Chicester Road",
+    "city": "Chicester Road",
+    "country": "United Kingdom",
+    "postcode": "M1 5UP",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.4638811,
+        -2.2493641
+      ]
+    }
+  },
+  "delivery_fee": 5.34,
+  "created_at": {
+    "$date": {
+      "$numberLong": "1673563874189"
+    }
+  },
+  "total_item_price": 2.5,
+  "is_fresh": true,
+  "total_amount": 7.84,
+  "order_status_histories": [
+    {
+      "name": "payment-confirmed",
+      "created_at": {
+        "$date": {
+          "$numberLong": "1673563881823"
+        }
+      }
+    },
+    {
+      "name": "order-confirmed",
+      "created_at": {
+        "$date": {
+          "$numberLong": "1673563886826"
+        }
+      }
+    },
+    {
+      "name": "on-delivery",
+      "created_at": {
+        "$date": {
+          "$numberLong": "1673563892517"
+        }
+      }
+    }
+  ],
+  "deliveries": {
+    "order_delivery_status_histories": [
+      {
+        "name": "created",
+        "created_at": {
+          "$date": {
+            "$numberLong": "1673563886826"
+          }
+        }
+      },
+      {
+        "name": "picked-up",
+        "created_at": {
+          "$date": {
+            "$numberLong": "1673563892517"
+          }
+        }
+      },
+      {
+        "name": "on-delivery",
+        "created_at": {
+          "$date": {
+            "$numberLong": "1673563898002"
+          }
+        }
+      }
+    ]
+  },
+  "partners": {
+    "$oid": "63c08cc6292b47452034597d"
+  }
+},{
+  "_id": {
+    "$oid": "63c08f25292b47452034598e"
+  },
+  "order_status": "on-delivery",
+  "is_paid": true,
+  "customer_id": {
+    "$oid": "63bebf901cd0505188545230"
+  },
+  "store_id": {
+    "$oid": "63be12e8218d0176787ca581"
+  },
+  "store": {
+    "name": "Morrison 4",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.462801,
+        -2.235695
+      ]
+    }
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "63bee227905ece42d0d08660"
+      },
+      "quantity": 2,
+      "name": "Chocolate Muffin",
+      "unit_price": 1.5,
+      "total": 3
+    },
+    {
+      "product_id": {
+        "$oid": "63bee23b905ece42d0d08661"
+      },
+      "quantity": 1,
+      "name": "Sourdough",
+      "unit_price": 2,
+      "total": 2
+    }
+  ],
+  "shipping_address": {
+    "name": "Benjamin Anderson",
+    "unit_no": "42",
+    "street": "Regent Avenue",
+    "city": "Regent Avenue",
+    "country": "United Kingdom",
+    "postcode": "M14 7JQ",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.4516433,
+        -2.2407729
+      ]
+    }
+  },
+  "delivery_fee": 5.34,
+  "created_at": {
+    "$date": {
+      "$numberLong": "1673563941367"
+    }
+  },
+  "total_item_price": 5,
+  "is_fresh": true,
+  "total_amount": 10.34,
+  "order_status_histories": [
+    {
+      "name": "payment-confirmed",
+      "created_at": {
+        "$date": {
+          "$numberLong": "1673563948237"
+        }
+      }
+    },
+    {
+      "name": "order-confirmed",
+      "created_at": {
+        "$date": {
+          "$numberLong": "1673563953587"
+        }
+      }
+    },
+    {
+      "name": "on-delivery",
+      "created_at": {
+        "$date": {
+          "$numberLong": "1673563957720"
+        }
+      }
+    }
+  ],
+  "deliveries": {
+    "order_delivery_status_histories": [
+      {
+        "name": "created",
+        "created_at": {
+          "$date": {
+            "$numberLong": "1673563953587"
+          }
+        }
+      },
+      {
+        "name": "picked-up",
+        "created_at": {
+          "$date": {
+            "$numberLong": "1673563957720"
+          }
+        }
+      }
+    ]
+  },
+  "partners": {
+    "$oid": "63c08cf7292b47452034597e"
+  }
+},{
+  "_id": {
+    "$oid": "63c08f64292b474520345992"
+  },
+  "order_status": "order-confirmed",
+  "is_paid": true,
+  "customer_id": {
+    "$oid": "63bebf9e1cd0505188545231"
+  },
+  "store_id": {
+    "$oid": "63be12a7218d0176787ca57d"
+  },
+  "store": {
+    "name": "Morrison 2",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.471428,
+        -2.226993
+      ]
+    }
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "63bee43f905ece42d0d08666"
+      },
+      "quantity": 2,
+      "name": "Mango Juice",
+      "unit_price": 1.2,
+      "total": 2.4
+    },
+    {
+      "product_id": {
+        "$oid": "63bee628905ece42d0d08667"
+      },
+      "quantity": 4,
+      "name": "Chillies",
+      "unit_price": 1.5,
+      "total": 6
+    }
+  ],
+  "shipping_address": {
+    "name": "Bill Skarsgard",
+    "unit_no": "5",
+    "street": "Shilford Dr",
+    "city": "Shilford Dr",
+    "country": "United Kingdom",
+    "postcode": "M4 4JG",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.4894447,
+        -2.2279046
+      ]
+    }
+  },
+  "delivery_fee": 5.34,
+  "created_at": {
+    "$date": {
+      "$numberLong": "1673564004221"
+    }
+  },
+  "total_item_price": 8.4,
+  "is_fresh": true,
+  "total_amount": 13.74,
+  "order_status_histories": [
+    {
+      "name": "payment-confirmed",
+      "created_at": {
+        "$date": {
+          "$numberLong": "1673564010783"
+        }
+      }
+    },
+    {
+      "name": "order-confirmed",
+      "created_at": {
+        "$date": {
+          "$numberLong": "1673564016563"
+        }
+      }
+    }
+  ],
+  "deliveries": {
+    "order_delivery_status_histories": [
+      {
+        "name": "created",
+        "created_at": {
+          "$date": {
+            "$numberLong": "1673564016563"
+          }
+        }
+      }
+    ]
+  },
+  "partners": {
+    "$oid": "63c08c5c292b47452034597a"
+  }
+},{
+  "_id": {
+    "$oid": "63c08fb7292b474520345996"
+  },
+  "order_status": "order-confirmed",
+  "is_paid": true,
+  "customer_id": {
+    "$oid": "63bebfb01cd0505188545232"
+  },
+  "store_id": {
+    "$oid": "63be12a7218d0176787ca57d"
+  },
+  "store": {
+    "name": "Morrison 2",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.471428,
+        -2.226993
+      ]
+    }
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "63bee23b905ece42d0d08661"
+      },
+      "quantity": 5,
+      "name": "Sourdough",
+      "unit_price": 2,
+      "total": 10
+    },
+    {
+      "product_id": {
+        "$oid": "63bee417905ece42d0d08662"
+      },
+      "quantity": 4,
+      "name": "Coca Cola",
+      "unit_price": 1.5,
+      "total": 6
+    },
+    {
+      "product_id": {
+        "$oid": "63bee42d905ece42d0d08664"
+      },
+      "quantity": 3,
+      "name": "Fanta",
+      "unit_price": 1.23,
+      "total": 3.69
+    }
+  ],
+  "shipping_address": {
+    "name": "Valerie Browski",
+    "unit_no": "8",
+    "street": "Norbury Close",
+    "city": "Norbury Close",
+    "country": "United Kingdom",
+    "postcode": "M40 8DL",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.4935435,
+        -2.2119262
+      ]
+    }
+  },
+  "delivery_fee": 5.34,
+  "created_at": {
+    "$date": {
+      "$numberLong": "1673564087927"
+    }
+  },
+  "total_item_price": 19.69,
+  "is_fresh": true,
+  "total_amount": 25.03,
+  "order_status_histories": [
+    {
+      "name": "payment-confirmed",
+      "created_at": {
+        "$date": {
+          "$numberLong": "1673564094000"
+        }
+      }
+    },
+    {
+      "name": "order-confirmed",
+      "created_at": {
+        "$date": {
+          "$numberLong": "1673564098790"
+        }
+      }
+    }
+  ],
+  "deliveries": {
+    "order_delivery_status_histories": [
+      {
+        "name": "created",
+        "created_at": {
+          "$date": {
+            "$numberLong": "1673564098790"
+          }
+        }
+      }
+    ]
+  },
+  "partners": {
+    "$oid": "63c08c79292b47452034597b"
+  }
+},{
+  "_id": {
+    "$oid": "63c08ff2292b47452034599b"
+  },
+  "order_status": "payment-confirmed",
+  "is_paid": true,
+  "customer_id": {
+    "$oid": "63bebfc61cd0505188545233"
+  },
+  "store_id": {
+    "$oid": "63be12a7218d0176787ca57d"
+  },
+  "store": {
+    "name": "Morrison 2",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.471428,
+        -2.226993
+      ]
+    }
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "63bee417905ece42d0d08662"
+      },
+      "quantity": 5,
+      "name": "Coca Cola",
+      "unit_price": 1.5,
+      "total": 7.5
+    },
+    {
+      "product_id": {
+        "$oid": "63bee42d905ece42d0d08664"
+      },
+      "quantity": 3,
+      "name": "Fanta",
+      "unit_price": 1.23,
+      "total": 3.69
+    },
+    {
+      "product_id": {
+        "$oid": "63bee43f905ece42d0d08666"
+      },
+      "quantity": 3,
+      "name": "Mango Juice",
+      "unit_price": 1.2,
+      "total": 3.5999999999999996
+    }
+  ],
+  "shipping_address": {
+    "name": "Yuzuru Hanyu",
+    "unit_no": "10",
+    "street": "Kimbolton Close",
+    "city": "Kimbolton Close",
+    "country": "United Kingdom",
+    "postcode": "M12 5PD",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.4698432,
+        -2.1917428
+      ]
+    }
+  },
+  "delivery_fee": 5.34,
+  "created_at": {
+    "$date": {
+      "$numberLong": "1673564146499"
+    }
+  },
+  "total_item_price": 14.79,
+  "is_fresh": true,
+  "total_amount": 20.13,
+  "order_status_histories": [
+    {
+      "name": "payment-confirmed",
+      "created_at": {
+        "$date": {
+          "$numberLong": "1673564153392"
+        }
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63c0902e292b4745203459a0"
+  },
+  "order_status": "payment-confirmed",
+  "is_paid": true,
+  "customer_id": {
+    "$oid": "63bec0381cd0505188545234"
+  },
+  "store_id": {
+    "$oid": "63be1307218d0176787ca583"
+  },
+  "store": {
+    "name": "Morrison 5",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.453124,
+        -2.223312
+      ]
+    }
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "63bee21b905ece42d0d0865f"
+      },
+      "quantity": 5,
+      "name": "Pain au Chocolat",
+      "unit_price": 1,
+      "total": 5
+    },
+    {
+      "product_id": {
+        "$oid": "63bee227905ece42d0d08660"
+      },
+      "quantity": 3,
+      "name": "Chocolate Muffin",
+      "unit_price": 1.5,
+      "total": 4.5
+    },
+    {
+      "product_id": {
+        "$oid": "63bee23b905ece42d0d08661"
+      },
+      "quantity": 2,
+      "name": "Sourdough",
+      "unit_price": 2,
+      "total": 4
+    }
+  ],
+  "shipping_address": {
+    "name": "Shome Uno",
+    "unit_no": "1",
+    "street": "Milverton Road",
+    "city": "Milverton Road",
+    "country": "United Kingdom",
+    "postcode": "M14 5PL",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.4567713,
+        -2.2169056
+      ]
+    }
+  },
+  "delivery_fee": 5.34,
+  "created_at": {
+    "$date": {
+      "$numberLong": "1673564206475"
+    }
+  },
+  "total_item_price": 13.5,
+  "is_fresh": true,
+  "total_amount": 18.84,
+  "order_status_histories": [
+    {
+      "name": "payment-confirmed",
+      "created_at": {
+        "$date": {
+          "$numberLong": "1673564215263"
+        }
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63c0906e292b4745203459a5"
+  },
+  "order_status": "order-confirmed",
+  "is_paid": true,
+  "customer_id": {
+    "$oid": "63bec0571cd0505188545235"
+  },
+  "store_id": {
+    "$oid": "63be1307218d0176787ca583"
+  },
+  "store": {
+    "name": "Morrison 5",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.453124,
+        -2.223312
+      ]
+    }
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "63bee66f905ece42d0d0866b"
+      },
+      "quantity": 5,
+      "name": "Bananas",
+      "unit_price": 1.5,
+      "total": 7.5
+    },
+    {
+      "product_id": {
+        "$oid": "63bee666905ece42d0d0866a"
+      },
+      "quantity": 3,
+      "name": "Apple",
+      "unit_price": 1.23,
+      "total": 3.69
+    },
+    {
+      "product_id": {
+        "$oid": "63bee63a905ece42d0d08669"
+      },
+      "quantity": 2,
+      "name": "Spinach",
+      "unit_price": 0.75,
+      "total": 1.5
+    }
+  ],
+  "shipping_address": {
+    "name": "Jerome Polin",
+    "unit_no": "24",
+    "street": "Thoresway Road",
+    "city": "Thoresway Road",
+    "country": "United Kingdom",
+    "postcode": "M13 0XN",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.4524185,
+        -2.2075892
+      ]
+    }
+  },
+  "delivery_fee": 5.34,
+  "created_at": {
+    "$date": {
+      "$numberLong": "1673564270524"
+    }
+  },
+  "total_item_price": 12.69,
+  "is_fresh": true,
+  "total_amount": 18.03,
+  "order_status_histories": [
+    {
+      "name": "payment-confirmed",
+      "created_at": {
+        "$date": {
+          "$numberLong": "1673564276793"
+        }
+      }
+    },
+    {
+      "name": "order-confirmed",
+      "created_at": {
+        "$date": {
+          "$numberLong": "1673564281185"
+        }
+      }
+    }
+  ],
+  "deliveries": {
+    "order_delivery_status_histories": [
+      {
+        "name": "created",
+        "created_at": {
+          "$date": {
+            "$numberLong": "1673564281185"
+          }
+        }
+      }
+    ]
+  },
+  "partners": {
+    "$oid": "63c08d57292b474520345980"
+  }
+},{
+  "_id": {
+    "$oid": "63c090b5292b4745203459aa"
+  },
+  "order_status": "on-delivery",
+  "is_paid": true,
+  "customer_id": {
+    "$oid": "63bec07c1cd0505188545236"
+  },
+  "store_id": {
+    "$oid": "63be1307218d0176787ca583"
+  },
+  "store": {
+    "name": "Morrison 5",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.453124,
+        -2.223312
+      ]
+    }
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "63bee628905ece42d0d08667"
+      },
+      "quantity": 1,
+      "name": "Orange Juice",
+      "unit_price": 1.3,
+      "total": 1.3
+    },
+    {
+      "product_id": {
+        "$oid": "63bee43f905ece42d0d08666"
+      },
+      "quantity": 1,
+      "name": "Mango Juice",
+      "unit_price": 1.2,
+      "total": 1.2
+    },
+    {
+      "product_id": {
+        "$oid": "63bee435905ece42d0d08665"
+      },
+      "quantity": 2,
+      "name": "Chillies",
+      "unit_price": 1.5,
+      "total": 3
+    }
+  ],
+  "shipping_address": {
+    "name": "Tomohiro Shita",
+    "unit_no": "14",
+    "street": "Plattbrook Close",
+    "city": "Plattbrook Close",
+    "country": "United Kingdom",
+    "postcode": "M14 7AA",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.4444387,
+        -2.2311856
+      ]
+    }
+  },
+  "delivery_fee": 5.34,
+  "created_at": {
+    "$date": {
+      "$numberLong": "1673564341997"
+    }
+  },
+  "total_item_price": 5.5,
+  "is_fresh": true,
+  "total_amount": 10.84,
+  "order_status_histories": [
+    {
+      "name": "payment-confirmed",
+      "created_at": {
+        "$date": {
+          "$numberLong": "1673564348404"
+        }
+      }
+    },
+    {
+      "name": "order-confirmed",
+      "created_at": {
+        "$date": {
+          "$numberLong": "1673564352928"
+        }
+      }
+    },
+    {
+      "name": "on-delivery",
+      "created_at": {
+        "$date": {
+          "$numberLong": "1673564358288"
+        }
+      }
+    }
+  ],
+  "deliveries": {
+    "order_delivery_status_histories": [
+      {
+        "name": "created",
+        "created_at": {
+          "$date": {
+            "$numberLong": "1673564352928"
+          }
+        }
+      },
+      {
+        "name": "picked-up",
+        "created_at": {
+          "$date": {
+            "$numberLong": "1673564358288"
+          }
+        }
+      },
+      {
+        "name": "on-delivery",
+        "created_at": {
+          "$date": {
+            "$numberLong": "1673564362968"
+          }
+        }
+      }
+    ]
+  },
+  "partners": {
+    "$oid": "63c08d75292b474520345981"
+  }
+},{
+  "_id": {
+    "$oid": "63c090f4292b4745203459af"
+  },
+  "order_status": "order-confirmed",
+  "is_paid": true,
+  "customer_id": {
+    "$oid": "63bec0b01cd0505188545237"
+  },
+  "store_id": {
+    "$oid": "63be12e8218d0176787ca581"
+  },
+  "store": {
+    "name": "Morrison 4",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.462801,
+        -2.235695
+      ]
+    }
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "63bee628905ece42d0d08667"
+      },
+      "quantity": 10,
+      "name": "Chillies",
+      "unit_price": 1.5,
+      "total": 15
+    }
+  ],
+  "shipping_address": {
+    "name": "Yusuke Sakazaki",
+    "unit_no": "202",
+    "street": "Horton Road",
+    "city": "Horton Road",
+    "country": "United Kingdom",
+    "postcode": "M14 7QF",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.4485784,
+        -2.2385618
+      ]
+    }
+  },
+  "delivery_fee": 5.34,
+  "created_at": {
+    "$date": {
+      "$numberLong": "1673564404152"
+    }
+  },
+  "total_item_price": 15,
+  "is_fresh": true,
+  "total_amount": 20.34,
+  "order_status_histories": [
+    {
+      "name": "payment-confirmed",
+      "created_at": {
+        "$date": {
+          "$numberLong": "1673564410349"
+        }
+      }
+    },
+    {
+      "name": "order-confirmed",
+      "created_at": {
+        "$date": {
+          "$numberLong": "1673564414913"
+        }
+      }
+    }
+  ],
+  "deliveries": {
+    "order_delivery_status_histories": [
+      {
+        "name": "created",
+        "created_at": {
+          "$date": {
+            "$numberLong": "1673564414913"
+          }
+        }
+      }
+    ]
+  },
+  "partners": {
+    "$oid": "63c08d19292b47452034597f"
+  }
+},{
+  "_id": {
+    "$oid": "63c09127292b4745203459b2"
+  },
+  "order_status": "payment-confirmed",
+  "is_paid": true,
+  "customer_id": {
+    "$oid": "63bec0ce1cd0505188545238"
+  },
+  "store_id": {
+    "$oid": "63be1307218d0176787ca583"
+  },
+  "store": {
+    "name": "Morrison 5",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.453124,
+        -2.223312
+      ]
+    }
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "63bee424905ece42d0d08663"
+      },
+      "quantity": 5,
+      "name": "Pepsi",
+      "unit_price": 1.5,
+      "total": 7.5
+    }
+  ],
+  "shipping_address": {
+    "name": "Ryoma Otsuka",
+    "unit_no": "19",
+    "street": "Worthing Street ",
+    "city": "Worthing Street ",
+    "country": "United Kingdom",
+    "postcode": "M14 7PR",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.42919763012772,
+        -2.244068725829681
+      ]
+    }
+  },
+  "delivery_fee": 5.34,
+  "created_at": {
+    "$date": {
+      "$numberLong": "1673564455287"
+    }
+  },
+  "total_item_price": 7.5,
+  "is_fresh": true,
+  "total_amount": 12.84,
+  "order_status_histories": [
+    {
+      "name": "payment-confirmed",
+      "created_at": {
+        "$date": {
+          "$numberLong": "1673564463147"
+        }
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63c09151292b4745203459b5"
+  },
+  "order_status": "order-confirmed",
+  "is_paid": true,
+  "customer_id": {
+    "$oid": "63c05e4e5fe0ba57081af9ac"
+  },
+  "store_id": {
+    "$oid": "63be1307218d0176787ca583"
+  },
+  "store": {
+    "name": "Morrison 5",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.453124,
+        -2.223312
+      ]
+    }
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "63bee435905ece42d0d08665"
+      },
+      "quantity": 8,
+      "name": "Orange Juice",
+      "unit_price": 1.3,
+      "total": 10.4
+    }
+  ],
+  "shipping_address": {
+    "name": "Tomohiro Otsuka",
+    "unit_no": "19",
+    "street": "Worthing Street ",
+    "city": "Worthing Street ",
+    "country": "United Kingdom",
+    "postcode": "M14 7PR",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.450008,
+        -2.23165
+      ]
+    }
+  },
+  "delivery_fee": 5.34,
+  "created_at": {
+    "$date": {
+      "$numberLong": "1673564497839"
+    }
+  },
+  "total_item_price": 10.4,
+  "is_fresh": true,
+  "total_amount": 15.74,
+  "order_status_histories": [
+    {
+      "name": "payment-confirmed",
+      "created_at": {
+        "$date": {
+          "$numberLong": "1673564503912"
+        }
+      }
+    },
+    {
+      "name": "order-confirmed",
+      "created_at": {
+        "$date": {
+          "$numberLong": "1673564509990"
+        }
+      }
+    }
+  ],
+  "deliveries": {
+    "order_delivery_status_histories": [
+      {
+        "name": "created",
+        "created_at": {
+          "$date": {
+            "$numberLong": "1673564509990"
+          }
+        }
+      }
+    ],
+    "ETA": 7.344929268563801,
+    "distance": 1836.2323171409503
+  },
+  "partners": {
+    "$oid": "63c08c23292b474520345979"
+  }
+},{
+  "_id": {
+    "$oid": "63c092fef0ab5e53abc7c798"
+  },
+  "order_status": "on-cart",
+  "is_paid": false,
+  "customer_id": {
+    "$oid": "63bebdda1cd050518854522c"
+  },
+  "store_id": {
+    "$oid": "63be1307218d0176787ca583"
+  },
+  "store": {
+    "name": "Morrison 5",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.453124,
+        -2.223312
+      ]
+    }
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "63bee1a1905ece42d0d0865d"
+      },
+      "quantity": 1,
+      "name": "Butter Croissant",
+      "unit_price": 0.95,
+      "total": 0.95
+    },
+    {
+      "product_id": {
+        "$oid": "63bee417905ece42d0d08662"
+      },
+      "quantity": 2,
+      "name": "Coca Cola",
+      "unit_price": 1.5,
+      "total": 3
+    }
+  ],
+  "shipping_address": {
+    "name": "Kim Jisoo",
+    "unit_no": "46",
+    "street": "Arnside Street",
+    "city": "Arnside Street",
+    "country": "United Kingdom",
+    "postcode": "M14 7PF",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.4516747,
+        -2.2316256
+      ]
+    }
+  },
+  "delivery_fee": 5.34,
+  "created_at": {
+    "$date": {
+      "$numberLong": "1673564926558"
+    }
+  },
+  "total_item_price": 3.95,
+  "is_fresh": true,
+  "total_amount": 9.29
+},{
+  "_id": {
+    "$oid": "63c095ddf0ab5e53abc7c79a"
+  },
+  "order_status": "on-cart",
+  "is_paid": false,
+  "customer_id": {
+    "$oid": "63bebdda1cd050518854522c"
+  },
+  "store_id": {
+    "$oid": "63be1307218d0176787ca583"
+  },
+  "store": {
+    "name": "Morrison 5",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.453124,
+        -2.223312
+      ]
+    }
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "63bee1a1905ece42d0d0865d"
+      },
+      "quantity": 1,
+      "name": "Butter Croissant",
+      "unit_price": 0.95,
+      "total": 0.95
+    },
+    {
+      "product_id": {
+        "$oid": "63bee417905ece42d0d08662"
+      },
+      "quantity": 2,
+      "name": "Coca Cola",
+      "unit_price": 1.5,
+      "total": 3
+    }
+  ],
+  "shipping_address": {
+    "name": "Kim Jisoo",
+    "unit_no": "46",
+    "street": "Arnside Street",
+    "city": "Arnside Street",
+    "country": "United Kingdom",
+    "postcode": "M14 7PF",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.4516747,
+        -2.2316256
+      ]
+    }
+  },
+  "delivery_fee": 5.34,
+  "created_at": {
+    "$date": {
+      "$numberLong": "1673565661054"
+    }
+  },
+  "total_item_price": 3.95,
+  "is_fresh": true,
+  "total_amount": 9.29
+},{
+  "_id": {
+    "$oid": "63c095e3f0ab5e53abc7c79c"
+  },
+  "order_status": "on-cart",
+  "is_paid": false,
+  "customer_id": {
+    "$oid": "63bebdda1cd050518854522c"
+  },
+  "store_id": {
+    "$oid": "63be1307218d0176787ca583"
+  },
+  "store": {
+    "name": "Morrison 5",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.453124,
+        -2.223312
+      ]
+    }
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "63bee1a1905ece42d0d0865d"
+      },
+      "quantity": 1,
+      "name": "Butter Croissant",
+      "unit_price": 0.95,
+      "total": 0.95
+    },
+    {
+      "product_id": {
+        "$oid": "63bee417905ece42d0d08662"
+      },
+      "quantity": 2,
+      "name": "Coca Cola",
+      "unit_price": 1.5,
+      "total": 3
+    }
+  ],
+  "shipping_address": {
+    "name": "Kim Jisoo",
+    "unit_no": "46",
+    "street": "Arnside Street",
+    "city": "Arnside Street",
+    "country": "United Kingdom",
+    "postcode": "M14 7PF",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.4516747,
+        -2.2316256
+      ]
+    }
+  },
+  "delivery_fee": 5.34,
+  "created_at": {
+    "$date": {
+      "$numberLong": "1673565667671"
+    }
+  },
+  "total_item_price": 3.95,
+  "is_fresh": true,
+  "total_amount": 9.29
+},{
+  "_id": {
+    "$oid": "63c0973c30a1de5331ed7cb3"
+  },
+  "order_status": "on-cart",
+  "is_paid": false,
+  "customer_id": {
+    "$oid": "63bebdda1cd050518854522c"
+  },
+  "store_id": {
+    "$oid": "63be1307218d0176787ca583"
+  },
+  "store": {
+    "name": "Morrison 5",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.453124,
+        -2.223312
+      ]
+    }
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "63bee1a1905ece42d0d0865d"
+      },
+      "quantity": 1,
+      "name": "Butter Croissant",
+      "unit_price": 0.95,
+      "total": 0.95
+    },
+    {
+      "product_id": {
+        "$oid": "63bee417905ece42d0d08662"
+      },
+      "quantity": 2,
+      "name": "Coca Cola",
+      "unit_price": 1.5,
+      "total": 3
+    }
+  ],
+  "shipping_address": {
+    "name": "Kim Jisoo",
+    "unit_no": "46",
+    "street": "Arnside Street",
+    "city": "Arnside Street",
+    "country": "United Kingdom",
+    "postcode": "M14 7PF",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.4516747,
+        -2.2316256
+      ]
+    }
+  },
+  "delivery_fee": 5.34,
+  "created_at": {
+    "$date": {
+      "$numberLong": "1673566012179"
+    }
+  },
+  "total_item_price": 3.95,
+  "is_fresh": true,
+  "total_amount": 9.29
+},{
+  "_id": {
+    "$oid": "63c0974030a1de5331ed7d90"
+  },
+  "order_status": "on-cart",
+  "is_paid": false,
+  "customer_id": {
+    "$oid": "63bec0b01cd0505188545237"
+  },
+  "store_id": {
+    "$oid": "63be12e8218d0176787ca581"
+  },
+  "store": {
+    "name": "Morrison 4",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.462801,
+        -2.235695
+      ]
+    }
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "63bee227905ece42d0d08660"
+      },
+      "quantity": 3,
+      "name": "Chocolate Muffin",
+      "unit_price": 1.5,
+      "total": 4.5
+    },
+    {
+      "product_id": {
+        "$oid": "63bee23b905ece42d0d08661"
+      },
+      "quantity": 2,
+      "name": "Sourdough",
+      "unit_price": 2,
+      "total": 4
+    }
+  ],
+  "shipping_address": {
+    "name": "Yusuke Sakazaki",
+    "unit_no": "202",
+    "street": "Horton Road",
+    "city": "Horton Road",
+    "country": "United Kingdom",
+    "postcode": "M14 7QF",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.4485784,
+        -2.2385618
+      ]
+    }
+  },
+  "delivery_fee": 5.34,
+  "created_at": {
+    "$date": {
+      "$numberLong": "1673566016455"
+    }
+  },
+  "total_item_price": 8.5,
+  "is_fresh": true,
+  "total_amount": 13.84
+},{
+  "_id": {
+    "$oid": "63c0a4faf0ab5e53abc7c79f"
+  },
+  "order_status": "on-cart",
+  "is_paid": false,
+  "customer_id": {
+    "$oid": "63bebdda1cd050518854522c"
+  },
+  "store_id": {
+    "$oid": "63be1307218d0176787ca583"
+  },
+  "store": {
+    "name": "Morrison 5",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.453124,
+        -2.223312
+      ]
+    }
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "63bee1a1905ece42d0d0865d"
+      },
+      "quantity": 1,
+      "name": "Butter Croissant",
+      "unit_price": 0.95,
+      "total": 0.95
+    },
+    {
+      "product_id": {
+        "$oid": "63bee417905ece42d0d08662"
+      },
+      "quantity": 2,
+      "name": "Coca Cola",
+      "unit_price": 1.5,
+      "total": 3
+    }
+  ],
+  "shipping_address": {
+    "name": "Kim Jisoo",
+    "unit_no": "46",
+    "street": "Arnside Street",
+    "city": "Arnside Street",
+    "country": "United Kingdom",
+    "postcode": "M14 7PF",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.4516747,
+        -2.2316256
+      ]
+    }
+  },
+  "delivery_fee": 5.34,
+  "created_at": {
+    "$date": {
+      "$numberLong": "1673569530657"
+    }
+  },
+  "total_item_price": 3.95,
+  "is_fresh": true,
+  "total_amount": 9.29
+},{
+  "_id": {
+    "$oid": "63c0a66cf0ab5e53abc7c7a1"
+  },
+  "order_status": "on-cart",
+  "is_paid": false,
+  "customer_id": {
+    "$oid": "63bebdda1cd050518854522c"
+  },
+  "store_id": {
+    "$oid": "63be1307218d0176787ca583"
+  },
+  "store": {
+    "name": "Morrison 5",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.453124,
+        -2.223312
+      ]
+    }
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "63bee1a1905ece42d0d0865d"
+      },
+      "quantity": 1,
+      "name": "Butter Croissant",
+      "unit_price": 0.95,
+      "total": 0.95
+    },
+    {
+      "product_id": {
+        "$oid": "63bee417905ece42d0d08662"
+      },
+      "quantity": 2,
+      "name": "Coca Cola",
+      "unit_price": 1.5,
+      "total": 3
+    }
+  ],
+  "shipping_address": {
+    "name": "Kim Jisoo",
+    "unit_no": "46",
+    "street": "Arnside Street",
+    "city": "Arnside Street",
+    "country": "United Kingdom",
+    "postcode": "M14 7PF",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.4516747,
+        -2.2316256
+      ]
+    }
+  },
+  "delivery_fee": 5.34,
+  "created_at": {
+    "$date": {
+      "$numberLong": "1673569900824"
+    }
+  },
+  "total_item_price": 3.95,
+  "is_fresh": true,
+  "total_amount": 9.29
+},{
+  "_id": {
+    "$oid": "63c0a695f0ab5e53abc7c7a3"
+  },
+  "order_status": "on-cart",
+  "is_paid": false,
+  "customer_id": {
+    "$oid": "63bebdda1cd050518854522c"
+  },
+  "store_id": {
+    "$oid": "63be1307218d0176787ca583"
+  },
+  "store": {
+    "name": "Morrison 5",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.453124,
+        -2.223312
+      ]
+    }
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "63bee1a1905ece42d0d0865d"
+      },
+      "quantity": 1,
+      "name": "Butter Croissant",
+      "unit_price": 0.95,
+      "total": 0.95
+    },
+    {
+      "product_id": {
+        "$oid": "63bee417905ece42d0d08662"
+      },
+      "quantity": 2,
+      "name": "Coca Cola",
+      "unit_price": 1.5,
+      "total": 3
+    }
+  ],
+  "shipping_address": {
+    "name": "Kim Jisoo",
+    "unit_no": "46",
+    "street": "Arnside Street",
+    "city": "Arnside Street",
+    "country": "United Kingdom",
+    "postcode": "M14 7PF",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.4516747,
+        -2.2316256
+      ]
+    }
+  },
+  "delivery_fee": 5.34,
+  "created_at": {
+    "$date": {
+      "$numberLong": "1673569941172"
+    }
+  },
+  "total_item_price": 3.95,
+  "is_fresh": true,
+  "total_amount": 9.29
+},{
+  "_id": {
+    "$oid": "63c0a7f4f0ab5e53abc7c7a5"
+  },
+  "order_status": "on-cart",
+  "is_paid": false,
+  "customer_id": {
+    "$oid": "63bebdda1cd050518854522c"
+  },
+  "store_id": {
+    "$oid": "63be1307218d0176787ca583"
+  },
+  "store": {
+    "name": "Morrison 5",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.453124,
+        -2.223312
+      ]
+    }
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "63bee1a1905ece42d0d0865d"
+      },
+      "quantity": 3,
+      "name": "Butter Croissant",
+      "unit_price": 0.95,
+      "total": 2.8499999999999996
+    },
+    {
+      "product_id": {
+        "$oid": "63bee21b905ece42d0d0865f"
+      },
+      "quantity": 1,
+      "name": "Pain au Chocolat",
+      "unit_price": 1
+    }
+  ],
+  "shipping_address": {
+    "name": "Kim Jisoo",
+    "unit_no": "46",
+    "street": "Arnside Street",
+    "city": "Arnside Street",
+    "country": "United Kingdom",
+    "postcode": "M14 7PF",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.4516747,
+        -2.2316256
+      ]
+    }
+  },
+  "delivery_fee": 5.34,
+  "created_at": {
+    "$date": {
+      "$numberLong": "1673570292354"
+    }
+  },
+  "total_item_price": 3.8499999999999996,
+  "is_fresh": true,
+  "total_amount": 9.19
+},{
+  "_id": {
+    "$oid": "63c0ac9fe9b9890d9089f6ae"
+  },
+  "order_status": "on-cart",
+  "is_paid": false,
+  "customer_id": {
+    "$oid": "63c05e4e5fe0ba57081af9ac"
+  },
+  "store_id": {
+    "$oid": "63be1307218d0176787ca583"
+  },
+  "store": {
+    "name": "Morrison 5",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.453124,
+        -2.223312
+      ]
+    }
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "63bee435905ece42d0d08665"
+      },
+      "quantity": 8,
+      "name": "Orange Juice",
+      "unit_price": 1.3,
+      "total": 10.4
+    },
+    {
+      "product_id": {
+        "$oid": "63bee23b905ece42d0d08661"
+      },
+      "quantity": 3,
+      "name": "Sourdough",
+      "unit_price": 2,
+      "total": 6
+    }
+  ],
+  "shipping_address": {
+    "name": "Tomohiro Otsuka",
+    "unit_no": "19",
+    "street": "Worthing Street ",
+    "city": "Worthing Street ",
+    "country": "United Kingdom",
+    "postcode": "M14 7PR",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.450008,
+        -2.23165
+      ]
+    }
+  },
+  "delivery_fee": 5.34,
+  "created_at": {
+    "$date": {
+      "$numberLong": "1673571488002"
+    }
+  },
+  "total_item_price": 16.4,
+  "is_fresh": true,
+  "total_amount": 21.740000000000002
+},{
+  "_id": {
+    "$oid": "63c0acf771f5515e44c598bd"
+  },
+  "order_status": "on-cart",
+  "is_paid": false,
+  "customer_id": {
+    "$oid": "63bebdda1cd050518854522c"
+  },
+  "store_id": {
+    "$oid": "63be1307218d0176787ca583"
+  },
+  "store": {
+    "name": "Morrison 5",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.453124,
+        -2.223312
+      ]
+    }
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "63bee1a1905ece42d0d0865d"
+      },
+      "quantity": 3,
+      "name": "Butter Croissant",
+      "unit_price": 0.95,
+      "total": 2.8499999999999996
+    },
+    {
+      "product_id": {
+        "$oid": "63bee21b905ece42d0d0865f"
+      },
+      "quantity": 1,
+      "name": "Pain au Chocolat",
+      "unit_price": 1
+    }
+  ],
+  "shipping_address": {
+    "name": "Kim Jisoo",
+    "unit_no": "46",
+    "street": "Arnside Street",
+    "city": "Arnside Street",
+    "country": "United Kingdom",
+    "postcode": "M14 7PF",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.4516747,
+        -2.2316256
+      ]
+    }
+  },
+  "delivery_fee": 5.34,
+  "created_at": {
+    "$date": {
+      "$numberLong": "1673571575312"
+    }
+  },
+  "total_item_price": 3.8499999999999996,
+  "is_fresh": true,
+  "total_amount": 9.19
+},{
+  "_id": {
+    "$oid": "63c0b434d5182e606b3af881"
+  },
+  "order_status": "on-delivery",
+  "is_paid": true,
+  "customer_id": {
+    "$oid": "63bebdda1cd050518854522c"
+  },
+  "store_id": {
+    "$oid": "63be1307218d0176787ca583"
+  },
+  "store": {
+    "name": "Morrison 5",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.453124,
+        -2.223312
+      ]
+    }
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "63bee1a1905ece42d0d0865d"
+      },
+      "quantity": 3,
+      "name": "Butter Croissant",
+      "unit_price": 0.95,
+      "total": 2.8499999999999996
+    },
+    {
+      "product_id": {
+        "$oid": "63bee21b905ece42d0d0865f"
+      },
+      "quantity": 1,
+      "name": "Pain au Chocolat",
+      "unit_price": 1
+    }
+  ],
+  "shipping_address": {
+    "name": "Kim Jisoo",
+    "unit_no": "46",
+    "street": "Arnside Street",
+    "city": "Arnside Street",
+    "country": "United Kingdom",
+    "postcode": "M14 7PF",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.4516747,
+        -2.2316256
+      ]
+    }
+  },
+  "delivery_fee": 5.34,
+  "created_at": {
+    "$date": {
+      "$numberLong": "1673573428642"
+    }
+  },
+  "total_item_price": 3.8499999999999996,
+  "is_fresh": true,
+  "total_amount": 9.19,
+  "order_status_histories": [
+    {
+      "name": "payment-confirmed",
+      "created_at": {
+        "$date": {
+          "$numberLong": "1673573441487"
+        }
+      }
+    },
+    {
+      "name": "order-confirmed",
+      "created_at": {
+        "$date": {
+          "$numberLong": "1673573447300"
+        }
+      }
+    },
+    {
+      "name": "on-delivery",
+      "created_at": {
+        "$date": {
+          "$numberLong": "1673573716694"
+        }
+      }
+    }
+  ],
+  "deliveries": {
+    "order_delivery_status_histories": [
+      {
+        "name": "created",
+        "created_at": {
+          "$date": {
+            "$numberLong": "1673573447300"
+          }
+        }
+      },
+      {
+        "name": "picked-up",
+        "created_at": {
+          "$date": {
+            "$numberLong": "1673573716694"
+          }
+        }
+      }
+    ]
+  },
+  "partners": {
+    "$oid": "63c08dc0292b474520345984"
+  }
+},{
+  "_id": {
+    "$oid": "63c0b805d5182e606b3af885"
+  },
+  "order_status": "on-cart",
+  "is_paid": false,
+  "customer_id": {
+    "$oid": "63bebdda1cd050518854522c"
+  },
+  "store_id": {
+    "$oid": "63be1307218d0176787ca583"
+  },
+  "store": {
+    "name": "Morrison 5",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.453124,
+        -2.223312
+      ]
+    }
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "63bee1a1905ece42d0d0865d"
+      },
+      "quantity": 1,
+      "name": "Butter Croissant",
+      "unit_price": 0.95,
+      "total": 0.95
+    },
+    {
+      "product_id": {
+        "$oid": "63bee417905ece42d0d08662"
+      },
+      "quantity": 2,
+      "name": "Coca Cola",
+      "unit_price": 1.5,
+      "total": 3
+    }
+  ],
+  "shipping_address": {
+    "name": "Kim Jisoo",
+    "unit_no": "46",
+    "street": "Arnside Street",
+    "city": "Arnside Street",
+    "country": "United Kingdom",
+    "postcode": "M14 7PF",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.4516747,
+        -2.2316256
+      ]
+    }
+  },
+  "delivery_fee": 5.34,
+  "created_at": {
+    "$date": {
+      "$numberLong": "1673574405217"
+    }
+  },
+  "total_item_price": 3.95,
+  "is_fresh": true,
+  "total_amount": 9.29
+},{
+  "_id": {
+    "$oid": "63c0b837d5182e606b3af887"
+  },
+  "order_status": "on-cart",
+  "is_paid": false,
+  "customer_id": {
+    "$oid": "63bebdda1cd050518854522c"
+  },
+  "store_id": {
+    "$oid": "63be1307218d0176787ca583"
+  },
+  "store": {
+    "name": "Morrison 5",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.453124,
+        -2.223312
+      ]
+    }
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "63bee1a1905ece42d0d0865d"
+      },
+      "quantity": 1,
+      "name": "Butter Croissant",
+      "unit_price": 0.95,
+      "total": 0.95
+    },
+    {
+      "product_id": {
+        "$oid": "63bee417905ece42d0d08662"
+      },
+      "quantity": 2,
+      "name": "Coca Cola",
+      "unit_price": 1.5,
+      "total": 3
+    }
+  ],
+  "shipping_address": {
+    "name": "Kim Jisoo",
+    "unit_no": "46",
+    "street": "Arnside Street",
+    "city": "Arnside Street",
+    "country": "United Kingdom",
+    "postcode": "M14 7PF",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.4516747,
+        -2.2316256
+      ]
+    }
+  },
+  "delivery_fee": 5.34,
+  "created_at": {
+    "$date": {
+      "$numberLong": "1673574455936"
+    }
+  },
+  "total_item_price": 3.95,
+  "is_fresh": true,
+  "total_amount": 9.29
+},{
+  "_id": {
+    "$oid": "63c0b969d5182e606b3af889"
+  },
+  "order_status": "order-confirmed",
+  "is_paid": true,
+  "customer_id": {
+    "$oid": "63bebdda1cd050518854522c"
+  },
+  "store_id": {
+    "$oid": "63be1307218d0176787ca583"
+  },
+  "store": {
+    "name": "Morrison 5",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.453124,
+        -2.223312
+      ]
+    }
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "63bee1a1905ece42d0d0865d"
+      },
+      "quantity": 3,
+      "name": "Butter Croissant",
+      "unit_price": 0.95,
+      "total": 2.8499999999999996
+    },
+    {
+      "product_id": {
+        "$oid": "63bee21b905ece42d0d0865f"
+      },
+      "quantity": 1,
+      "name": "Pain au Chocolat",
+      "unit_price": 1
+    }
+  ],
+  "shipping_address": {
+    "name": "Kim Jisoo",
+    "unit_no": "46",
+    "street": "Arnside Street",
+    "city": "Arnside Street",
+    "country": "United Kingdom",
+    "postcode": "M14 7PF",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.4516747,
+        -2.2316256
+      ]
+    }
+  },
+  "delivery_fee": 5.34,
+  "created_at": {
+    "$date": {
+      "$numberLong": "1673574761580"
+    }
+  },
+  "total_item_price": 3.8499999999999996,
+  "is_fresh": true,
+  "total_amount": 9.19,
+  "order_status_histories": [
+    {
+      "name": "payment-confirmed",
+      "created_at": {
+        "$date": {
+          "$numberLong": "1673574779740"
+        }
+      }
+    },
+    {
+      "name": "order-confirmed",
+      "created_at": {
+        "$date": {
+          "$numberLong": "1673574784351"
+        }
+      }
+    }
+  ],
+  "deliveries": {
+    "order_delivery_status_histories": [
+      {
+        "name": "created",
+        "created_at": {
+          "$date": {
+            "$numberLong": "1673574784351"
+          }
+        }
+      }
+    ]
+  },
+  "partners": {
+    "$oid": "63c08e3c292b474520345987"
+  }
+},{
+  "_id": {
+    "$oid": "63c0bd23d5182e606b3af893"
+  },
+  "order_status": "order-confirmed",
+  "is_paid": true,
+  "customer_id": {
+    "$oid": "63bebdda1cd050518854522c"
+  },
+  "store_id": {
+    "$oid": "63be1307218d0176787ca583"
+  },
+  "store": {
+    "name": "Morrison 5",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.453124,
+        -2.223312
+      ]
+    }
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "63bee1a1905ece42d0d0865d"
+      },
+      "quantity": 3,
+      "name": "Butter Croissant",
+      "unit_price": 0.95,
+      "total": 2.8499999999999996
+    },
+    {
+      "product_id": {
+        "$oid": "63bee21b905ece42d0d0865f"
+      },
+      "quantity": 1,
+      "name": "Pain au Chocolat",
+      "unit_price": 1
+    }
+  ],
+  "shipping_address": {
+    "name": "Kim Jisoo",
+    "unit_no": "46",
+    "street": "Arnside Street",
+    "city": "Arnside Street",
+    "country": "United Kingdom",
+    "postcode": "M14 7PF",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.4516747,
+        -2.2316256
+      ]
+    }
+  },
+  "delivery_fee": 5.34,
+  "created_at": {
+    "$date": {
+      "$numberLong": "1673575715883"
+    }
+  },
+  "total_item_price": 3.8499999999999996,
+  "is_fresh": true,
+  "total_amount": 9.19,
+  "order_status_histories": [
+    {
+      "name": "payment-confirmed",
+      "created_at": {
+        "$date": {
+          "$numberLong": "1673575716509"
+        }
+      }
+    },
+    {
+      "name": "order-confirmed",
+      "created_at": {
+        "$date": {
+          "$numberLong": "1673575716702"
+        }
+      }
+    }
+  ],
+  "deliveries": {
+    "order_delivery_status_histories": [
+      {
+        "name": "created",
+        "created_at": {
+          "$date": {
+            "$numberLong": "1673575716702"
+          }
+        }
+      }
+    ]
+  },
+  "partners": {
+    "$oid": "63c08e57292b474520345988"
+  }
+},{
+  "_id": {
+    "$oid": "63c0c4eb775b445ff190c7f6"
+  },
+  "order_status": "on-cart",
+  "is_paid": false,
+  "customer_id": {
+    "$oid": "63bebdda1cd050518854522c"
+  },
+  "store_id": {
+    "$oid": "63be1307218d0176787ca583"
+  },
+  "store": {
+    "name": "Morrison 5",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.453124,
+        -2.223312
+      ]
+    }
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "63bee66f905ece42d0d0866b"
+      },
+      "quantity": 1,
+      "name": "Sourdough",
+      "unit_price": 2,
+      "total": 2
+    },
+    {
+      "product_id": {
+        "$oid": "63bee23b905ece42d0d08661"
+      },
+      "quantity": 2,
+      "name": "Spinach",
+      "unit_price": 0.75,
+      "total": 2.75
+    },
+    {
+      "product_id": {
+        "$oid": "63bee21b905ece42d0d0865f"
+      },
+      "quantity": 1,
+      "name": "Pain au Chocolat",
+      "unit_price": 1
+    }
+  ],
+  "shipping_address": {
+    "name": "Kim Jisoo",
+    "unit_no": "46",
+    "street": "Arnside Street",
+    "city": "Arnside Street",
+    "country": "United Kingdom",
+    "postcode": "M14 7PF",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.4516747,
+        -2.2316256
+      ]
+    }
+  },
+  "delivery_fee": 5.34,
+  "created_at": {
+    "$date": {
+      "$numberLong": "1673577707048"
+    }
+  },
+  "total_item_price": 5.75,
+  "is_fresh": true,
+  "total_amount": 11.09
+},{
+  "_id": {
+    "$oid": "63c1343d7806bd7e27c8c712"
+  },
+  "order_status": "on-cart",
+  "is_paid": false,
+  "customer_id": {
+    "$oid": "63bebdda1cd050518854522c"
+  },
+  "store_id": {
+    "$oid": "63be1307218d0176787ca583"
+  },
+  "store": {
+    "name": "Morrison 5",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.453124,
+        -2.223312
+      ]
+    }
+  },
+  "items": [
+    {
+      "product_id": {
+        "$oid": "63bee1a1905ece42d0d0865d"
+      },
+      "quantity": 1,
+      "name": "Butter Croissant",
+      "unit_price": 0.95,
+      "total": 0.95
+    },
+    {
+      "product_id": {
+        "$oid": "63bee417905ece42d0d08662"
+      },
+      "quantity": 2,
+      "name": "Coca Cola",
+      "unit_price": 1.5,
+      "total": 3
+    }
+  ],
+  "shipping_address": {
+    "name": "Kim Jisoo",
+    "unit_no": "46",
+    "street": "Arnside Street",
+    "city": "Arnside Street",
+    "country": "United Kingdom",
+    "postcode": "M14 7PF",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.4516747,
+        -2.2316256
+      ]
+    }
+  },
+  "delivery_fee": 5.34,
+  "created_at": {
+    "$date": {
+      "$numberLong": "1673606205836"
+    }
+  },
+  "total_item_price": 3.95,
+  "is_fresh": true,
+  "total_amount": 9.29
+}]

@@ -1,0 +1,2211 @@
+[{
+  "_id": {
+    "$oid": "63bed8c13121db4da02d4fec"
+  },
+  "category": "Books",
+  "name": "Men Are from Mars, Women Are from Venus",
+  "cost_price": 1.5,
+  "selling_price": 3.99,
+  "stocks": [
+    {
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "stock": 271
+    },
+    {
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 296
+    },
+    {
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "stock": 180
+    }
+  ],
+  "is_fresh": false,
+  "number_of_ratings": 5,
+  "total_ratings": 15,
+  "average_rating": 3
+},{
+  "_id": {
+    "$oid": "63bed9043121db4da02d4ff8"
+  },
+  "category": "Books",
+  "name": "Doctor Sleep",
+  "cost_price": 1.75,
+  "selling_price": 4.99,
+  "stocks": [
+    {
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "stock": 274
+    },
+    {
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 14
+    },
+    {
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "stock": 50
+    }
+  ],
+  "is_fresh": false,
+  "number_of_ratings": 10,
+  "total_ratings": 37,
+  "average_rating": 3.7
+},{
+  "_id": {
+    "$oid": "63bed90b3121db4da02d4ff9"
+  },
+  "category": "Books",
+  "name": "The 7 Habits of Highly Effective People",
+  "cost_price": 4.7,
+  "selling_price": 12,
+  "stocks": [
+    {
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "stock": 54
+    },
+    {
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 120
+    },
+    {
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "stock": 77
+    }
+  ],
+  "is_fresh": false,
+  "number_of_ratings": 10,
+  "total_ratings": 37,
+  "average_rating": 3.7
+},{
+  "_id": {
+    "$oid": "63bed9173121db4da02d4ffa"
+  },
+  "category": "Books",
+  "name": "Freakonomics",
+  "cost_price": 3.45,
+  "selling_price": 8.85,
+  "stocks": [
+    {
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "stock": 31
+    },
+    {
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 70
+    },
+    {
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "stock": 40
+    }
+  ],
+  "is_fresh": false,
+  "number_of_ratings": 5,
+  "total_ratings": 15,
+  "average_rating": 3
+},{
+  "_id": {
+    "$oid": "63bed9203121db4da02d4ffb"
+  },
+  "category": "Books",
+  "name": "USBorne Economics for Beginners",
+  "cost_price": 3.59,
+  "selling_price": 9.19,
+  "stocks": [
+    {
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "stock": 254
+    },
+    {
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 68
+    }
+  ],
+  "is_fresh": false,
+  "number_of_ratings": 5,
+  "total_ratings": 13,
+  "average_rating": 2.6
+},{
+  "_id": {
+    "$oid": "63bed92a3121db4da02d4ffc"
+  },
+  "category": "Books",
+  "name": "The Tiger Who Came to Tea",
+  "cost_price": 1.98,
+  "selling_price": 4,
+  "stocks": [
+    {
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 88
+    },
+    {
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "stock": 76
+    }
+  ],
+  "is_fresh": false,
+  "number_of_ratings": 8,
+  "total_ratings": 30,
+  "average_rating": 3.75
+},{
+  "_id": {
+    "$oid": "63bed9333121db4da02d4ffd"
+  },
+  "category": "Books",
+  "name": "Kafka on the Shore",
+  "cost_price": 3.59,
+  "selling_price": 9.19,
+  "stocks": [
+    {
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "stock": 40
+    },
+    {
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "stock": 7
+    }
+  ],
+  "is_fresh": false,
+  "number_of_ratings": 5,
+  "total_ratings": 20,
+  "average_rating": 3.33
+},{
+  "_id": {
+    "$oid": "63bed93c3121db4da02d4ffe"
+  },
+  "category": "Books",
+  "name": "Atomic Habits",
+  "cost_price": 3.29,
+  "selling_price": 9,
+  "stocks": [
+    {
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "stock": 161
+    },
+    {
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 118
+    },
+    {
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "stock": 70
+    }
+  ],
+  "is_fresh": false,
+  "number_of_ratings": 10,
+  "total_ratings": 38,
+  "average_rating": 3.8
+},{
+  "_id": {
+    "$oid": "63bed9443121db4da02d4fff"
+  },
+  "category": "Books",
+  "name": "Harry Potter: The Complete Collection",
+  "cost_price": 18,
+  "selling_price": 35,
+  "stocks": [
+    {
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 181
+    },
+    {
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "stock": 45
+    }
+  ],
+  "is_fresh": false,
+  "number_of_ratings": 7,
+  "total_ratings": 29,
+  "average_rating": 4.14
+},{
+  "_id": {
+    "$oid": "63bed94d3121db4da02d5000"
+  },
+  "category": "Books",
+  "name": "Surrounded by Idiots",
+  "cost_price": 2.35,
+  "selling_price": 8.85,
+  "stocks": [
+    {
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "stock": 66
+    },
+    {
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "stock": 56
+    }
+  ],
+  "is_fresh": false,
+  "number_of_ratings": 6,
+  "total_ratings": 20,
+  "average_rating": 3
+},{
+  "_id": {
+    "$oid": "63bed9573121db4da02d5001"
+  },
+  "category": "Books",
+  "name": "Jeff Bezos: Biography of a Billionaire Business Titan",
+  "cost_price": 2.17,
+  "selling_price": 9.44,
+  "stocks": [
+    {
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "stock": 321
+    },
+    {
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 290
+    }
+  ],
+  "is_fresh": false,
+  "number_of_ratings": 5,
+  "total_ratings": 16,
+  "average_rating": 3.2
+},{
+  "_id": {
+    "$oid": "63bedaa03121db4da02d5002"
+  },
+  "category": "CD",
+  "name": "Midnights",
+  "cost_price": 2.5,
+  "selling_price": 10,
+  "stocks": [
+    {
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "stock": 10
+    },
+    {
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 23
+    },
+    {
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "stock": 26
+    }
+  ],
+  "is_fresh": false,
+  "number_of_ratings": 9,
+  "total_ratings": 36,
+  "average_rating": 4
+},{
+  "_id": {
+    "$oid": "63bedaa83121db4da02d5003"
+  },
+  "category": "CD",
+  "name": "Evermore",
+  "cost_price": 2.5,
+  "selling_price": 11.99,
+  "stocks": [
+    {
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "stock": 70
+    },
+    {
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 107
+    },
+    {
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "stock": 56
+    }
+  ],
+  "is_fresh": false,
+  "number_of_ratings": 5,
+  "total_ratings": 14,
+  "average_rating": 2.8
+},{
+  "_id": {
+    "$oid": "63bedabb3121db4da02d5004"
+  },
+  "category": "CD",
+  "name": "Red: Taylor's Version",
+  "cost_price": 2.6,
+  "selling_price": 12.94,
+  "stocks": [
+    {
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "stock": 49
+    },
+    {
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 28
+    }
+  ],
+  "is_fresh": false,
+  "number_of_ratings": 5,
+  "total_ratings": 18,
+  "average_rating": 3.6
+},{
+  "_id": {
+    "$oid": "63bedac33121db4da02d5005"
+  },
+  "category": "CD",
+  "name": "folklore",
+  "cost_price": 3.5,
+  "selling_price": 13.55,
+  "stocks": [
+    {
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 78
+    },
+    {
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "stock": 39
+    }
+  ],
+  "is_fresh": false,
+  "number_of_ratings": 7,
+  "total_ratings": 28,
+  "average_rating": 4
+},{
+  "_id": {
+    "$oid": "63bedacc3121db4da02d5006"
+  },
+  "category": "CD",
+  "name": "Fearless (Taylor's Version)",
+  "cost_price": 2,
+  "selling_price": 11.7,
+  "stocks": [
+    {
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "stock": 18
+    },
+    {
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 33
+    },
+    {
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "stock": 55
+    }
+  ],
+  "is_fresh": false,
+  "number_of_ratings": 5,
+  "total_ratings": 13,
+  "average_rating": 2.6
+},{
+  "_id": {
+    "$oid": "63bedad33121db4da02d5007"
+  },
+  "category": "CD",
+  "name": "reputation",
+  "cost_price": 2.8,
+  "selling_price": 11.89,
+  "stocks": [
+    {
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "stock": 69
+    },
+    {
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 82
+    },
+    {
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "stock": 23
+    }
+  ],
+  "is_fresh": false,
+  "number_of_ratings": 8,
+  "total_ratings": 32,
+  "average_rating": 4
+},{
+  "_id": {
+    "$oid": "63bedadb3121db4da02d5008"
+  },
+  "category": "CD",
+  "name": "Taylor Swift",
+  "cost_price": 1.5,
+  "selling_price": 8.99,
+  "stocks": [
+    {
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 21
+    },
+    {
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "stock": 74
+    }
+  ],
+  "is_fresh": false,
+  "number_of_ratings": 6,
+  "total_ratings": 25,
+  "average_rating": 4.17
+},{
+  "_id": {
+    "$oid": "63bedae23121db4da02d5009"
+  },
+  "category": "CD",
+  "name": "Lover",
+  "cost_price": 2.5,
+  "selling_price": 11.69,
+  "stocks": [
+    {
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "stock": 52
+    },
+    {
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 69
+    }
+  ],
+  "is_fresh": false,
+  "number_of_ratings": 8,
+  "total_ratings": 35,
+  "average_rating": 4.38
+},{
+  "_id": {
+    "$oid": "63bedb66f053fd4084a32f0c"
+  },
+  "category": "CD",
+  "name": "Positions",
+  "cost_price": 2.5,
+  "selling_price": 11,
+  "stocks": [
+    {
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "stock": 81
+    },
+    {
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "stock": 70
+    }
+  ],
+  "is_fresh": false,
+  "number_of_ratings": 5,
+  "total_ratings": 18,
+  "average_rating": 4
+},{
+  "_id": {
+    "$oid": "63bedc4c905ece42d0d08648"
+  },
+  "category": "Mobile Phones",
+  "name": "IPhone 14 Pro 256Gb",
+  "cost_price": 450,
+  "selling_price": 1209,
+  "stocks": [
+    {
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "stock": 497
+    },
+    {
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 312
+    }
+  ],
+  "is_fresh": false,
+  "number_of_ratings": 8,
+  "total_ratings": 33,
+  "average_rating": 4.13
+},{
+  "_id": {
+    "$oid": "63bedc54905ece42d0d08649"
+  },
+  "category": "Mobile Phones",
+  "name": "IPhone 14 Pro 128Gb",
+  "cost_price": 425,
+  "selling_price": 1099,
+  "stocks": [
+    {
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "stock": 297
+    },
+    {
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 146
+    },
+    {
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "stock": 187
+    }
+  ],
+  "is_fresh": false,
+  "number_of_ratings": 7,
+  "total_ratings": 29,
+  "average_rating": 4.14
+},{
+  "_id": {
+    "$oid": "63bedc5e905ece42d0d0864a"
+  },
+  "category": "Mobile Phones",
+  "name": "IPhone 14 Pro Max 128Gb",
+  "cost_price": 430,
+  "selling_price": 1199,
+  "stocks": [
+    {
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "stock": 194
+    },
+    {
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 208
+    },
+    {
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "stock": 162
+    }
+  ],
+  "is_fresh": false,
+  "number_of_ratings": 6,
+  "total_ratings": 25,
+  "average_rating": 4.17
+},{
+  "_id": {
+    "$oid": "63bedc66905ece42d0d0864b"
+  },
+  "category": "Mobile Phones",
+  "name": "Samsung Galaxy Z Flip4 256Gb",
+  "cost_price": 360,
+  "selling_price": 1059,
+  "stocks": [
+    {
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "stock": 236
+    },
+    {
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 247
+    },
+    {
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "stock": 269
+    }
+  ],
+  "is_fresh": false,
+  "number_of_ratings": 7,
+  "total_ratings": 27,
+  "average_rating": 3.86
+},{
+  "_id": {
+    "$oid": "63bedc6e905ece42d0d0864c"
+  },
+  "category": "Mobile Phones",
+  "name": "Samsung Galaxy Z Fold4 Ultra 256Gb",
+  "cost_price": 530,
+  "selling_price": 1649,
+  "stocks": [
+    {
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 149
+    },
+    {
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "stock": 71
+    }
+  ],
+  "is_fresh": false,
+  "number_of_ratings": 7,
+  "total_ratings": 29,
+  "average_rating": 4.14
+},{
+  "_id": {
+    "$oid": "63bedc77905ece42d0d0864d"
+  },
+  "category": "Mobile Phones",
+  "name": "Samsung Galaxy S22 Ultra 5G 256Gb",
+  "cost_price": 459,
+  "selling_price": 1249,
+  "stocks": [
+    {
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "stock": 281
+    },
+    {
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "stock": 277
+    }
+  ],
+  "is_fresh": false,
+  "number_of_ratings": 5,
+  "total_ratings": 14,
+  "average_rating": 2.8
+},{
+  "_id": {
+    "$oid": "63bedc7f905ece42d0d0864e"
+  },
+  "category": "Mobile Phones",
+  "name": "Samsung Galaxy A13 64Gb",
+  "cost_price": 80,
+  "selling_price": 179,
+  "stocks": [
+    {
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "stock": 129
+    },
+    {
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 157
+    }
+  ],
+  "is_fresh": false,
+  "number_of_ratings": 5,
+  "total_ratings": 9,
+  "average_rating": 1.8
+},{
+  "_id": {
+    "$oid": "63bedc97905ece42d0d0864f"
+  },
+  "category": "Mobile Phones",
+  "name": "IPhone 13 128Gb",
+  "cost_price": 450,
+  "selling_price": 749,
+  "stocks": [
+    {
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 74
+    },
+    {
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "stock": 32
+    }
+  ],
+  "is_fresh": false,
+  "number_of_ratings": 8,
+  "total_ratings": 33,
+  "average_rating": 4.13
+},{
+  "_id": {
+    "$oid": "63bedca0905ece42d0d08650"
+  },
+  "category": "Mobile Phones",
+  "name": "IPhone 13 Mini 128Gb",
+  "cost_price": 360,
+  "selling_price": 699,
+  "stocks": [
+    {
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "stock": 59
+    },
+    {
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 73
+    }
+  ],
+  "is_fresh": false,
+  "number_of_ratings": 5,
+  "total_ratings": 10,
+  "average_rating": 2
+},{
+  "_id": {
+    "$oid": "63bedca8905ece42d0d08651"
+  },
+  "category": "Mobile Phones",
+  "name": "OPPO A54 64Gb",
+  "cost_price": 35,
+  "selling_price": 89,
+  "stocks": [
+    {
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "stock": 11
+    },
+    {
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 22
+    },
+    {
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "stock": 35
+    }
+  ],
+  "is_fresh": false,
+  "number_of_ratings": 5,
+  "total_ratings": 15,
+  "average_rating": 3
+},{
+  "_id": {
+    "$oid": "63bedcf1905ece42d0d08652"
+  },
+  "category": "CD",
+  "name": "Speak Now",
+  "cost_price": 1.5,
+  "selling_price": 7.5,
+  "stocks": [
+    {
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "stock": 6
+    },
+    {
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 28
+    }
+  ],
+  "is_fresh": false,
+  "number_of_ratings": 6,
+  "total_ratings": 28,
+  "average_rating": 4.67
+},{
+  "_id": {
+    "$oid": "63bede9b905ece42d0d08653"
+  },
+  "category": "Home Appliances",
+  "name": "Microwave",
+  "cost_price": 30,
+  "selling_price": 55,
+  "stocks": [
+    {
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "stock": 73
+    },
+    {
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 88
+    },
+    {
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "stock": 134
+    }
+  ],
+  "is_fresh": false,
+  "number_of_ratings": 6,
+  "total_ratings": 26,
+  "average_rating": 4.33
+},{
+  "_id": {
+    "$oid": "63bedea3905ece42d0d08654"
+  },
+  "category": "Home Appliances",
+  "name": "Electric Kettle",
+  "cost_price": 4,
+  "selling_price": 13,
+  "stocks": [
+    {
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "stock": 174
+    },
+    {
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 108
+    }
+  ],
+  "is_fresh": false,
+  "number_of_ratings": 6,
+  "total_ratings": 20,
+  "average_rating": 3.33
+},{
+  "_id": {
+    "$oid": "63bedead905ece42d0d08655"
+  },
+  "category": "Home Appliances",
+  "name": "Steam Iron",
+  "cost_price": 6,
+  "selling_price": 24,
+  "stocks": [
+    {
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "stock": 226
+    },
+    {
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "stock": 137
+    }
+  ],
+  "is_fresh": false,
+  "number_of_ratings": 7,
+  "total_ratings": 20,
+  "average_rating": 2.86
+},{
+  "_id": {
+    "$oid": "63bedeb4905ece42d0d08656"
+  },
+  "category": "Home Appliances",
+  "name": "Rice Cooker",
+  "cost_price": 7,
+  "selling_price": 29,
+  "stocks": [
+    {
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 40
+    },
+    {
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "stock": 56
+    }
+  ],
+  "is_fresh": false,
+  "number_of_ratings": 5,
+  "total_ratings": 25,
+  "average_rating": 5
+},{
+  "_id": {
+    "$oid": "63bedebd905ece42d0d08657"
+  },
+  "category": "Home Appliances",
+  "name": "Hand Blender",
+  "cost_price": 5,
+  "selling_price": 28,
+  "stocks": [
+    {
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "stock": 75
+    },
+    {
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 108
+    },
+    {
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "stock": 5
+    }
+  ],
+  "is_fresh": false,
+  "number_of_ratings": 5,
+  "total_ratings": 10,
+  "average_rating": 2
+},{
+  "_id": {
+    "$oid": "63bedec4905ece42d0d08658"
+  },
+  "category": "Home Appliances",
+  "name": "Air Fryer",
+  "cost_price": 12,
+  "selling_price": 40,
+  "stocks": [
+    {
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 105
+    },
+    {
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "stock": 21
+    }
+  ],
+  "is_fresh": false,
+  "number_of_ratings": 6,
+  "total_ratings": 24,
+  "average_rating": 4
+},{
+  "_id": {
+    "$oid": "63bedecc905ece42d0d08659"
+  },
+  "category": "Home Appliances",
+  "name": "Coffee Machine",
+  "cost_price": 17,
+  "selling_price": 40,
+  "stocks": [
+    {
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "stock": 37
+    },
+    {
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "stock": 156
+    }
+  ],
+  "is_fresh": false,
+  "number_of_ratings": 5,
+  "total_ratings": 12,
+  "average_rating": 2.4
+},{
+  "_id": {
+    "$oid": "63beded3905ece42d0d0865a"
+  },
+  "category": "Home Appliances",
+  "name": "Stand Mixer",
+  "cost_price": 15,
+  "selling_price": 60,
+  "stocks": [
+    {
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "stock": 92
+    },
+    {
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 43
+    }
+  ],
+  "is_fresh": false,
+  "number_of_ratings": 6,
+  "total_ratings": 22,
+  "average_rating": 3.67
+},{
+  "_id": {
+    "$oid": "63bededd905ece42d0d0865b"
+  },
+  "category": "Home Appliances",
+  "name": "Spray Mop",
+  "cost_price": 6,
+  "selling_price": 12.5,
+  "stocks": [
+    {
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "stock": 170
+    },
+    {
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 139
+    },
+    {
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "stock": 156
+    }
+  ],
+  "is_fresh": false,
+  "number_of_ratings": 7,
+  "total_ratings": 25,
+  "average_rating": 3.57
+},{
+  "_id": {
+    "$oid": "63bedee5905ece42d0d0865c"
+  },
+  "category": "Home Appliances",
+  "name": "Mini Electric Chopper",
+  "cost_price": 5,
+  "selling_price": 17,
+  "stocks": [
+    {
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "stock": 272
+    },
+    {
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 209
+    },
+    {
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "stock": 255
+    }
+  ],
+  "is_fresh": false,
+  "number_of_ratings": 6,
+  "total_ratings": 23,
+  "average_rating": 3.83
+},{
+  "_id": {
+    "$oid": "63bee1a1905ece42d0d0865d"
+  },
+  "category": "Bakery",
+  "name": "Butter Croissant",
+  "cost_price": 0.25,
+  "selling_price": 0.95,
+  "stocks": [
+    {
+      "store_id": {
+        "$oid": "63be127a218d0176787ca57b"
+      },
+      "stock": 45
+    },
+    {
+      "store_id": {
+        "$oid": "63be12a7218d0176787ca57d"
+      },
+      "stock": 27
+    },
+    {
+      "store_id": {
+        "$oid": "63be12c6218d0176787ca57f"
+      },
+      "stock": 11
+    },
+    {
+      "store_id": {
+        "$oid": "63be1307218d0176787ca583"
+      },
+      "stock": 825
+    },
+    {
+      "store_id": {
+        "$oid": "63be1335218d0176787ca585"
+      },
+      "stock": 220
+    },
+    {
+      "store_id": {
+        "$oid": "63be1357218d0176787ca587"
+      },
+      "stock": 17
+    },
+    {
+      "store_id": {
+        "$oid": "63be137b218d0176787ca589"
+      },
+      "stock": 10
+    }
+  ],
+  "is_fresh": true,
+  "number_of_ratings": 16,
+  "total_ratings": 59,
+  "average_rating": 3.69
+},{
+  "_id": {
+    "$oid": "63bee1be905ece42d0d0865e"
+  },
+  "category": "Bakery",
+  "name": "Almond-Butter Croissant",
+  "cost_price": 0.3,
+  "selling_price": 0.95,
+  "stocks": [
+    {
+      "store_id": {
+        "$oid": "63be127a218d0176787ca57b"
+      },
+      "stock": 7
+    },
+    {
+      "store_id": {
+        "$oid": "63be12a7218d0176787ca57d"
+      },
+      "stock": 16
+    },
+    {
+      "store_id": {
+        "$oid": "63be12c6218d0176787ca57f"
+      },
+      "stock": 33
+    },
+    {
+      "store_id": {
+        "$oid": "63be12e8218d0176787ca581"
+      },
+      "stock": 16
+    },
+    {
+      "store_id": {
+        "$oid": "63be1335218d0176787ca585"
+      },
+      "stock": 40
+    },
+    {
+      "store_id": {
+        "$oid": "63be1357218d0176787ca587"
+      },
+      "stock": 17
+    },
+    {
+      "store_id": {
+        "$oid": "63be137b218d0176787ca589"
+      },
+      "stock": 32
+    }
+  ],
+  "is_fresh": true,
+  "number_of_ratings": 7,
+  "total_ratings": 26,
+  "average_rating": 3.71
+},{
+  "_id": {
+    "$oid": "63bee21b905ece42d0d0865f"
+  },
+  "category": "Bakery",
+  "name": "Pain au Chocolat",
+  "cost_price": 0.3,
+  "selling_price": 1,
+  "stocks": [
+    {
+      "store_id": {
+        "$oid": "63be127a218d0176787ca57b"
+      },
+      "stock": 15
+    },
+    {
+      "store_id": {
+        "$oid": "63be12a7218d0176787ca57d"
+      },
+      "stock": 28
+    },
+    {
+      "store_id": {
+        "$oid": "63be12c6218d0176787ca57f"
+      },
+      "stock": 32
+    },
+    {
+      "store_id": {
+        "$oid": "63be12e8218d0176787ca581"
+      },
+      "stock": 13
+    },
+    {
+      "store_id": {
+        "$oid": "63be1307218d0176787ca583"
+      },
+      "stock": 99
+    },
+    {
+      "store_id": {
+        "$oid": "63be1357218d0176787ca587"
+      },
+      "stock": 12
+    },
+    {
+      "store_id": {
+        "$oid": "63be137b218d0176787ca589"
+      },
+      "stock": 10
+    }
+  ],
+  "is_fresh": true,
+  "number_of_ratings": 10,
+  "total_ratings": 30,
+  "average_rating": 3
+},{
+  "_id": {
+    "$oid": "63bee227905ece42d0d08660"
+  },
+  "category": "Bakery",
+  "name": "Chocolate Muffin",
+  "cost_price": 0.35,
+  "selling_price": 1.5,
+  "stocks": [
+    {
+      "store_id": {
+        "$oid": "63be127a218d0176787ca57b"
+      },
+      "stock": 18
+    },
+    {
+      "store_id": {
+        "$oid": "63be12a7218d0176787ca57d"
+      },
+      "stock": 29
+    },
+    {
+      "store_id": {
+        "$oid": "63be12c6218d0176787ca57f"
+      },
+      "stock": 21
+    },
+    {
+      "store_id": {
+        "$oid": "63be12e8218d0176787ca581"
+      },
+      "stock": 0
+    },
+    {
+      "store_id": {
+        "$oid": "63be1307218d0176787ca583"
+      },
+      "stock": 14
+    },
+    {
+      "store_id": {
+        "$oid": "63be1335218d0176787ca585"
+      },
+      "stock": 22
+    },
+    {
+      "store_id": {
+        "$oid": "63be137b218d0176787ca589"
+      },
+      "stock": 35
+    }
+  ],
+  "is_fresh": true,
+  "number_of_ratings": 13,
+  "total_ratings": 38,
+  "average_rating": 2.92
+},{
+  "_id": {
+    "$oid": "63bee23b905ece42d0d08661"
+  },
+  "category": "Bakery",
+  "name": "Sourdough",
+  "cost_price": 0.5,
+  "selling_price": 2,
+  "stocks": [
+    {
+      "store_id": {
+        "$oid": "63be127a218d0176787ca57b"
+      },
+      "stock": 10
+    },
+    {
+      "store_id": {
+        "$oid": "63be12a7218d0176787ca57d"
+      },
+      "stock": 11
+    },
+    {
+      "store_id": {
+        "$oid": "63be12c6218d0176787ca57f"
+      },
+      "stock": 6
+    },
+    {
+      "store_id": {
+        "$oid": "63be12e8218d0176787ca581"
+      },
+      "stock": 7
+    },
+    {
+      "store_id": {
+        "$oid": "63be1307218d0176787ca583"
+      },
+      "stock": 9
+    },
+    {
+      "store_id": {
+        "$oid": "63be1335218d0176787ca585"
+      },
+      "stock": 15
+    },
+    {
+      "store_id": {
+        "$oid": "63be1357218d0176787ca587"
+      },
+      "stock": 10
+    }
+  ],
+  "is_fresh": true,
+  "number_of_ratings": 18,
+  "total_ratings": 66,
+  "average_rating": 3.67
+},{
+  "_id": {
+    "$oid": "63bee417905ece42d0d08662"
+  },
+  "category": "Drinks",
+  "name": "Coca Cola",
+  "cost_price": 0.55,
+  "selling_price": 1.5,
+  "stocks": [
+    {
+      "store_id": {
+        "$oid": "63be127a218d0176787ca57b"
+      },
+      "stock": 20
+    },
+    {
+      "store_id": {
+        "$oid": "63be12a7218d0176787ca57d"
+      },
+      "stock": 12
+    },
+    {
+      "store_id": {
+        "$oid": "63be12e8218d0176787ca581"
+      },
+      "stock": 11
+    },
+    {
+      "store_id": {
+        "$oid": "63be1307218d0176787ca583"
+      },
+      "stock": 200
+    },
+    {
+      "store_id": {
+        "$oid": "63be1335218d0176787ca585"
+      },
+      "stock": 22
+    },
+    {
+      "store_id": {
+        "$oid": "63be1357218d0176787ca587"
+      },
+      "stock": 25
+    },
+    {
+      "store_id": {
+        "$oid": "63be137b218d0176787ca589"
+      },
+      "stock": 20
+    }
+  ],
+  "is_fresh": true,
+  "number_of_ratings": 12,
+  "total_ratings": 50,
+  "average_rating": 4.17
+},{
+  "_id": {
+    "$oid": "63bee424905ece42d0d08663"
+  },
+  "category": "Drinks",
+  "name": "Pepsi",
+  "cost_price": 0.55,
+  "selling_price": 1.5,
+  "stocks": [
+    {
+      "store_id": {
+        "$oid": "63be127a218d0176787ca57b"
+      },
+      "stock": 16
+    },
+    {
+      "store_id": {
+        "$oid": "63be12c6218d0176787ca57f"
+      },
+      "stock": 25
+    },
+    {
+      "store_id": {
+        "$oid": "63be12e8218d0176787ca581"
+      },
+      "stock": 15
+    },
+    {
+      "store_id": {
+        "$oid": "63be1307218d0176787ca583"
+      },
+      "stock": 12
+    },
+    {
+      "store_id": {
+        "$oid": "63be1335218d0176787ca585"
+      },
+      "stock": 28
+    },
+    {
+      "store_id": {
+        "$oid": "63be1357218d0176787ca587"
+      },
+      "stock": 34
+    },
+    {
+      "store_id": {
+        "$oid": "63be137b218d0176787ca589"
+      },
+      "stock": 19
+    }
+  ],
+  "is_fresh": true,
+  "number_of_ratings": 12,
+  "total_ratings": 49,
+  "average_rating": 4.08
+},{
+  "_id": {
+    "$oid": "63bee42d905ece42d0d08664"
+  },
+  "category": "Drinks",
+  "name": "Fanta",
+  "cost_price": 0.55,
+  "selling_price": 1.23,
+  "stocks": [
+    {
+      "store_id": {
+        "$oid": "63be12a7218d0176787ca57d"
+      },
+      "stock": 12
+    },
+    {
+      "store_id": {
+        "$oid": "63be12c6218d0176787ca57f"
+      },
+      "stock": 28
+    },
+    {
+      "store_id": {
+        "$oid": "63be12e8218d0176787ca581"
+      },
+      "stock": 29
+    },
+    {
+      "store_id": {
+        "$oid": "63be1307218d0176787ca583"
+      },
+      "stock": 6
+    },
+    {
+      "store_id": {
+        "$oid": "63be1335218d0176787ca585"
+      },
+      "stock": 15
+    },
+    {
+      "store_id": {
+        "$oid": "63be1357218d0176787ca587"
+      },
+      "stock": 19
+    },
+    {
+      "store_id": {
+        "$oid": "63be137b218d0176787ca589"
+      },
+      "stock": 20
+    }
+  ],
+  "is_fresh": true,
+  "number_of_ratings": 11,
+  "total_ratings": 45,
+  "average_rating": 4.09
+},{
+  "_id": {
+    "$oid": "63bee435905ece42d0d08665"
+  },
+  "category": "Drinks",
+  "name": "Orange Juice",
+  "cost_price": 0.25,
+  "selling_price": 1.3,
+  "stocks": [
+    {
+      "store_id": {
+        "$oid": "63be127a218d0176787ca57b"
+      },
+      "stock": 14
+    },
+    {
+      "store_id": {
+        "$oid": "63be12a7218d0176787ca57d"
+      },
+      "stock": 18
+    },
+    {
+      "store_id": {
+        "$oid": "63be12c6218d0176787ca57f"
+      },
+      "stock": 19
+    },
+    {
+      "store_id": {
+        "$oid": "63be12e8218d0176787ca581"
+      },
+      "stock": 29
+    },
+    {
+      "store_id": {
+        "$oid": "63be1307218d0176787ca583"
+      },
+      "stock": 17
+    },
+    {
+      "store_id": {
+        "$oid": "63be1335218d0176787ca585"
+      },
+      "stock": 22
+    },
+    {
+      "store_id": {
+        "$oid": "63be1357218d0176787ca587"
+      },
+      "stock": 18
+    },
+    {
+      "store_id": {
+        "$oid": "63be137b218d0176787ca589"
+      },
+      "stock": 18
+    }
+  ],
+  "is_fresh": true,
+  "number_of_ratings": 12,
+  "total_ratings": 47,
+  "average_rating": 3.92
+},{
+  "_id": {
+    "$oid": "63bee43f905ece42d0d08666"
+  },
+  "category": "Drinks",
+  "name": "Mango Juice",
+  "cost_price": 0.43,
+  "selling_price": 1.2,
+  "stocks": [
+    {
+      "store_id": {
+        "$oid": "63be127a218d0176787ca57b"
+      },
+      "stock": 22
+    },
+    {
+      "store_id": {
+        "$oid": "63be12a7218d0176787ca57d"
+      },
+      "stock": 12
+    },
+    {
+      "store_id": {
+        "$oid": "63be12c6218d0176787ca57f"
+      },
+      "stock": 41
+    },
+    {
+      "store_id": {
+        "$oid": "63be12e8218d0176787ca581"
+      },
+      "stock": 15
+    },
+    {
+      "store_id": {
+        "$oid": "63be1307218d0176787ca583"
+      },
+      "stock": 29
+    },
+    {
+      "store_id": {
+        "$oid": "63be1335218d0176787ca585"
+      },
+      "stock": 8
+    },
+    {
+      "store_id": {
+        "$oid": "63be1357218d0176787ca587"
+      },
+      "stock": 10
+    },
+    {
+      "store_id": {
+        "$oid": "63be137b218d0176787ca589"
+      },
+      "stock": 17
+    }
+  ],
+  "is_fresh": true,
+  "number_of_ratings": 10,
+  "total_ratings": 37,
+  "average_rating": 3.7
+},{
+  "_id": {
+    "$oid": "63bee628905ece42d0d08667"
+  },
+  "category": "Fruits and Vegetables",
+  "name": "Chillies",
+  "cost_price": 0.55,
+  "selling_price": 1.5,
+  "stocks": [
+    {
+      "store_id": {
+        "$oid": "63be127a218d0176787ca57b"
+      },
+      "stock": 19
+    },
+    {
+      "store_id": {
+        "$oid": "63be12a7218d0176787ca57d"
+      },
+      "stock": 17
+    },
+    {
+      "store_id": {
+        "$oid": "63be12c6218d0176787ca57f"
+      },
+      "stock": 32
+    },
+    {
+      "store_id": {
+        "$oid": "63be12e8218d0176787ca581"
+      },
+      "stock": 22
+    },
+    {
+      "store_id": {
+        "$oid": "63be1307218d0176787ca583"
+      },
+      "stock": 27
+    },
+    {
+      "store_id": {
+        "$oid": "63be1335218d0176787ca585"
+      },
+      "stock": 14
+    },
+    {
+      "store_id": {
+        "$oid": "63be1357218d0176787ca587"
+      },
+      "stock": 10
+    },
+    {
+      "store_id": {
+        "$oid": "63be137b218d0176787ca589"
+      },
+      "stock": 15
+    }
+  ],
+  "is_fresh": true,
+  "number_of_ratings": 6,
+  "total_ratings": 23,
+  "average_rating": 3.83
+},{
+  "_id": {
+    "$oid": "63bee632905ece42d0d08668"
+  },
+  "category": "Fruits and Vegetables",
+  "name": "Carrots",
+  "cost_price": 0.2,
+  "selling_price": 0.8,
+  "stocks": [
+    {
+      "store_id": {
+        "$oid": "63be127a218d0176787ca57b"
+      },
+      "stock": 19
+    },
+    {
+      "store_id": {
+        "$oid": "63be12a7218d0176787ca57d"
+      },
+      "stock": 23
+    },
+    {
+      "store_id": {
+        "$oid": "63be12c6218d0176787ca57f"
+      },
+      "stock": 19
+    },
+    {
+      "store_id": {
+        "$oid": "63be12e8218d0176787ca581"
+      },
+      "stock": 1
+    },
+    {
+      "store_id": {
+        "$oid": "63be1307218d0176787ca583"
+      },
+      "stock": 22
+    },
+    {
+      "store_id": {
+        "$oid": "63be1335218d0176787ca585"
+      },
+      "stock": 16
+    },
+    {
+      "store_id": {
+        "$oid": "63be1357218d0176787ca587"
+      },
+      "stock": 45
+    },
+    {
+      "store_id": {
+        "$oid": "63be137b218d0176787ca589"
+      },
+      "stock": 37
+    }
+  ],
+  "is_fresh": true,
+  "number_of_ratings": 5,
+  "total_ratings": 20,
+  "average_rating": 4
+},{
+  "_id": {
+    "$oid": "63bee63a905ece42d0d08669"
+  },
+  "category": "Fruits and Vegetables",
+  "name": "Bananas",
+  "cost_price": 0.45,
+  "selling_price": 1.5,
+  "stocks": [
+    {
+      "store_id": {
+        "$oid": "63be127a218d0176787ca57b"
+      },
+      "stock": 24
+    },
+    {
+      "store_id": {
+        "$oid": "63be12a7218d0176787ca57d"
+      },
+      "stock": 14
+    },
+    {
+      "store_id": {
+        "$oid": "63be12c6218d0176787ca57f"
+      },
+      "stock": 35
+    },
+    {
+      "store_id": {
+        "$oid": "63be12e8218d0176787ca581"
+      },
+      "stock": 36
+    },
+    {
+      "store_id": {
+        "$oid": "63be1307218d0176787ca583"
+      },
+      "stock": 18
+    },
+    {
+      "store_id": {
+        "$oid": "63be1335218d0176787ca585"
+      },
+      "stock": 28
+    },
+    {
+      "store_id": {
+        "$oid": "63be1357218d0176787ca587"
+      },
+      "stock": 37
+    },
+    {
+      "store_id": {
+        "$oid": "63be137b218d0176787ca589"
+      },
+      "stock": 10
+    }
+  ],
+  "is_fresh": true,
+  "number_of_ratings": 9,
+  "total_ratings": 34,
+  "average_rating": 3.78
+},{
+  "_id": {
+    "$oid": "63bee666905ece42d0d0866a"
+  },
+  "category": "Fruits and Vegetables",
+  "name": "Apple",
+  "cost_price": 0.3,
+  "selling_price": 1.23,
+  "stocks": [
+    {
+      "store_id": {
+        "$oid": "63be127a218d0176787ca57b"
+      },
+      "stock": 24
+    },
+    {
+      "store_id": {
+        "$oid": "63be12a7218d0176787ca57d"
+      },
+      "stock": 33
+    },
+    {
+      "store_id": {
+        "$oid": "63be12c6218d0176787ca57f"
+      },
+      "stock": 28
+    },
+    {
+      "store_id": {
+        "$oid": "63be12e8218d0176787ca581"
+      },
+      "stock": 15
+    },
+    {
+      "store_id": {
+        "$oid": "63be1307218d0176787ca583"
+      },
+      "stock": 17
+    },
+    {
+      "store_id": {
+        "$oid": "63be1335218d0176787ca585"
+      },
+      "stock": 25
+    },
+    {
+      "store_id": {
+        "$oid": "63be1357218d0176787ca587"
+      },
+      "stock": 17
+    },
+    {
+      "store_id": {
+        "$oid": "63be137b218d0176787ca589"
+      },
+      "stock": 15
+    }
+  ],
+  "is_fresh": true,
+  "number_of_ratings": 7,
+  "total_ratings": 30,
+  "average_rating": 4.29
+},{
+  "_id": {
+    "$oid": "63bee66f905ece42d0d0866b"
+  },
+  "category": "Fruits and Vegetables",
+  "name": "Spinach",
+  "cost_price": 0.4,
+  "selling_price": 0.75,
+  "stocks": [
+    {
+      "store_id": {
+        "$oid": "63be127a218d0176787ca57b"
+      },
+      "stock": 6
+    },
+    {
+      "store_id": {
+        "$oid": "63be12a7218d0176787ca57d"
+      },
+      "stock": 10
+    },
+    {
+      "store_id": {
+        "$oid": "63be12c6218d0176787ca57f"
+      },
+      "stock": 40
+    },
+    {
+      "store_id": {
+        "$oid": "63be12e8218d0176787ca581"
+      },
+      "stock": 25
+    },
+    {
+      "store_id": {
+        "$oid": "63be1307218d0176787ca583"
+      },
+      "stock": 14
+    },
+    {
+      "store_id": {
+        "$oid": "63be1335218d0176787ca585"
+      },
+      "stock": 35
+    },
+    {
+      "store_id": {
+        "$oid": "63be1357218d0176787ca587"
+      },
+      "stock": 28
+    },
+    {
+      "store_id": {
+        "$oid": "63be137b218d0176787ca589"
+      },
+      "stock": 29
+    }
+  ],
+  "is_fresh": true,
+  "number_of_ratings": 11,
+  "total_ratings": 42,
+  "average_rating": 3.82
+},{
+  "_id": {
+    "$oid": "63c05d5b5fe0ba57081af9a6"
+  },
+  "category": "Home Appliances",
+  "name": "Mini Electric Chopper V2",
+  "cost_price": 5,
+  "selling_price": 17,
+  "stocks": [
+    {
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "stock": 277
+    },
+    {
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 200
+    },
+    {
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "stock": 256
+    }
+  ],
+  "is_fresh": false,
+  "number_of_ratings": 5,
+  "total_ratings": 15,
+  "average_rating": 3
+},{
+  "_id": {
+    "$oid": "63c05d725fe0ba57081af9a7"
+  },
+  "category": "Home Appliances",
+  "name": "Mini Electric Chopper V3",
+  "cost_price": 5,
+  "selling_price": 17,
+  "stocks": [
+    {
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "stock": 278
+    },
+    {
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 200
+    },
+    {
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "stock": 256
+    }
+  ],
+  "is_fresh": false,
+  "number_of_ratings": 5,
+  "total_ratings": 15,
+  "average_rating": 3
+},{
+  "_id": {
+    "$oid": "63c05d7f5fe0ba57081af9a8"
+  },
+  "category": "Home Appliances",
+  "name": "Mini Electric Chopper V4",
+  "cost_price": 5,
+  "selling_price": 17,
+  "stocks": [
+    {
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "stock": 278
+    },
+    {
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 200
+    },
+    {
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "stock": 256
+    }
+  ],
+  "is_fresh": false,
+  "number_of_ratings": 5,
+  "total_ratings": 15,
+  "average_rating": 3
+},{
+  "_id": {
+    "$oid": "63c05d975fe0ba57081af9a9"
+  },
+  "category": "Home Appliances",
+  "name": "Mini Electric Chopper V5",
+  "cost_price": 5,
+  "selling_price": 17,
+  "stocks": [
+    {
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "stock": 278
+    },
+    {
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 200
+    },
+    {
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "stock": 256
+    }
+  ],
+  "is_fresh": false,
+  "number_of_ratings": 5,
+  "total_ratings": 15,
+  "average_rating": 3
+},{
+  "_id": {
+    "$oid": "63c05db75fe0ba57081af9aa"
+  },
+  "category": "Home Appliances",
+  "name": "Mini Electric Chopper V6",
+  "cost_price": 5,
+  "selling_price": 17,
+  "stocks": [
+    {
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "stock": 278
+    },
+    {
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 200
+    },
+    {
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "stock": 256
+    }
+  ],
+  "is_fresh": false,
+  "number_of_ratings": 5,
+  "total_ratings": 15,
+  "average_rating": 3
+}]

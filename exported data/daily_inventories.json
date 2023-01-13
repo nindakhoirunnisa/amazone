@@ -1,0 +1,7782 @@
+[{
+  "_id": {
+    "$oid": "63bf4d44f0133f57a833da7a"
+  },
+  "start_date": {
+    "$date": {
+      "$numberLong": "1673395200000"
+    }
+  },
+  "end_date": {
+    "$date": {
+      "$numberLong": "1673481599999"
+    }
+  },
+  "inventory": [
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bed8c13121db4da02d4fec"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 276,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bed8c13121db4da02d4fec"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 300,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bed8c13121db4da02d4fec"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 180,
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bed9043121db4da02d4ff8"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 289,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bed9043121db4da02d4ff8"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 23,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bed9043121db4da02d4ff8"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 50,
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bed90b3121db4da02d4ff9"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 57,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bed90b3121db4da02d4ff9"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 129,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bed90b3121db4da02d4ff9"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 77,
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bed9173121db4da02d4ffa"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 34,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bed9173121db4da02d4ffa"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 75,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bed9173121db4da02d4ffa"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 40,
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bed9203121db4da02d4ffb"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 256,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bed9203121db4da02d4ffb"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 73,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bed92a3121db4da02d4ffc"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 100,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bed92a3121db4da02d4ffc"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 76,
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bed9333121db4da02d4ffd"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 45,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bed9333121db4da02d4ffd"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 7,
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bed93c3121db4da02d4ffe"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 165,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bed93c3121db4da02d4ffe"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 127,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bed93c3121db4da02d4ffe"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 70,
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bed9443121db4da02d4fff"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 189,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bed9443121db4da02d4fff"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 45,
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bed94d3121db4da02d5000"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 73,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bed94d3121db4da02d5000"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 56,
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bed9573121db4da02d5001"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 324,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bed9573121db4da02d5001"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 295,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedaa03121db4da02d5002"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 15,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedaa03121db4da02d5002"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 30,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedaa03121db4da02d5002"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 27,
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedaa83121db4da02d5003"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 78,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedaa83121db4da02d5003"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 110,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedaa83121db4da02d5003"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 56,
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedabb3121db4da02d5004"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 54,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedabb3121db4da02d5004"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 30,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedac33121db4da02d5005"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 87,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedac33121db4da02d5005"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 39,
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedacc3121db4da02d5006"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 21,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedacc3121db4da02d5006"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 36,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedacc3121db4da02d5006"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 55,
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedad33121db4da02d5007"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 72,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedad33121db4da02d5007"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 89,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedad33121db4da02d5007"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 23,
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedadb3121db4da02d5008"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 28,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedadb3121db4da02d5008"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 74,
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedae23121db4da02d5009"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 56,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedae23121db4da02d5009"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 76,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedb66f053fd4084a32f0c"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 87,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedb66f053fd4084a32f0c"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 70,
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedc4c905ece42d0d08648"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 500,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedc4c905ece42d0d08648"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 319,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedc54905ece42d0d08649"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 299,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedc54905ece42d0d08649"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 153,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedc54905ece42d0d08649"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 187,
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedc5e905ece42d0d0864a"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 196,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedc5e905ece42d0d0864a"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 214,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedc5e905ece42d0d0864a"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 162,
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedc66905ece42d0d0864b"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 237,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedc66905ece42d0d0864b"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 254,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedc66905ece42d0d0864b"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 270,
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedc6e905ece42d0d0864c"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 156,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedc6e905ece42d0d0864c"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 72,
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedc77905ece42d0d0864d"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 286,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedc77905ece42d0d0864d"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 277,
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedc7f905ece42d0d0864e"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 134,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedc7f905ece42d0d0864e"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 157,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedc97905ece42d0d0864f"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 81,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedc97905ece42d0d0864f"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 32,
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedca0905ece42d0d08650"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 65,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedca0905ece42d0d08650"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 74,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedca8905ece42d0d08651"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 14,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedca8905ece42d0d08651"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 25,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedca8905ece42d0d08651"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 35,
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedcf1905ece42d0d08652"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 12,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedcf1905ece42d0d08652"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 29,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bede9b905ece42d0d08653"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 78,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bede9b905ece42d0d08653"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 90,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bede9b905ece42d0d08653"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 135,
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedea3905ece42d0d08654"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 178,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedea3905ece42d0d08654"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 110,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedead905ece42d0d08655"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 234,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedead905ece42d0d08655"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 137,
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedeb4905ece42d0d08656"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 45,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedeb4905ece42d0d08656"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 56,
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedebd905ece42d0d08657"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 78,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedebd905ece42d0d08657"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 110,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedebd905ece42d0d08657"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 5,
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedec4905ece42d0d08658"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 110,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedec4905ece42d0d08658"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 25,
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedecc905ece42d0d08659"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 47,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedecc905ece42d0d08659"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 156,
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63beded3905ece42d0d0865a"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 98,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63beded3905ece42d0d0865a"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 45,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bededd905ece42d0d0865b"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 178,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bededd905ece42d0d0865b"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 142,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bededd905ece42d0d0865b"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 156,
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedee5905ece42d0d0865c"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 278,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedee5905ece42d0d0865c"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 210,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedee5905ece42d0d0865c"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 256,
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee1a1905ece42d0d0865d"
+      },
+      "store_id": {
+        "$oid": "63be127a218d0176787ca57b"
+      },
+      "quantity": 45,
+      "store_name": "Morrison 1"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee1a1905ece42d0d0865d"
+      },
+      "store_id": {
+        "$oid": "63be12a7218d0176787ca57d"
+      },
+      "quantity": 30,
+      "store_name": "Morrison 2"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee1a1905ece42d0d0865d"
+      },
+      "store_id": {
+        "$oid": "63be12c6218d0176787ca57f"
+      },
+      "quantity": 13,
+      "store_name": "Morrison 3"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee1a1905ece42d0d0865d"
+      },
+      "store_id": {
+        "$oid": "63be1307218d0176787ca583"
+      },
+      "quantity": 40,
+      "store_name": "Morrison 5"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee1a1905ece42d0d0865d"
+      },
+      "store_id": {
+        "$oid": "63be1335218d0176787ca585"
+      },
+      "quantity": 22,
+      "store_name": "Morrison 6"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee1a1905ece42d0d0865d"
+      },
+      "store_id": {
+        "$oid": "63be1357218d0176787ca587"
+      },
+      "quantity": 17,
+      "store_name": "Morrison 7"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee1a1905ece42d0d0865d"
+      },
+      "store_id": {
+        "$oid": "63be137b218d0176787ca589"
+      },
+      "quantity": 10,
+      "store_name": "Morrison 8"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee1be905ece42d0d0865e"
+      },
+      "store_id": {
+        "$oid": "63be127a218d0176787ca57b"
+      },
+      "quantity": 9,
+      "store_name": "Morrison 1"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee1be905ece42d0d0865e"
+      },
+      "store_id": {
+        "$oid": "63be12a7218d0176787ca57d"
+      },
+      "quantity": 18,
+      "store_name": "Morrison 2"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee1be905ece42d0d0865e"
+      },
+      "store_id": {
+        "$oid": "63be12c6218d0176787ca57f"
+      },
+      "quantity": 35,
+      "store_name": "Morrison 3"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee1be905ece42d0d0865e"
+      },
+      "store_id": {
+        "$oid": "63be12e8218d0176787ca581"
+      },
+      "quantity": 27,
+      "store_name": "Morrison 4"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee1be905ece42d0d0865e"
+      },
+      "store_id": {
+        "$oid": "63be1335218d0176787ca585"
+      },
+      "quantity": 40,
+      "store_name": "Morrison 6"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee1be905ece42d0d0865e"
+      },
+      "store_id": {
+        "$oid": "63be1357218d0176787ca587"
+      },
+      "quantity": 17,
+      "store_name": "Morrison 7"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee1be905ece42d0d0865e"
+      },
+      "store_id": {
+        "$oid": "63be137b218d0176787ca589"
+      },
+      "quantity": 32,
+      "store_name": "Morrison 8"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee21b905ece42d0d0865f"
+      },
+      "store_id": {
+        "$oid": "63be127a218d0176787ca57b"
+      },
+      "quantity": 23,
+      "store_name": "Morrison 1"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee21b905ece42d0d0865f"
+      },
+      "store_id": {
+        "$oid": "63be12a7218d0176787ca57d"
+      },
+      "quantity": 30,
+      "store_name": "Morrison 2"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee21b905ece42d0d0865f"
+      },
+      "store_id": {
+        "$oid": "63be12c6218d0176787ca57f"
+      },
+      "quantity": 34,
+      "store_name": "Morrison 3"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee21b905ece42d0d0865f"
+      },
+      "store_id": {
+        "$oid": "63be12e8218d0176787ca581"
+      },
+      "quantity": 15,
+      "store_name": "Morrison 4"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee21b905ece42d0d0865f"
+      },
+      "store_id": {
+        "$oid": "63be1307218d0176787ca583"
+      },
+      "quantity": 22,
+      "store_name": "Morrison 5"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee21b905ece42d0d0865f"
+      },
+      "store_id": {
+        "$oid": "63be1357218d0176787ca587"
+      },
+      "quantity": 12,
+      "store_name": "Morrison 7"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee21b905ece42d0d0865f"
+      },
+      "store_id": {
+        "$oid": "63be137b218d0176787ca589"
+      },
+      "quantity": 10,
+      "store_name": "Morrison 8"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee227905ece42d0d08660"
+      },
+      "store_id": {
+        "$oid": "63be127a218d0176787ca57b"
+      },
+      "quantity": 20,
+      "store_name": "Morrison 1"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee227905ece42d0d08660"
+      },
+      "store_id": {
+        "$oid": "63be12a7218d0176787ca57d"
+      },
+      "quantity": 30,
+      "store_name": "Morrison 2"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee227905ece42d0d08660"
+      },
+      "store_id": {
+        "$oid": "63be12c6218d0176787ca57f"
+      },
+      "quantity": 25,
+      "store_name": "Morrison 3"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee227905ece42d0d08660"
+      },
+      "store_id": {
+        "$oid": "63be12e8218d0176787ca581"
+      },
+      "quantity": 15,
+      "store_name": "Morrison 4"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee227905ece42d0d08660"
+      },
+      "store_id": {
+        "$oid": "63be1307218d0176787ca583"
+      },
+      "quantity": 19,
+      "store_name": "Morrison 5"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee227905ece42d0d08660"
+      },
+      "store_id": {
+        "$oid": "63be1335218d0176787ca585"
+      },
+      "quantity": 22,
+      "store_name": "Morrison 6"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee227905ece42d0d08660"
+      },
+      "store_id": {
+        "$oid": "63be137b218d0176787ca589"
+      },
+      "quantity": 35,
+      "store_name": "Morrison 8"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee23b905ece42d0d08661"
+      },
+      "store_id": {
+        "$oid": "63be127a218d0176787ca57b"
+      },
+      "quantity": 10,
+      "store_name": "Morrison 1"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee23b905ece42d0d08661"
+      },
+      "store_id": {
+        "$oid": "63be12a7218d0176787ca57d"
+      },
+      "quantity": 17,
+      "store_name": "Morrison 2"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee23b905ece42d0d08661"
+      },
+      "store_id": {
+        "$oid": "63be12c6218d0176787ca57f"
+      },
+      "quantity": 7,
+      "store_name": "Morrison 3"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee23b905ece42d0d08661"
+      },
+      "store_id": {
+        "$oid": "63be12e8218d0176787ca581"
+      },
+      "quantity": 19,
+      "store_name": "Morrison 4"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee23b905ece42d0d08661"
+      },
+      "store_id": {
+        "$oid": "63be1307218d0176787ca583"
+      },
+      "quantity": 20,
+      "store_name": "Morrison 5"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee23b905ece42d0d08661"
+      },
+      "store_id": {
+        "$oid": "63be1335218d0176787ca585"
+      },
+      "quantity": 15,
+      "store_name": "Morrison 6"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee23b905ece42d0d08661"
+      },
+      "store_id": {
+        "$oid": "63be1357218d0176787ca587"
+      },
+      "quantity": 10,
+      "store_name": "Morrison 7"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee417905ece42d0d08662"
+      },
+      "store_id": {
+        "$oid": "63be127a218d0176787ca57b"
+      },
+      "quantity": 22,
+      "store_name": "Morrison 1"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee417905ece42d0d08662"
+      },
+      "store_id": {
+        "$oid": "63be12a7218d0176787ca57d"
+      },
+      "quantity": 22,
+      "store_name": "Morrison 2"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee417905ece42d0d08662"
+      },
+      "store_id": {
+        "$oid": "63be12e8218d0176787ca581"
+      },
+      "quantity": 17,
+      "store_name": "Morrison 4"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee417905ece42d0d08662"
+      },
+      "store_id": {
+        "$oid": "63be1307218d0176787ca583"
+      },
+      "quantity": 18,
+      "store_name": "Morrison 5"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee417905ece42d0d08662"
+      },
+      "store_id": {
+        "$oid": "63be1335218d0176787ca585"
+      },
+      "quantity": 22,
+      "store_name": "Morrison 6"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee417905ece42d0d08662"
+      },
+      "store_id": {
+        "$oid": "63be1357218d0176787ca587"
+      },
+      "quantity": 25,
+      "store_name": "Morrison 7"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee417905ece42d0d08662"
+      },
+      "store_id": {
+        "$oid": "63be137b218d0176787ca589"
+      },
+      "quantity": 20,
+      "store_name": "Morrison 8"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee424905ece42d0d08663"
+      },
+      "store_id": {
+        "$oid": "63be127a218d0176787ca57b"
+      },
+      "quantity": 17,
+      "store_name": "Morrison 1"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee424905ece42d0d08663"
+      },
+      "store_id": {
+        "$oid": "63be12c6218d0176787ca57f"
+      },
+      "quantity": 28,
+      "store_name": "Morrison 3"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee424905ece42d0d08663"
+      },
+      "store_id": {
+        "$oid": "63be12e8218d0176787ca581"
+      },
+      "quantity": 18,
+      "store_name": "Morrison 4"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee424905ece42d0d08663"
+      },
+      "store_id": {
+        "$oid": "63be1307218d0176787ca583"
+      },
+      "quantity": 34,
+      "store_name": "Morrison 5"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee424905ece42d0d08663"
+      },
+      "store_id": {
+        "$oid": "63be1335218d0176787ca585"
+      },
+      "quantity": 28,
+      "store_name": "Morrison 6"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee424905ece42d0d08663"
+      },
+      "store_id": {
+        "$oid": "63be1357218d0176787ca587"
+      },
+      "quantity": 34,
+      "store_name": "Morrison 7"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee424905ece42d0d08663"
+      },
+      "store_id": {
+        "$oid": "63be137b218d0176787ca589"
+      },
+      "quantity": 19,
+      "store_name": "Morrison 8"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee42d905ece42d0d08664"
+      },
+      "store_id": {
+        "$oid": "63be12a7218d0176787ca57d"
+      },
+      "quantity": 23,
+      "store_name": "Morrison 2"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee42d905ece42d0d08664"
+      },
+      "store_id": {
+        "$oid": "63be12c6218d0176787ca57f"
+      },
+      "quantity": 28,
+      "store_name": "Morrison 3"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee42d905ece42d0d08664"
+      },
+      "store_id": {
+        "$oid": "63be12e8218d0176787ca581"
+      },
+      "quantity": 30,
+      "store_name": "Morrison 4"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee42d905ece42d0d08664"
+      },
+      "store_id": {
+        "$oid": "63be1307218d0176787ca583"
+      },
+      "quantity": 18,
+      "store_name": "Morrison 5"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee42d905ece42d0d08664"
+      },
+      "store_id": {
+        "$oid": "63be1335218d0176787ca585"
+      },
+      "quantity": 15,
+      "store_name": "Morrison 6"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee42d905ece42d0d08664"
+      },
+      "store_id": {
+        "$oid": "63be1357218d0176787ca587"
+      },
+      "quantity": 19,
+      "store_name": "Morrison 7"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee42d905ece42d0d08664"
+      },
+      "store_id": {
+        "$oid": "63be137b218d0176787ca589"
+      },
+      "quantity": 20,
+      "store_name": "Morrison 8"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee435905ece42d0d08665"
+      },
+      "store_id": {
+        "$oid": "63be127a218d0176787ca57b"
+      },
+      "quantity": 15,
+      "store_name": "Morrison 1"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee435905ece42d0d08665"
+      },
+      "store_id": {
+        "$oid": "63be12a7218d0176787ca57d"
+      },
+      "quantity": 23,
+      "store_name": "Morrison 2"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee435905ece42d0d08665"
+      },
+      "store_id": {
+        "$oid": "63be12c6218d0176787ca57f"
+      },
+      "quantity": 25,
+      "store_name": "Morrison 3"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee435905ece42d0d08665"
+      },
+      "store_id": {
+        "$oid": "63be12e8218d0176787ca581"
+      },
+      "quantity": 30,
+      "store_name": "Morrison 4"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee435905ece42d0d08665"
+      },
+      "store_id": {
+        "$oid": "63be1307218d0176787ca583"
+      },
+      "quantity": 33,
+      "store_name": "Morrison 5"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee435905ece42d0d08665"
+      },
+      "store_id": {
+        "$oid": "63be1335218d0176787ca585"
+      },
+      "quantity": 22,
+      "store_name": "Morrison 6"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee435905ece42d0d08665"
+      },
+      "store_id": {
+        "$oid": "63be1357218d0176787ca587"
+      },
+      "quantity": 18,
+      "store_name": "Morrison 7"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee435905ece42d0d08665"
+      },
+      "store_id": {
+        "$oid": "63be137b218d0176787ca589"
+      },
+      "quantity": 18,
+      "store_name": "Morrison 8"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee43f905ece42d0d08666"
+      },
+      "store_id": {
+        "$oid": "63be127a218d0176787ca57b"
+      },
+      "quantity": 23,
+      "store_name": "Morrison 1"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee43f905ece42d0d08666"
+      },
+      "store_id": {
+        "$oid": "63be12a7218d0176787ca57d"
+      },
+      "quantity": 22,
+      "store_name": "Morrison 2"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee43f905ece42d0d08666"
+      },
+      "store_id": {
+        "$oid": "63be12c6218d0176787ca57f"
+      },
+      "quantity": 45,
+      "store_name": "Morrison 3"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee43f905ece42d0d08666"
+      },
+      "store_id": {
+        "$oid": "63be12e8218d0176787ca581"
+      },
+      "quantity": 16,
+      "store_name": "Morrison 4"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee43f905ece42d0d08666"
+      },
+      "store_id": {
+        "$oid": "63be1307218d0176787ca583"
+      },
+      "quantity": 36,
+      "store_name": "Morrison 5"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee43f905ece42d0d08666"
+      },
+      "store_id": {
+        "$oid": "63be1335218d0176787ca585"
+      },
+      "quantity": 8,
+      "store_name": "Morrison 6"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee43f905ece42d0d08666"
+      },
+      "store_id": {
+        "$oid": "63be1357218d0176787ca587"
+      },
+      "quantity": 10,
+      "store_name": "Morrison 7"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee43f905ece42d0d08666"
+      },
+      "store_id": {
+        "$oid": "63be137b218d0176787ca589"
+      },
+      "quantity": 17,
+      "store_name": "Morrison 8"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee628905ece42d0d08667"
+      },
+      "store_id": {
+        "$oid": "63be127a218d0176787ca57b"
+      },
+      "quantity": 20,
+      "store_name": "Morrison 1"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee628905ece42d0d08667"
+      },
+      "store_id": {
+        "$oid": "63be12a7218d0176787ca57d"
+      },
+      "quantity": 22,
+      "store_name": "Morrison 2"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee628905ece42d0d08667"
+      },
+      "store_id": {
+        "$oid": "63be12c6218d0176787ca57f"
+      },
+      "quantity": 32,
+      "store_name": "Morrison 3"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee628905ece42d0d08667"
+      },
+      "store_id": {
+        "$oid": "63be12e8218d0176787ca581"
+      },
+      "quantity": 35,
+      "store_name": "Morrison 4"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee628905ece42d0d08667"
+      },
+      "store_id": {
+        "$oid": "63be1307218d0176787ca583"
+      },
+      "quantity": 37,
+      "store_name": "Morrison 5"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee628905ece42d0d08667"
+      },
+      "store_id": {
+        "$oid": "63be1335218d0176787ca585"
+      },
+      "quantity": 14,
+      "store_name": "Morrison 6"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee628905ece42d0d08667"
+      },
+      "store_id": {
+        "$oid": "63be1357218d0176787ca587"
+      },
+      "quantity": 10,
+      "store_name": "Morrison 7"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee628905ece42d0d08667"
+      },
+      "store_id": {
+        "$oid": "63be137b218d0176787ca589"
+      },
+      "quantity": 15,
+      "store_name": "Morrison 8"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee632905ece42d0d08668"
+      },
+      "store_id": {
+        "$oid": "63be127a218d0176787ca57b"
+      },
+      "quantity": 19,
+      "store_name": "Morrison 1"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee632905ece42d0d08668"
+      },
+      "store_id": {
+        "$oid": "63be12a7218d0176787ca57d"
+      },
+      "quantity": 23,
+      "store_name": "Morrison 2"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee632905ece42d0d08668"
+      },
+      "store_id": {
+        "$oid": "63be12c6218d0176787ca57f"
+      },
+      "quantity": 24,
+      "store_name": "Morrison 3"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee632905ece42d0d08668"
+      },
+      "store_id": {
+        "$oid": "63be12e8218d0176787ca581"
+      },
+      "quantity": 3,
+      "store_name": "Morrison 4"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee632905ece42d0d08668"
+      },
+      "store_id": {
+        "$oid": "63be1307218d0176787ca583"
+      },
+      "quantity": 26,
+      "store_name": "Morrison 5"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee632905ece42d0d08668"
+      },
+      "store_id": {
+        "$oid": "63be1335218d0176787ca585"
+      },
+      "quantity": 16,
+      "store_name": "Morrison 6"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee632905ece42d0d08668"
+      },
+      "store_id": {
+        "$oid": "63be1357218d0176787ca587"
+      },
+      "quantity": 45,
+      "store_name": "Morrison 7"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee632905ece42d0d08668"
+      },
+      "store_id": {
+        "$oid": "63be137b218d0176787ca589"
+      },
+      "quantity": 37,
+      "store_name": "Morrison 8"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee63a905ece42d0d08669"
+      },
+      "store_id": {
+        "$oid": "63be127a218d0176787ca57b"
+      },
+      "quantity": 25,
+      "store_name": "Morrison 1"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee63a905ece42d0d08669"
+      },
+      "store_id": {
+        "$oid": "63be12a7218d0176787ca57d"
+      },
+      "quantity": 18,
+      "store_name": "Morrison 2"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee63a905ece42d0d08669"
+      },
+      "store_id": {
+        "$oid": "63be12c6218d0176787ca57f"
+      },
+      "quantity": 35,
+      "store_name": "Morrison 3"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee63a905ece42d0d08669"
+      },
+      "store_id": {
+        "$oid": "63be12e8218d0176787ca581"
+      },
+      "quantity": 45,
+      "store_name": "Morrison 4"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee63a905ece42d0d08669"
+      },
+      "store_id": {
+        "$oid": "63be1307218d0176787ca583"
+      },
+      "quantity": 26,
+      "store_name": "Morrison 5"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee63a905ece42d0d08669"
+      },
+      "store_id": {
+        "$oid": "63be1335218d0176787ca585"
+      },
+      "quantity": 28,
+      "store_name": "Morrison 6"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee63a905ece42d0d08669"
+      },
+      "store_id": {
+        "$oid": "63be1357218d0176787ca587"
+      },
+      "quantity": 37,
+      "store_name": "Morrison 7"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee63a905ece42d0d08669"
+      },
+      "store_id": {
+        "$oid": "63be137b218d0176787ca589"
+      },
+      "quantity": 10,
+      "store_name": "Morrison 8"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee666905ece42d0d0866a"
+      },
+      "store_id": {
+        "$oid": "63be127a218d0176787ca57b"
+      },
+      "quantity": 25,
+      "store_name": "Morrison 1"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee666905ece42d0d0866a"
+      },
+      "store_id": {
+        "$oid": "63be12a7218d0176787ca57d"
+      },
+      "quantity": 34,
+      "store_name": "Morrison 2"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee666905ece42d0d0866a"
+      },
+      "store_id": {
+        "$oid": "63be12c6218d0176787ca57f"
+      },
+      "quantity": 28,
+      "store_name": "Morrison 3"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee666905ece42d0d0866a"
+      },
+      "store_id": {
+        "$oid": "63be12e8218d0176787ca581"
+      },
+      "quantity": 16,
+      "store_name": "Morrison 4"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee666905ece42d0d0866a"
+      },
+      "store_id": {
+        "$oid": "63be1307218d0176787ca583"
+      },
+      "quantity": 30,
+      "store_name": "Morrison 5"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee666905ece42d0d0866a"
+      },
+      "store_id": {
+        "$oid": "63be1335218d0176787ca585"
+      },
+      "quantity": 25,
+      "store_name": "Morrison 6"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee666905ece42d0d0866a"
+      },
+      "store_id": {
+        "$oid": "63be1357218d0176787ca587"
+      },
+      "quantity": 17,
+      "store_name": "Morrison 7"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee666905ece42d0d0866a"
+      },
+      "store_id": {
+        "$oid": "63be137b218d0176787ca589"
+      },
+      "quantity": 15,
+      "store_name": "Morrison 8"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee66f905ece42d0d0866b"
+      },
+      "store_id": {
+        "$oid": "63be127a218d0176787ca57b"
+      },
+      "quantity": 8,
+      "store_name": "Morrison 1"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee66f905ece42d0d0866b"
+      },
+      "store_id": {
+        "$oid": "63be12a7218d0176787ca57d"
+      },
+      "quantity": 15,
+      "store_name": "Morrison 2"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee66f905ece42d0d0866b"
+      },
+      "store_id": {
+        "$oid": "63be12c6218d0176787ca57f"
+      },
+      "quantity": 40,
+      "store_name": "Morrison 3"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee66f905ece42d0d0866b"
+      },
+      "store_id": {
+        "$oid": "63be12e8218d0176787ca581"
+      },
+      "quantity": 25,
+      "store_name": "Morrison 4"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee66f905ece42d0d0866b"
+      },
+      "store_id": {
+        "$oid": "63be1307218d0176787ca583"
+      },
+      "quantity": 34,
+      "store_name": "Morrison 5"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee66f905ece42d0d0866b"
+      },
+      "store_id": {
+        "$oid": "63be1335218d0176787ca585"
+      },
+      "quantity": 35,
+      "store_name": "Morrison 6"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee66f905ece42d0d0866b"
+      },
+      "store_id": {
+        "$oid": "63be1357218d0176787ca587"
+      },
+      "quantity": 28,
+      "store_name": "Morrison 7"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee66f905ece42d0d0866b"
+      },
+      "store_id": {
+        "$oid": "63be137b218d0176787ca589"
+      },
+      "quantity": 29,
+      "store_name": "Morrison 8"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63c09ec4f0ab5e53abc7c79d"
+  },
+  "start_date": {
+    "$date": {
+      "$numberLong": "1673481600000"
+    }
+  },
+  "end_date": {
+    "$date": {
+      "$numberLong": "1673567999999"
+    }
+  },
+  "inventory": [
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bed8c13121db4da02d4fec"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 271,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bed8c13121db4da02d4fec"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 296,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bed8c13121db4da02d4fec"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 180,
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bed9043121db4da02d4ff8"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 274,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bed9043121db4da02d4ff8"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 14,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bed9043121db4da02d4ff8"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 50,
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bed90b3121db4da02d4ff9"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 54,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bed90b3121db4da02d4ff9"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 120,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bed90b3121db4da02d4ff9"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 77,
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bed9173121db4da02d4ffa"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 31,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bed9173121db4da02d4ffa"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 70,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bed9173121db4da02d4ffa"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 40,
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bed9203121db4da02d4ffb"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 254,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bed9203121db4da02d4ffb"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 68,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bed92a3121db4da02d4ffc"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 88,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bed92a3121db4da02d4ffc"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 76,
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bed9333121db4da02d4ffd"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 40,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bed9333121db4da02d4ffd"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 7,
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bed93c3121db4da02d4ffe"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 161,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bed93c3121db4da02d4ffe"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 118,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bed93c3121db4da02d4ffe"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 70,
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bed9443121db4da02d4fff"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 181,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bed9443121db4da02d4fff"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 45,
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bed94d3121db4da02d5000"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 66,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bed94d3121db4da02d5000"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 56,
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bed9573121db4da02d5001"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 321,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bed9573121db4da02d5001"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 290,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedaa03121db4da02d5002"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 10,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedaa03121db4da02d5002"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 23,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedaa03121db4da02d5002"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 26,
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedaa83121db4da02d5003"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 70,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedaa83121db4da02d5003"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 107,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedaa83121db4da02d5003"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 56,
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedabb3121db4da02d5004"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 49,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedabb3121db4da02d5004"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 28,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedac33121db4da02d5005"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 78,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedac33121db4da02d5005"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 39,
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedacc3121db4da02d5006"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 18,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedacc3121db4da02d5006"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 33,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedacc3121db4da02d5006"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 55,
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedad33121db4da02d5007"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 69,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedad33121db4da02d5007"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 82,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedad33121db4da02d5007"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 23,
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedadb3121db4da02d5008"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 21,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedadb3121db4da02d5008"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 74,
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedae23121db4da02d5009"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 52,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedae23121db4da02d5009"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 69,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedb66f053fd4084a32f0c"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 81,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedb66f053fd4084a32f0c"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 70,
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedc4c905ece42d0d08648"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 497,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedc4c905ece42d0d08648"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 312,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedc54905ece42d0d08649"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 297,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedc54905ece42d0d08649"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 146,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedc54905ece42d0d08649"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 187,
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedc5e905ece42d0d0864a"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 194,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedc5e905ece42d0d0864a"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 208,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedc5e905ece42d0d0864a"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 162,
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedc66905ece42d0d0864b"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 236,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedc66905ece42d0d0864b"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 247,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedc66905ece42d0d0864b"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 269,
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedc6e905ece42d0d0864c"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 149,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedc6e905ece42d0d0864c"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 71,
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedc77905ece42d0d0864d"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 281,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedc77905ece42d0d0864d"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 277,
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedc7f905ece42d0d0864e"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 129,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedc7f905ece42d0d0864e"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 157,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedc97905ece42d0d0864f"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 74,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedc97905ece42d0d0864f"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 32,
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedca0905ece42d0d08650"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 59,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedca0905ece42d0d08650"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 73,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedca8905ece42d0d08651"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 11,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedca8905ece42d0d08651"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 22,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedca8905ece42d0d08651"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 35,
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedcf1905ece42d0d08652"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 6,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedcf1905ece42d0d08652"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 28,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bede9b905ece42d0d08653"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 73,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bede9b905ece42d0d08653"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 88,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bede9b905ece42d0d08653"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 134,
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedea3905ece42d0d08654"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 174,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedea3905ece42d0d08654"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 108,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedead905ece42d0d08655"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 226,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedead905ece42d0d08655"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 137,
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedeb4905ece42d0d08656"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 40,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedeb4905ece42d0d08656"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 56,
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedebd905ece42d0d08657"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 75,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedebd905ece42d0d08657"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 108,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedebd905ece42d0d08657"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 5,
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedec4905ece42d0d08658"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 105,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedec4905ece42d0d08658"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 21,
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedecc905ece42d0d08659"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 37,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedecc905ece42d0d08659"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 156,
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63beded3905ece42d0d0865a"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 92,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63beded3905ece42d0d0865a"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 43,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bededd905ece42d0d0865b"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 170,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bededd905ece42d0d0865b"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 139,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bededd905ece42d0d0865b"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 156,
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedee5905ece42d0d0865c"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 272,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedee5905ece42d0d0865c"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 209,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedee5905ece42d0d0865c"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 255,
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee1a1905ece42d0d0865d"
+      },
+      "store_id": {
+        "$oid": "63be127a218d0176787ca57b"
+      },
+      "quantity": 45,
+      "store_name": "Morrison 1"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee1a1905ece42d0d0865d"
+      },
+      "store_id": {
+        "$oid": "63be12a7218d0176787ca57d"
+      },
+      "quantity": 27,
+      "store_name": "Morrison 2"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee1a1905ece42d0d0865d"
+      },
+      "store_id": {
+        "$oid": "63be12c6218d0176787ca57f"
+      },
+      "quantity": 11,
+      "store_name": "Morrison 3"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee1a1905ece42d0d0865d"
+      },
+      "store_id": {
+        "$oid": "63be1307218d0176787ca583"
+      },
+      "quantity": 24,
+      "store_name": "Morrison 5"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee1a1905ece42d0d0865d"
+      },
+      "store_id": {
+        "$oid": "63be1335218d0176787ca585"
+      },
+      "quantity": 22,
+      "store_name": "Morrison 6"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee1a1905ece42d0d0865d"
+      },
+      "store_id": {
+        "$oid": "63be1357218d0176787ca587"
+      },
+      "quantity": 17,
+      "store_name": "Morrison 7"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee1a1905ece42d0d0865d"
+      },
+      "store_id": {
+        "$oid": "63be137b218d0176787ca589"
+      },
+      "quantity": 10,
+      "store_name": "Morrison 8"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee1be905ece42d0d0865e"
+      },
+      "store_id": {
+        "$oid": "63be127a218d0176787ca57b"
+      },
+      "quantity": 7,
+      "store_name": "Morrison 1"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee1be905ece42d0d0865e"
+      },
+      "store_id": {
+        "$oid": "63be12a7218d0176787ca57d"
+      },
+      "quantity": 16,
+      "store_name": "Morrison 2"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee1be905ece42d0d0865e"
+      },
+      "store_id": {
+        "$oid": "63be12c6218d0176787ca57f"
+      },
+      "quantity": 33,
+      "store_name": "Morrison 3"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee1be905ece42d0d0865e"
+      },
+      "store_id": {
+        "$oid": "63be12e8218d0176787ca581"
+      },
+      "quantity": 16,
+      "store_name": "Morrison 4"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee1be905ece42d0d0865e"
+      },
+      "store_id": {
+        "$oid": "63be1335218d0176787ca585"
+      },
+      "quantity": 40,
+      "store_name": "Morrison 6"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee1be905ece42d0d0865e"
+      },
+      "store_id": {
+        "$oid": "63be1357218d0176787ca587"
+      },
+      "quantity": 17,
+      "store_name": "Morrison 7"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee1be905ece42d0d0865e"
+      },
+      "store_id": {
+        "$oid": "63be137b218d0176787ca589"
+      },
+      "quantity": 32,
+      "store_name": "Morrison 8"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee21b905ece42d0d0865f"
+      },
+      "store_id": {
+        "$oid": "63be127a218d0176787ca57b"
+      },
+      "quantity": 15,
+      "store_name": "Morrison 1"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee21b905ece42d0d0865f"
+      },
+      "store_id": {
+        "$oid": "63be12a7218d0176787ca57d"
+      },
+      "quantity": 28,
+      "store_name": "Morrison 2"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee21b905ece42d0d0865f"
+      },
+      "store_id": {
+        "$oid": "63be12c6218d0176787ca57f"
+      },
+      "quantity": 32,
+      "store_name": "Morrison 3"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee21b905ece42d0d0865f"
+      },
+      "store_id": {
+        "$oid": "63be12e8218d0176787ca581"
+      },
+      "quantity": 13,
+      "store_name": "Morrison 4"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee21b905ece42d0d0865f"
+      },
+      "store_id": {
+        "$oid": "63be1307218d0176787ca583"
+      },
+      "quantity": 11,
+      "store_name": "Morrison 5"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee21b905ece42d0d0865f"
+      },
+      "store_id": {
+        "$oid": "63be1357218d0176787ca587"
+      },
+      "quantity": 12,
+      "store_name": "Morrison 7"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee21b905ece42d0d0865f"
+      },
+      "store_id": {
+        "$oid": "63be137b218d0176787ca589"
+      },
+      "quantity": 10,
+      "store_name": "Morrison 8"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee227905ece42d0d08660"
+      },
+      "store_id": {
+        "$oid": "63be127a218d0176787ca57b"
+      },
+      "quantity": 18,
+      "store_name": "Morrison 1"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee227905ece42d0d08660"
+      },
+      "store_id": {
+        "$oid": "63be12a7218d0176787ca57d"
+      },
+      "quantity": 29,
+      "store_name": "Morrison 2"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee227905ece42d0d08660"
+      },
+      "store_id": {
+        "$oid": "63be12c6218d0176787ca57f"
+      },
+      "quantity": 21,
+      "store_name": "Morrison 3"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee227905ece42d0d08660"
+      },
+      "store_id": {
+        "$oid": "63be12e8218d0176787ca581"
+      },
+      "quantity": 0,
+      "store_name": "Morrison 4"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee227905ece42d0d08660"
+      },
+      "store_id": {
+        "$oid": "63be1307218d0176787ca583"
+      },
+      "quantity": 14,
+      "store_name": "Morrison 5"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee227905ece42d0d08660"
+      },
+      "store_id": {
+        "$oid": "63be1335218d0176787ca585"
+      },
+      "quantity": 22,
+      "store_name": "Morrison 6"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee227905ece42d0d08660"
+      },
+      "store_id": {
+        "$oid": "63be137b218d0176787ca589"
+      },
+      "quantity": 35,
+      "store_name": "Morrison 8"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee23b905ece42d0d08661"
+      },
+      "store_id": {
+        "$oid": "63be127a218d0176787ca57b"
+      },
+      "quantity": 10,
+      "store_name": "Morrison 1"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee23b905ece42d0d08661"
+      },
+      "store_id": {
+        "$oid": "63be12a7218d0176787ca57d"
+      },
+      "quantity": 11,
+      "store_name": "Morrison 2"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee23b905ece42d0d08661"
+      },
+      "store_id": {
+        "$oid": "63be12c6218d0176787ca57f"
+      },
+      "quantity": 6,
+      "store_name": "Morrison 3"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee23b905ece42d0d08661"
+      },
+      "store_id": {
+        "$oid": "63be12e8218d0176787ca581"
+      },
+      "quantity": 7,
+      "store_name": "Morrison 4"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee23b905ece42d0d08661"
+      },
+      "store_id": {
+        "$oid": "63be1307218d0176787ca583"
+      },
+      "quantity": 14,
+      "store_name": "Morrison 5"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee23b905ece42d0d08661"
+      },
+      "store_id": {
+        "$oid": "63be1335218d0176787ca585"
+      },
+      "quantity": 15,
+      "store_name": "Morrison 6"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee23b905ece42d0d08661"
+      },
+      "store_id": {
+        "$oid": "63be1357218d0176787ca587"
+      },
+      "quantity": 10,
+      "store_name": "Morrison 7"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee417905ece42d0d08662"
+      },
+      "store_id": {
+        "$oid": "63be127a218d0176787ca57b"
+      },
+      "quantity": 20,
+      "store_name": "Morrison 1"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee417905ece42d0d08662"
+      },
+      "store_id": {
+        "$oid": "63be12a7218d0176787ca57d"
+      },
+      "quantity": 12,
+      "store_name": "Morrison 2"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee417905ece42d0d08662"
+      },
+      "store_id": {
+        "$oid": "63be12e8218d0176787ca581"
+      },
+      "quantity": 11,
+      "store_name": "Morrison 4"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee417905ece42d0d08662"
+      },
+      "store_id": {
+        "$oid": "63be1307218d0176787ca583"
+      },
+      "quantity": 2,
+      "store_name": "Morrison 5"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee417905ece42d0d08662"
+      },
+      "store_id": {
+        "$oid": "63be1335218d0176787ca585"
+      },
+      "quantity": 22,
+      "store_name": "Morrison 6"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee417905ece42d0d08662"
+      },
+      "store_id": {
+        "$oid": "63be1357218d0176787ca587"
+      },
+      "quantity": 25,
+      "store_name": "Morrison 7"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee417905ece42d0d08662"
+      },
+      "store_id": {
+        "$oid": "63be137b218d0176787ca589"
+      },
+      "quantity": 20,
+      "store_name": "Morrison 8"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee424905ece42d0d08663"
+      },
+      "store_id": {
+        "$oid": "63be127a218d0176787ca57b"
+      },
+      "quantity": 16,
+      "store_name": "Morrison 1"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee424905ece42d0d08663"
+      },
+      "store_id": {
+        "$oid": "63be12c6218d0176787ca57f"
+      },
+      "quantity": 25,
+      "store_name": "Morrison 3"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee424905ece42d0d08663"
+      },
+      "store_id": {
+        "$oid": "63be12e8218d0176787ca581"
+      },
+      "quantity": 15,
+      "store_name": "Morrison 4"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee424905ece42d0d08663"
+      },
+      "store_id": {
+        "$oid": "63be1307218d0176787ca583"
+      },
+      "quantity": 12,
+      "store_name": "Morrison 5"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee424905ece42d0d08663"
+      },
+      "store_id": {
+        "$oid": "63be1335218d0176787ca585"
+      },
+      "quantity": 28,
+      "store_name": "Morrison 6"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee424905ece42d0d08663"
+      },
+      "store_id": {
+        "$oid": "63be1357218d0176787ca587"
+      },
+      "quantity": 34,
+      "store_name": "Morrison 7"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee424905ece42d0d08663"
+      },
+      "store_id": {
+        "$oid": "63be137b218d0176787ca589"
+      },
+      "quantity": 19,
+      "store_name": "Morrison 8"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee42d905ece42d0d08664"
+      },
+      "store_id": {
+        "$oid": "63be12a7218d0176787ca57d"
+      },
+      "quantity": 12,
+      "store_name": "Morrison 2"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee42d905ece42d0d08664"
+      },
+      "store_id": {
+        "$oid": "63be12c6218d0176787ca57f"
+      },
+      "quantity": 28,
+      "store_name": "Morrison 3"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee42d905ece42d0d08664"
+      },
+      "store_id": {
+        "$oid": "63be12e8218d0176787ca581"
+      },
+      "quantity": 29,
+      "store_name": "Morrison 4"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee42d905ece42d0d08664"
+      },
+      "store_id": {
+        "$oid": "63be1307218d0176787ca583"
+      },
+      "quantity": 6,
+      "store_name": "Morrison 5"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee42d905ece42d0d08664"
+      },
+      "store_id": {
+        "$oid": "63be1335218d0176787ca585"
+      },
+      "quantity": 15,
+      "store_name": "Morrison 6"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee42d905ece42d0d08664"
+      },
+      "store_id": {
+        "$oid": "63be1357218d0176787ca587"
+      },
+      "quantity": 19,
+      "store_name": "Morrison 7"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee42d905ece42d0d08664"
+      },
+      "store_id": {
+        "$oid": "63be137b218d0176787ca589"
+      },
+      "quantity": 20,
+      "store_name": "Morrison 8"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee435905ece42d0d08665"
+      },
+      "store_id": {
+        "$oid": "63be127a218d0176787ca57b"
+      },
+      "quantity": 14,
+      "store_name": "Morrison 1"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee435905ece42d0d08665"
+      },
+      "store_id": {
+        "$oid": "63be12a7218d0176787ca57d"
+      },
+      "quantity": 18,
+      "store_name": "Morrison 2"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee435905ece42d0d08665"
+      },
+      "store_id": {
+        "$oid": "63be12c6218d0176787ca57f"
+      },
+      "quantity": 19,
+      "store_name": "Morrison 3"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee435905ece42d0d08665"
+      },
+      "store_id": {
+        "$oid": "63be12e8218d0176787ca581"
+      },
+      "quantity": 29,
+      "store_name": "Morrison 4"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee435905ece42d0d08665"
+      },
+      "store_id": {
+        "$oid": "63be1307218d0176787ca583"
+      },
+      "quantity": 17,
+      "store_name": "Morrison 5"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee435905ece42d0d08665"
+      },
+      "store_id": {
+        "$oid": "63be1335218d0176787ca585"
+      },
+      "quantity": 22,
+      "store_name": "Morrison 6"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee435905ece42d0d08665"
+      },
+      "store_id": {
+        "$oid": "63be1357218d0176787ca587"
+      },
+      "quantity": 18,
+      "store_name": "Morrison 7"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee435905ece42d0d08665"
+      },
+      "store_id": {
+        "$oid": "63be137b218d0176787ca589"
+      },
+      "quantity": 18,
+      "store_name": "Morrison 8"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee43f905ece42d0d08666"
+      },
+      "store_id": {
+        "$oid": "63be127a218d0176787ca57b"
+      },
+      "quantity": 22,
+      "store_name": "Morrison 1"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee43f905ece42d0d08666"
+      },
+      "store_id": {
+        "$oid": "63be12a7218d0176787ca57d"
+      },
+      "quantity": 12,
+      "store_name": "Morrison 2"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee43f905ece42d0d08666"
+      },
+      "store_id": {
+        "$oid": "63be12c6218d0176787ca57f"
+      },
+      "quantity": 41,
+      "store_name": "Morrison 3"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee43f905ece42d0d08666"
+      },
+      "store_id": {
+        "$oid": "63be12e8218d0176787ca581"
+      },
+      "quantity": 15,
+      "store_name": "Morrison 4"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee43f905ece42d0d08666"
+      },
+      "store_id": {
+        "$oid": "63be1307218d0176787ca583"
+      },
+      "quantity": 29,
+      "store_name": "Morrison 5"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee43f905ece42d0d08666"
+      },
+      "store_id": {
+        "$oid": "63be1335218d0176787ca585"
+      },
+      "quantity": 8,
+      "store_name": "Morrison 6"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee43f905ece42d0d08666"
+      },
+      "store_id": {
+        "$oid": "63be1357218d0176787ca587"
+      },
+      "quantity": 10,
+      "store_name": "Morrison 7"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee43f905ece42d0d08666"
+      },
+      "store_id": {
+        "$oid": "63be137b218d0176787ca589"
+      },
+      "quantity": 17,
+      "store_name": "Morrison 8"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee628905ece42d0d08667"
+      },
+      "store_id": {
+        "$oid": "63be127a218d0176787ca57b"
+      },
+      "quantity": 19,
+      "store_name": "Morrison 1"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee628905ece42d0d08667"
+      },
+      "store_id": {
+        "$oid": "63be12a7218d0176787ca57d"
+      },
+      "quantity": 17,
+      "store_name": "Morrison 2"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee628905ece42d0d08667"
+      },
+      "store_id": {
+        "$oid": "63be12c6218d0176787ca57f"
+      },
+      "quantity": 32,
+      "store_name": "Morrison 3"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee628905ece42d0d08667"
+      },
+      "store_id": {
+        "$oid": "63be12e8218d0176787ca581"
+      },
+      "quantity": 22,
+      "store_name": "Morrison 4"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee628905ece42d0d08667"
+      },
+      "store_id": {
+        "$oid": "63be1307218d0176787ca583"
+      },
+      "quantity": 27,
+      "store_name": "Morrison 5"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee628905ece42d0d08667"
+      },
+      "store_id": {
+        "$oid": "63be1335218d0176787ca585"
+      },
+      "quantity": 14,
+      "store_name": "Morrison 6"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee628905ece42d0d08667"
+      },
+      "store_id": {
+        "$oid": "63be1357218d0176787ca587"
+      },
+      "quantity": 10,
+      "store_name": "Morrison 7"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee628905ece42d0d08667"
+      },
+      "store_id": {
+        "$oid": "63be137b218d0176787ca589"
+      },
+      "quantity": 15,
+      "store_name": "Morrison 8"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee632905ece42d0d08668"
+      },
+      "store_id": {
+        "$oid": "63be127a218d0176787ca57b"
+      },
+      "quantity": 19,
+      "store_name": "Morrison 1"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee632905ece42d0d08668"
+      },
+      "store_id": {
+        "$oid": "63be12a7218d0176787ca57d"
+      },
+      "quantity": 23,
+      "store_name": "Morrison 2"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee632905ece42d0d08668"
+      },
+      "store_id": {
+        "$oid": "63be12c6218d0176787ca57f"
+      },
+      "quantity": 19,
+      "store_name": "Morrison 3"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee632905ece42d0d08668"
+      },
+      "store_id": {
+        "$oid": "63be12e8218d0176787ca581"
+      },
+      "quantity": 1,
+      "store_name": "Morrison 4"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee632905ece42d0d08668"
+      },
+      "store_id": {
+        "$oid": "63be1307218d0176787ca583"
+      },
+      "quantity": 22,
+      "store_name": "Morrison 5"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee632905ece42d0d08668"
+      },
+      "store_id": {
+        "$oid": "63be1335218d0176787ca585"
+      },
+      "quantity": 16,
+      "store_name": "Morrison 6"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee632905ece42d0d08668"
+      },
+      "store_id": {
+        "$oid": "63be1357218d0176787ca587"
+      },
+      "quantity": 45,
+      "store_name": "Morrison 7"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee632905ece42d0d08668"
+      },
+      "store_id": {
+        "$oid": "63be137b218d0176787ca589"
+      },
+      "quantity": 37,
+      "store_name": "Morrison 8"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee63a905ece42d0d08669"
+      },
+      "store_id": {
+        "$oid": "63be127a218d0176787ca57b"
+      },
+      "quantity": 24,
+      "store_name": "Morrison 1"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee63a905ece42d0d08669"
+      },
+      "store_id": {
+        "$oid": "63be12a7218d0176787ca57d"
+      },
+      "quantity": 14,
+      "store_name": "Morrison 2"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee63a905ece42d0d08669"
+      },
+      "store_id": {
+        "$oid": "63be12c6218d0176787ca57f"
+      },
+      "quantity": 35,
+      "store_name": "Morrison 3"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee63a905ece42d0d08669"
+      },
+      "store_id": {
+        "$oid": "63be12e8218d0176787ca581"
+      },
+      "quantity": 36,
+      "store_name": "Morrison 4"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee63a905ece42d0d08669"
+      },
+      "store_id": {
+        "$oid": "63be1307218d0176787ca583"
+      },
+      "quantity": 18,
+      "store_name": "Morrison 5"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee63a905ece42d0d08669"
+      },
+      "store_id": {
+        "$oid": "63be1335218d0176787ca585"
+      },
+      "quantity": 28,
+      "store_name": "Morrison 6"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee63a905ece42d0d08669"
+      },
+      "store_id": {
+        "$oid": "63be1357218d0176787ca587"
+      },
+      "quantity": 37,
+      "store_name": "Morrison 7"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee63a905ece42d0d08669"
+      },
+      "store_id": {
+        "$oid": "63be137b218d0176787ca589"
+      },
+      "quantity": 10,
+      "store_name": "Morrison 8"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee666905ece42d0d0866a"
+      },
+      "store_id": {
+        "$oid": "63be127a218d0176787ca57b"
+      },
+      "quantity": 24,
+      "store_name": "Morrison 1"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee666905ece42d0d0866a"
+      },
+      "store_id": {
+        "$oid": "63be12a7218d0176787ca57d"
+      },
+      "quantity": 33,
+      "store_name": "Morrison 2"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee666905ece42d0d0866a"
+      },
+      "store_id": {
+        "$oid": "63be12c6218d0176787ca57f"
+      },
+      "quantity": 28,
+      "store_name": "Morrison 3"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee666905ece42d0d0866a"
+      },
+      "store_id": {
+        "$oid": "63be12e8218d0176787ca581"
+      },
+      "quantity": 15,
+      "store_name": "Morrison 4"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee666905ece42d0d0866a"
+      },
+      "store_id": {
+        "$oid": "63be1307218d0176787ca583"
+      },
+      "quantity": 17,
+      "store_name": "Morrison 5"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee666905ece42d0d0866a"
+      },
+      "store_id": {
+        "$oid": "63be1335218d0176787ca585"
+      },
+      "quantity": 25,
+      "store_name": "Morrison 6"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee666905ece42d0d0866a"
+      },
+      "store_id": {
+        "$oid": "63be1357218d0176787ca587"
+      },
+      "quantity": 17,
+      "store_name": "Morrison 7"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee666905ece42d0d0866a"
+      },
+      "store_id": {
+        "$oid": "63be137b218d0176787ca589"
+      },
+      "quantity": 15,
+      "store_name": "Morrison 8"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee66f905ece42d0d0866b"
+      },
+      "store_id": {
+        "$oid": "63be127a218d0176787ca57b"
+      },
+      "quantity": 6,
+      "store_name": "Morrison 1"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee66f905ece42d0d0866b"
+      },
+      "store_id": {
+        "$oid": "63be12a7218d0176787ca57d"
+      },
+      "quantity": 10,
+      "store_name": "Morrison 2"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee66f905ece42d0d0866b"
+      },
+      "store_id": {
+        "$oid": "63be12c6218d0176787ca57f"
+      },
+      "quantity": 40,
+      "store_name": "Morrison 3"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee66f905ece42d0d0866b"
+      },
+      "store_id": {
+        "$oid": "63be12e8218d0176787ca581"
+      },
+      "quantity": 25,
+      "store_name": "Morrison 4"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee66f905ece42d0d0866b"
+      },
+      "store_id": {
+        "$oid": "63be1307218d0176787ca583"
+      },
+      "quantity": 24,
+      "store_name": "Morrison 5"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee66f905ece42d0d0866b"
+      },
+      "store_id": {
+        "$oid": "63be1335218d0176787ca585"
+      },
+      "quantity": 35,
+      "store_name": "Morrison 6"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee66f905ece42d0d0866b"
+      },
+      "store_id": {
+        "$oid": "63be1357218d0176787ca587"
+      },
+      "quantity": 28,
+      "store_name": "Morrison 7"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee66f905ece42d0d0866b"
+      },
+      "store_id": {
+        "$oid": "63be137b218d0176787ca589"
+      },
+      "quantity": 29,
+      "store_name": "Morrison 8"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63c05d5b5fe0ba57081af9a6"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 277,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63c05d5b5fe0ba57081af9a6"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 200,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63c05d5b5fe0ba57081af9a6"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 256,
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63c05d725fe0ba57081af9a7"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 278,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63c05d725fe0ba57081af9a7"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 200,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63c05d725fe0ba57081af9a7"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 256,
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63c05d7f5fe0ba57081af9a8"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 278,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63c05d7f5fe0ba57081af9a8"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 200,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63c05d7f5fe0ba57081af9a8"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 256,
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63c05d975fe0ba57081af9a9"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 278,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63c05d975fe0ba57081af9a9"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 200,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63c05d975fe0ba57081af9a9"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 256,
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63c05db75fe0ba57081af9aa"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 278,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63c05db75fe0ba57081af9aa"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 200,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63c05db75fe0ba57081af9aa"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 256,
+      "store_name": "Amazon Warehouse 3"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63c14794fde8c183c95e77f2"
+  },
+  "start_date": {
+    "$date": {
+      "$numberLong": "1673568000000"
+    }
+  },
+  "end_date": {
+    "$date": {
+      "$numberLong": "1673654399999"
+    }
+  },
+  "inventory": [
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bed8c13121db4da02d4fec"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 271,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bed8c13121db4da02d4fec"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 296,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bed8c13121db4da02d4fec"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 180,
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bed9043121db4da02d4ff8"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 274,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bed9043121db4da02d4ff8"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 14,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bed9043121db4da02d4ff8"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 50,
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bed90b3121db4da02d4ff9"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 54,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bed90b3121db4da02d4ff9"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 120,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bed90b3121db4da02d4ff9"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 77,
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bed9173121db4da02d4ffa"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 31,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bed9173121db4da02d4ffa"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 70,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bed9173121db4da02d4ffa"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 40,
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bed9203121db4da02d4ffb"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 254,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bed9203121db4da02d4ffb"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 68,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bed92a3121db4da02d4ffc"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 88,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bed92a3121db4da02d4ffc"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 76,
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bed9333121db4da02d4ffd"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 40,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bed9333121db4da02d4ffd"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 7,
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bed93c3121db4da02d4ffe"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 161,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bed93c3121db4da02d4ffe"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 118,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bed93c3121db4da02d4ffe"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 70,
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bed9443121db4da02d4fff"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 181,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bed9443121db4da02d4fff"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 45,
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bed94d3121db4da02d5000"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 66,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bed94d3121db4da02d5000"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 56,
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bed9573121db4da02d5001"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 321,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bed9573121db4da02d5001"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 290,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedaa03121db4da02d5002"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 10,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedaa03121db4da02d5002"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 23,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedaa03121db4da02d5002"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 26,
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedaa83121db4da02d5003"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 70,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedaa83121db4da02d5003"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 107,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedaa83121db4da02d5003"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 56,
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedabb3121db4da02d5004"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 49,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedabb3121db4da02d5004"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 28,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedac33121db4da02d5005"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 78,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedac33121db4da02d5005"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 39,
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedacc3121db4da02d5006"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 18,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedacc3121db4da02d5006"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 33,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedacc3121db4da02d5006"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 55,
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedad33121db4da02d5007"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 69,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedad33121db4da02d5007"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 82,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedad33121db4da02d5007"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 23,
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedadb3121db4da02d5008"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 21,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedadb3121db4da02d5008"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 74,
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedae23121db4da02d5009"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 52,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedae23121db4da02d5009"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 69,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedb66f053fd4084a32f0c"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 81,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedb66f053fd4084a32f0c"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 70,
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedc4c905ece42d0d08648"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 497,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedc4c905ece42d0d08648"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 312,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedc54905ece42d0d08649"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 297,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedc54905ece42d0d08649"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 146,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedc54905ece42d0d08649"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 187,
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedc5e905ece42d0d0864a"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 194,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedc5e905ece42d0d0864a"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 208,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedc5e905ece42d0d0864a"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 162,
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedc66905ece42d0d0864b"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 236,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedc66905ece42d0d0864b"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 247,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedc66905ece42d0d0864b"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 269,
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedc6e905ece42d0d0864c"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 149,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedc6e905ece42d0d0864c"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 71,
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedc77905ece42d0d0864d"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 281,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedc77905ece42d0d0864d"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 277,
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedc7f905ece42d0d0864e"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 129,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedc7f905ece42d0d0864e"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 157,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedc97905ece42d0d0864f"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 74,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedc97905ece42d0d0864f"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 32,
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedca0905ece42d0d08650"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 59,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedca0905ece42d0d08650"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 73,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedca8905ece42d0d08651"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 11,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedca8905ece42d0d08651"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 22,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedca8905ece42d0d08651"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 35,
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedcf1905ece42d0d08652"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 6,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedcf1905ece42d0d08652"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 28,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bede9b905ece42d0d08653"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 73,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bede9b905ece42d0d08653"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 88,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bede9b905ece42d0d08653"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 134,
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedea3905ece42d0d08654"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 174,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedea3905ece42d0d08654"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 108,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedead905ece42d0d08655"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 226,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedead905ece42d0d08655"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 137,
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedeb4905ece42d0d08656"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 40,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedeb4905ece42d0d08656"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 56,
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedebd905ece42d0d08657"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 75,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedebd905ece42d0d08657"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 108,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedebd905ece42d0d08657"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 5,
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedec4905ece42d0d08658"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 105,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedec4905ece42d0d08658"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 21,
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedecc905ece42d0d08659"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 37,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedecc905ece42d0d08659"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 156,
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63beded3905ece42d0d0865a"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 92,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63beded3905ece42d0d0865a"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 43,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bededd905ece42d0d0865b"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 170,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bededd905ece42d0d0865b"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 139,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bededd905ece42d0d0865b"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 156,
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedee5905ece42d0d0865c"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 272,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedee5905ece42d0d0865c"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 209,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63bedee5905ece42d0d0865c"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 255,
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee1a1905ece42d0d0865d"
+      },
+      "store_id": {
+        "$oid": "63be127a218d0176787ca57b"
+      },
+      "quantity": 45,
+      "store_name": "Morrison 1"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee1a1905ece42d0d0865d"
+      },
+      "store_id": {
+        "$oid": "63be12a7218d0176787ca57d"
+      },
+      "quantity": 27,
+      "store_name": "Morrison 2"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee1a1905ece42d0d0865d"
+      },
+      "store_id": {
+        "$oid": "63be12c6218d0176787ca57f"
+      },
+      "quantity": 11,
+      "store_name": "Morrison 3"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee1a1905ece42d0d0865d"
+      },
+      "store_id": {
+        "$oid": "63be1307218d0176787ca583"
+      },
+      "quantity": 85,
+      "store_name": "Morrison 5"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee1a1905ece42d0d0865d"
+      },
+      "store_id": {
+        "$oid": "63be1335218d0176787ca585"
+      },
+      "quantity": 22,
+      "store_name": "Morrison 6"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee1a1905ece42d0d0865d"
+      },
+      "store_id": {
+        "$oid": "63be1357218d0176787ca587"
+      },
+      "quantity": 17,
+      "store_name": "Morrison 7"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee1a1905ece42d0d0865d"
+      },
+      "store_id": {
+        "$oid": "63be137b218d0176787ca589"
+      },
+      "quantity": 10,
+      "store_name": "Morrison 8"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee1be905ece42d0d0865e"
+      },
+      "store_id": {
+        "$oid": "63be127a218d0176787ca57b"
+      },
+      "quantity": 7,
+      "store_name": "Morrison 1"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee1be905ece42d0d0865e"
+      },
+      "store_id": {
+        "$oid": "63be12a7218d0176787ca57d"
+      },
+      "quantity": 16,
+      "store_name": "Morrison 2"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee1be905ece42d0d0865e"
+      },
+      "store_id": {
+        "$oid": "63be12c6218d0176787ca57f"
+      },
+      "quantity": 33,
+      "store_name": "Morrison 3"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee1be905ece42d0d0865e"
+      },
+      "store_id": {
+        "$oid": "63be12e8218d0176787ca581"
+      },
+      "quantity": 16,
+      "store_name": "Morrison 4"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee1be905ece42d0d0865e"
+      },
+      "store_id": {
+        "$oid": "63be1335218d0176787ca585"
+      },
+      "quantity": 40,
+      "store_name": "Morrison 6"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee1be905ece42d0d0865e"
+      },
+      "store_id": {
+        "$oid": "63be1357218d0176787ca587"
+      },
+      "quantity": 17,
+      "store_name": "Morrison 7"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee1be905ece42d0d0865e"
+      },
+      "store_id": {
+        "$oid": "63be137b218d0176787ca589"
+      },
+      "quantity": 32,
+      "store_name": "Morrison 8"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee21b905ece42d0d0865f"
+      },
+      "store_id": {
+        "$oid": "63be127a218d0176787ca57b"
+      },
+      "quantity": 15,
+      "store_name": "Morrison 1"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee21b905ece42d0d0865f"
+      },
+      "store_id": {
+        "$oid": "63be12a7218d0176787ca57d"
+      },
+      "quantity": 28,
+      "store_name": "Morrison 2"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee21b905ece42d0d0865f"
+      },
+      "store_id": {
+        "$oid": "63be12c6218d0176787ca57f"
+      },
+      "quantity": 32,
+      "store_name": "Morrison 3"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee21b905ece42d0d0865f"
+      },
+      "store_id": {
+        "$oid": "63be12e8218d0176787ca581"
+      },
+      "quantity": 13,
+      "store_name": "Morrison 4"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee21b905ece42d0d0865f"
+      },
+      "store_id": {
+        "$oid": "63be1307218d0176787ca583"
+      },
+      "quantity": 0,
+      "store_name": "Morrison 5"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee21b905ece42d0d0865f"
+      },
+      "store_id": {
+        "$oid": "63be1357218d0176787ca587"
+      },
+      "quantity": 12,
+      "store_name": "Morrison 7"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee21b905ece42d0d0865f"
+      },
+      "store_id": {
+        "$oid": "63be137b218d0176787ca589"
+      },
+      "quantity": 10,
+      "store_name": "Morrison 8"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee227905ece42d0d08660"
+      },
+      "store_id": {
+        "$oid": "63be127a218d0176787ca57b"
+      },
+      "quantity": 18,
+      "store_name": "Morrison 1"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee227905ece42d0d08660"
+      },
+      "store_id": {
+        "$oid": "63be12a7218d0176787ca57d"
+      },
+      "quantity": 29,
+      "store_name": "Morrison 2"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee227905ece42d0d08660"
+      },
+      "store_id": {
+        "$oid": "63be12c6218d0176787ca57f"
+      },
+      "quantity": 21,
+      "store_name": "Morrison 3"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee227905ece42d0d08660"
+      },
+      "store_id": {
+        "$oid": "63be12e8218d0176787ca581"
+      },
+      "quantity": 0,
+      "store_name": "Morrison 4"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee227905ece42d0d08660"
+      },
+      "store_id": {
+        "$oid": "63be1307218d0176787ca583"
+      },
+      "quantity": 14,
+      "store_name": "Morrison 5"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee227905ece42d0d08660"
+      },
+      "store_id": {
+        "$oid": "63be1335218d0176787ca585"
+      },
+      "quantity": 22,
+      "store_name": "Morrison 6"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee227905ece42d0d08660"
+      },
+      "store_id": {
+        "$oid": "63be137b218d0176787ca589"
+      },
+      "quantity": 35,
+      "store_name": "Morrison 8"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee23b905ece42d0d08661"
+      },
+      "store_id": {
+        "$oid": "63be127a218d0176787ca57b"
+      },
+      "quantity": 10,
+      "store_name": "Morrison 1"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee23b905ece42d0d08661"
+      },
+      "store_id": {
+        "$oid": "63be12a7218d0176787ca57d"
+      },
+      "quantity": 11,
+      "store_name": "Morrison 2"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee23b905ece42d0d08661"
+      },
+      "store_id": {
+        "$oid": "63be12c6218d0176787ca57f"
+      },
+      "quantity": 6,
+      "store_name": "Morrison 3"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee23b905ece42d0d08661"
+      },
+      "store_id": {
+        "$oid": "63be12e8218d0176787ca581"
+      },
+      "quantity": 7,
+      "store_name": "Morrison 4"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee23b905ece42d0d08661"
+      },
+      "store_id": {
+        "$oid": "63be1307218d0176787ca583"
+      },
+      "quantity": 11,
+      "store_name": "Morrison 5"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee23b905ece42d0d08661"
+      },
+      "store_id": {
+        "$oid": "63be1335218d0176787ca585"
+      },
+      "quantity": 15,
+      "store_name": "Morrison 6"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee23b905ece42d0d08661"
+      },
+      "store_id": {
+        "$oid": "63be1357218d0176787ca587"
+      },
+      "quantity": 10,
+      "store_name": "Morrison 7"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee417905ece42d0d08662"
+      },
+      "store_id": {
+        "$oid": "63be127a218d0176787ca57b"
+      },
+      "quantity": 20,
+      "store_name": "Morrison 1"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee417905ece42d0d08662"
+      },
+      "store_id": {
+        "$oid": "63be12a7218d0176787ca57d"
+      },
+      "quantity": 12,
+      "store_name": "Morrison 2"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee417905ece42d0d08662"
+      },
+      "store_id": {
+        "$oid": "63be12e8218d0176787ca581"
+      },
+      "quantity": 11,
+      "store_name": "Morrison 4"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee417905ece42d0d08662"
+      },
+      "store_id": {
+        "$oid": "63be1307218d0176787ca583"
+      },
+      "quantity": 200,
+      "store_name": "Morrison 5"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee417905ece42d0d08662"
+      },
+      "store_id": {
+        "$oid": "63be1335218d0176787ca585"
+      },
+      "quantity": 22,
+      "store_name": "Morrison 6"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee417905ece42d0d08662"
+      },
+      "store_id": {
+        "$oid": "63be1357218d0176787ca587"
+      },
+      "quantity": 25,
+      "store_name": "Morrison 7"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee417905ece42d0d08662"
+      },
+      "store_id": {
+        "$oid": "63be137b218d0176787ca589"
+      },
+      "quantity": 20,
+      "store_name": "Morrison 8"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee424905ece42d0d08663"
+      },
+      "store_id": {
+        "$oid": "63be127a218d0176787ca57b"
+      },
+      "quantity": 16,
+      "store_name": "Morrison 1"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee424905ece42d0d08663"
+      },
+      "store_id": {
+        "$oid": "63be12c6218d0176787ca57f"
+      },
+      "quantity": 25,
+      "store_name": "Morrison 3"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee424905ece42d0d08663"
+      },
+      "store_id": {
+        "$oid": "63be12e8218d0176787ca581"
+      },
+      "quantity": 15,
+      "store_name": "Morrison 4"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee424905ece42d0d08663"
+      },
+      "store_id": {
+        "$oid": "63be1307218d0176787ca583"
+      },
+      "quantity": 12,
+      "store_name": "Morrison 5"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee424905ece42d0d08663"
+      },
+      "store_id": {
+        "$oid": "63be1335218d0176787ca585"
+      },
+      "quantity": 28,
+      "store_name": "Morrison 6"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee424905ece42d0d08663"
+      },
+      "store_id": {
+        "$oid": "63be1357218d0176787ca587"
+      },
+      "quantity": 34,
+      "store_name": "Morrison 7"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee424905ece42d0d08663"
+      },
+      "store_id": {
+        "$oid": "63be137b218d0176787ca589"
+      },
+      "quantity": 19,
+      "store_name": "Morrison 8"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee42d905ece42d0d08664"
+      },
+      "store_id": {
+        "$oid": "63be12a7218d0176787ca57d"
+      },
+      "quantity": 12,
+      "store_name": "Morrison 2"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee42d905ece42d0d08664"
+      },
+      "store_id": {
+        "$oid": "63be12c6218d0176787ca57f"
+      },
+      "quantity": 28,
+      "store_name": "Morrison 3"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee42d905ece42d0d08664"
+      },
+      "store_id": {
+        "$oid": "63be12e8218d0176787ca581"
+      },
+      "quantity": 29,
+      "store_name": "Morrison 4"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee42d905ece42d0d08664"
+      },
+      "store_id": {
+        "$oid": "63be1307218d0176787ca583"
+      },
+      "quantity": 6,
+      "store_name": "Morrison 5"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee42d905ece42d0d08664"
+      },
+      "store_id": {
+        "$oid": "63be1335218d0176787ca585"
+      },
+      "quantity": 15,
+      "store_name": "Morrison 6"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee42d905ece42d0d08664"
+      },
+      "store_id": {
+        "$oid": "63be1357218d0176787ca587"
+      },
+      "quantity": 19,
+      "store_name": "Morrison 7"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee42d905ece42d0d08664"
+      },
+      "store_id": {
+        "$oid": "63be137b218d0176787ca589"
+      },
+      "quantity": 20,
+      "store_name": "Morrison 8"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee435905ece42d0d08665"
+      },
+      "store_id": {
+        "$oid": "63be127a218d0176787ca57b"
+      },
+      "quantity": 14,
+      "store_name": "Morrison 1"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee435905ece42d0d08665"
+      },
+      "store_id": {
+        "$oid": "63be12a7218d0176787ca57d"
+      },
+      "quantity": 18,
+      "store_name": "Morrison 2"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee435905ece42d0d08665"
+      },
+      "store_id": {
+        "$oid": "63be12c6218d0176787ca57f"
+      },
+      "quantity": 19,
+      "store_name": "Morrison 3"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee435905ece42d0d08665"
+      },
+      "store_id": {
+        "$oid": "63be12e8218d0176787ca581"
+      },
+      "quantity": 29,
+      "store_name": "Morrison 4"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee435905ece42d0d08665"
+      },
+      "store_id": {
+        "$oid": "63be1307218d0176787ca583"
+      },
+      "quantity": 17,
+      "store_name": "Morrison 5"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee435905ece42d0d08665"
+      },
+      "store_id": {
+        "$oid": "63be1335218d0176787ca585"
+      },
+      "quantity": 22,
+      "store_name": "Morrison 6"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee435905ece42d0d08665"
+      },
+      "store_id": {
+        "$oid": "63be1357218d0176787ca587"
+      },
+      "quantity": 18,
+      "store_name": "Morrison 7"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee435905ece42d0d08665"
+      },
+      "store_id": {
+        "$oid": "63be137b218d0176787ca589"
+      },
+      "quantity": 18,
+      "store_name": "Morrison 8"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee43f905ece42d0d08666"
+      },
+      "store_id": {
+        "$oid": "63be127a218d0176787ca57b"
+      },
+      "quantity": 22,
+      "store_name": "Morrison 1"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee43f905ece42d0d08666"
+      },
+      "store_id": {
+        "$oid": "63be12a7218d0176787ca57d"
+      },
+      "quantity": 12,
+      "store_name": "Morrison 2"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee43f905ece42d0d08666"
+      },
+      "store_id": {
+        "$oid": "63be12c6218d0176787ca57f"
+      },
+      "quantity": 41,
+      "store_name": "Morrison 3"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee43f905ece42d0d08666"
+      },
+      "store_id": {
+        "$oid": "63be12e8218d0176787ca581"
+      },
+      "quantity": 15,
+      "store_name": "Morrison 4"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee43f905ece42d0d08666"
+      },
+      "store_id": {
+        "$oid": "63be1307218d0176787ca583"
+      },
+      "quantity": 29,
+      "store_name": "Morrison 5"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee43f905ece42d0d08666"
+      },
+      "store_id": {
+        "$oid": "63be1335218d0176787ca585"
+      },
+      "quantity": 8,
+      "store_name": "Morrison 6"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee43f905ece42d0d08666"
+      },
+      "store_id": {
+        "$oid": "63be1357218d0176787ca587"
+      },
+      "quantity": 10,
+      "store_name": "Morrison 7"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee43f905ece42d0d08666"
+      },
+      "store_id": {
+        "$oid": "63be137b218d0176787ca589"
+      },
+      "quantity": 17,
+      "store_name": "Morrison 8"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee628905ece42d0d08667"
+      },
+      "store_id": {
+        "$oid": "63be127a218d0176787ca57b"
+      },
+      "quantity": 19,
+      "store_name": "Morrison 1"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee628905ece42d0d08667"
+      },
+      "store_id": {
+        "$oid": "63be12a7218d0176787ca57d"
+      },
+      "quantity": 17,
+      "store_name": "Morrison 2"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee628905ece42d0d08667"
+      },
+      "store_id": {
+        "$oid": "63be12c6218d0176787ca57f"
+      },
+      "quantity": 32,
+      "store_name": "Morrison 3"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee628905ece42d0d08667"
+      },
+      "store_id": {
+        "$oid": "63be12e8218d0176787ca581"
+      },
+      "quantity": 22,
+      "store_name": "Morrison 4"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee628905ece42d0d08667"
+      },
+      "store_id": {
+        "$oid": "63be1307218d0176787ca583"
+      },
+      "quantity": 27,
+      "store_name": "Morrison 5"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee628905ece42d0d08667"
+      },
+      "store_id": {
+        "$oid": "63be1335218d0176787ca585"
+      },
+      "quantity": 14,
+      "store_name": "Morrison 6"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee628905ece42d0d08667"
+      },
+      "store_id": {
+        "$oid": "63be1357218d0176787ca587"
+      },
+      "quantity": 10,
+      "store_name": "Morrison 7"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee628905ece42d0d08667"
+      },
+      "store_id": {
+        "$oid": "63be137b218d0176787ca589"
+      },
+      "quantity": 15,
+      "store_name": "Morrison 8"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee632905ece42d0d08668"
+      },
+      "store_id": {
+        "$oid": "63be127a218d0176787ca57b"
+      },
+      "quantity": 19,
+      "store_name": "Morrison 1"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee632905ece42d0d08668"
+      },
+      "store_id": {
+        "$oid": "63be12a7218d0176787ca57d"
+      },
+      "quantity": 23,
+      "store_name": "Morrison 2"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee632905ece42d0d08668"
+      },
+      "store_id": {
+        "$oid": "63be12c6218d0176787ca57f"
+      },
+      "quantity": 19,
+      "store_name": "Morrison 3"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee632905ece42d0d08668"
+      },
+      "store_id": {
+        "$oid": "63be12e8218d0176787ca581"
+      },
+      "quantity": 1,
+      "store_name": "Morrison 4"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee632905ece42d0d08668"
+      },
+      "store_id": {
+        "$oid": "63be1307218d0176787ca583"
+      },
+      "quantity": 22,
+      "store_name": "Morrison 5"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee632905ece42d0d08668"
+      },
+      "store_id": {
+        "$oid": "63be1335218d0176787ca585"
+      },
+      "quantity": 16,
+      "store_name": "Morrison 6"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee632905ece42d0d08668"
+      },
+      "store_id": {
+        "$oid": "63be1357218d0176787ca587"
+      },
+      "quantity": 45,
+      "store_name": "Morrison 7"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee632905ece42d0d08668"
+      },
+      "store_id": {
+        "$oid": "63be137b218d0176787ca589"
+      },
+      "quantity": 37,
+      "store_name": "Morrison 8"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee63a905ece42d0d08669"
+      },
+      "store_id": {
+        "$oid": "63be127a218d0176787ca57b"
+      },
+      "quantity": 24,
+      "store_name": "Morrison 1"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee63a905ece42d0d08669"
+      },
+      "store_id": {
+        "$oid": "63be12a7218d0176787ca57d"
+      },
+      "quantity": 14,
+      "store_name": "Morrison 2"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee63a905ece42d0d08669"
+      },
+      "store_id": {
+        "$oid": "63be12c6218d0176787ca57f"
+      },
+      "quantity": 35,
+      "store_name": "Morrison 3"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee63a905ece42d0d08669"
+      },
+      "store_id": {
+        "$oid": "63be12e8218d0176787ca581"
+      },
+      "quantity": 36,
+      "store_name": "Morrison 4"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee63a905ece42d0d08669"
+      },
+      "store_id": {
+        "$oid": "63be1307218d0176787ca583"
+      },
+      "quantity": 18,
+      "store_name": "Morrison 5"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee63a905ece42d0d08669"
+      },
+      "store_id": {
+        "$oid": "63be1335218d0176787ca585"
+      },
+      "quantity": 28,
+      "store_name": "Morrison 6"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee63a905ece42d0d08669"
+      },
+      "store_id": {
+        "$oid": "63be1357218d0176787ca587"
+      },
+      "quantity": 37,
+      "store_name": "Morrison 7"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee63a905ece42d0d08669"
+      },
+      "store_id": {
+        "$oid": "63be137b218d0176787ca589"
+      },
+      "quantity": 10,
+      "store_name": "Morrison 8"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee666905ece42d0d0866a"
+      },
+      "store_id": {
+        "$oid": "63be127a218d0176787ca57b"
+      },
+      "quantity": 24,
+      "store_name": "Morrison 1"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee666905ece42d0d0866a"
+      },
+      "store_id": {
+        "$oid": "63be12a7218d0176787ca57d"
+      },
+      "quantity": 33,
+      "store_name": "Morrison 2"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee666905ece42d0d0866a"
+      },
+      "store_id": {
+        "$oid": "63be12c6218d0176787ca57f"
+      },
+      "quantity": 28,
+      "store_name": "Morrison 3"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee666905ece42d0d0866a"
+      },
+      "store_id": {
+        "$oid": "63be12e8218d0176787ca581"
+      },
+      "quantity": 15,
+      "store_name": "Morrison 4"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee666905ece42d0d0866a"
+      },
+      "store_id": {
+        "$oid": "63be1307218d0176787ca583"
+      },
+      "quantity": 17,
+      "store_name": "Morrison 5"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee666905ece42d0d0866a"
+      },
+      "store_id": {
+        "$oid": "63be1335218d0176787ca585"
+      },
+      "quantity": 25,
+      "store_name": "Morrison 6"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee666905ece42d0d0866a"
+      },
+      "store_id": {
+        "$oid": "63be1357218d0176787ca587"
+      },
+      "quantity": 17,
+      "store_name": "Morrison 7"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee666905ece42d0d0866a"
+      },
+      "store_id": {
+        "$oid": "63be137b218d0176787ca589"
+      },
+      "quantity": 15,
+      "store_name": "Morrison 8"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee66f905ece42d0d0866b"
+      },
+      "store_id": {
+        "$oid": "63be127a218d0176787ca57b"
+      },
+      "quantity": 6,
+      "store_name": "Morrison 1"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee66f905ece42d0d0866b"
+      },
+      "store_id": {
+        "$oid": "63be12a7218d0176787ca57d"
+      },
+      "quantity": 10,
+      "store_name": "Morrison 2"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee66f905ece42d0d0866b"
+      },
+      "store_id": {
+        "$oid": "63be12c6218d0176787ca57f"
+      },
+      "quantity": 40,
+      "store_name": "Morrison 3"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee66f905ece42d0d0866b"
+      },
+      "store_id": {
+        "$oid": "63be12e8218d0176787ca581"
+      },
+      "quantity": 25,
+      "store_name": "Morrison 4"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee66f905ece42d0d0866b"
+      },
+      "store_id": {
+        "$oid": "63be1307218d0176787ca583"
+      },
+      "quantity": 18,
+      "store_name": "Morrison 5"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee66f905ece42d0d0866b"
+      },
+      "store_id": {
+        "$oid": "63be1335218d0176787ca585"
+      },
+      "quantity": 35,
+      "store_name": "Morrison 6"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee66f905ece42d0d0866b"
+      },
+      "store_id": {
+        "$oid": "63be1357218d0176787ca587"
+      },
+      "quantity": 28,
+      "store_name": "Morrison 7"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63bee66f905ece42d0d0866b"
+      },
+      "store_id": {
+        "$oid": "63be137b218d0176787ca589"
+      },
+      "quantity": 29,
+      "store_name": "Morrison 8"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63c05d5b5fe0ba57081af9a6"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 277,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63c05d5b5fe0ba57081af9a6"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 200,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63c05d5b5fe0ba57081af9a6"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 256,
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63c05d725fe0ba57081af9a7"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 278,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63c05d725fe0ba57081af9a7"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 200,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63c05d725fe0ba57081af9a7"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 256,
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63c05d7f5fe0ba57081af9a8"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 278,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63c05d7f5fe0ba57081af9a8"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 200,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63c05d7f5fe0ba57081af9a8"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 256,
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63c05d975fe0ba57081af9a9"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 278,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63c05d975fe0ba57081af9a9"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 200,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63c05d975fe0ba57081af9a9"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 256,
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63c05db75fe0ba57081af9aa"
+      },
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "quantity": 278,
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63c05db75fe0ba57081af9aa"
+      },
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "quantity": 200,
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "is_fresh": false,
+      "product_id": {
+        "$oid": "63c05db75fe0ba57081af9aa"
+      },
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "quantity": 256,
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63c145c6fde8c183c95e77ed"
+      },
+      "store_id": {
+        "$oid": "63be127a218d0176787ca57b"
+      },
+      "quantity": 8,
+      "store_name": "Morrison 1"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63c145c6fde8c183c95e77ed"
+      },
+      "store_id": {
+        "$oid": "63be12a7218d0176787ca57d"
+      },
+      "quantity": 15,
+      "store_name": "Morrison 2"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63c145c6fde8c183c95e77ed"
+      },
+      "store_id": {
+        "$oid": "63be12c6218d0176787ca57f"
+      },
+      "quantity": 40,
+      "store_name": "Morrison 3"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63c145c6fde8c183c95e77ed"
+      },
+      "store_id": {
+        "$oid": "63be12e8218d0176787ca581"
+      },
+      "quantity": 25,
+      "store_name": "Morrison 4"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63c145c6fde8c183c95e77ed"
+      },
+      "store_id": {
+        "$oid": "63be1307218d0176787ca583"
+      },
+      "quantity": 34,
+      "store_name": "Morrison 5"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63c145c6fde8c183c95e77ed"
+      },
+      "store_id": {
+        "$oid": "63be1335218d0176787ca585"
+      },
+      "quantity": 35,
+      "store_name": "Morrison 6"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63c145c6fde8c183c95e77ed"
+      },
+      "store_id": {
+        "$oid": "63be1357218d0176787ca587"
+      },
+      "quantity": 28,
+      "store_name": "Morrison 7"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63c145c6fde8c183c95e77ed"
+      },
+      "store_id": {
+        "$oid": "63be137b218d0176787ca589"
+      },
+      "quantity": 29,
+      "store_name": "Morrison 8"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63c1464cfde8c183c95e77ee"
+      },
+      "store_id": {
+        "$oid": "63be127a218d0176787ca57b"
+      },
+      "quantity": 8,
+      "store_name": "Morrison 1"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63c1464cfde8c183c95e77ee"
+      },
+      "store_id": {
+        "$oid": "63be12a7218d0176787ca57d"
+      },
+      "quantity": 15,
+      "store_name": "Morrison 2"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63c1464cfde8c183c95e77ee"
+      },
+      "store_id": {
+        "$oid": "63be12c6218d0176787ca57f"
+      },
+      "quantity": 40,
+      "store_name": "Morrison 3"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63c1464cfde8c183c95e77ee"
+      },
+      "store_id": {
+        "$oid": "63be12e8218d0176787ca581"
+      },
+      "quantity": 25,
+      "store_name": "Morrison 4"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63c1464cfde8c183c95e77ee"
+      },
+      "store_id": {
+        "$oid": "63be1307218d0176787ca583"
+      },
+      "quantity": 34,
+      "store_name": "Morrison 5"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63c1464cfde8c183c95e77ee"
+      },
+      "store_id": {
+        "$oid": "63be1335218d0176787ca585"
+      },
+      "quantity": 35,
+      "store_name": "Morrison 6"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63c1464cfde8c183c95e77ee"
+      },
+      "store_id": {
+        "$oid": "63be1357218d0176787ca587"
+      },
+      "quantity": 28,
+      "store_name": "Morrison 7"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63c1464cfde8c183c95e77ee"
+      },
+      "store_id": {
+        "$oid": "63be137b218d0176787ca589"
+      },
+      "quantity": 29,
+      "store_name": "Morrison 8"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63c14658fde8c183c95e77ef"
+      },
+      "store_id": {
+        "$oid": "63be127a218d0176787ca57b"
+      },
+      "quantity": 8,
+      "store_name": "Morrison 1"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63c14658fde8c183c95e77ef"
+      },
+      "store_id": {
+        "$oid": "63be12a7218d0176787ca57d"
+      },
+      "quantity": 15,
+      "store_name": "Morrison 2"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63c14658fde8c183c95e77ef"
+      },
+      "store_id": {
+        "$oid": "63be12c6218d0176787ca57f"
+      },
+      "quantity": 40,
+      "store_name": "Morrison 3"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63c14658fde8c183c95e77ef"
+      },
+      "store_id": {
+        "$oid": "63be12e8218d0176787ca581"
+      },
+      "quantity": 25,
+      "store_name": "Morrison 4"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63c14658fde8c183c95e77ef"
+      },
+      "store_id": {
+        "$oid": "63be1307218d0176787ca583"
+      },
+      "quantity": 34,
+      "store_name": "Morrison 5"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63c14658fde8c183c95e77ef"
+      },
+      "store_id": {
+        "$oid": "63be1335218d0176787ca585"
+      },
+      "quantity": 35,
+      "store_name": "Morrison 6"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63c14658fde8c183c95e77ef"
+      },
+      "store_id": {
+        "$oid": "63be1357218d0176787ca587"
+      },
+      "quantity": 28,
+      "store_name": "Morrison 7"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63c14658fde8c183c95e77ef"
+      },
+      "store_id": {
+        "$oid": "63be137b218d0176787ca589"
+      },
+      "quantity": 29,
+      "store_name": "Morrison 8"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63c1476dfde8c183c95e77f0"
+      },
+      "store_id": {
+        "$oid": "63be127a218d0176787ca57b"
+      },
+      "quantity": 8,
+      "store_name": "Morrison 1"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63c1476dfde8c183c95e77f0"
+      },
+      "store_id": {
+        "$oid": "63be12a7218d0176787ca57d"
+      },
+      "quantity": 15,
+      "store_name": "Morrison 2"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63c1476dfde8c183c95e77f0"
+      },
+      "store_id": {
+        "$oid": "63be12c6218d0176787ca57f"
+      },
+      "quantity": 40,
+      "store_name": "Morrison 3"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63c1476dfde8c183c95e77f0"
+      },
+      "store_id": {
+        "$oid": "63be12e8218d0176787ca581"
+      },
+      "quantity": 25,
+      "store_name": "Morrison 4"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63c1476dfde8c183c95e77f0"
+      },
+      "store_id": {
+        "$oid": "63be1307218d0176787ca583"
+      },
+      "quantity": 34,
+      "store_name": "Morrison 5"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63c1476dfde8c183c95e77f0"
+      },
+      "store_id": {
+        "$oid": "63be1335218d0176787ca585"
+      },
+      "quantity": 35,
+      "store_name": "Morrison 6"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63c1476dfde8c183c95e77f0"
+      },
+      "store_id": {
+        "$oid": "63be1357218d0176787ca587"
+      },
+      "quantity": 28,
+      "store_name": "Morrison 7"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63c1476dfde8c183c95e77f0"
+      },
+      "store_id": {
+        "$oid": "63be137b218d0176787ca589"
+      },
+      "quantity": 29,
+      "store_name": "Morrison 8"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63c14785fde8c183c95e77f1"
+      },
+      "store_id": {
+        "$oid": "63be127a218d0176787ca57b"
+      },
+      "quantity": 8,
+      "store_name": "Morrison 1"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63c14785fde8c183c95e77f1"
+      },
+      "store_id": {
+        "$oid": "63be12a7218d0176787ca57d"
+      },
+      "quantity": 15,
+      "store_name": "Morrison 2"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63c14785fde8c183c95e77f1"
+      },
+      "store_id": {
+        "$oid": "63be12c6218d0176787ca57f"
+      },
+      "quantity": 40,
+      "store_name": "Morrison 3"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63c14785fde8c183c95e77f1"
+      },
+      "store_id": {
+        "$oid": "63be12e8218d0176787ca581"
+      },
+      "quantity": 25,
+      "store_name": "Morrison 4"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63c14785fde8c183c95e77f1"
+      },
+      "store_id": {
+        "$oid": "63be1307218d0176787ca583"
+      },
+      "quantity": 34,
+      "store_name": "Morrison 5"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63c14785fde8c183c95e77f1"
+      },
+      "store_id": {
+        "$oid": "63be1335218d0176787ca585"
+      },
+      "quantity": 35,
+      "store_name": "Morrison 6"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63c14785fde8c183c95e77f1"
+      },
+      "store_id": {
+        "$oid": "63be1357218d0176787ca587"
+      },
+      "quantity": 28,
+      "store_name": "Morrison 7"
+    },
+    {
+      "is_fresh": true,
+      "product_id": {
+        "$oid": "63c14785fde8c183c95e77f1"
+      },
+      "store_id": {
+        "$oid": "63be137b218d0176787ca589"
+      },
+      "quantity": 29,
+      "store_name": "Morrison 8"
+    }
+  ]
+}]

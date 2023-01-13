@@ -1,0 +1,541 @@
+[{
+  "_id": {
+    "$oid": "63bf1b48ebf1fa5830ed647d"
+  },
+  "customer_id": {
+    "$oid": "63bebd9d1cd0505188545225"
+  },
+  "type": "Shipping",
+  "unit_no": "46",
+  "street": "Oxford Street",
+  "city": "Manchester",
+  "country": "United Kingdom",
+  "postcode": "M13 9WJ",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      53.4620659,
+      -2.2301489
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "63bf1b4febf1fa5830ed647e"
+  },
+  "customer_id": {
+    "$oid": "63bebdaa1cd0505188545226"
+  },
+  "type": "Shipping",
+  "unit_no": "5",
+  "street": "Copeman Cl",
+  "city": "Manchester",
+  "country": "United Kingdom",
+  "postcode": "M13 9SN",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      53.4665216,
+      -2.2286502
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "63bf1b57ebf1fa5830ed647f"
+  },
+  "customer_id": {
+    "$oid": "63bebdb11cd0505188545227"
+  },
+  "type": "Shipping",
+  "unit_no": "2",
+  "street": "Hawsworth Cl",
+  "city": "Manchester",
+  "country": "United Kingdom",
+  "postcode": "M15 6GF",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      53.4615882,
+      -2.2345075
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "63bf1b60ebf1fa5830ed6480"
+  },
+  "customer_id": {
+    "$oid": "63bebdbf1cd0505188545228"
+  },
+  "type": "Shipping",
+  "unit_no": "12",
+  "street": "Ossory Street",
+  "city": "Manchester",
+  "country": "United Kingdom",
+  "postcode": "M14 4BX",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      53.4557223,
+      -2.2311918
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "63bf1b69ebf1fa5830ed6481"
+  },
+  "customer_id": {
+    "$oid": "63bebdc61cd0505188545229"
+  },
+  "type": "Shipping",
+  "unit_no": "22",
+  "street": "Brunt Street",
+  "city": "Manchester",
+  "country": "United Kingdom",
+  "postcode": "M14 4BE",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      53.4540564,
+      -2.2302825
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "63bf1b71ebf1fa5830ed6482"
+  },
+  "customer_id": {
+    "$oid": "63bebdcc1cd050518854522a"
+  },
+  "type": "Shipping",
+  "unit_no": "15",
+  "street": "Ellanby Close",
+  "city": "Manchester",
+  "country": "United Kingdom",
+  "postcode": "M14 5XG",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      53.4529565,
+      -2.2276707
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "63bf1b7aebf1fa5830ed6483"
+  },
+  "customer_id": {
+    "$oid": "63bebdd31cd050518854522b"
+  },
+  "type": "Shipping",
+  "unit_no": "18",
+  "street": "Grandale Street",
+  "city": "Manchester",
+  "country": "United Kingdom",
+  "postcode": "M14 5WG",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      53.4536664,
+      -2.2260777
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "63bf1b87ebf1fa5830ed6484"
+  },
+  "customer_id": {
+    "$oid": "63bebdda1cd050518854522c"
+  },
+  "type": "Shipping",
+  "unit_no": "46",
+  "street": "Arnside Street",
+  "city": "Manchester",
+  "country": "United Kingdom",
+  "postcode": "M14 7PF",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      53.4516747,
+      -2.2316256
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "63bf1b8febf1fa5830ed6485"
+  },
+  "customer_id": {
+    "$oid": "63bebde21cd050518854522d"
+  },
+  "type": "Shipping",
+  "unit_no": "11",
+  "street": "Whithworth Street W",
+  "city": "Manchester",
+  "country": "United Kingdom",
+  "postcode": "M1 3GW",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      53.4770358,
+      -2.2352542
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "63bf1b9bebf1fa5830ed6486"
+  },
+  "customer_id": {
+    "$oid": "63bebde91cd050518854522e"
+  },
+  "type": "Shipping",
+  "unit_no": "1",
+  "street": "River Street",
+  "city": "Manchester",
+  "country": "United Kingdom",
+  "postcode": "M1 5BB",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      53.4731671,
+      -2.2415687
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "63bf1ba2ebf1fa5830ed6487"
+  },
+  "customer_id": {
+    "$oid": "63bebf7e1cd050518854522f"
+  },
+  "type": "Shipping",
+  "unit_no": "113",
+  "street": "Chicester Road",
+  "city": "Manchester",
+  "country": "United Kingdom",
+  "postcode": "M1 5UP",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      53.4638811,
+      -2.2493641
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "63bf1ba9ebf1fa5830ed6488"
+  },
+  "customer_id": {
+    "$oid": "63bebf901cd0505188545230"
+  },
+  "type": "Shipping",
+  "unit_no": "42",
+  "street": "Regent Avenue",
+  "city": "Manchester",
+  "country": "United Kingdom",
+  "postcode": "M14 7JQ",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      53.4516433,
+      -2.2407729
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "63bf1bb2ebf1fa5830ed6489"
+  },
+  "customer_id": {
+    "$oid": "63bebf9e1cd0505188545231"
+  },
+  "type": "Shipping",
+  "unit_no": "5",
+  "street": "Shilford Dr",
+  "city": "Manchester",
+  "country": "United Kingdom",
+  "postcode": "M4 4JG",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      53.4894447,
+      -2.2279046
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "63bf1bbcebf1fa5830ed648a"
+  },
+  "customer_id": {
+    "$oid": "63bebfb01cd0505188545232"
+  },
+  "type": "Shipping",
+  "unit_no": "8",
+  "street": "Norbury Close",
+  "city": "Manchester",
+  "country": "United Kingdom",
+  "postcode": "M40 8DL",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      53.4935435,
+      -2.2119262
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "63bf1bc3ebf1fa5830ed648b"
+  },
+  "customer_id": {
+    "$oid": "63bebfc61cd0505188545233"
+  },
+  "type": "Shipping",
+  "unit_no": "10",
+  "street": "Kimbolton Close",
+  "city": "Manchester",
+  "country": "United Kingdom",
+  "postcode": "M12 5PD",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      53.4698432,
+      -2.1917428
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "63bf1bcaebf1fa5830ed648c"
+  },
+  "customer_id": {
+    "$oid": "63bec0381cd0505188545234"
+  },
+  "type": "Shipping",
+  "unit_no": "1",
+  "street": "Milverton Road",
+  "city": "Manchester",
+  "country": "United Kingdom",
+  "postcode": "M14 5PL",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      53.4567713,
+      -2.2169056
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "63bf1bd2ebf1fa5830ed648d"
+  },
+  "customer_id": {
+    "$oid": "63bec0571cd0505188545235"
+  },
+  "type": "Shipping",
+  "unit_no": "24",
+  "street": "Thoresway Road",
+  "city": "Manchester",
+  "country": "United Kingdom",
+  "postcode": "M13 0XN",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      53.4524185,
+      -2.2075892
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "63bf1be0ebf1fa5830ed648e"
+  },
+  "customer_id": {
+    "$oid": "63bec07c1cd0505188545236"
+  },
+  "type": "Shipping",
+  "unit_no": "14",
+  "street": "Plattbrook Close",
+  "city": "Manchester",
+  "country": "United Kingdom",
+  "postcode": "M14 7AA",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      53.4444387,
+      -2.2311856
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "63bf1be7ebf1fa5830ed648f"
+  },
+  "customer_id": {
+    "$oid": "63bec0b01cd0505188545237"
+  },
+  "type": "Shipping",
+  "unit_no": "202",
+  "street": "Horton Road",
+  "city": "Manchester",
+  "country": "United Kingdom",
+  "postcode": "M14 7QF",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      53.4485784,
+      -2.2385618
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "63bf1befebf1fa5830ed6490"
+  },
+  "customer_id": {
+    "$oid": "63bec0ce1cd0505188545238"
+  },
+  "type": "Shipping",
+  "unit_no": "19",
+  "street": "Worthing Street ",
+  "city": "Manchester",
+  "country": "United Kingdom",
+  "postcode": "M14 7PR",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      53.42919763012772,
+      -2.244068725829681
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "63c05e5b5fe0ba57081af9ad"
+  },
+  "customer_id": {
+    "$oid": "63c05e4e5fe0ba57081af9ac"
+  },
+  "type": "Shipping",
+  "unit_no": "19",
+  "street": "Worthing Street ",
+  "city": "Manchester",
+  "country": "United Kingdom",
+  "postcode": "M14 7PR",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      53.450008,
+      -2.23165
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "63c1361c7806bd7e27c8c714"
+  },
+  "customer_id": {
+    "$oid": "63c134267806bd7e27c8c710"
+  },
+  "type": "Shipping",
+  "unit_no": "19",
+  "street": "Worthing Street ",
+  "city": "Manchester",
+  "country": "United Kingdom",
+  "postcode": "M14 7PR",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      53.450008,
+      -2.23165
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "63c136867806bd7e27c8c716"
+  },
+  "customer_id": {
+    "$oid": "63c136827806bd7e27c8c715"
+  },
+  "type": "Shipping",
+  "unit_no": "19",
+  "street": "Worthing Street ",
+  "city": "Manchester",
+  "country": "United Kingdom",
+  "postcode": "M14 7PR",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      53.450008,
+      -2.23165
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "63c13b8ed4f60281b79cd5ae"
+  },
+  "customer_id": {
+    "$oid": "63c13b8bd4f60281b79cd5ad"
+  },
+  "type": "Shipping",
+  "unit_no": "19",
+  "street": "Worthing Street ",
+  "city": "Manchester",
+  "country": "United Kingdom",
+  "postcode": "M14 7PR",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      53.450008,
+      -2.23165
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "63c13ca0d4f60281b79cd5b0"
+  },
+  "customer_id": {
+    "$oid": "63c13c9ed4f60281b79cd5af"
+  },
+  "type": "Shipping",
+  "unit_no": "19",
+  "street": "Worthing Street ",
+  "city": "Manchester",
+  "country": "United Kingdom",
+  "postcode": "M14 7PR",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      53.450008,
+      -2.23165
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "63c1410dfde8c183c95e77da"
+  },
+  "customer_id": {
+    "$oid": "63c1410dfde8c183c95e77d9"
+  },
+  "type": "Shipping",
+  "unit_no": "19",
+  "street": "Worthing Street ",
+  "city": "Manchester",
+  "country": "United Kingdom",
+  "postcode": "M14 7PR",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      53.450008,
+      -2.23165
+    ]
+  }
+},{
+  "_id": {
+    "$oid": "63c147b4fde8c183c95e77f4"
+  },
+  "customer_id": {
+    "$oid": "63c147b4fde8c183c95e77f3"
+  },
+  "type": "Shipping",
+  "unit_no": "19",
+  "street": "Worthing Street ",
+  "city": "Manchester",
+  "country": "United Kingdom",
+  "postcode": "M14 7PR",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      53.450008,
+      -2.23165
+    ]
+  }
+}]

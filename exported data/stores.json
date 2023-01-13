@@ -1,0 +1,254 @@
+[{
+  "_id": {
+    "$oid": "63be127a218d0176787ca57b"
+  },
+  "name": "Morrison 1",
+  "address": {
+    "_id": {
+      "$oid": "63be127a218d0176787ca57c"
+    },
+    "unit_no": "58",
+    "street": "Graham Street",
+    "city": "Manchester",
+    "country": "United Kingdom",
+    "postcode": "M14 4HG",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.46647,
+        -2.227744
+      ]
+    }
+  },
+  "is_warehouse": false
+},{
+  "_id": {
+    "$oid": "63be12a7218d0176787ca57d"
+  },
+  "name": "Morrison 2",
+  "address": {
+    "_id": {
+      "$oid": "63be12a7218d0176787ca57e"
+    },
+    "unit_no": "4",
+    "street": "Oxford Street",
+    "city": "Manchester",
+    "country": "United Kingdom",
+    "postcode": "M13 9PL",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.471428,
+        -2.226993
+      ]
+    }
+  },
+  "is_warehouse": false
+},{
+  "_id": {
+    "$oid": "63be12c6218d0176787ca57f"
+  },
+  "name": "Morrison 3",
+  "address": {
+    "_id": {
+      "$oid": "63be12c6218d0176787ca580"
+    },
+    "unit_no": "29",
+    "street": "Princess Road",
+    "city": "Manchester",
+    "country": "United Kingdom",
+    "postcode": "M15 6HJ",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.468032,
+        -2.245077
+      ]
+    }
+  },
+  "is_warehouse": false
+},{
+  "_id": {
+    "$oid": "63be12e8218d0176787ca581"
+  },
+  "name": "Morrison 4",
+  "address": {
+    "_id": {
+      "$oid": "63be12e8218d0176787ca582"
+    },
+    "unit_no": "47",
+    "street": "Lloyd Street North",
+    "city": "Manchester",
+    "country": "United Kingdom",
+    "postcode": "M15 6SE",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.462801,
+        -2.235695
+      ]
+    }
+  },
+  "is_warehouse": false
+},{
+  "_id": {
+    "$oid": "63be1307218d0176787ca583"
+  },
+  "name": "Morrison 5",
+  "address": {
+    "_id": {
+      "$oid": "63be1307218d0176787ca584"
+    },
+    "unit_no": "56",
+    "street": "Wilmslow Road",
+    "city": "Manchester",
+    "country": "United Kingdom",
+    "postcode": "M14 5LR",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.453124,
+        -2.223312
+      ]
+    }
+  },
+  "is_warehouse": false
+},{
+  "_id": {
+    "$oid": "63be1335218d0176787ca585"
+  },
+  "name": "Morrison 6",
+  "address": {
+    "_id": {
+      "$oid": "63be1335218d0176787ca586"
+    },
+    "unit_no": "20",
+    "street": "Lower Park Road",
+    "city": "Manchester",
+    "country": "United Kingdom",
+    "postcode": "M14 5QY",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.466465650705054,
+        -2.2869422224467053
+      ]
+    }
+  },
+  "is_warehouse": false
+},{
+  "_id": {
+    "$oid": "63be1357218d0176787ca587"
+  },
+  "name": "Morrison 7",
+  "address": {
+    "_id": {
+      "$oid": "63be1357218d0176787ca588"
+    },
+    "unit_no": "78",
+    "street": "Dickenson Road",
+    "city": "Manchester",
+    "country": "United Kingdom",
+    "postcode": "M14 5AZ",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.494120609310734,
+        -2.2914827868786163
+      ]
+    }
+  },
+  "is_warehouse": false
+},{
+  "_id": {
+    "$oid": "63be137b218d0176787ca589"
+  },
+  "name": "Morrison 8",
+  "address": {
+    "_id": {
+      "$oid": "63be137b218d0176787ca58a"
+    },
+    "unit_no": "37",
+    "street": "Langley Road",
+    "city": "Manchester",
+    "country": "United Kingdom",
+    "postcode": "M14 6JH",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.445339244415806,
+        -2.2923592727121105
+      ]
+    }
+  },
+  "is_warehouse": false
+},{
+  "_id": {
+    "$oid": "63be13ae218d0176787ca58d"
+  },
+  "name": "Amazon Warehouse 1",
+  "address": {
+    "_id": {
+      "$oid": "63be13ae218d0176787ca58e"
+    },
+    "unit_no": "103",
+    "street": "Brunswick Street",
+    "city": "Manchester",
+    "country": "United Kingdom",
+    "postcode": "M13 9SR",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.4667426,
+        -2.2292143
+      ]
+    }
+  },
+  "is_warehouse": true
+},{
+  "_id": {
+    "$oid": "63be13c2218d0176787ca58f"
+  },
+  "name": "Amazon Warehouse 2",
+  "address": {
+    "_id": {
+      "$oid": "63be13c2218d0176787ca590"
+    },
+    "unit_no": "55",
+    "street": "Monton Street",
+    "city": "Manchester",
+    "country": "United Kingdom",
+    "postcode": "M14 4LT",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.4578956,
+        -2.2364577
+      ]
+    }
+  },
+  "is_warehouse": true
+},{
+  "_id": {
+    "$oid": "63be13e9218d0176787ca591"
+  },
+  "name": "Amazon Warehouse 3",
+  "address": {
+    "_id": {
+      "$oid": "63be13e9218d0176787ca592"
+    },
+    "unit_no": "36",
+    "street": "Yew Tree Road",
+    "city": "Manchester",
+    "country": "United Kingdom",
+    "postcode": "M14 7PW",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        53.42415423496177,
+        -2.2411835103893765
+      ]
+    }
+  },
+  "is_warehouse": true
+}]

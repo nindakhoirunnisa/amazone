@@ -1,0 +1,3130 @@
+[{
+  "_id": {
+    "$oid": "63bf5e3bc0d013af46cb9ff0"
+  },
+  "customer_id": {
+    "$oid": "63bebdaa1cd0505188545226"
+  },
+  "recommendations": [
+    {
+      "category": "Fruits and Vegetables",
+      "name": "Apple",
+      "selling_price": 1.23,
+      "store_id": {
+        "$oid": "63be127a218d0176787ca57b"
+      },
+      "stock": 24,
+      "rating": 4.29,
+      "product_id": {
+        "$oid": "63bee666905ece42d0d0866a"
+      },
+      "store_name": "Morrison 1"
+    },
+    {
+      "category": "Fruits and Vegetables",
+      "name": "Spinach",
+      "selling_price": 0.75,
+      "store_id": {
+        "$oid": "63be127a218d0176787ca57b"
+      },
+      "stock": 6,
+      "rating": 4.29,
+      "product_id": {
+        "$oid": "63bee66f905ece42d0d0866b"
+      },
+      "store_name": "Morrison 1"
+    },
+    {
+      "category": "Mobile Phones",
+      "name": "IPhone 14 Pro Max 128Gb",
+      "selling_price": 1199,
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "stock": 195,
+      "rating": 4.17,
+      "product_id": {
+        "$oid": "63bedc5e905ece42d0d0864a"
+      },
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "category": "Mobile Phones",
+      "name": "IPhone 14 Pro 128Gb",
+      "selling_price": 1099,
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "stock": 298,
+      "rating": 4.14,
+      "product_id": {
+        "$oid": "63bedc54905ece42d0d08649"
+      },
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "category": "Mobile Phones",
+      "name": "IPhone 14 Pro 256Gb",
+      "selling_price": 1209,
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "stock": 498,
+      "rating": 4.13,
+      "product_id": {
+        "$oid": "63bedc4c905ece42d0d08648"
+      },
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "category": "Fruits and Vegetables",
+      "name": "Carrots",
+      "selling_price": 0.8,
+      "store_id": {
+        "$oid": "63be127a218d0176787ca57b"
+      },
+      "stock": 19,
+      "rating": 4,
+      "product_id": {
+        "$oid": "63bee632905ece42d0d08668"
+      },
+      "store_name": "Morrison 1"
+    },
+    {
+      "category": "Mobile Phones",
+      "name": "Samsung Galaxy Z Flip4 256Gb",
+      "selling_price": 1059,
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "stock": 237,
+      "rating": 3.86,
+      "product_id": {
+        "$oid": "63bedc66905ece42d0d0864b"
+      },
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "category": "Fruits and Vegetables",
+      "name": "Bananas",
+      "selling_price": 1.5,
+      "store_id": {
+        "$oid": "63be127a218d0176787ca57b"
+      },
+      "stock": 24,
+      "rating": 3.78,
+      "product_id": {
+        "$oid": "63bee63a905ece42d0d08669"
+      },
+      "store_name": "Morrison 1"
+    },
+    {
+      "category": "Bakery",
+      "name": "Almond-Butter Croissant",
+      "selling_price": 0.95,
+      "store_id": {
+        "$oid": "63be127a218d0176787ca57b"
+      },
+      "stock": 7,
+      "rating": 3.71,
+      "product_id": {
+        "$oid": "63bee1be905ece42d0d0865e"
+      },
+      "store_name": "Morrison 1"
+    },
+    {
+      "category": "Bakery",
+      "name": "Butter Croissant",
+      "selling_price": 0.95,
+      "store_id": {
+        "$oid": "63be127a218d0176787ca57b"
+      },
+      "stock": 45,
+      "rating": 3.55,
+      "product_id": {
+        "$oid": "63bee1a1905ece42d0d0865d"
+      },
+      "store_name": "Morrison 1"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63bf6083c0d013af46d03400"
+  },
+  "customer_id": {
+    "$oid": "63bebd9d1cd0505188545225"
+  },
+  "recommendations": [
+    {
+      "category": "CD",
+      "name": "Speak Now",
+      "selling_price": 7.5,
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "stock": 6,
+      "rating": 4.67,
+      "product_id": {
+        "$oid": "63bedcf1905ece42d0d08652"
+      },
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "category": "CD",
+      "name": "Lover",
+      "selling_price": 11.69,
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "stock": 53,
+      "rating": 4.38,
+      "product_id": {
+        "$oid": "63bedae23121db4da02d5009"
+      },
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "category": "Home Appliances",
+      "name": "Microwave",
+      "selling_price": 55,
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "stock": 73,
+      "rating": 4.33,
+      "product_id": {
+        "$oid": "63bede9b905ece42d0d08653"
+      },
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "category": "Drinks",
+      "name": "Coca Cola",
+      "selling_price": 1.5,
+      "store_id": {
+        "$oid": "63be127a218d0176787ca57b"
+      },
+      "stock": 20,
+      "rating": 4.18,
+      "product_id": {
+        "$oid": "63bee417905ece42d0d08662"
+      },
+      "store_name": "Morrison 1"
+    },
+    {
+      "category": "Mobile Phones",
+      "name": "IPhone 14 Pro Max 128Gb",
+      "selling_price": 1199,
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "stock": 195,
+      "rating": 4.17,
+      "product_id": {
+        "$oid": "63bedc5e905ece42d0d0864a"
+      },
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "category": "Mobile Phones",
+      "name": "IPhone 14 Pro 128Gb",
+      "selling_price": 1099,
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "stock": 298,
+      "rating": 4.14,
+      "product_id": {
+        "$oid": "63bedc54905ece42d0d08649"
+      },
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "category": "Drinks",
+      "name": "Pepsi",
+      "selling_price": 1.5,
+      "store_id": {
+        "$oid": "63be127a218d0176787ca57b"
+      },
+      "stock": 16,
+      "rating": 4.08,
+      "product_id": {
+        "$oid": "63bee424905ece42d0d08663"
+      },
+      "store_name": "Morrison 1"
+    },
+    {
+      "category": "CD",
+      "name": "reputation",
+      "selling_price": 11.89,
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "stock": 70,
+      "rating": 4,
+      "product_id": {
+        "$oid": "63bedad33121db4da02d5007"
+      },
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "category": "CD",
+      "name": "Positions",
+      "selling_price": 11,
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "stock": 82,
+      "rating": 4,
+      "product_id": {
+        "$oid": "63bedb66f053fd4084a32f0c"
+      },
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "category": "Fruits and Vegetables",
+      "name": "Carrots",
+      "selling_price": 0.8,
+      "store_id": {
+        "$oid": "63be127a218d0176787ca57b"
+      },
+      "stock": 19,
+      "rating": 4,
+      "product_id": {
+        "$oid": "63bee632905ece42d0d08668"
+      },
+      "store_name": "Morrison 1"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63bf7007c0d013af46ef0721"
+  },
+  "customer_id": {
+    "$oid": "63bebdb11cd0505188545227"
+  },
+  "recommendations": [
+    {
+      "category": "CD",
+      "name": "Speak Now",
+      "selling_price": 7.5,
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 28,
+      "rating": 4.67,
+      "product_id": {
+        "$oid": "63bedcf1905ece42d0d08652"
+      },
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "category": "Home Appliances",
+      "name": "Microwave",
+      "selling_price": 55,
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 88,
+      "rating": 4.33,
+      "product_id": {
+        "$oid": "63bede9b905ece42d0d08653"
+      },
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "category": "Fruits and Vegetables",
+      "name": "Spinach",
+      "selling_price": 0.75,
+      "store_id": {
+        "$oid": "63be12e8218d0176787ca581"
+      },
+      "stock": 25,
+      "rating": 4.29,
+      "product_id": {
+        "$oid": "63bee66f905ece42d0d0866b"
+      },
+      "store_name": "Morrison 4"
+    },
+    {
+      "category": "Drinks",
+      "name": "Coca Cola",
+      "selling_price": 1.5,
+      "store_id": {
+        "$oid": "63be12e8218d0176787ca581"
+      },
+      "stock": 11,
+      "rating": 4.18,
+      "product_id": {
+        "$oid": "63bee417905ece42d0d08662"
+      },
+      "store_name": "Morrison 4"
+    },
+    {
+      "category": "Drinks",
+      "name": "Fanta",
+      "selling_price": 1.23,
+      "store_id": {
+        "$oid": "63be12e8218d0176787ca581"
+      },
+      "stock": 29,
+      "rating": 4.09,
+      "product_id": {
+        "$oid": "63bee42d905ece42d0d08664"
+      },
+      "store_name": "Morrison 4"
+    },
+    {
+      "category": "Drinks",
+      "name": "Pepsi",
+      "selling_price": 1.5,
+      "store_id": {
+        "$oid": "63be12e8218d0176787ca581"
+      },
+      "stock": 15,
+      "rating": 4.08,
+      "product_id": {
+        "$oid": "63bee424905ece42d0d08663"
+      },
+      "store_name": "Morrison 4"
+    },
+    {
+      "category": "Drinks",
+      "name": "Orange Juice",
+      "selling_price": 1.3,
+      "store_id": {
+        "$oid": "63be12e8218d0176787ca581"
+      },
+      "stock": 29,
+      "rating": 3.92,
+      "product_id": {
+        "$oid": "63bee435905ece42d0d08665"
+      },
+      "store_name": "Morrison 4"
+    },
+    {
+      "category": "Drinks",
+      "name": "Mango Juice",
+      "selling_price": 1.2,
+      "store_id": {
+        "$oid": "63be12e8218d0176787ca581"
+      },
+      "stock": 15,
+      "rating": 3.7,
+      "product_id": {
+        "$oid": "63bee43f905ece42d0d08666"
+      },
+      "store_name": "Morrison 4"
+    },
+    {
+      "category": "Home Appliances",
+      "name": "Stand Mixer",
+      "selling_price": 60,
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 43,
+      "rating": 3.67,
+      "product_id": {
+        "$oid": "63beded3905ece42d0d0865a"
+      },
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "category": "CD",
+      "name": "Red: Taylor's Version",
+      "selling_price": 12.94,
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 28,
+      "rating": 3.6,
+      "product_id": {
+        "$oid": "63bedabb3121db4da02d5004"
+      },
+      "store_name": "Amazon Warehouse 2"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63bf70e0c0d013af46f0b18b"
+  },
+  "customer_id": {
+    "$oid": "63bebdbf1cd0505188545228"
+  },
+  "recommendations": [
+    {
+      "category": "Home Appliances",
+      "name": "Rice Cooker",
+      "selling_price": 29,
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 40,
+      "rating": 5,
+      "product_id": {
+        "$oid": "63bedeb4905ece42d0d08656"
+      },
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "category": "CD",
+      "name": "Speak Now",
+      "selling_price": 7.5,
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 28,
+      "rating": 4.67,
+      "product_id": {
+        "$oid": "63bedcf1905ece42d0d08652"
+      },
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "category": "CD",
+      "name": "Lover",
+      "selling_price": 11.69,
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 69,
+      "rating": 4.38,
+      "product_id": {
+        "$oid": "63bedae23121db4da02d5009"
+      },
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "category": "Home Appliances",
+      "name": "Microwave",
+      "selling_price": 55,
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 88,
+      "rating": 4.33,
+      "product_id": {
+        "$oid": "63bede9b905ece42d0d08653"
+      },
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "category": "Fruits and Vegetables",
+      "name": "Spinach",
+      "selling_price": 0.75,
+      "store_id": {
+        "$oid": "63be1307218d0176787ca583"
+      },
+      "stock": 24,
+      "rating": 4.29,
+      "product_id": {
+        "$oid": "63bee66f905ece42d0d0866b"
+      },
+      "store_name": "Morrison 5"
+    },
+    {
+      "category": "Drinks",
+      "name": "Coca Cola",
+      "selling_price": 1.5,
+      "store_id": {
+        "$oid": "63be1307218d0176787ca583"
+      },
+      "stock": 4,
+      "rating": 4.18,
+      "product_id": {
+        "$oid": "63bee417905ece42d0d08662"
+      },
+      "store_name": "Morrison 5"
+    },
+    {
+      "category": "CD",
+      "name": "Taylor Swift",
+      "selling_price": 8.99,
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 21,
+      "rating": 4.17,
+      "product_id": {
+        "$oid": "63bedadb3121db4da02d5008"
+      },
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "category": "Mobile Phones",
+      "name": "IPhone 14 Pro Max 128Gb",
+      "selling_price": 1199,
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 208,
+      "rating": 4.17,
+      "product_id": {
+        "$oid": "63bedc5e905ece42d0d0864a"
+      },
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "category": "Mobile Phones",
+      "name": "IPhone 14 Pro 128Gb",
+      "selling_price": 1099,
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 146,
+      "rating": 4.14,
+      "product_id": {
+        "$oid": "63bedc54905ece42d0d08649"
+      },
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "category": "Mobile Phones",
+      "name": "Samsung Galaxy Z Fold4 Ultra 256Gb",
+      "selling_price": 1649,
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 149,
+      "rating": 4.14,
+      "product_id": {
+        "$oid": "63bedc6e905ece42d0d0864c"
+      },
+      "store_name": "Amazon Warehouse 2"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63bf725dc0d013af46f3a1ac"
+  },
+  "customer_id": {
+    "$oid": "63bebdc61cd0505188545229"
+  },
+  "recommendations": [
+    {
+      "category": "Home Appliances",
+      "name": "Rice Cooker",
+      "selling_price": 29,
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 40,
+      "rating": 5,
+      "product_id": {
+        "$oid": "63bedeb4905ece42d0d08656"
+      },
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "category": "CD",
+      "name": "Speak Now",
+      "selling_price": 7.5,
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 28,
+      "rating": 4.67,
+      "product_id": {
+        "$oid": "63bedcf1905ece42d0d08652"
+      },
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "category": "CD",
+      "name": "Lover",
+      "selling_price": 11.69,
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 69,
+      "rating": 4.38,
+      "product_id": {
+        "$oid": "63bedae23121db4da02d5009"
+      },
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "category": "Home Appliances",
+      "name": "Microwave",
+      "selling_price": 55,
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 88,
+      "rating": 4.33,
+      "product_id": {
+        "$oid": "63bede9b905ece42d0d08653"
+      },
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "category": "Fruits and Vegetables",
+      "name": "Apple",
+      "selling_price": 1.23,
+      "store_id": {
+        "$oid": "63be1307218d0176787ca583"
+      },
+      "stock": 17,
+      "rating": 4.29,
+      "product_id": {
+        "$oid": "63bee666905ece42d0d0866a"
+      },
+      "store_name": "Morrison 5"
+    },
+    {
+      "category": "CD",
+      "name": "Taylor Swift",
+      "selling_price": 8.99,
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 21,
+      "rating": 4.17,
+      "product_id": {
+        "$oid": "63bedadb3121db4da02d5008"
+      },
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "category": "Mobile Phones",
+      "name": "IPhone 14 Pro Max 128Gb",
+      "selling_price": 1199,
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 208,
+      "rating": 4.17,
+      "product_id": {
+        "$oid": "63bedc5e905ece42d0d0864a"
+      },
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "category": "Books",
+      "name": "Harry Potter: The Complete Collection",
+      "selling_price": 35,
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 181,
+      "rating": 4.14,
+      "product_id": {
+        "$oid": "63bed9443121db4da02d4fff"
+      },
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "category": "Mobile Phones",
+      "name": "IPhone 14 Pro 128Gb",
+      "selling_price": 1099,
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 146,
+      "rating": 4.14,
+      "product_id": {
+        "$oid": "63bedc54905ece42d0d08649"
+      },
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "category": "Mobile Phones",
+      "name": "Samsung Galaxy Z Fold4 Ultra 256Gb",
+      "selling_price": 1649,
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 149,
+      "rating": 4.14,
+      "product_id": {
+        "$oid": "63bedc6e905ece42d0d0864c"
+      },
+      "store_name": "Amazon Warehouse 2"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63bf72fec0d013af46f4dd51"
+  },
+  "customer_id": {
+    "$oid": "63bebdcc1cd050518854522a"
+  },
+  "recommendations": [
+    {
+      "category": "Home Appliances",
+      "name": "Rice Cooker",
+      "selling_price": 29,
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 40,
+      "rating": 5,
+      "product_id": {
+        "$oid": "63bedeb4905ece42d0d08656"
+      },
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "category": "CD",
+      "name": "Speak Now",
+      "selling_price": 7.5,
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 28,
+      "rating": 4.67,
+      "product_id": {
+        "$oid": "63bedcf1905ece42d0d08652"
+      },
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "category": "CD",
+      "name": "Lover",
+      "selling_price": 11.69,
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 69,
+      "rating": 4.38,
+      "product_id": {
+        "$oid": "63bedae23121db4da02d5009"
+      },
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "category": "Home Appliances",
+      "name": "Microwave",
+      "selling_price": 55,
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 88,
+      "rating": 4.33,
+      "product_id": {
+        "$oid": "63bede9b905ece42d0d08653"
+      },
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "category": "Fruits and Vegetables",
+      "name": "Spinach",
+      "selling_price": 0.75,
+      "store_id": {
+        "$oid": "63be1307218d0176787ca583"
+      },
+      "stock": 24,
+      "rating": 4.29,
+      "product_id": {
+        "$oid": "63bee66f905ece42d0d0866b"
+      },
+      "store_name": "Morrison 5"
+    },
+    {
+      "category": "Drinks",
+      "name": "Coca Cola",
+      "selling_price": 1.5,
+      "store_id": {
+        "$oid": "63be1307218d0176787ca583"
+      },
+      "stock": 4,
+      "rating": 4.18,
+      "product_id": {
+        "$oid": "63bee417905ece42d0d08662"
+      },
+      "store_name": "Morrison 5"
+    },
+    {
+      "category": "CD",
+      "name": "Taylor Swift",
+      "selling_price": 8.99,
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 21,
+      "rating": 4.17,
+      "product_id": {
+        "$oid": "63bedadb3121db4da02d5008"
+      },
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "category": "Mobile Phones",
+      "name": "IPhone 14 Pro Max 128Gb",
+      "selling_price": 1199,
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 208,
+      "rating": 4.17,
+      "product_id": {
+        "$oid": "63bedc5e905ece42d0d0864a"
+      },
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "category": "Mobile Phones",
+      "name": "Samsung Galaxy Z Fold4 Ultra 256Gb",
+      "selling_price": 1649,
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 149,
+      "rating": 4.14,
+      "product_id": {
+        "$oid": "63bedc6e905ece42d0d0864c"
+      },
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "category": "Mobile Phones",
+      "name": "IPhone 13 128Gb",
+      "selling_price": 749,
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 74,
+      "rating": 4.13,
+      "product_id": {
+        "$oid": "63bedc97905ece42d0d0864f"
+      },
+      "store_name": "Amazon Warehouse 2"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63bf751bc0d013af46f92e7e"
+  },
+  "customer_id": {
+    "$oid": "63bebdd31cd050518854522b"
+  },
+  "recommendations": [
+    {
+      "category": "Home Appliances",
+      "name": "Rice Cooker",
+      "selling_price": 29,
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 40,
+      "rating": 5,
+      "product_id": {
+        "$oid": "63bedeb4905ece42d0d08656"
+      },
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "category": "CD",
+      "name": "Lover",
+      "selling_price": 11.69,
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 69,
+      "rating": 4.38,
+      "product_id": {
+        "$oid": "63bedae23121db4da02d5009"
+      },
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "category": "Fruits and Vegetables",
+      "name": "Apple",
+      "selling_price": 1.23,
+      "store_id": {
+        "$oid": "63be1307218d0176787ca583"
+      },
+      "stock": 17,
+      "rating": 4.29,
+      "product_id": {
+        "$oid": "63bee666905ece42d0d0866a"
+      },
+      "store_name": "Morrison 5"
+    },
+    {
+      "category": "Fruits and Vegetables",
+      "name": "Spinach",
+      "selling_price": 0.75,
+      "store_id": {
+        "$oid": "63be1307218d0176787ca583"
+      },
+      "stock": 24,
+      "rating": 4.29,
+      "product_id": {
+        "$oid": "63bee66f905ece42d0d0866b"
+      },
+      "store_name": "Morrison 5"
+    },
+    {
+      "category": "CD",
+      "name": "Taylor Swift",
+      "selling_price": 8.99,
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 21,
+      "rating": 4.17,
+      "product_id": {
+        "$oid": "63bedadb3121db4da02d5008"
+      },
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "category": "Mobile Phones",
+      "name": "IPhone 14 Pro Max 128Gb",
+      "selling_price": 1199,
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 208,
+      "rating": 4.17,
+      "product_id": {
+        "$oid": "63bedc5e905ece42d0d0864a"
+      },
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "category": "Books",
+      "name": "Harry Potter: The Complete Collection",
+      "selling_price": 35,
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 182,
+      "rating": 4.14,
+      "product_id": {
+        "$oid": "63bed9443121db4da02d4fff"
+      },
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "category": "Mobile Phones",
+      "name": "IPhone 14 Pro 128Gb",
+      "selling_price": 1099,
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 146,
+      "rating": 4.14,
+      "product_id": {
+        "$oid": "63bedc54905ece42d0d08649"
+      },
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "category": "Mobile Phones",
+      "name": "Samsung Galaxy Z Fold4 Ultra 256Gb",
+      "selling_price": 1649,
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 149,
+      "rating": 4.14,
+      "product_id": {
+        "$oid": "63bedc6e905ece42d0d0864c"
+      },
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "category": "Mobile Phones",
+      "name": "IPhone 14 Pro 256Gb",
+      "selling_price": 1209,
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 312,
+      "rating": 4.13,
+      "product_id": {
+        "$oid": "63bedc4c905ece42d0d08648"
+      },
+      "store_name": "Amazon Warehouse 2"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63bf7545c0d013af46f98172"
+  },
+  "customer_id": {
+    "$oid": "63bebdda1cd050518854522c"
+  },
+  "recommendations": [
+    {
+      "category": "Home Appliances",
+      "name": "Rice Cooker",
+      "selling_price": 29,
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 40,
+      "rating": 5,
+      "product_id": {
+        "$oid": "63bedeb4905ece42d0d08656"
+      },
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "category": "CD",
+      "name": "Speak Now",
+      "selling_price": 7.5,
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 28,
+      "rating": 4.67,
+      "product_id": {
+        "$oid": "63bedcf1905ece42d0d08652"
+      },
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "category": "CD",
+      "name": "Lover",
+      "selling_price": 11.69,
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 69,
+      "rating": 4.38,
+      "product_id": {
+        "$oid": "63bedae23121db4da02d5009"
+      },
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "category": "Home Appliances",
+      "name": "Microwave",
+      "selling_price": 55,
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 88,
+      "rating": 4.33,
+      "product_id": {
+        "$oid": "63bede9b905ece42d0d08653"
+      },
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "category": "CD",
+      "name": "Taylor Swift",
+      "selling_price": 8.99,
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 21,
+      "rating": 4.17,
+      "product_id": {
+        "$oid": "63bedadb3121db4da02d5008"
+      },
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "category": "Mobile Phones",
+      "name": "IPhone 14 Pro Max 128Gb",
+      "selling_price": 1199,
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 208,
+      "rating": 4.17,
+      "product_id": {
+        "$oid": "63bedc5e905ece42d0d0864a"
+      },
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "category": "Books",
+      "name": "Harry Potter: The Complete Collection",
+      "selling_price": 35,
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 181,
+      "rating": 4.14,
+      "product_id": {
+        "$oid": "63bed9443121db4da02d4fff"
+      },
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "category": "Mobile Phones",
+      "name": "IPhone 14 Pro 128Gb",
+      "selling_price": 1099,
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 146,
+      "rating": 4.14,
+      "product_id": {
+        "$oid": "63bedc54905ece42d0d08649"
+      },
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "category": "Mobile Phones",
+      "name": "Samsung Galaxy Z Fold4 Ultra 256Gb",
+      "selling_price": 1649,
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 149,
+      "rating": 4.14,
+      "product_id": {
+        "$oid": "63bedc6e905ece42d0d0864c"
+      },
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "category": "Mobile Phones",
+      "name": "IPhone 14 Pro 256Gb",
+      "selling_price": 1209,
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 312,
+      "rating": 4.13,
+      "product_id": {
+        "$oid": "63bedc4c905ece42d0d08648"
+      },
+      "store_name": "Amazon Warehouse 2"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63bf7566c0d013af46f9c432"
+  },
+  "customer_id": {
+    "$oid": "63bebde21cd050518854522d"
+  },
+  "recommendations": [
+    {
+      "category": "CD",
+      "name": "Speak Now",
+      "selling_price": 7.5,
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "stock": 6,
+      "rating": 4.67,
+      "product_id": {
+        "$oid": "63bedcf1905ece42d0d08652"
+      },
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "category": "Home Appliances",
+      "name": "Microwave",
+      "selling_price": 55,
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "stock": 73,
+      "rating": 4.33,
+      "product_id": {
+        "$oid": "63bede9b905ece42d0d08653"
+      },
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "category": "Fruits and Vegetables",
+      "name": "Apple",
+      "selling_price": 1.23,
+      "store_id": {
+        "$oid": "63be12a7218d0176787ca57d"
+      },
+      "stock": 33,
+      "rating": 4.29,
+      "product_id": {
+        "$oid": "63bee666905ece42d0d0866a"
+      },
+      "store_name": "Morrison 2"
+    },
+    {
+      "category": "Fruits and Vegetables",
+      "name": "Spinach",
+      "selling_price": 0.75,
+      "store_id": {
+        "$oid": "63be12a7218d0176787ca57d"
+      },
+      "stock": 10,
+      "rating": 4.29,
+      "product_id": {
+        "$oid": "63bee66f905ece42d0d0866b"
+      },
+      "store_name": "Morrison 2"
+    },
+    {
+      "category": "Drinks",
+      "name": "Coca Cola",
+      "selling_price": 1.5,
+      "store_id": {
+        "$oid": "63be12a7218d0176787ca57d"
+      },
+      "stock": 12,
+      "rating": 4.18,
+      "product_id": {
+        "$oid": "63bee417905ece42d0d08662"
+      },
+      "store_name": "Morrison 2"
+    },
+    {
+      "category": "Mobile Phones",
+      "name": "IPhone 14 Pro Max 128Gb",
+      "selling_price": 1199,
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "stock": 195,
+      "rating": 4.17,
+      "product_id": {
+        "$oid": "63bedc5e905ece42d0d0864a"
+      },
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "category": "Mobile Phones",
+      "name": "IPhone 14 Pro 128Gb",
+      "selling_price": 1099,
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "stock": 298,
+      "rating": 4.14,
+      "product_id": {
+        "$oid": "63bedc54905ece42d0d08649"
+      },
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "category": "Mobile Phones",
+      "name": "IPhone 14 Pro 256Gb",
+      "selling_price": 1209,
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "stock": 498,
+      "rating": 4.13,
+      "product_id": {
+        "$oid": "63bedc4c905ece42d0d08648"
+      },
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "category": "Drinks",
+      "name": "Fanta",
+      "selling_price": 1.23,
+      "store_id": {
+        "$oid": "63be12a7218d0176787ca57d"
+      },
+      "stock": 12,
+      "rating": 4.09,
+      "product_id": {
+        "$oid": "63bee42d905ece42d0d08664"
+      },
+      "store_name": "Morrison 2"
+    },
+    {
+      "category": "CD",
+      "name": "Midnights",
+      "selling_price": 10,
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "stock": 10,
+      "rating": 4,
+      "product_id": {
+        "$oid": "63bedaa03121db4da02d5002"
+      },
+      "store_name": "Amazon Warehouse 1"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63bf7585c0d013af46fa0181"
+  },
+  "customer_id": {
+    "$oid": "63bebde91cd050518854522e"
+  },
+  "recommendations": [
+    {
+      "category": "CD",
+      "name": "Speak Now",
+      "selling_price": 7.5,
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "stock": 6,
+      "rating": 4.67,
+      "product_id": {
+        "$oid": "63bedcf1905ece42d0d08652"
+      },
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "category": "Home Appliances",
+      "name": "Microwave",
+      "selling_price": 55,
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "stock": 73,
+      "rating": 4.33,
+      "product_id": {
+        "$oid": "63bede9b905ece42d0d08653"
+      },
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "category": "Fruits and Vegetables",
+      "name": "Apple",
+      "selling_price": 1.23,
+      "store_id": {
+        "$oid": "63be12c6218d0176787ca57f"
+      },
+      "stock": 28,
+      "rating": 4.29,
+      "product_id": {
+        "$oid": "63bee666905ece42d0d0866a"
+      },
+      "store_name": "Morrison 3"
+    },
+    {
+      "category": "Fruits and Vegetables",
+      "name": "Spinach",
+      "selling_price": 0.75,
+      "store_id": {
+        "$oid": "63be12c6218d0176787ca57f"
+      },
+      "stock": 40,
+      "rating": 4.29,
+      "product_id": {
+        "$oid": "63bee66f905ece42d0d0866b"
+      },
+      "store_name": "Morrison 3"
+    },
+    {
+      "category": "Mobile Phones",
+      "name": "IPhone 14 Pro Max 128Gb",
+      "selling_price": 1199,
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "stock": 195,
+      "rating": 4.17,
+      "product_id": {
+        "$oid": "63bedc5e905ece42d0d0864a"
+      },
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "category": "Mobile Phones",
+      "name": "IPhone 14 Pro 128Gb",
+      "selling_price": 1099,
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "stock": 298,
+      "rating": 4.14,
+      "product_id": {
+        "$oid": "63bedc54905ece42d0d08649"
+      },
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "category": "Mobile Phones",
+      "name": "IPhone 14 Pro 256Gb",
+      "selling_price": 1209,
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "stock": 498,
+      "rating": 4.13,
+      "product_id": {
+        "$oid": "63bedc4c905ece42d0d08648"
+      },
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "category": "Drinks",
+      "name": "Fanta",
+      "selling_price": 1.23,
+      "store_id": {
+        "$oid": "63be12c6218d0176787ca57f"
+      },
+      "stock": 28,
+      "rating": 4.09,
+      "product_id": {
+        "$oid": "63bee42d905ece42d0d08664"
+      },
+      "store_name": "Morrison 3"
+    },
+    {
+      "category": "Drinks",
+      "name": "Pepsi",
+      "selling_price": 1.5,
+      "store_id": {
+        "$oid": "63be12c6218d0176787ca57f"
+      },
+      "stock": 25,
+      "rating": 4.08,
+      "product_id": {
+        "$oid": "63bee424905ece42d0d08663"
+      },
+      "store_name": "Morrison 3"
+    },
+    {
+      "category": "CD",
+      "name": "Midnights",
+      "selling_price": 10,
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "stock": 10,
+      "rating": 4,
+      "product_id": {
+        "$oid": "63bedaa03121db4da02d5002"
+      },
+      "store_name": "Amazon Warehouse 1"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63bf75abc0d013af46fa4fce"
+  },
+  "customer_id": {
+    "$oid": "63bebf7e1cd050518854522f"
+  },
+  "recommendations": [
+    {
+      "category": "CD",
+      "name": "Speak Now",
+      "selling_price": 7.5,
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 28,
+      "rating": 4.67,
+      "product_id": {
+        "$oid": "63bedcf1905ece42d0d08652"
+      },
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "category": "CD",
+      "name": "Lover",
+      "selling_price": 11.69,
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 69,
+      "rating": 4.38,
+      "product_id": {
+        "$oid": "63bedae23121db4da02d5009"
+      },
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "category": "Home Appliances",
+      "name": "Microwave",
+      "selling_price": 55,
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 88,
+      "rating": 4.33,
+      "product_id": {
+        "$oid": "63bede9b905ece42d0d08653"
+      },
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "category": "Fruits and Vegetables",
+      "name": "Apple",
+      "selling_price": 1.23,
+      "store_id": {
+        "$oid": "63be12c6218d0176787ca57f"
+      },
+      "stock": 28,
+      "rating": 4.29,
+      "product_id": {
+        "$oid": "63bee666905ece42d0d0866a"
+      },
+      "store_name": "Morrison 3"
+    },
+    {
+      "category": "Fruits and Vegetables",
+      "name": "Spinach",
+      "selling_price": 0.75,
+      "store_id": {
+        "$oid": "63be12c6218d0176787ca57f"
+      },
+      "stock": 40,
+      "rating": 4.29,
+      "product_id": {
+        "$oid": "63bee66f905ece42d0d0866b"
+      },
+      "store_name": "Morrison 3"
+    },
+    {
+      "category": "CD",
+      "name": "Taylor Swift",
+      "selling_price": 8.99,
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 21,
+      "rating": 4.17,
+      "product_id": {
+        "$oid": "63bedadb3121db4da02d5008"
+      },
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "category": "Mobile Phones",
+      "name": "IPhone 14 Pro Max 128Gb",
+      "selling_price": 1199,
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 208,
+      "rating": 4.17,
+      "product_id": {
+        "$oid": "63bedc5e905ece42d0d0864a"
+      },
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "category": "Books",
+      "name": "Harry Potter: The Complete Collection",
+      "selling_price": 35,
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 182,
+      "rating": 4.14,
+      "product_id": {
+        "$oid": "63bed9443121db4da02d4fff"
+      },
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "category": "Mobile Phones",
+      "name": "IPhone 14 Pro 128Gb",
+      "selling_price": 1099,
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 146,
+      "rating": 4.14,
+      "product_id": {
+        "$oid": "63bedc54905ece42d0d08649"
+      },
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "category": "Mobile Phones",
+      "name": "Samsung Galaxy Z Fold4 Ultra 256Gb",
+      "selling_price": 1649,
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 149,
+      "rating": 4.14,
+      "product_id": {
+        "$oid": "63bedc6e905ece42d0d0864c"
+      },
+      "store_name": "Amazon Warehouse 2"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63bf75dcc0d013af46faaf26"
+  },
+  "customer_id": {
+    "$oid": "63bebf901cd0505188545230"
+  },
+  "recommendations": [
+    {
+      "category": "Home Appliances",
+      "name": "Rice Cooker",
+      "selling_price": 29,
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 40,
+      "rating": 5,
+      "product_id": {
+        "$oid": "63bedeb4905ece42d0d08656"
+      },
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "category": "CD",
+      "name": "Speak Now",
+      "selling_price": 7.5,
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 28,
+      "rating": 4.67,
+      "product_id": {
+        "$oid": "63bedcf1905ece42d0d08652"
+      },
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "category": "CD",
+      "name": "Lover",
+      "selling_price": 11.69,
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 69,
+      "rating": 4.38,
+      "product_id": {
+        "$oid": "63bedae23121db4da02d5009"
+      },
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "category": "Home Appliances",
+      "name": "Microwave",
+      "selling_price": 55,
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 88,
+      "rating": 4.33,
+      "product_id": {
+        "$oid": "63bede9b905ece42d0d08653"
+      },
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "category": "Fruits and Vegetables",
+      "name": "Apple",
+      "selling_price": 1.23,
+      "store_id": {
+        "$oid": "63be12e8218d0176787ca581"
+      },
+      "stock": 15,
+      "rating": 4.29,
+      "product_id": {
+        "$oid": "63bee666905ece42d0d0866a"
+      },
+      "store_name": "Morrison 4"
+    },
+    {
+      "category": "Fruits and Vegetables",
+      "name": "Spinach",
+      "selling_price": 0.75,
+      "store_id": {
+        "$oid": "63be12e8218d0176787ca581"
+      },
+      "stock": 25,
+      "rating": 4.29,
+      "product_id": {
+        "$oid": "63bee66f905ece42d0d0866b"
+      },
+      "store_name": "Morrison 4"
+    },
+    {
+      "category": "Mobile Phones",
+      "name": "IPhone 14 Pro Max 128Gb",
+      "selling_price": 1199,
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 208,
+      "rating": 4.17,
+      "product_id": {
+        "$oid": "63bedc5e905ece42d0d0864a"
+      },
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "category": "Books",
+      "name": "Harry Potter: The Complete Collection",
+      "selling_price": 35,
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 182,
+      "rating": 4.14,
+      "product_id": {
+        "$oid": "63bed9443121db4da02d4fff"
+      },
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "category": "Mobile Phones",
+      "name": "IPhone 14 Pro 128Gb",
+      "selling_price": 1099,
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 146,
+      "rating": 4.14,
+      "product_id": {
+        "$oid": "63bedc54905ece42d0d08649"
+      },
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "category": "Mobile Phones",
+      "name": "Samsung Galaxy Z Fold4 Ultra 256Gb",
+      "selling_price": 1649,
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 149,
+      "rating": 4.14,
+      "product_id": {
+        "$oid": "63bedc6e905ece42d0d0864c"
+      },
+      "store_name": "Amazon Warehouse 2"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63bf7810c0d013af46ff054c"
+  },
+  "customer_id": {
+    "$oid": "63bebf9e1cd0505188545231"
+  },
+  "recommendations": [
+    {
+      "category": "CD",
+      "name": "Speak Now",
+      "selling_price": 7.5,
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "stock": 6,
+      "rating": 4.67,
+      "product_id": {
+        "$oid": "63bedcf1905ece42d0d08652"
+      },
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "category": "CD",
+      "name": "Lover",
+      "selling_price": 11.69,
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "stock": 52,
+      "rating": 4.38,
+      "product_id": {
+        "$oid": "63bedae23121db4da02d5009"
+      },
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "category": "Home Appliances",
+      "name": "Microwave",
+      "selling_price": 55,
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "stock": 73,
+      "rating": 4.33,
+      "product_id": {
+        "$oid": "63bede9b905ece42d0d08653"
+      },
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "category": "Fruits and Vegetables",
+      "name": "Apple",
+      "selling_price": 1.23,
+      "store_id": {
+        "$oid": "63be12a7218d0176787ca57d"
+      },
+      "stock": 33,
+      "rating": 4.29,
+      "product_id": {
+        "$oid": "63bee666905ece42d0d0866a"
+      },
+      "store_name": "Morrison 2"
+    },
+    {
+      "category": "Fruits and Vegetables",
+      "name": "Spinach",
+      "selling_price": 0.75,
+      "store_id": {
+        "$oid": "63be12a7218d0176787ca57d"
+      },
+      "stock": 10,
+      "rating": 4.29,
+      "product_id": {
+        "$oid": "63bee66f905ece42d0d0866b"
+      },
+      "store_name": "Morrison 2"
+    },
+    {
+      "category": "Mobile Phones",
+      "name": "IPhone 14 Pro 128Gb",
+      "selling_price": 1099,
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "stock": 298,
+      "rating": 4.14,
+      "product_id": {
+        "$oid": "63bedc54905ece42d0d08649"
+      },
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "category": "Mobile Phones",
+      "name": "IPhone 14 Pro 256Gb",
+      "selling_price": 1209,
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "stock": 498,
+      "rating": 4.13,
+      "product_id": {
+        "$oid": "63bedc4c905ece42d0d08648"
+      },
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "category": "CD",
+      "name": "Midnights",
+      "selling_price": 10,
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "stock": 10,
+      "rating": 4,
+      "product_id": {
+        "$oid": "63bedaa03121db4da02d5002"
+      },
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "category": "CD",
+      "name": "reputation",
+      "selling_price": 11.89,
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "stock": 69,
+      "rating": 4,
+      "product_id": {
+        "$oid": "63bedad33121db4da02d5007"
+      },
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "category": "Fruits and Vegetables",
+      "name": "Carrots",
+      "selling_price": 0.8,
+      "store_id": {
+        "$oid": "63be12a7218d0176787ca57d"
+      },
+      "stock": 23,
+      "rating": 4,
+      "product_id": {
+        "$oid": "63bee632905ece42d0d08668"
+      },
+      "store_name": "Morrison 2"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63bf7838c0d013af46ff546d"
+  },
+  "customer_id": {
+    "$oid": "63bebfb01cd0505188545232"
+  },
+  "recommendations": [
+    {
+      "category": "CD",
+      "name": "Lover",
+      "selling_price": 11.69,
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "stock": 52,
+      "rating": 4.38,
+      "product_id": {
+        "$oid": "63bedae23121db4da02d5009"
+      },
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "category": "Home Appliances",
+      "name": "Microwave",
+      "selling_price": 55,
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "stock": 73,
+      "rating": 4.33,
+      "product_id": {
+        "$oid": "63bede9b905ece42d0d08653"
+      },
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "category": "Fruits and Vegetables",
+      "name": "Apple",
+      "selling_price": 1.23,
+      "store_id": {
+        "$oid": "63be12a7218d0176787ca57d"
+      },
+      "stock": 33,
+      "rating": 4.29,
+      "product_id": {
+        "$oid": "63bee666905ece42d0d0866a"
+      },
+      "store_name": "Morrison 2"
+    },
+    {
+      "category": "Drinks",
+      "name": "Coca Cola",
+      "selling_price": 1.5,
+      "store_id": {
+        "$oid": "63be12a7218d0176787ca57d"
+      },
+      "stock": 12,
+      "rating": 4.18,
+      "product_id": {
+        "$oid": "63bee417905ece42d0d08662"
+      },
+      "store_name": "Morrison 2"
+    },
+    {
+      "category": "Mobile Phones",
+      "name": "IPhone 14 Pro Max 128Gb",
+      "selling_price": 1199,
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "stock": 195,
+      "rating": 4.17,
+      "product_id": {
+        "$oid": "63bedc5e905ece42d0d0864a"
+      },
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "category": "Mobile Phones",
+      "name": "IPhone 14 Pro 128Gb",
+      "selling_price": 1099,
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "stock": 298,
+      "rating": 4.14,
+      "product_id": {
+        "$oid": "63bedc54905ece42d0d08649"
+      },
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "category": "CD",
+      "name": "Midnights",
+      "selling_price": 10,
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "stock": 10,
+      "rating": 4,
+      "product_id": {
+        "$oid": "63bedaa03121db4da02d5002"
+      },
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "category": "CD",
+      "name": "reputation",
+      "selling_price": 11.89,
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "stock": 69,
+      "rating": 4,
+      "product_id": {
+        "$oid": "63bedad33121db4da02d5007"
+      },
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "category": "CD",
+      "name": "Positions",
+      "selling_price": 11,
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "stock": 81,
+      "rating": 4,
+      "product_id": {
+        "$oid": "63bedb66f053fd4084a32f0c"
+      },
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "category": "Fruits and Vegetables",
+      "name": "Carrots",
+      "selling_price": 0.8,
+      "store_id": {
+        "$oid": "63be12a7218d0176787ca57d"
+      },
+      "stock": 23,
+      "rating": 4,
+      "product_id": {
+        "$oid": "63bee632905ece42d0d08668"
+      },
+      "store_name": "Morrison 2"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63bf785bc0d013af46ff9a4b"
+  },
+  "customer_id": {
+    "$oid": "63bebfc61cd0505188545233"
+  },
+  "recommendations": [
+    {
+      "category": "CD",
+      "name": "Speak Now",
+      "selling_price": 7.5,
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "stock": 6,
+      "rating": 4.67,
+      "product_id": {
+        "$oid": "63bedcf1905ece42d0d08652"
+      },
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "category": "CD",
+      "name": "Lover",
+      "selling_price": 11.69,
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "stock": 52,
+      "rating": 4.38,
+      "product_id": {
+        "$oid": "63bedae23121db4da02d5009"
+      },
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "category": "Home Appliances",
+      "name": "Microwave",
+      "selling_price": 55,
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "stock": 73,
+      "rating": 4.33,
+      "product_id": {
+        "$oid": "63bede9b905ece42d0d08653"
+      },
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "category": "Drinks",
+      "name": "Coca Cola",
+      "selling_price": 1.5,
+      "store_id": {
+        "$oid": "63be12a7218d0176787ca57d"
+      },
+      "stock": 12,
+      "rating": 4.18,
+      "product_id": {
+        "$oid": "63bee417905ece42d0d08662"
+      },
+      "store_name": "Morrison 2"
+    },
+    {
+      "category": "Mobile Phones",
+      "name": "IPhone 14 Pro Max 128Gb",
+      "selling_price": 1199,
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "stock": 195,
+      "rating": 4.17,
+      "product_id": {
+        "$oid": "63bedc5e905ece42d0d0864a"
+      },
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "category": "CD",
+      "name": "Midnights",
+      "selling_price": 10,
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "stock": 10,
+      "rating": 4,
+      "product_id": {
+        "$oid": "63bedaa03121db4da02d5002"
+      },
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "category": "CD",
+      "name": "reputation",
+      "selling_price": 11.89,
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "stock": 69,
+      "rating": 4,
+      "product_id": {
+        "$oid": "63bedad33121db4da02d5007"
+      },
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "category": "CD",
+      "name": "Positions",
+      "selling_price": 11,
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "stock": 81,
+      "rating": 4,
+      "product_id": {
+        "$oid": "63bedb66f053fd4084a32f0c"
+      },
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "category": "Fruits and Vegetables",
+      "name": "Carrots",
+      "selling_price": 0.8,
+      "store_id": {
+        "$oid": "63be12a7218d0176787ca57d"
+      },
+      "stock": 23,
+      "rating": 4,
+      "product_id": {
+        "$oid": "63bee632905ece42d0d08668"
+      },
+      "store_name": "Morrison 2"
+    },
+    {
+      "category": "Mobile Phones",
+      "name": "Samsung Galaxy Z Flip4 256Gb",
+      "selling_price": 1059,
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "stock": 237,
+      "rating": 3.86,
+      "product_id": {
+        "$oid": "63bedc66905ece42d0d0864b"
+      },
+      "store_name": "Amazon Warehouse 1"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63bf7881c0d013af46ffe658"
+  },
+  "customer_id": {
+    "$oid": "63bec0381cd0505188545234"
+  },
+  "recommendations": [
+    {
+      "category": "CD",
+      "name": "Speak Now",
+      "selling_price": 7.5,
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "stock": 6,
+      "rating": 4.67,
+      "product_id": {
+        "$oid": "63bedcf1905ece42d0d08652"
+      },
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "category": "CD",
+      "name": "Lover",
+      "selling_price": 11.69,
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "stock": 52,
+      "rating": 4.38,
+      "product_id": {
+        "$oid": "63bedae23121db4da02d5009"
+      },
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "category": "Home Appliances",
+      "name": "Microwave",
+      "selling_price": 55,
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "stock": 73,
+      "rating": 4.33,
+      "product_id": {
+        "$oid": "63bede9b905ece42d0d08653"
+      },
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "category": "Fruits and Vegetables",
+      "name": "Apple",
+      "selling_price": 1.23,
+      "store_id": {
+        "$oid": "63be1307218d0176787ca583"
+      },
+      "stock": 17,
+      "rating": 4.29,
+      "product_id": {
+        "$oid": "63bee666905ece42d0d0866a"
+      },
+      "store_name": "Morrison 5"
+    },
+    {
+      "category": "Fruits and Vegetables",
+      "name": "Spinach",
+      "selling_price": 0.75,
+      "store_id": {
+        "$oid": "63be1307218d0176787ca583"
+      },
+      "stock": 24,
+      "rating": 4.29,
+      "product_id": {
+        "$oid": "63bee66f905ece42d0d0866b"
+      },
+      "store_name": "Morrison 5"
+    },
+    {
+      "category": "Drinks",
+      "name": "Coca Cola",
+      "selling_price": 1.5,
+      "store_id": {
+        "$oid": "63be1307218d0176787ca583"
+      },
+      "stock": 4,
+      "rating": 4.18,
+      "product_id": {
+        "$oid": "63bee417905ece42d0d08662"
+      },
+      "store_name": "Morrison 5"
+    },
+    {
+      "category": "Mobile Phones",
+      "name": "IPhone 14 Pro 128Gb",
+      "selling_price": 1099,
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "stock": 297,
+      "rating": 4.14,
+      "product_id": {
+        "$oid": "63bedc54905ece42d0d08649"
+      },
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "category": "Mobile Phones",
+      "name": "IPhone 14 Pro 256Gb",
+      "selling_price": 1209,
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "stock": 497,
+      "rating": 4.13,
+      "product_id": {
+        "$oid": "63bedc4c905ece42d0d08648"
+      },
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "category": "CD",
+      "name": "Midnights",
+      "selling_price": 10,
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "stock": 10,
+      "rating": 4,
+      "product_id": {
+        "$oid": "63bedaa03121db4da02d5002"
+      },
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "category": "CD",
+      "name": "reputation",
+      "selling_price": 11.89,
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "stock": 69,
+      "rating": 4,
+      "product_id": {
+        "$oid": "63bedad33121db4da02d5007"
+      },
+      "store_name": "Amazon Warehouse 1"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63bf78a3c0d013af46002883"
+  },
+  "customer_id": {
+    "$oid": "63bec0b01cd0505188545237"
+  },
+  "recommendations": [
+    {
+      "category": "Home Appliances",
+      "name": "Rice Cooker",
+      "selling_price": 29,
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 40,
+      "rating": 5,
+      "product_id": {
+        "$oid": "63bedeb4905ece42d0d08656"
+      },
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "category": "CD",
+      "name": "Speak Now",
+      "selling_price": 7.5,
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 28,
+      "rating": 4.67,
+      "product_id": {
+        "$oid": "63bedcf1905ece42d0d08652"
+      },
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "category": "CD",
+      "name": "Lover",
+      "selling_price": 11.69,
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 69,
+      "rating": 4.38,
+      "product_id": {
+        "$oid": "63bedae23121db4da02d5009"
+      },
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "category": "Home Appliances",
+      "name": "Microwave",
+      "selling_price": 55,
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 88,
+      "rating": 4.33,
+      "product_id": {
+        "$oid": "63bede9b905ece42d0d08653"
+      },
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "category": "Fruits and Vegetables",
+      "name": "Apple",
+      "selling_price": 1.23,
+      "store_id": {
+        "$oid": "63be12e8218d0176787ca581"
+      },
+      "stock": 15,
+      "rating": 4.29,
+      "product_id": {
+        "$oid": "63bee666905ece42d0d0866a"
+      },
+      "store_name": "Morrison 4"
+    },
+    {
+      "category": "Fruits and Vegetables",
+      "name": "Spinach",
+      "selling_price": 0.75,
+      "store_id": {
+        "$oid": "63be12e8218d0176787ca581"
+      },
+      "stock": 25,
+      "rating": 4.29,
+      "product_id": {
+        "$oid": "63bee66f905ece42d0d0866b"
+      },
+      "store_name": "Morrison 4"
+    },
+    {
+      "category": "Drinks",
+      "name": "Coca Cola",
+      "selling_price": 1.5,
+      "store_id": {
+        "$oid": "63be12e8218d0176787ca581"
+      },
+      "stock": 11,
+      "rating": 4.18,
+      "product_id": {
+        "$oid": "63bee417905ece42d0d08662"
+      },
+      "store_name": "Morrison 4"
+    },
+    {
+      "category": "CD",
+      "name": "Taylor Swift",
+      "selling_price": 8.99,
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 21,
+      "rating": 4.17,
+      "product_id": {
+        "$oid": "63bedadb3121db4da02d5008"
+      },
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "category": "Mobile Phones",
+      "name": "IPhone 14 Pro Max 128Gb",
+      "selling_price": 1199,
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 208,
+      "rating": 4.17,
+      "product_id": {
+        "$oid": "63bedc5e905ece42d0d0864a"
+      },
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "category": "Books",
+      "name": "Harry Potter: The Complete Collection",
+      "selling_price": 35,
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 182,
+      "rating": 4.14,
+      "product_id": {
+        "$oid": "63bed9443121db4da02d4fff"
+      },
+      "store_name": "Amazon Warehouse 2"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63bf78d3c0d013af460087b6"
+  },
+  "customer_id": {
+    "$oid": "63bec0571cd0505188545235"
+  },
+  "recommendations": [
+    {
+      "category": "CD",
+      "name": "Speak Now",
+      "selling_price": 7.5,
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "stock": 6,
+      "rating": 4.67,
+      "product_id": {
+        "$oid": "63bedcf1905ece42d0d08652"
+      },
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "category": "CD",
+      "name": "Lover",
+      "selling_price": 11.69,
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "stock": 52,
+      "rating": 4.38,
+      "product_id": {
+        "$oid": "63bedae23121db4da02d5009"
+      },
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "category": "Home Appliances",
+      "name": "Microwave",
+      "selling_price": 55,
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "stock": 73,
+      "rating": 4.33,
+      "product_id": {
+        "$oid": "63bede9b905ece42d0d08653"
+      },
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "category": "Fruits and Vegetables",
+      "name": "Apple",
+      "selling_price": 1.23,
+      "store_id": {
+        "$oid": "63be1307218d0176787ca583"
+      },
+      "stock": 17,
+      "rating": 4.29,
+      "product_id": {
+        "$oid": "63bee666905ece42d0d0866a"
+      },
+      "store_name": "Morrison 5"
+    },
+    {
+      "category": "Fruits and Vegetables",
+      "name": "Spinach",
+      "selling_price": 0.75,
+      "store_id": {
+        "$oid": "63be1307218d0176787ca583"
+      },
+      "stock": 24,
+      "rating": 4.29,
+      "product_id": {
+        "$oid": "63bee66f905ece42d0d0866b"
+      },
+      "store_name": "Morrison 5"
+    },
+    {
+      "category": "Mobile Phones",
+      "name": "IPhone 14 Pro Max 128Gb",
+      "selling_price": 1199,
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "stock": 194,
+      "rating": 4.17,
+      "product_id": {
+        "$oid": "63bedc5e905ece42d0d0864a"
+      },
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "category": "Mobile Phones",
+      "name": "IPhone 14 Pro 128Gb",
+      "selling_price": 1099,
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "stock": 297,
+      "rating": 4.14,
+      "product_id": {
+        "$oid": "63bedc54905ece42d0d08649"
+      },
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "category": "Mobile Phones",
+      "name": "IPhone 14 Pro 256Gb",
+      "selling_price": 1209,
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "stock": 497,
+      "rating": 4.13,
+      "product_id": {
+        "$oid": "63bedc4c905ece42d0d08648"
+      },
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "category": "CD",
+      "name": "reputation",
+      "selling_price": 11.89,
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "stock": 69,
+      "rating": 4,
+      "product_id": {
+        "$oid": "63bedad33121db4da02d5007"
+      },
+      "store_name": "Amazon Warehouse 1"
+    },
+    {
+      "category": "CD",
+      "name": "Positions",
+      "selling_price": 11,
+      "store_id": {
+        "$oid": "63be13ae218d0176787ca58d"
+      },
+      "stock": 81,
+      "rating": 4,
+      "product_id": {
+        "$oid": "63bedb66f053fd4084a32f0c"
+      },
+      "store_name": "Amazon Warehouse 1"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63bf7906c0d013af4600ec97"
+  },
+  "customer_id": {
+    "$oid": "63bec07c1cd0505188545236"
+  },
+  "recommendations": [
+    {
+      "category": "Home Appliances",
+      "name": "Rice Cooker",
+      "selling_price": 29,
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 40,
+      "rating": 5,
+      "product_id": {
+        "$oid": "63bedeb4905ece42d0d08656"
+      },
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "category": "CD",
+      "name": "Speak Now",
+      "selling_price": 7.5,
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 28,
+      "rating": 4.67,
+      "product_id": {
+        "$oid": "63bedcf1905ece42d0d08652"
+      },
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "category": "CD",
+      "name": "Lover",
+      "selling_price": 11.69,
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 69,
+      "rating": 4.38,
+      "product_id": {
+        "$oid": "63bedae23121db4da02d5009"
+      },
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "category": "Home Appliances",
+      "name": "Microwave",
+      "selling_price": 55,
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 88,
+      "rating": 4.33,
+      "product_id": {
+        "$oid": "63bede9b905ece42d0d08653"
+      },
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "category": "Fruits and Vegetables",
+      "name": "Apple",
+      "selling_price": 1.23,
+      "store_id": {
+        "$oid": "63be1307218d0176787ca583"
+      },
+      "stock": 17,
+      "rating": 4.29,
+      "product_id": {
+        "$oid": "63bee666905ece42d0d0866a"
+      },
+      "store_name": "Morrison 5"
+    },
+    {
+      "category": "Fruits and Vegetables",
+      "name": "Spinach",
+      "selling_price": 0.75,
+      "store_id": {
+        "$oid": "63be1307218d0176787ca583"
+      },
+      "stock": 24,
+      "rating": 4.29,
+      "product_id": {
+        "$oid": "63bee66f905ece42d0d0866b"
+      },
+      "store_name": "Morrison 5"
+    },
+    {
+      "category": "Drinks",
+      "name": "Coca Cola",
+      "selling_price": 1.5,
+      "store_id": {
+        "$oid": "63be1307218d0176787ca583"
+      },
+      "stock": 4,
+      "rating": 4.18,
+      "product_id": {
+        "$oid": "63bee417905ece42d0d08662"
+      },
+      "store_name": "Morrison 5"
+    },
+    {
+      "category": "CD",
+      "name": "Taylor Swift",
+      "selling_price": 8.99,
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 21,
+      "rating": 4.17,
+      "product_id": {
+        "$oid": "63bedadb3121db4da02d5008"
+      },
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "category": "Mobile Phones",
+      "name": "IPhone 14 Pro Max 128Gb",
+      "selling_price": 1199,
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 208,
+      "rating": 4.17,
+      "product_id": {
+        "$oid": "63bedc5e905ece42d0d0864a"
+      },
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "category": "Books",
+      "name": "Harry Potter: The Complete Collection",
+      "selling_price": 35,
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 182,
+      "rating": 4.14,
+      "product_id": {
+        "$oid": "63bed9443121db4da02d4fff"
+      },
+      "store_name": "Amazon Warehouse 2"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63bf792ec0d013af460137db"
+  },
+  "customer_id": {
+    "$oid": "63bec0ce1cd0505188545238"
+  },
+  "recommendations": [
+    {
+      "category": "Home Appliances",
+      "name": "Rice Cooker",
+      "selling_price": 29,
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "stock": 56,
+      "rating": 5,
+      "product_id": {
+        "$oid": "63bedeb4905ece42d0d08656"
+      },
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "category": "Drinks",
+      "name": "Coca Cola",
+      "selling_price": 1.5,
+      "store_id": {
+        "$oid": "63be1307218d0176787ca583"
+      },
+      "stock": 4,
+      "rating": 4.18,
+      "product_id": {
+        "$oid": "63bee417905ece42d0d08662"
+      },
+      "store_name": "Morrison 5"
+    },
+    {
+      "category": "CD",
+      "name": "Taylor Swift",
+      "selling_price": 8.99,
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "stock": 74,
+      "rating": 4.17,
+      "product_id": {
+        "$oid": "63bedadb3121db4da02d5008"
+      },
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "category": "Mobile Phones",
+      "name": "IPhone 14 Pro Max 128Gb",
+      "selling_price": 1199,
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "stock": 162,
+      "rating": 4.17,
+      "product_id": {
+        "$oid": "63bedc5e905ece42d0d0864a"
+      },
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "category": "Books",
+      "name": "Harry Potter: The Complete Collection",
+      "selling_price": 35,
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "stock": 45,
+      "rating": 4.14,
+      "product_id": {
+        "$oid": "63bed9443121db4da02d4fff"
+      },
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "category": "Mobile Phones",
+      "name": "IPhone 14 Pro 128Gb",
+      "selling_price": 1099,
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "stock": 187,
+      "rating": 4.14,
+      "product_id": {
+        "$oid": "63bedc54905ece42d0d08649"
+      },
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "category": "Mobile Phones",
+      "name": "IPhone 13 128Gb",
+      "selling_price": 749,
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "stock": 32,
+      "rating": 4.13,
+      "product_id": {
+        "$oid": "63bedc97905ece42d0d0864f"
+      },
+      "store_name": "Amazon Warehouse 3"
+    },
+    {
+      "category": "Drinks",
+      "name": "Fanta",
+      "selling_price": 1.23,
+      "store_id": {
+        "$oid": "63be1307218d0176787ca583"
+      },
+      "stock": 6,
+      "rating": 4.09,
+      "product_id": {
+        "$oid": "63bee42d905ece42d0d08664"
+      },
+      "store_name": "Morrison 5"
+    },
+    {
+      "category": "Drinks",
+      "name": "Pepsi",
+      "selling_price": 1.5,
+      "store_id": {
+        "$oid": "63be1307218d0176787ca583"
+      },
+      "stock": 12,
+      "rating": 4.08,
+      "product_id": {
+        "$oid": "63bee424905ece42d0d08663"
+      },
+      "store_name": "Morrison 5"
+    },
+    {
+      "category": "CD",
+      "name": "Midnights",
+      "selling_price": 10,
+      "store_id": {
+        "$oid": "63be13e9218d0176787ca591"
+      },
+      "stock": 26,
+      "rating": 4,
+      "product_id": {
+        "$oid": "63bedaa03121db4da02d5002"
+      },
+      "store_name": "Amazon Warehouse 3"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "63c06210ec196abcb554052e"
+  },
+  "customer_id": {
+    "$oid": "63c05e4e5fe0ba57081af9ac"
+  },
+  "recommendations": [
+    {
+      "category": "Home Appliances",
+      "name": "Rice Cooker",
+      "selling_price": 29,
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 40,
+      "rating": 5,
+      "product_id": {
+        "$oid": "63bedeb4905ece42d0d08656"
+      },
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "category": "CD",
+      "name": "Speak Now",
+      "selling_price": 7.5,
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 28,
+      "rating": 4.67,
+      "product_id": {
+        "$oid": "63bedcf1905ece42d0d08652"
+      },
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "category": "CD",
+      "name": "Lover",
+      "selling_price": 11.69,
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 69,
+      "rating": 4.38,
+      "product_id": {
+        "$oid": "63bedae23121db4da02d5009"
+      },
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "category": "Home Appliances",
+      "name": "Microwave",
+      "selling_price": 55,
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 88,
+      "rating": 4.33,
+      "product_id": {
+        "$oid": "63bede9b905ece42d0d08653"
+      },
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "category": "Fruits and Vegetables",
+      "name": "Apple",
+      "selling_price": 1.23,
+      "store_id": {
+        "$oid": "63be1307218d0176787ca583"
+      },
+      "stock": 17,
+      "rating": 4.29,
+      "product_id": {
+        "$oid": "63bee666905ece42d0d0866a"
+      },
+      "store_name": "Morrison 5"
+    },
+    {
+      "category": "Fruits and Vegetables",
+      "name": "Spinach",
+      "selling_price": 0.75,
+      "store_id": {
+        "$oid": "63be1307218d0176787ca583"
+      },
+      "stock": 24,
+      "rating": 4.29,
+      "product_id": {
+        "$oid": "63bee66f905ece42d0d0866b"
+      },
+      "store_name": "Morrison 5"
+    },
+    {
+      "category": "Drinks",
+      "name": "Coca Cola",
+      "selling_price": 1.5,
+      "store_id": {
+        "$oid": "63be1307218d0176787ca583"
+      },
+      "stock": 4,
+      "rating": 4.18,
+      "product_id": {
+        "$oid": "63bee417905ece42d0d08662"
+      },
+      "store_name": "Morrison 5"
+    },
+    {
+      "category": "CD",
+      "name": "Taylor Swift",
+      "selling_price": 8.99,
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 21,
+      "rating": 4.17,
+      "product_id": {
+        "$oid": "63bedadb3121db4da02d5008"
+      },
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "category": "Mobile Phones",
+      "name": "IPhone 14 Pro Max 128Gb",
+      "selling_price": 1199,
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 208,
+      "rating": 4.17,
+      "product_id": {
+        "$oid": "63bedc5e905ece42d0d0864a"
+      },
+      "store_name": "Amazon Warehouse 2"
+    },
+    {
+      "category": "Books",
+      "name": "Harry Potter: The Complete Collection",
+      "selling_price": 35,
+      "store_id": {
+        "$oid": "63be13c2218d0176787ca58f"
+      },
+      "stock": 182,
+      "rating": 4.14,
+      "product_id": {
+        "$oid": "63bed9443121db4da02d4fff"
+      },
+      "store_name": "Amazon Warehouse 2"
+    }
+  ]
+}]
