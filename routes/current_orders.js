@@ -168,10 +168,12 @@ router.put('/cart/:id', async (req, res) => {
   const productPrices = await Product.find({
     '_id': { $in: product_ids }
   });
+  var product_qtys = item_array.map(function (itm) { return itm.quantity});
   var product_prices = productPrices.map(function (item) { return item.selling_price });
   for (index = 0; index < item_array.length; index++) {
     item_array[index]["name"] = product_names[index]
     item_array[index]['unit_price'] = product_prices[index];
+    item_array[index]['total'] = product_prices[index] * product_qtys[index]
   };
   try {
     let picklist = await Current_Order.findById(req.params.id);
